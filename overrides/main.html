@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <style>.md-banner a,.md-banner a:focus,.md-banner a:hover{color:currentColor}.md-banner strong{white-space:nowrap}.md-banner .twitter{margin-left:.2em;color:#00acee}</style>
+  <div align="center">
+Note that we are currently in rapid-dev mode, some of the links etc included here will not work yet. See <A HREF='https://discord.elfhosted.com'>Discord</A> for details
+</div>
+{% endblock %}
+
+{% block analytics %}
+<script src="/js/i-am-groot.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+{% endblock %}
+
+<!-- Add little penguin ascii-art to titles instead of 20-character-long site name -->
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+  <title>{{ page.meta.title }} |・∀・</title>
+  {% elif page.title and not page.is_homepage %}
+  <title>{{ page.title | striptags }} |・∀・</title>
+  {% else %}
+  <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
+{% block extrahead %}
+
+<script async data-uid="708edea2ee" src="https://funkypenguin.ck.page/708edea2ee/index.js"></script>
+
+<!-- For widgetbot -->
+<!-- <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+  const button = new Crate({
+      server: '396055506072109067', // Funky Penguin
+      channel: '456689991326760973', // Cookbook channel
+      // username: 'Website Reader',
+      // color: '#000',
+      notifications: true,
+      indicator: true // most recent change
+  })
+  button.notify({
+      content: 'Need a 🤚? Hot, sweaty geeks are waiting to chat to you! Click 👇',
+      timeout: 100000
+    })
+</script> -->
+
+
+{% endblock %}

@@ -1,0 +1,229 @@
+site_name: ElfHosted Docs
+site_description: 'ElfHosted is an innovative way to "self-host"'
+site_author: 'David Young'
+site_url: 'https://docs.elfhosted.com'
+edit_uri: 'edit/main/docs/'
+
+
+# Fail to build if we have broken links
+# strict: true
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2023 David Young, Funky Penguin Limited'
+
+# Repository
+repo_name: 'elfhosted-docs'
+repo_url: 'https://github.com/geek-cookbook/elfhosted-docs'
+
+
+# Plugins
+plugins:
+  search:
+  minify:
+    minify_html: true
+  autolinks:
+  git-revision-date-localized:
+    type: date
+    fallback_to_build_date: true  
+  macros:
+    verbose: true
+  meta-descriptions: # If not provided, auto-generate a description (https://pypi.org/project/mkdocs-meta-descriptions-plugin/)
+
+
+#theme_dir: mkdocs-material
+nav:
+  - Home: index.md
+  - Apps:
+    - apps/index.md
+    - Audiobookshelf: apps/audiobookshelf.md
+    - Autobrr: apps/autobrr.md
+    - Bazarr: apps/bazarr.md
+    - Calibre: apps/calibre.md
+    - Calibre Web: apps/calibreweb.md
+    - Deluge: apps/deluge.md
+    - Emby: apps/emby.md
+    - Filebrowser: apps/filebrowser.md
+    - Flaresolverr: apps/flaresolverr.md
+    - Gotify: apps/gotify.md
+    - Jellyfin: apps/jellyfin.md
+    - Jellyfin Accounts: apps/jellyfin.md
+    - Jellyseerr: apps/jellyseerr.md
+    - Kavita: apps/kavita.md
+    - Komga: apps/komga.md
+    - Lazy Librarian: apps/lazylibrarian.md
+    - Lidarr: apps/lidarr.md
+    - Minio: apps/minio.md
+    - Navidrome: apps/navidrome.md
+    - NextPVR: apps/nextpvr.md
+    - Notifiarr: apps/notifiarr.md
+    - NZBGet: apps/nzbget.md
+    - Ombi: apps/ombi.md
+    - Overseerr: apps/overseerr.md
+    - Plex: apps/plex.md
+    - Privatebin: apps/privatebin.md
+    - Prowlarr: apps/prowlarr.md
+    - Pyload: apps/pyload.md
+    - qBittorrent: apps/qbittorrent.md
+    - Radarr: apps/radarr.md
+    - Rapidleech: apps/rapidleech.md
+    - Readarr: apps/readarr.md
+    - Resilio Sync: apps/resiliosync.md
+    - RPDB: apps/rpdb.md
+    - ruTorrent: apps/rutorrent.md
+    - sabNZBD: apps/sabnzbd.md
+    - Seafile: apps/seafile.md
+    - Shoko: apps/shoko.md
+    - Sonarr: apps/sonarr.md
+    - Syncthing: apps/syncthing.md
+    - Tautulli: apps/tautulli.md
+    - The Lounge: apps/thelounge.md
+    - Unpackerr: apps/unpackerr.md
+    - Uptime Kuma: apps/uptimekuma.md
+    - Vaultwarden: apps/vaultwarden.md
+    - xTeVe: apps/xteve.md
+    - Youtube DL: apps/youtubedl.md
+  - Reference:
+    - FAQ: reference/faq.md
+    - Interconnecting Apps: referenec/inter-app-communication.md
+    - Restoring an Arr: reference/restoring-arr-app.md
+  - Legal:
+    - Acceptable Use: legal/acceptable-use.md
+    - Privacy Policy: legal/privacy-policy.md
+    - Terms of Service: legal/terms-of-service.md
+    - Refund Policy: legal/refund-policy.md
+
+theme:
+  name: 'material'
+  custom_dir: 'overrides'
+  logo: fontawesome/solid/hat-wizard
+  favicon: 'images/site-logo.svg'
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.instant
+      - navigation.sections
+      - navigation.indexes
+      - navigation.top
+      - navigation.pruning
+      - search.suggest
+      - search.share
+      - content.code.annotate
+      - content.code.copy
+      - header.autohide
+      - announce.dismiss
+      - toc.follow
+  icon:
+    repo: 'fontawesome/brands/github'
+    tag:
+      kubernetes: material/kubernetes
+      js: fontawesome/brands/js
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system preferences
+
+    # Toggle light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'black'
+      accent: 'orange'
+      toggle:
+        icon: material/brightness-7
+        name: Burn my eyes!
+
+    # Toggle dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'black'
+      accent: 'orange'
+      toggle:
+        icon: material/brightness-4
+        name: Love my eyes!
+
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  social:
+    - icon: 'fontawesome/brands/mastodon'
+      link: 'https://so.fnky.nz/@funkypenguin'
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/funkypenguin'
+    - icon: 'fontawesome/brands/discord'
+      link: 'http://chat.funkypenguin.co.nz' 
+    - icon: 'simple/matrix'
+      link: 'http://matrix.funkypenguin.co.nz' 
+    - icon: 'fontawesome/brands/slack'
+      link: 'https://communityinviter.comapps/funkypenguin/geek-with-us'       
+    - icon: 'fontawesome/brands/stack-overflow'         
+      link: 'https://stackoverflow.com/cv/funkypenguin'
+    - icon: 'fontawesome/brands/linkedin'
+      link: 'https://www.linkedin.com/in/funkypenguin'
+    - icon: 'fontawesome/brands/facebook'
+      link: 'https://www.facebook.com/funkypenguinnz'
+    - icon: 'material/mailbox'
+      link: 'mailto:davidy@funkypenguin.co.nz?Subject=Hello%2C%20from%20a%20geek-cookbook%20reader%20%3B%29'
+    - icon: 'material/rss'
+      link: 'https://geek-cookbook.funkypenguin.co.nz/rss/'
+
+
+extra_css:
+  - extras/css/icons.css
+
+extra_javascript:
+  # - extras/javascript/plausible.js
+  # - extras/javascript/widgetbot.js # uncommented for dev
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - extras/javascript/tablesort.js
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: false
+      toc_depth: 3 # ignore H4/5/6
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: _snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: funkypenguin
+      repo: geek-cookbook
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - meta
+  - md_in_html
+
+
