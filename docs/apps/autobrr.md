@@ -1,18 +1,19 @@
 ---
-upstream_repo: v24
-slug: 
-image: /images/autobrr.png
-links:
-  - NextCloud 24 recipe: recipes/nextcloud.md
+slug: autobrr
 ---
 
 # Autobrr
 
-
-
 ## What is it?
 
-autobrr monitors IRC announce channels to get releases as soon as they are available, with good filtering.
+ Buy now
+
+[Add to Cart :fontawesome-solid-hat-wizard:](#){ .md-button .md-button--primary }
+
+
+Autobrr monitors IRC announce channels to get releases as soon as they are available, with good filtering.
+
+![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug }}.png){ loading=lazy }
 
 Features include:
 

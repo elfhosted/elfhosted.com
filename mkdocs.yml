@@ -52,6 +52,7 @@ nav:
     - Komga: apps/komga.md
     - Lazy Librarian: apps/lazylibrarian.md
     - Lidarr: apps/lidarr.md
+    - Mattetrmost: apps/mattermost.md
     - Minio: apps/minio.md
     - Navidrome: apps/navidrome.md
     - NextPVR: apps/nextpvr.md
@@ -83,10 +84,12 @@ nav:
     - xTeVe: apps/xteve.md
     - Youtube DL: apps/youtubedl.md
   - Reference:
+    - reference/index.md
     - FAQ: reference/faq.md
     - Interconnecting Apps: referenec/inter-app-communication.md
     - Restoring an Arr: reference/restoring-arr-app.md
   - Legal:
+    - legal/index.md
     - Acceptable Use: legal/acceptable-use.md
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
