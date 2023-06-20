@@ -9,7 +9,7 @@ edit_uri: 'edit/main/docs/'
 # strict: true
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2023 David Young, Funky Penguin Limited'
+copyright: 'Copyright &copy; 2023 David Young, Funky Penguin Limited'
 
 # Repository
 repo_name: 'elfhosted-docs'
@@ -34,55 +34,55 @@ plugins:
 nav:
   - Home: index.md
   - Apps:
-    - apps/index.md
-    - Audiobookshelf: apps/audiobookshelf.md
-    - Autobrr: apps/autobrr.md
-    - Bazarr: apps/bazarr.md
-    - Calibre: apps/calibre.md
-    - Calibre Web: apps/calibreweb.md
-    - Deluge: apps/deluge.md
-    - Emby: apps/emby.md
-    - Filebrowser: apps/filebrowser.md
-    - Flaresolverr: apps/flaresolverr.md
-    - Gotify: apps/gotify.md
-    - Jellyfin: apps/jellyfin.md
-    - Jellyfin Accounts: apps/jellyfin.md
-    - Jellyseerr: apps/jellyseerr.md
-    - Kavita: apps/kavita.md
-    - Komga: apps/komga.md
-    - Lazy Librarian: apps/lazylibrarian.md
-    - Lidarr: apps/lidarr.md
-    - Mattetrmost: apps/mattermost.md
-    - Minio: apps/minio.md
-    - Navidrome: apps/navidrome.md
-    - NextPVR: apps/nextpvr.md
-    - Notifiarr: apps/notifiarr.md
-    - NZBGet: apps/nzbget.md
-    - Ombi: apps/ombi.md
-    - Overseerr: apps/overseerr.md
-    - Plex: apps/plex.md
-    - Privatebin: apps/privatebin.md
-    - Prowlarr: apps/prowlarr.md
-    - Pyload: apps/pyload.md
-    - qBittorrent: apps/qbittorrent.md
-    - Radarr: apps/radarr.md
-    - Rapidleech: apps/rapidleech.md
-    - Readarr: apps/readarr.md
-    - Resilio Sync: apps/resiliosync.md
-    - RPDB: apps/rpdb.md
-    - ruTorrent: apps/rutorrent.md
-    - sabNZBD: apps/sabnzbd.md
-    - Seafile: apps/seafile.md
-    - Shoko: apps/shoko.md
-    - Sonarr: apps/sonarr.md
-    - Syncthing: apps/syncthing.md
-    - Tautulli: apps/tautulli.md
-    - The Lounge: apps/thelounge.md
-    - Unpackerr: apps/unpackerr.md
-    - Uptime Kuma: apps/uptimekuma.md
-    - Vaultwarden: apps/vaultwarden.md
-    - xTeVe: apps/xteve.md
-    - Youtube DL: apps/youtubedl.md
+    - app/index.md
+    - Audiobookshelf: app/audiobookshelf.md
+    - Autobrr: app/autobrr.md
+    - Bazarr: app/bazarr.md
+    - Calibre: app/calibre.md
+    - Calibre Web: app/calibreweb.md
+    - Deluge: app/deluge.md
+    - Emby: app/emby.md
+    - Filebrowser: app/filebrowser.md
+    - Flaresolverr: app/flaresolverr.md
+    - Gotify: app/gotify.md
+    - Jellyfin: app/jellyfin.md
+    - Jellyfin Accounts: app/jellyfin.md
+    - Jellyseerr: app/jellyseerr.md
+    - Kavita: app/kavita.md
+    - Komga: app/komga.md
+    - Lazy Librarian: app/lazylibrarian.md
+    - Lidarr: app/lidarr.md
+    - Mattetrmost: app/mattermost.md
+    - Minio: app/minio.md
+    - Navidrome: app/navidrome.md
+    - NextPVR: app/nextpvr.md
+    - Notifiarr: app/notifiarr.md
+    - NZBGet: app/nzbget.md
+    - Ombi: app/ombi.md
+    - Overseerr: app/overseerr.md
+    - Plex: app/plex.md
+    - Privatebin: app/privatebin.md
+    - Prowlarr: app/prowlarr.md
+    - Pyload: app/pyload.md
+    - qBittorrent: app/qbittorrent.md
+    - Radarr: app/radarr.md
+    - Rapidleech: app/rapidleech.md
+    - Readarr: app/readarr.md
+    - Resilio Sync: app/resiliosync.md
+    - RPDB: app/rpdb.md
+    - ruTorrent: app/rutorrent.md
+    - sabNZBD: app/sabnzbd.md
+    - Seafile: app/seafile.md
+    - Shoko: app/shoko.md
+    - Sonarr: app/sonarr.md
+    - Syncthing: app/syncthing.md
+    - Tautulli: app/tautulli.md
+    - The Lounge: app/thelounge.md
+    - Unpackerr: app/unpackerr.md
+    - Uptime Kuma: app/uptimekuma.md
+    - Vaultwarden: app/vaultwarden.md
+    - xTeVe: app/xteve.md
+    - Youtube DL: app/youtubedl.md
   - Reference:
     - reference/index.md
     - FAQ: reference/faq.md
@@ -161,22 +161,9 @@ extra:
     - icon: 'fontawesome/brands/github'
       link: 'https://github.com/funkypenguin'
     - icon: 'fontawesome/brands/discord'
-      link: 'http://chat.funkypenguin.co.nz' 
+      link: 'http://discord.elfhosted.com' 
     - icon: 'simple/matrix'
       link: 'http://matrix.funkypenguin.co.nz' 
-    - icon: 'fontawesome/brands/slack'
-      link: 'https://communityinviter.comapps/funkypenguin/geek-with-us'       
-    - icon: 'fontawesome/brands/stack-overflow'         
-      link: 'https://stackoverflow.com/cv/funkypenguin'
-    - icon: 'fontawesome/brands/linkedin'
-      link: 'https://www.linkedin.com/in/funkypenguin'
-    - icon: 'fontawesome/brands/facebook'
-      link: 'https://www.facebook.com/funkypenguinnz'
-    - icon: 'material/mailbox'
-      link: 'mailto:davidy@funkypenguin.co.nz?Subject=Hello%2C%20from%20a%20geek-cookbook%20reader%20%3B%29'
-    - icon: 'material/rss'
-      link: 'https://geek-cookbook.funkypenguin.co.nz/rss/'
-
 
 extra_css:
   - extras/css/icons.css
