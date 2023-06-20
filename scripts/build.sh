@@ -15,10 +15,11 @@ if [ -z "$GH_TOKEN" ]
 then
   echo "No GH_TOKEN passed, doing a normal build.."
   pip install mkdocs-material
-  ENABLE_PDF_EXPORT=0 mkdocs build -f mkdocs.yml
+  mkdocs build -f mkdocs.yml
 else
   echo "GH_TOKEN passed, doing an insiders build.."
   pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+  mkdocs build -f mkdocs.yml
 fi
 
 # Setup any necessary netlify redirects
