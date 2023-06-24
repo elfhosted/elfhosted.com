@@ -1,4 +1,12 @@
-# Welcome to ElfHosted's documentation!
+---
+title: ElfHosted / self hosting that works like magic
+description: ElfHosted runs popular self-hosted apps for you, behind polished automation and SSO
+hide:
+  - navigation # Hide navigation
+  # - toc        # Hide table of contents
+---
+# Welcome to ElfHosted! 👋
 
-Here you'll find documentation about how to subscribe to, and use, our apps!
+We provide you with self-hosted apps, securely and reliably. Bring your own storage or use ours.
 
+[Browse store :shopping_cart:](https://dev.elfhosted.com/app/bundle){ .md-button .md-button--primary }

@@ -30,9 +30,9 @@ ElfHosted reserves full right to determine what constitutes Network Abuse and ta
 
 You may not engage in illegal, abusive, or irresponsible behavior, including but not limited to:
 
-* Unauthorized access to or use of data, systems or networks, including any attempt to probe, scan or test the vulnerability of a system or network or to breach security or authentication measures (including those belonging to ElfHosted and its customers) without express authorization of the owner of the system or network;
+* Unauthorized access to or use of data, systems or networks, including any attempt to probe, scan or test the vulnerability of a system or network or to breach security or authentication measures (*including those belonging to ElfHosted and its customers*) without express authorization of the owner of the system or network;
 * Monitoring data or traffic on any network or system without the authorization of the owner of the system or network;
-* Use of an Internet account or computer without the owner’s authorization, including, but not limited to Internet scanning (tricking other people into releasing their passwords), password robbery, security hole scanning, and port scanning;
+* Use of an Internet account or computer without the owner’s authorization, including, but not limited to Internet scanning (*tricking other people into releasing their passwords*), password robbery, security hole scanning, and port scanning;
 * Any conduct that is likely to result in retaliation against the ElfHosted network.
 * Use of ElfHosted’s network in a way that unreasonably interferes with ElfHosted’s other customers use of the network.
 
@@ -40,17 +40,13 @@ You may not engage in illegal, abusive, or irresponsible behavior, including but
 
 ### Shared servers
 
-In the event the Customer uses excessive CPU from unsupported activities, ElfHosted reserves the right to terminate your service in order to maintain a consistent level of performance on all our Servers.
+In the event the Customer uses excessive resources (CPU, RAM, disk or network) from unsupported activities, ElfHosted reserves the right to terminate your service in order to maintain a consistent level of performance for all of our customers.
 
-In the event that the Customer uses excessive RAM from any service (supported or unsupported), ElfHosted reserves the right to restart services without notice to the customer to reclaim resources for the public pool. If unsupported scripts or user actions are found to be constantly utilizing significant amounts of RAM and/or are impacting other users of the Service, ElfHosted may issue a warning to the Customer indicating that their usage of the Service is affecting other users. If the Customer ignores these notices or fails to rectify the issue, ElfHosted reserves the right to terminate the account.
+In the event that the Customer's app uses excessive RAM from any service (*supported or unsupported*), ElfHosted reserves the right to restart services without notice to the customer to reclaim resources for the public pool. If unsupported scripts or user actions are found to be constantly utilizing significant amounts of RAM and/or are impacting other users of the Service, ElfHosted may issue a warning to the Customer indicating that their usage of the Service is affecting other users. If the Customer ignores these notices or fails to rectify the issue, ElfHosted reserves the right to terminate the account.
 
 In the event that the Customer uses excessive amount of bandwidth for the month (25TB/mo); ElfHosted reserves the right to subject the Customers bandwidth to prioritization or bandwidth limitations. 
 
 In the event that the Customer is discovered to be using an unfairly large portion of the GPU for transcoding purposes, ElfHosted may issue a warning to the Customer indicating that they are unfairly using a limited resource. Similarly, the transcoding of 4K content is strictly prohibited under any circumstance. Depending on the nature of the infraction, customers may be suspended and/or terminated.
-
-### IP Addresses
-
-Each user on a shared server is assigned a shared IP when their service is provisioned. You are not permitted to change the bind IP of any of your services to anything other than what was provisioned to your slot.
 
 ### Security
 

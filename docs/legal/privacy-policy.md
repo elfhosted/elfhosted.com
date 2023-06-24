@@ -33,9 +33,10 @@ For the purpose of tracking usage statistics of our website, we may use cookies 
 We will never share your data with a 3rd party unless required to by law.
 
 ## Data Retention
+
 ### Site Data
 
-For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
+For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (*except they cannot change their username*). Website administrators can also see and edit that information.
 
 ### Server Data
 

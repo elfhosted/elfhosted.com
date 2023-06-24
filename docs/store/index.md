@@ -1,0 +1,1 @@
+We're in dev mode currently, there's an in-progress store at https://dev.elfhosted.com. You can setup an account and pay with "play money" (*our payment processor is in test mode*)

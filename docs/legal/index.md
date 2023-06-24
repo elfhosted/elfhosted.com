@@ -1,0 +1,1 @@
+This page lists the not-so-cute but necessary legal notes you need to be aware of, as an ElfHosted customer.

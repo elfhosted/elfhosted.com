@@ -1,23 +1,22 @@
-# Minio
+---
+slug: Minio
+description: Minio is an enterprise-scale object storage platform with an S3-compatible API and a polished web console
+upstream: https://min.io
+links:
+- name: subreddit
+  uri: https://www.reddit.com/r/minio
+---
 
-## What is it?
+# {{ page.meta.slug }}
 
 Minio is an enterprise-scale object storage platform with an S3-compatible API and a polished web console
 
+{% include 'app.md' %}
+{% include 'app_access.md' %}
+
 ## How do I use it?
 
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the console via your dashboard. 
-
-> Make sure SSO/Auth0 is **disabled** for your minio app, or you won't be able to connect via the console, or via clients like mc or rsync
-{.is-warning}
-
-Login with your username and **initial** password (*not synced with auth0*)
-
-From the console, you can navigate your media data.
-
 ## Changing your password
-
-Since Minio is exposed directly to the internet without SSO, it's wise to change your password ASAP, to avoid minio's endpoint being used to brute-force your account password (*initially your ElfHosted and Minio passwords are the same*).
 
 Minio console doesn't allow an administrator to change their own password, but there's a simple workaround...
 
@@ -33,14 +32,15 @@ Minio console doesn't allow an administrator to change their own password, but t
 
 Minio features the ability to generate a unique, shareable link to individual files. Check the box next to the file, and choose "Share "from the action list which pops up to the right:
 
-![minio-share.png](/minio-share.png)
+![Sharing a file/folder with Minio](/images/minio-share.png)
 
-If you have lots of files to share, you could combine this feature with [PrivateBin](/Apps/PrivateBin) to share a long list of download links, prettified with Markdown! :thumbsup:
+If you have lots of files to share, you could combine this feature with [PrivateBin][privatebin] to share a long list of download links, prettified with Markdown! :thumbsup:
 
 ## S3 Browser
+
 - https://s3browser.com/
 
-Be sure Account type says [S3 Compatible Storage]
+Be sure Account type says `[S3 Compatible Storage]`
 
 The REST endpoint is your Minio URL
 - eg [username].minio.elfhosted.com
@@ -52,6 +52,7 @@ Account configuration
 ![s3browser1.png](/s3browser1.png)
 
 ## Transferring with mc
+
 - https://docs.min.io/docs/minio-client-quickstart-guide.html
 Download the correct client for your OS
 
@@ -76,6 +77,7 @@ More examples can found directly on the Minio site - https://docs.min.io/docs/mi
   `endpoint = https://<username>.minio.elfhosted.com`
 
 ### Never setup rclone before? 
+
 - Process is straight forward for any OS you're using. 
 	Download and install for your OS here - https://rclone.org/downloads/
 
@@ -126,12 +128,5 @@ Some users have reported better success than S3 Browser with the following clien
 
 - http://martins.ninja/RcloneBrowser/
 
-## How do I get support?
 
-1. For general use of the application itself, refer to the [upstream project](https://min.io) or the [subreddit](https://www.reddit.com/r/minio).
-2. For specific support re your ElfHosted configuration / account, either consult the #[elf-friends](https://discord.com/channels/396055506072109067/1118645576884572303) channel, or call for [#elf-care](https://discord.com/channels/396055506072109067/1119478614287712337).
-
-## Useful links
-
-* https://min.io
-* https://www.reddit.com/r/minio/
+{% include 'app_footer.md' %}

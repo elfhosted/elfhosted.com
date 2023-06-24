@@ -1,7 +1,7 @@
-site_name: ElfHosted Docs
-site_description: 'ElfHosted is an innovative way to "self-host"'
+site_name: ElfHosted - app hosting that works like magic! 🪄
+# site_description: app hosting that magically "Just Works(tm)"
 site_author: 'David Young'
-site_url: 'https://docs.elfhosted.com'
+site_url: 'https://elfhosted.com'
 edit_uri: 'edit/main/docs/'
 
 
@@ -27,8 +27,41 @@ plugins:
     fallback_to_build_date: true  
   macros:
     verbose: true
+    include_dir: _includes
   meta-descriptions: # If not provided, auto-generate a description (https://pypi.org/project/mkdocs-meta-descriptions-plugin/)
-
+  meta:
+  blog:
+    # post_excerpt: required
+    post_url_format: "{date}/{file}" # this allows us to change the post title in future without breaking URLs
+  tags:
+    tags_file: blog/tags.md
+  rss:
+    match_path: blog/posts/.*
+    date_from_meta:
+      as_creation: date
+    categories:
+      - categories
+      - tags
+    abstract_chars_count: 200
+    image: https://geek-cookbook.funkypenguin.co.nz/images/site-logo.png
+    url_parameters:
+      utm_source: "geek-cookbook-blog"
+      utm_medium: "RSS"
+      utm_campaign: "feed-syndication"
+  social:
+    cards_layout_options:
+      font_family: Ubuntu  
+    cards_color:
+        fill: "#FFFFFF" 
+        text: "#000000"  
+  privacy:
+    external_links_attr_map:
+      target: _blank 
+      rel: nofollow   
+    external_assets_exclude:
+      - shields.io/*      
+  optimize:
+    enabled: false # seems to break netlify builds :(
 
 #theme_dir: mkdocs-material
 nav:
@@ -39,8 +72,9 @@ nav:
     - Autobrr: app/autobrr.md
     - Bazarr: app/bazarr.md
     - Calibre: app/calibre.md
-    - Calibre Web: app/calibreweb.md
+    - Calibre Web: app/calibre-web.md
     - Deluge: app/deluge.md
+    - ElfBot: app/elfbot.md
     - Emby: app/emby.md
     - Filebrowser: app/filebrowser.md
     - Flaresolverr: app/flaresolverr.md
@@ -52,12 +86,14 @@ nav:
     - Komga: app/komga.md
     - Lazy Librarian: app/lazylibrarian.md
     - Lidarr: app/lidarr.md
-    - Mattetrmost: app/mattermost.md
+    - Mattermost: app/mattermost.md
     - Minio: app/minio.md
+    - Mylar: app/mylar.md
     - Navidrome: app/navidrome.md
     - NextPVR: app/nextpvr.md
     - Notifiarr: app/notifiarr.md
     - NZBGet: app/nzbget.md
+    - NZBHydra: app/nzbhydra.md
     - Ombi: app/ombi.md
     - Overseerr: app/overseerr.md
     - Plex: app/plex.md
@@ -71,7 +107,7 @@ nav:
     - Resilio Sync: app/resiliosync.md
     - RPDB: app/rpdb.md
     - ruTorrent: app/rutorrent.md
-    - sabNZBD: app/sabnzbd.md
+    - SABnzbd: app/sabnzbd.md
     - Seafile: app/seafile.md
     - Shoko: app/shoko.md
     - Sonarr: app/sonarr.md
@@ -83,23 +119,30 @@ nav:
     - Vaultwarden: app/vaultwarden.md
     - xTeVe: app/xteve.md
     - Youtube DL: app/youtubedl.md
-  - Reference:
-    - reference/index.md
-    - FAQ: reference/faq.md
-    - Interconnecting Apps: referenec/inter-app-communication.md
-    - Restoring an Arr: reference/restoring-arr-app.md
   - Legal:
     - legal/index.md
     - Acceptable Use: legal/acceptable-use.md
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
     - Refund Policy: legal/refund-policy.md
+  - Blog: 
+    - blog/index.md
+    - Tags: blog/tags.md
+  - Store 🛒 :
+    - store/index.md
+    # - Free Trial: store/free-trial.md
+  - Support:
+    - support/index.md
+    - FAQ: how-to/faq.md
+    - Connect Apps: how-to/connect-apps.md
+    - Restoring an Arr: how-to/restoring-arr-app.md    
+
 
 theme:
   name: 'material'
   custom_dir: 'overrides'
-  logo: fontawesome/solid/hat-wizard
-  favicon: 'images/site-logo.svg'
+  # logo: fontawesome/solid/hat-wizard
+  # favicon: 'images/site-logo.svg'
   features:
       - navigation.tabs
       - navigation.tabs.sticky
@@ -199,8 +242,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: funkypenguin
-      repo: geek-cookbook
+      user: geek-cookbook
+      repo: elfhosted-docs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:

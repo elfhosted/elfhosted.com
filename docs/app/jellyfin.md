@@ -1,19 +1,30 @@
-# Jellyfin
+---
+slug: Jellyfin
+description: Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
+works_with:
+- Jellyseerr
+- Jellyfin-Accounts
+- NextPVR
+- xTeVe
+upstream: https://jellyfin.org
+links:
+- name: subreddit
+  uri: https://www.reddit.com/r/jellyfin/
+---
 
-## What is it?
+# {{ page.meta.slug }}
 
 Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 
+{% include 'app.md' %}
+{% include 'app_access.md' %}
+
 ## How do I use it?
 
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the app via your dashboard. 
+When you first connect, you'll be prompted to configure your admin account, setup your libraries, etc.
 
-## How do I get support?
+### From media players
 
-1. For general use of the application itself, refer to the [upstream project](https://jellyfin.org/) or the [subreddit](https://www.reddit.com/r/jellyfin/).
-2. For specific support re your ElfHosted configuration / account, either consult the #[elf-friends](https://discord.com/channels/396055506072109067/1118645576884572303) channel, or call for [#elf-care](https://discord.com/channels/396055506072109067/1119478614287712337).
+When you configure the Jellyfin app in your media player, use `https://<username>.jellyfin.elfhosted.com` as the address (*if a port is required, use `443`*)
 
-## Useful links
-
-* https://jellyfin.org/
-* https://www.reddit.com/r/jellyfin/
+{% include 'app_footer.md' %}

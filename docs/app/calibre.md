@@ -1,17 +1,21 @@
-# Calibre
+---
+slug: Calibre
+description: Calibre is a cross-platform free and open-source suite of e-book software
+works_with:
+- Readarr
+- Calibre-Web
+upstream: https://calibre-ebook.com
+links:
+- name: subreddit
+  uri: https://www.reddit.com/r/Calibre
+---
 
-## What is it?
+# {{ page.meta.slug }}
 
-## How do I use it?
+Calibre is a cross-platform free and open-source suite of e-book software. Calibre supports organizing existing e-books into virtual libraries, displaying, editing, creating and converting e-books, as well as syncing e-books with a variety of e-readers. Editing books is supported for EPUB and AZW3 formats. Books in other formats like MOBI must first be converted to those formats, if they are to be edited.
 
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the app via your dashboard. 
+{% include 'app.md' %}
 
-## How do I get support?
+{% include 'app_access.md' %}
 
-1. For general use of the application itself, refer to the [upstream project](https://calibre-ebook.com/) or the [subreddit](https://www.reddit.com/r/Calibre/).
-2. For specific support re your ElfHosted configuration / account, either consult the #[elf-friends](https://discord.com/channels/396055506072109067/1118645576884572303) channel, or call for [#elf-care](https://discord.com/channels/396055506072109067/1119478614287712337).
-
-## Useful links
-
-* https://calibre-ebook.com
-* https://www.reddit.com/r/Calibre
+{% include 'app_footer.md' %}

@@ -1,14 +1,20 @@
-# RPDB
+---
+slug: RPDB
+description: RPDB-Folders monitors media folders and adds images with ratings (*poster.jpg / background.jpg*) from the RPDB API
+upstream: https://github.com/RatingPosterDB/rpdb-folders
+links:
+- name: patreon
+  uri: https://www.patreon.com/rpdb/posts
+---
 
-## What is it?
+# {{ page.meta.slug }}
 
-RPDB-Folders monitors media folders and adds images with ratings (*poster.jpg / background.jpg*) from the RPDB API, like below:
+RPDB-Folders monitors media folders and adds images with ratings (*poster.jpg / background.jpg*) from the RPDB API.
 
-![rpdb-example.jpg](/rpdb-example.jpg)
+{% include 'app.md' %}
+{% include 'app_access.md' %}
 
 ## How do I use it?
-
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the app via your dashboard. 
 
 You'll need to subscribe to RPBD via Patreon in order to get an [API key](https://ratingposterdb.com/api-key/).
 
@@ -16,19 +22,10 @@ Once you've entered your API key into the UI, use the "Add Movie Folder" or "Add
 
 Instead of browsing for a folder, click in the text box illustrated below..
 
-![rpbd-1.png](/rpbd-1.png)
+![Right-clicking a folder in RPDB](/images/rpbd-1.png)
 
-Manually type in the path to your movie/series folder (starting with `/media/`), and click "Save Location":
+Manually type in the path to your movie/series folder (starting with `/storage/elfhosted`), and click "Save Location":
 
-![rpdb-2.png](/rpdb-2.png)
+![Choosing a location for a movies/series folder in RPDB](/images/rpdb-2.png)
 
-
-## How do I get support?
-
-1. For general use of the application itself, refer to the [upstream project](https://github.com/RatingPosterDB/rpdb-folders) or the [patreon page](https://www.patreon.com/rpdb/posts).
-2. For specific support re your ElfHosted configuration / account, either consult the #[elf-friends](https://discord.com/channels/396055506072109067/1118645576884572303) channel, or call for [#elf-care](https://discord.com/channels/396055506072109067/1119478614287712337).
-
-## Useful links
-
-* https://github.com/RatingPosterDB/rpdb-folders
-* https://www.patreon.com/rpdb/posts
+{% include 'app_footer.md' %}

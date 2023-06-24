@@ -1,33 +1,41 @@
-# Readarr
+---
+slug: Readarr
+description: Readarr is a ebook collection manager for Usenet and BitTorrent users
+upstream: https://wiki.servarr.com/readarr
+links:
+- name: subreddit
+  uri: https://www.reddit.com/r/radarr
+- name: GitHub
+  uri: https://github.com/Radarr/Readarr
+works_with:
+- Audiobookshelf
+- Calibre
+- Calibre-Web
+- Deluge
+- Gotify
+- NZBGet
+- qBittorrent
+- ruTorrent
+- SABnzbd
+---
 
-## What is it?
+# {{ page.meta.slug }}
 
-Readarr is a ebook collection manager for Usenet and BitTorrent users. 
+Readarr is a ebook collection manager for Usenet and BitTorrent users.
 
-It can monitor multiple RSS feeds for new books from your favorite authors and will interface with clients and indexers to grab, sort, and rename them. 
+It can monitor multiple RSS feeds for new books from your favorite authors and will interface with clients and indexers to grab, sort, and rename them.
 
-## How do I use it?
+{% include 'app.md' %}
+{% include 'app_access.md' %}
 
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the app via your dashboard.
+## Calibre Integration
 
-Radarr will be pre-configured for the other supported apps.
+If [Calibre][calibre] is purchased along with Readarr, then Readarr will automatically send new downloads to Calibre, to be processed and become available in [Calibre-Web][calibre-web].
 
-## Troubleshooting
+## eBook and Audio libraries
 
-> You can check current and historical app availability using the "Health" tab in your Dashboard
-{.is-info}
+The Calibre integration described above can result in errors / messy libraries when using Readarr to source audio books (*since Calibre can't process audio books*). At the same time, Readarr isn't capable of saving the **audio** version of a book in a separate root folder to the **ebook** version. 
 
-See also:
+The cleanest solution is to run a second Readarr app, dedicated to audiobooks (*no need to send to Calibre*). When purchasing Readarr via the store, the options for ebook / audiobook versions are available.
 
-* [Viewing app logs](/Reference/Viewing_app_logs)
-* [Recovering Arr apps with backups](/Reference/Recovering_Arr_apps_with_backups)
-
-## How do I get support?
-
-1. For general use of the application itself, refer to the [official wiki](https://wiki.servarr.com/readarr) or the [subreddit](https://www.reddit.com/r/Readarr/).
-2. For specific support re your ElfHosted configuration / account, either consult the #[elf-friends](https://discord.com/channels/396055506072109067/1118645576884572303) channel, or call for [#elf-care](https://discord.com/channels/396055506072109067/1119478614287712337).
-
-## Useful links
-
-* https://wiki.servarr.com/readarr
-* https://www.reddit.com/r/Readarr
+{% include 'app_footer.md' %}
