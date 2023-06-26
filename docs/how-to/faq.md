@@ -1,6 +1,6 @@
 # FAQ
 
-This page lists frequently asked questions about ElfHosted..
+This page lists frequently asked questions about ElfHosted.
 
 ## General
 
@@ -10,43 +10,30 @@ Our services run within a Kubernetes microservices-based environment, running on
 
 ### Can I install more apps?
 
-The currently available apps are listed at https://elfhosted.com (once you login). You can create a ticket / suggestion for additional apps in our Discord server.
+You can subscribe to any app at https://dev.elfhosted.com, and you can exchange apps for others (cross-grade/upgrade)
 
 ### Can I use rclone?
 
-[Minio](/Apps/Minio) exposes an S3 endpoint, which you can use with rclone from outside of our platform. We don't support running rclone from within your environment.
+Yes! We use rclone extensively for our "BYOS" design. If you need long-term, permanent rclone mount, then buy a compatible storage mount from the store, and we'll can mount it to `/storage`. 
+
+If you just need temporary / occasional rclone, then purchase [RcloneBrowser][rclonebrowser].
 
 ### Can I access my services without SSO?
 
-If you need to access your services via apps / tooling externally, without Auth0 authentication, you can disable this on a per-app basis in your user portal, at https://elfhosted.com
+Currently not. We're working on making this optional.
 
 > It's **your** responsibility to ensure that you've configured the app with appropriate credentials to be publically exposed to the internet.
 {.is-warning}
 
 ### How do I restart my apps?
 
-Use the same add/remove interface to trigger one-time restarts of your apps at https://elfhosted.com
-
-## Torrents
-
-### I can't connect to my tracker
-
-It's possible that your tracker needs to be whitelisted to connect. Please open a ticket at our Discord (https://discord.elfhosted.com) for further processing. You also might be using a public tracker (eg, Kickasstorrents, RarBG, The Pirate Bay etc) in which you'll need to install the Deluge/Qbittorrent app that's for public trackers. 
-
-### My torrents pause
-
-In the event of Deluge crashing, the resuming torrents will be paused when the restart is completed. You can resolve this by defaulting the caching parameters by going to `ltconfig > (drop down) libtorrent default > load preset > then clicking apply. `
-
-![deluge.png](/deluge.png)
+Use [ElfBot][elfbot]
 
 ## Usenet
 
 ### I can't connect my Arr apps to Deluge
 
-Deluge requires the "Label" plugin for compatibilty with Arr. Enable this:
-
-![deluge_webui_2.0.5_—_(private_browsing)_2022-05-14_20-07-16.png](/deluge_webui_2.0.5_—_(private_browsing)_2022-05-14_20-07-16.png)
-
+Deluge requires the "Label" plugin for compatibilty with Arr, which is already enabled on our default Deluge config.
 
 ## Streaming
 
