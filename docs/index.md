@@ -26,6 +26,6 @@ We provide you with self-hosted apps, securely and reliably. Bring your own stor
 
     ---
 
-    Got data / settings to bring across?
+    Got data / settings to bring across? [Here's a guide](/how-to/migrate/)
 
 </div>

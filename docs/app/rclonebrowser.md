@@ -8,6 +8,7 @@ upstream: https://github.com/kapitainsky/RcloneBrowser
 
 RcloneBrowser is a simple cross platform GUI for rclone command line tool
 
-{% include 'app.md' %}
+![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.png){ loading=lazy }
+
 {% include 'app_access.md' %}
 {% include 'app_footer.md' %}

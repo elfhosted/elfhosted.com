@@ -33,6 +33,7 @@
 [qbittorrent]:        /app/qbittorrent
 [radarr]:             /app/radarr
 [rapidleech]:         /app/rapidleech
+[rclone]:             /app/rclone
 [rclonebrowser]:      /app/rclonebrowser
 [readarr]:            /app/readarr
 [resiliosync]:        /app/resiliosync

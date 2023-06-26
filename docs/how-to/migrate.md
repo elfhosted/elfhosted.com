@@ -67,18 +67,18 @@ Here are some sample rclone configs you can use to transfer data in. In testing,
     shell_type = unix
     ```
 
-#### Using RcloneBrowser
+#### Using Rclone
 
 !!! tip
-    In this case, we use [RcloneBrowser][rclonebrowser] on ElfHosted to suck data **into** Storagebox
+    In this case, we use [Rclone][rclone] / [RcloneBrowser][rclonebrowser] on ElfHosted to suck data **into** Storagebox
 
-If you don't **have** a remote location from which transfer data into StorageBox, use [RcloneBrowser][rclonebrowser] within ElfHosted, to connect to your remote storage, and start a transfer to `/storage/storagebox-a` (*you need to have purchased a [StorageBox mount][store/storagebox]*). You might use this, for example, if you wanted to bring content from a Dropbox folder into Storagebox.
+If you don't **have** a remote location from which transfer data into StorageBox, use [Rclone][rclone] / [RcloneBrowser][rclonebrowser] within ElfHosted, to connect to your remote storage, and start a transfer to `/storage/storagebox-a` (*you need to have purchased a [StorageBox mount][store/storagebox]*). You might use this, for example, if you wanted to bring content from a Dropbox folder into Storagebox.
 
 ### Into ElfStorage
 
 #### Pulling data into ElfStorage (preferred)
 
-If your data is elsewhere, and you want to "pull" it into ElfStorage, use [RcloneBrowser][rclonebrowser], configure the remote, and copy into `/storage/elfstorage`.
+If your data is elsewhere, and you want to "pull" it into ElfStorage, use [Rclone][rclone] / [RcloneBrowser][rclonebrowser], configure the remote, and copy into `/storage/elfstorage`.
 
 !!! tip
     Using RCloneBrowser is preferable, since you can control the transfer parameters (*rate, etc, to avoid impacting other users*).
