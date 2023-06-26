@@ -33,6 +33,7 @@
 [qbittorrent]:        /app/qbittorrent
 [radarr]:             /app/radarr
 [rapidleech]:         /app/rapidleech
+[rclonebrowser]:      /app/rclonebrowser
 [readarr]:            /app/readarr
 [resiliosync]:        /app/resiliosync
 [rpdb]:               /app/rpdb
@@ -51,3 +52,4 @@
 [youtubedl]:          /app/youtubedl
 [connect-apps]:       /how-to/connect-apps
 [view-logs]:          /how-to/view-app-logs
+[store/storagebox]:   https://dev.elfhosted.com/app/hetzner-storagebox-mount/

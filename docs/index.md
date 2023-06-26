@@ -10,3 +10,22 @@ hide:
 We provide you with self-hosted apps, securely and reliably. Bring your own storage or use ours.
 
 [Browse store :shopping_cart:](https://dev.elfhosted.com/app/bundle){ .md-button .md-button--primary }
+
+
+## Quick Start Guides
+
+<div class="grid cards" markdown>
+
+- **Setup from scratch**
+
+    ---
+
+    New user? Here's how to get up-to-scratch, stat!
+
+- **Migrate from elsewhere**
+
+    ---
+
+    Got data / settings to bring across?
+
+</div>
