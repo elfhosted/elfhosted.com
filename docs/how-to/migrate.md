@@ -76,13 +76,19 @@ If you don't **have** a remote location from which transfer data into StorageBox
 
 ### Into ElfStorage
 
+#### Pulling data into ElfStorage (preferred)
+
+If your data is elsewhere, and you want to "pull" it into ElfStorage, use [RcloneBrowser][rclonebrowser], configure the remote, and copy into `/storage/elfstorage`.
+
+!!! tip
+    Using RCloneBrowser is preferable, since you can control the transfer parameters (*rate, etc, to avoid impacting other users*).
+
 #### Pushing data into ElfStorage
 
 Unlike Hetzner's Storageboxes, you can't transfer data into ElfStorage directly, so if you want to **push** data into ElfStorage, you'll need to add [Minio][minio] to your apps, and then use Minio as an S3-compatible endpoint transfer data **into** ElfStorage.
 
-#### Pulling data into ElfStorage
-
-If your data is elsewhere, and you want to "pull" it into ElfStorage, use [RcloneBrowser][rclonebrowser], configure the remote, and copy into `/storage/elfstorage`.
+!!! warning
+    You'll need to throttle down your requests/sec to below 5, to avoid 429 errors
 
 ## Config
 
