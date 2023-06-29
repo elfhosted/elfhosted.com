@@ -121,25 +121,25 @@ nav:
     - Vaultwarden: app/vaultwarden.md
     - xTeVe: app/xteve.md
     - Youtube DL: app/youtubedl.md
+  - Store 🛒 :
+    - store/index.md
+    # - Free Trial: store/free-trial.md
+  - Help:
+    - how-to/index.md
+    - FAQ: how-to/faq.md
+    - Get Started: how-to/get-started.md
+    - Migrate: how-to/migrate.md
+    - Connect Apps: how-to/connect-apps.md
+    - Restoring an Arr: how-to/restoring-arr-app.md  
+  - Blog: 
+    - blog/index.md
+    - Tags: blog/tags.md
   - Legal:
     - legal/index.md
     - Acceptable Use: legal/acceptable-use.md
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
     - Refund Policy: legal/refund-policy.md
-  - Blog: 
-    - blog/index.md
-    - Tags: blog/tags.md
-  - Store 🛒 :
-    - store/index.md
-    # - Free Trial: store/free-trial.md
-  - Support:
-    - how-to/index.md
-    - FAQ: how-to/faq.md
-    - Migrate: how-to/migrate.md
-    - Connect Apps: how-to/connect-apps.md
-    - Restoring an Arr: how-to/restoring-arr-app.md    
-
 
 theme:
   name: 'material'

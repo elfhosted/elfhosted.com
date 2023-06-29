@@ -5,27 +5,40 @@ hide:
   - navigation # Hide navigation
   # - toc        # Hide table of contents
 ---
-# 👋 Welcome to :elf: ElfHosted!
+# 👋 Welcome to ElfHosted!
 
-We provide you with self-hosted apps, securely and reliably. Bring your own storage or use ours.
+* [x] We host typical self-hosted apps for you, securely and reliably.
+* [x] Attach your own storage and VPN or just use ours.
+* [x] Only pay for the apps you need, swap them out when you want to
 
-[Browse store :shopping_cart:](https://dev.elfhosted.com/app/bundle){ .md-button .md-button--primary }
+[See the apps :gift:](/app/){ .md-button .md-button--primary }   [Buy buy buy! :shopping_cart:](https://dev.elfhosted.com/app/bundle){ .md-button .md-button--primary }
 
 
 ## Quick Start Guides
 
 <div class="grid cards" markdown>
 
-- **Setup from scratch**
+- :baby: **New user?**
 
     ---
 
-    New user? Here's how to get up-to-scratch, stat!
+     Here's [how to get started](/how-to/get-started/), stat!
 
-- **Migrate from elsewhere**
+- :pickup_truck: **Migrating from elsewhere?** 
 
     ---
 
     Got data / settings to bring across? [Here's a guide](/how-to/migrate/)
 
+- :scientist: **How does this work?**
+
+    ---
+
+    What makes us ~~different~~ special?
+
+- **Where my elfies :elf: at?**
+
+    ---
+
+    Join our friendly :fontawesome-brands-discord:{ .discord .lg .middle } [Discord](http://discord.elfhosted.com) community for help and fun!
 </div>

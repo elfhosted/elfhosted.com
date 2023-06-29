@@ -33,7 +33,8 @@
 [qbittorrent]:        /app/qbittorrent
 [radarr]:             /app/radarr
 [rapidleech]:         /app/rapidleech
-[rclone]:             /app/rclone
+[rclonefm]:           /app/rclonefm
+[rcloneui]:           /app/rcloneui
 [rclonebrowser]:      /app/rclonebrowser
 [readarr]:            /app/readarr
 [resiliosync]:        /app/resiliosync
@@ -54,3 +55,10 @@
 [connect-apps]:       /how-to/connect-apps
 [view-logs]:          /how-to/view-app-logs
 [store/storagebox]:   https://dev.elfhosted.com/app/hetzner-storagebox-mount/
+[store/elfstorage]:   https://dev.elfhosted.com/app/elf-storage/
+[store/bundle]:       https://dev.elfhosted.com/app/bundle/
+
+[discord]:            https://discord.elfhosted.com
+[elfstorage]:         /what-is/elfstorage
+[storagebox]:         /what-is/storagebox
+[rclone]:             /what-is/rclone
