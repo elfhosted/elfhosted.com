@@ -1,4 +1,4 @@
-site_name: ElfHosted - app hosting that works like magic! 🪄
+site_name: 🧝 ElfHosted - app hosting that works like magic! 🪄
 # site_description: app hosting that magically "Just Works(tm)"
 site_author: 'David Young'
 site_url: 'https://elfhosted.com'
@@ -179,8 +179,8 @@ theme:
     # Toggle light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: 'brown'
-      accent: 'orange'
+      primary: 'custom'
+      accent: 'custom'
       toggle:
         icon: material/brightness-7
         name: Burn my eyes!
@@ -188,8 +188,8 @@ theme:
     # Toggle dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: 'brown'
-      accent: 'orange'
+      primary: 'custom'
+      accent: 'custom'
       toggle:
         icon: material/brightness-4
         name: Love my eyes!
@@ -199,7 +199,7 @@ theme:
     code: 'Ubuntu Mono'
 
 extra_css:
-  # - stylesheets/extra.css
+  - stylesheets/extra.css
   - extras/css/icons.css
     
 extra:
