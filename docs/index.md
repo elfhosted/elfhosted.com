@@ -5,7 +5,7 @@ hide:
   - navigation # Hide navigation
   # - toc        # Hide table of contents
 ---
-# Welcome to ElfHosted! 👋
+# 👋 Welcome to :elf: ElfHosted!
 
 We provide you with self-hosted apps, securely and reliably. Bring your own storage or use ours.
 

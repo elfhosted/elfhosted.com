@@ -166,6 +166,7 @@ theme:
     tag:
       kubernetes: material/kubernetes
       js: fontawesome/brands/js
+
   palette:
 
     # Palette toggle for automatic mode
@@ -178,7 +179,7 @@ theme:
     # Toggle light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: 'black'
+      primary: 'custom'
       accent: 'orange'
       toggle:
         icon: material/brightness-7
@@ -187,7 +188,7 @@ theme:
     # Toggle dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: 'black'
+      primary: 'custom'
       accent: 'orange'
       toggle:
         icon: material/brightness-4
@@ -197,6 +198,10 @@ theme:
     text: 'Ubuntu'
     code: 'Ubuntu Mono'
 
+extra_css:
+  - stylesheets/extra.css
+  - extras/css/icons.css
+    
 extra:
   status:
     new: Recently added
@@ -210,9 +215,6 @@ extra:
       link: 'http://discord.elfhosted.com' 
     - icon: 'simple/matrix'
       link: 'http://matrix.funkypenguin.co.nz' 
-
-extra_css:
-  - extras/css/icons.css
 
 extra_javascript:
   # - extras/javascript/plausible.js

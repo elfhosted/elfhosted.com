@@ -20,7 +20,12 @@ There are 2 ways to import data into a Storagebox, listed below in preferential 
 
 The advantage to Hetzner's Storageboxes is that you can add content to them independently of ElfHosted's infrastructure entirely. I.e., from a remote location, you can SFTP/SMB/WebDAV your data into your storagebox, before you're even an ElfHosted user!
 
-Here are some sample rclone configs you can use to transfer data in. In testing, we found best performance with Samba, followed by WebDAV, and finally SFTP:
+The simplest way to transfer into a Storagebox is simply to mount it as a drive on your desktop via Samba, and drag/drop your content across.
+
+    !!! note
+        When using a Storagebox via SMB with a subaccount, the share name you're connecting to **must** be the same as the username of the subaccount
+
+If you'd prefer something automated for a more complex migration, here are some sample rclone configs you can use to transfer data in. In testing, we found best performance with Samba, followed by WebDAV, and finally SFTP:
 
 === "Samba (main account)"
     
@@ -40,10 +45,7 @@ Here are some sample rclone configs you can use to transfer data in. In testing,
     host = //u*****-sub**.your-storagebox.de/sub-**
     user = sub**
     pass = ************
-    ```    
-    
-    !!! note
-        When using a subaccount, the share name you're connecting to must be the same as the username of the subaccount
+    ```
 
 === "WebDAV"
 
