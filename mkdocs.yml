@@ -179,7 +179,7 @@ theme:
     # Toggle light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: 'custom'
+      primary: 'brown'
       accent: 'orange'
       toggle:
         icon: material/brightness-7
@@ -188,7 +188,7 @@ theme:
     # Toggle dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: 'custom'
+      primary: 'brown'
       accent: 'orange'
       toggle:
         icon: material/brightness-4
@@ -199,7 +199,7 @@ theme:
     code: 'Ubuntu Mono'
 
 extra_css:
-  - stylesheets/extra.css
+  # - stylesheets/extra.css
   - extras/css/icons.css
     
 extra:

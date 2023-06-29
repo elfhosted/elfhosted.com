@@ -115,3 +115,5 @@ Preconfigured in Radarr/Sonarr/Lidarr/Readarr/Mylarr
 * port: `34400`
 
 In Plex, use `xteve:34400` as your HDHomeRun network address
+
+--8<-- "common-links.md"
