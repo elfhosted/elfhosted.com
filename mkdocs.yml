@@ -199,7 +199,6 @@ theme:
     code: 'Ubuntu Mono'
 
 extra_css:
-  - stylesheets/extra.css
   - extras/css/icons.css
     
 extra:
