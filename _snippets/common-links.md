@@ -61,4 +61,4 @@
 [discord]:            https://discord.elfhosted.com
 [elfstorage]:         /what-is/elfstorage
 [storagebox]:         /what-is/storagebox
-[rclone]:             /what-is/rclone
+[rclone]:             /how-to/use-rclone

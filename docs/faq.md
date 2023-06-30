@@ -29,7 +29,7 @@ Due to the risk to all our customers if downloading apps are misconfigured and a
 
 ### How do I restart my apps?
 
-Use [ElfBot][elfbot]
+Use [ElfBot][elfbot]!
 
 ## Usenet
 
@@ -43,6 +43,5 @@ Deluge requires the "Label" plugin for compatibilty with Arr, which is already e
 
 Check your speed at https://speed.elfhosted.com - you'll want at least 20Mbps for reliable playback at 1080p. Configure your streamer to "DirectPlay", rather than transcoding, for best results.
 
-
-
+--8<-- "common-links.md"
 

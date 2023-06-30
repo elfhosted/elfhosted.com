@@ -103,7 +103,8 @@ nav:
     - qBittorrent: app/qbittorrent.md
     - Radarr: app/radarr.md
     - Rapidleech: app/rapidleech.md
-    - RClone: app/rclone.md
+    - RCloneFM: app/rclonefm.md
+    - RCloneUI: app/rcloneui.md
     - RClone Browser: app/rclonebrowser.md
     - Readarr: app/readarr.md
     - Resilio Sync: app/resiliosync.md
