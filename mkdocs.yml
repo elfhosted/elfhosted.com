@@ -125,12 +125,13 @@ nav:
     - store/index.md
     # - Free Trial: store/free-trial.md
   - Help:
-    - how-to/index.md
-    - FAQ: how-to/faq.md
+    - get-help.md
     - Get Started: how-to/get-started.md
     - Migrate: how-to/migrate.md
+    - Use rclone: how-to/use-rclone.md
     - Connect Apps: how-to/connect-apps.md
     - Restoring an Arr: how-to/restoring-arr-app.md  
+    - FAQ: faq.md
   - Blog: 
     - blog/index.md
     - Tags: blog/tags.md
