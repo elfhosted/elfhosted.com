@@ -1,5 +1,5 @@
 ---
-title: Funky Penguin's Geeky Blog Tags
+title: ElfHosted Blog Tags
 search:
   exclude: true
 ---

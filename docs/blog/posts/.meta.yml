@@ -1,7 +1,9 @@
 authors:
   - funkypenguin
 links:
-  - 🛟 Get help: support.md
-  - 🤝 Work with me: https://www.funkypenguin.co.nz/work-with-me  
+  - 🎁 Apps: /app/
+  - 👶 Get started: /how-to/get-started/
+  - 🚛 Migrate in: /how-to/migrate/
+  - 💬 Discord: http://discord.elfhosted.com
 search:
   boost: -0.1 
