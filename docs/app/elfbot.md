@@ -8,7 +8,7 @@ ElfBot is not a standalone app, it's a command-line script written for ElfHoster
 1. Pause apps
 2. Restart apps
 3. Reset apps (*wipe config and restore original pre-setup where applicable*)
-4. Backup apps (*restart and create offline backup to storage*)
+4. Backup apps (*restart and create an offline backup*)
 5. Claim a plex server
 
 ## Using ElfBot
