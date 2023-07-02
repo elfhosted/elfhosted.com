@@ -3,16 +3,21 @@ description: ElfBot is a CLI tool for ElfHosted users providing self-service fun
 ---
 # ElfBot
 
-ElfBot is not a standalone app, it's a command-line script written for ElfHosters, which provides self-service functions:
+ElfBot is not a standalone app, it's a command-line script written for ElfHosters, which provides self-service functions, including:
 
-1. Restart apps
-2. Reset apps (*wipe config and restore original pre-setup where applicable*)
-3. Backup apps (*restart and create offline backup to storage*)
-4. Claim plex server
+1. Pause apps
+2. Restart apps
+3. Reset apps (*wipe config and restore original pre-setup where applicable*)
+4. Backup apps (*restart and create offline backup to storage*)
+5. Claim a plex server
 
-## Activating ElfBot
+## Using ElfBot
 
-ElfBot lives in your [FileBrowser][filebrowser] console. Run him like this:
+ElfBot lives in your [FileBrowser][filebrowser] console. 
+
+![ElfBot in FileBrowser console](/images/elfbot-filebrowser-console.png)
+
+Run ElfBot like this:
 
 ```bash
 elfbot <command> <arguments>
@@ -24,15 +29,44 @@ For example, to restart plex...
 elfbot restart plex
 ```
 
-## Restarting apps
+### How to stop / suspend an app
 
-## Resetting apps
+You may need to turn an app off temporaily to adjust its config, or to perform a restore from backup. Run `elfbot pause <app>` (*`<app>` should match the name of a folder under `/config`*), and ElfBot will shutdown the app, and wait for 5 min, before starting the app again.
 
-## Backing up apps
+### How to restart an app
 
-## Claiming Plex server
+ElfBot can restart your app. Run `elfbot restart <app>` (*`<app>` should match the name of a folder under `/config`*), and ElfBot will instantly trigger an app restart.
 
-After you install [Plex][plex], you'll need to "claim" it against your Plex account, by grabbing a claim ID from plex.tv/claim/. Claim your plex server using ElfBot by running:
+### How to reset an app
+
+Need to reset an app to defaults? Run `elfbot reset <app> --yesiamsure` to perform the reset. ElfBot will restart your app, and remove its config from `/config`, resulting in a fresh bootstrap or a clean install.
+
+!!! warning
+    This command will result in data loss. There are no further confirmations beyond `--yesiamsure`. If you're uncertain, perform a backup of your app before resetting (*below*).
+
+### How to backup an app
+
+In order to safely backup an app, the app can't be running. ElfBot can trigger a restart of your app, and before the app actually starts, make a backup of its config folder to `/config/backup/<app name>-<timestamp>`.
+
+Run:
+
+```bash
+elfbot backup <app>
+```
+
+To perform the backup!
+
+Here's an example:
+
+![ElfBot backup result](/images/elfbot-backup-1.png)
+
+And here's the resulting backup:
+
+![ElfBot backup result](/images/elfbot-backup-2.png)
+
+### How to Claiming a Plex server
+
+After you install [Plex][plex], if you find that you're just presented with a "web player", you'll need to "claim" it against your Plex account, by grabbing a claim ID from plex.tv/claim/. Claim your plex server using ElfBot by running:
 
 ```bash
 elfbot claim plex <token>
