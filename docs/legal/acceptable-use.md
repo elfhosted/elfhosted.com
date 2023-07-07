@@ -2,15 +2,16 @@
 
 ## Offensive Content
 
-You may not publish or transmit via ElfHosted’s Service any content that ElfHosted reasonably believes:
+You may not publish, transmit or store via ElfHosted’s Service any content that ElfHosted reasonably believes:
 
 * constitutes child pornography;
+* is pornographic or obscene material;
 * is excessively violent, incites violence, threatens violence, or contains harassing content or hate speech;
 * is unfair or deceptive under the consumer protection laws of any jurisdiction, including chain letters and pyramid schemes;
 * is defamatory or violates a person’s privacy;
 * creates a risk to a person’s safety or health, creates a risk to public safety or health, compromises national security, or interferes with a investigation by law enforcement;
 * improperly exposes trade secrets or other confidential or proprietary information of another person;
-* is intended to assist othersin defeating technical copyright protections;
+* is intended to assist others in defeating technical copyright protections;
 * clearly infringes on another person’s trade or service mark, patent, or other property right;
 * promotes illegal drugs, violates export control laws, relates to illegal gambling, or illegal arms trafficking;
 * is otherwise illegal or solicits conduct that is illegal under laws applicable to you or to ElfHosted; or

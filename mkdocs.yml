@@ -61,7 +61,7 @@ plugins:
     external_assets_exclude:
       - shields.io/*      
   optimize:
-    enabled: false # seems to break netlify builds :(
+    enabled: true # seems to break netlify builds :(
 
 #theme_dir: mkdocs-material
 nav:
