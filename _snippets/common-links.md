@@ -54,10 +54,10 @@
 [youtubedl]:          /app/youtubedl
 [connect-apps]:       /how-to/connect-apps
 [view-logs]:          /how-to/view-app-logs
-[store/storage]:      https://dev.elfhosted.com/product-category/storage/
-[store/storagebox]:   https://dev.elfhosted.com/app/hetzner-storagebox-mount/
-[store/elfstorage]:   https://dev.elfhosted.com/app/elf-storage/
-[store/bundle]:       https://dev.elfhosted.com/app/bundle/
+[store/storage]:      https://store.elfhosted.com/product-category/storage/
+[store/storagebox]:   https://store.elfhosted.com/app/hetzner-storagebox-mount/
+[store/elfstorage]:   https://store.elfhosted.com/app/elf-storage/
+[store/bundle]:       https://store.elfhosted.com/app/bundle/
 [discord]:            https://discord.elfhosted.com
 [elfstorage]:         /what-is/elfstorage
 [storagebox]:         /what-is/storagebox
