@@ -140,7 +140,7 @@ nav:
     - Acceptable Use: legal/acceptable-use.md
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
-    - Refund Policy: legal/refund-policy.md
+    # - Refund Policy: legal/refund-policy.md
 
 theme:
   name: 'material'

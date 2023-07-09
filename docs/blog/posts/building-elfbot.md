@@ -1,11 +1,12 @@
 ---
-date: 2023-07-22
+date: 2023-06-22
 categories:
   - note
 tags:
   - elfbot
 title: How ElfBot works
 description: Today we built out ElfBot, our CLI tool to restart/reset/backup apps
+draft: true
 ---
 
 # Introducing ElfBot :elf:
