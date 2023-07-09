@@ -66,7 +66,7 @@ Since all the products are provided online, there is no shipping involved.
 
 ### Customer vetting
 
-While I'm currently providing $0 services during a trial period in June 2023 using a coupon code, in order to use my services beyond an initial trial period, customers must (a) provide a verified email address, (b) a valid credit card, \(c), and pass the woocommerce anti-fraud checks.
+While I'm currently providing $0 services during a trial period in July 2023 using a coupon code, in order to use my services beyond an initial trial period, customers must (a) provide a verified email address, (b) a valid credit card, \(c), and pass the woocommerce anti-fraud checks.
 
 Further, the design of the service (*bring your own storage, bring your own VPN*) dis-incentivizes bad actors who would just abuse a free trial period and then move on, since while the trial period may be free, the BYO resources necessary to make use of it are not, and must already have been purchased elsewhere. Further, customers cannot purchase services (*trial or otherwise*) before agreeing to our [TOS](/legal/terms-of-service/) and [AUP](/legal/acceptable-use/), and I'm quick to shut down any abusers.
 
