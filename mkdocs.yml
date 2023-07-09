@@ -62,7 +62,7 @@ plugins:
       - shields.io/*      
   optimize:
     enabled: true
-    
+
 #theme_dir: mkdocs-material
 nav:
   - Home: index.md
@@ -122,11 +122,10 @@ nav:
     - Vaultwarden: app/vaultwarden.md
     - xTeVe: app/xteve.md
     - Youtube DL: app/youtubedl.md
-  - Store 🛒 :
-    - store/index.md
-    # - Free Trial: store/free-trial.md
-  - Help:
+  - Store : https://store.elfhosted.com
+  - Support:
     - get-help.md
+    - Discord: https://discord.elfhosted.com
     - Get Started: how-to/get-started.md
     - Migrate: how-to/migrate.md
     - Use rclone: how-to/use-rclone.md
