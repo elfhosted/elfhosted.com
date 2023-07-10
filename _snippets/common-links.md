@@ -55,9 +55,9 @@
 [connect-apps]:       /how-to/connect-apps
 [view-logs]:          /how-to/view-app-logs
 [store/storage]:      https://store.elfhosted.com/product-category/storage/
-[store/storagebox]:   https://store.elfhosted.com/app/hetzner-storagebox-mount/
-[store/elfstorage]:   https://store.elfhosted.com/app/elf-storage/
-[store/bundle]:       https://store.elfhosted.com/app/bundle/
+[store/storagebox]:   https://store.elfhosted.com/product/hetzner-storagebox-mount/
+[store/elfstorage]:   https://store.elfhosted.com/product/elf-storage/
+[store]:              https://store.elfhosted.com
 [discord]:            https://discord.elfhosted.com
 [elfstorage]:         /what-is/elfstorage
 [storagebox]:         /what-is/storagebox

@@ -67,61 +67,67 @@ plugins:
 nav:
   - Home: index.md
   - Apps:
-    - app/index.md
-    - Audiobookshelf: app/audiobookshelf.md
-    - Autobrr: app/autobrr.md
-    - Bazarr: app/bazarr.md
-    - Calibre: app/calibre.md
-    - Calibre Web: app/calibre-web.md
-    - Deluge: app/deluge.md
-    - ElfBot: app/elfbot.md
-    - Emby: app/emby.md
-    - Filebrowser: app/filebrowser.md
-    - Flaresolverr: app/flaresolverr.md
-    - Gotify: app/gotify.md
-    - Jellyfin: app/jellyfin.md
-    - Jellyfin Accounts: app/jellyfin-accounts.md
-    - Jellyseerr: app/jellyseerr.md
-    - Kavita: app/kavita.md
-    - Komga: app/komga.md
-    - Lazy Librarian: app/lazylibrarian.md
-    - Lidarr: app/lidarr.md
-    - Mattermost: app/mattermost.md
-    - Minio: app/minio.md
-    - Mylar: app/mylar.md
-    - Navidrome: app/navidrome.md
-    - NextPVR: app/nextpvr.md
-    - Notifiarr: app/notifiarr.md
-    - NZBGet: app/nzbget.md
-    - NZBHydra: app/nzbhydra.md
-    - Ombi: app/ombi.md
-    - Overseerr: app/overseerr.md
-    - Plex: app/plex.md
-    - Privatebin: app/privatebin.md
-    - Prowlarr: app/prowlarr.md
-    - Pyload: app/pyload.md
-    - qBittorrent: app/qbittorrent.md
-    - Radarr: app/radarr.md
-    - Rapidleech: app/rapidleech.md
-    - RCloneFM: app/rclonefm.md
-    - RCloneUI: app/rcloneui.md
-    - RClone Browser: app/rclonebrowser.md
-    - Readarr: app/readarr.md
-    - Resilio Sync: app/resiliosync.md
-    - RPDB: app/rpdb.md
-    - ruTorrent: app/rutorrent.md
-    - SABnzbd: app/sabnzbd.md
-    - Seafile: app/seafile.md
-    - Shoko: app/shoko.md
-    - Sonarr: app/sonarr.md
-    - Syncthing: app/syncthing.md
-    - Tautulli: app/tautulli.md
-    - The Lounge: app/thelounge.md
-    - Unpackerr: app/unpackerr.md
-    - Uptime Kuma: app/uptimekuma.md
-    - Vaultwarden: app/vaultwarden.md
-    - xTeVe: app/xteve.md
-    - Youtube DL: app/youtubedl.md
+    - apps/index.md # yes, the plural is intentional
+    - Consume Media:
+      - Audiobookshelf: app/audiobookshelf.md
+      - Calibre: app/calibre.md
+      - Calibre Web: app/calibre-web.md
+      - Jellyfin: app/jellyfin.md
+      - Kavita: app/kavita.md
+      - Komga: app/komga.md
+      - Navidrome: app/navidrome.md
+      - Plex: app/plex.md
+      - Emby: app/emby.md
+    - Manage Media:
+      - Bazarr: app/bazarr.md
+      - Jellyfin Accounts: app/jellyfin-accounts.md
+      - Jellyseerr: app/jellyseerr.md
+      - Lazy Librarian: app/lazylibrarian.md
+      - Lidarr: app/lidarr.md
+      - Mylar: app/mylar.md
+      - NextPVR: app/nextpvr.md
+      - Notifiarr: app/notifiarr.md
+      - Ombi: app/ombi.md
+      - Overseerr: app/overseerr.md
+      - Radarr: app/radarr.md
+      - Readarr: app/readarr.md
+      - RPDB: app/rpdb.md
+      - Shoko: app/shoko.md
+      - Sonarr: app/sonarr.md
+      - Tautulli: app/tautulli.md
+      - xTeVe: app/xteve.md
+
+    - Manage Downloads:
+      - Autobrr: app/autobrr.md
+      - Deluge: app/deluge.md
+      - Flaresolverr: app/flaresolverr.md
+      - NZBGet: app/nzbget.md
+      - NZBHydra: app/nzbhydra.md
+      - Prowlarr: app/prowlarr.md
+      - Pyload: app/pyload.md
+      - qBittorrent: app/qbittorrent.md
+      - Rapidleech: app/rapidleech.md
+      - ruTorrent: app/rutorrent.md
+      - SABnzbd: app/sabnzbd.md
+      - Unpackerr: app/unpackerr.md
+      - Youtube DL: app/youtubedl.md
+  
+    - Tools:
+      - ElfBot: app/elfbot.md
+      - Filebrowser: app/filebrowser.md
+      - Gotify: app/gotify.md
+      - Mattermost: app/mattermost.md
+      - Privatebin: app/privatebin.md
+      - RCloneFM: app/rclonefm.md
+      - RCloneUI: app/rcloneui.md
+      - RClone Browser: app/rclonebrowser.md
+      - Resilio Sync: app/resiliosync.md
+      - Seafile: app/seafile.md
+      - Syncthing: app/syncthing.md
+      - The Lounge: app/thelounge.md
+      - Uptime Kuma: app/uptimekuma.md
+      - Vaultwarden: app/vaultwarden.md
+
   - Store : https://store.elfhosted.com
   - Support:
     - get-help.md
@@ -151,10 +157,11 @@ theme:
       - navigation.tabs
       - navigation.tabs.sticky
       - navigation.instant
-      - navigation.sections
+      # - navigation.sections
       - navigation.indexes
       - navigation.top
       - navigation.pruning
+      - navigation.path
       - search.suggest
       - search.share
       - content.code.annotate

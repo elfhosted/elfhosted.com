@@ -31,12 +31,6 @@ Due to the risk to all our customers if downloading apps are misconfigured and a
 
 Use [ElfBot][elfbot]!
 
-## Usenet
-
-### I can't connect my Arr apps to Deluge
-
-Deluge requires the "Label" plugin for compatibilty with Arr, which is already enabled on our default Deluge config.
-
 ## Streaming
 
 ### My playback is buffering

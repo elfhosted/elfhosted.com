@@ -26,4 +26,8 @@ The default credentials are:
 
 See [here][connect-apps] for details re connecting with your other apps.
 
+### I can't connect my Arr apps to Deluge
+
+Deluge requires the "Label" plugin for compatibilty with Arr, which is already enabled on our default Deluge config.
+
 {% include 'app_footer.md' %}
