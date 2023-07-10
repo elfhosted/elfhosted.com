@@ -11,7 +11,7 @@ hide:
 * [x] Attach your own storage and VPN or just use ours.
 * [x] Only pay for the apps you need, swap them out when you want to
 
-[See the apps :gift:](/app/){ .md-button .md-button--primary }   [Buy buy buy! :shopping_cart:](https://store.elfhosted.com){ .md-button .md-button--primary }
+[See the apps :gift:](/apps/){ .md-button .md-button--primary }   [Buy buy buy! :shopping_cart:](https://store.elfhosted.com){ .md-button .md-button--primary }
 
 
 ## Quick Start Guides
