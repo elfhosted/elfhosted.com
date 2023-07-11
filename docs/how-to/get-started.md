@@ -6,7 +6,7 @@ Here's a TL;DR guide to getting started. We'll start simple, and then go through
 
 ### Choose your first app(s)
 
-See the "elf-abetically sorted" list of [apps](/app), and subscribe to one or more apps from the [app bundle][store/bundle].
+See the "elf-abetically sorted" list of [apps](/apps/), and subscribe to one or more apps from the [store][store].
 
 ### Choose a username
 
