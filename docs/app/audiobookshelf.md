@@ -12,7 +12,7 @@ description: Audiobookshelf is an audiobook and podcast streaming server, with n
 
 # {{ page.meta.slug }}
 
-Audiobookshelf is an audiobook and podcast streaming server, with native [Android](https://play.google.com/store/apps/details?id=com.audiobookshelf.app) / iOS([testflight](https://testflight.apple.com/join/wiic7QIW) apps
+Audiobookshelf is an audiobook and podcast streaming server, with native [Android](https://play.google.com/store/apps/details?id=com.audiobookshelf.app) / iOS ([testflight](https://testflight.apple.com/join/wiic7QIW)) apps
 
 {% include 'app.md' %}
 
