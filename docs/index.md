@@ -50,7 +50,7 @@ hide:
 
 > Somewhere along the way, building automated / resilient / scalable systems in Kubernetes became my [DayJob(tm)](https://www.funkypenguin.co.nz/work-with-me), and I spent 2 years consulting/co-investing in a seedbox provider. 
 
-> When this provider shut down, I took the opportunity to take my self-hosting to the next level, and leverage what I'd built / learned to build the same system TBC
+> When this provider shut down, I took the opportunity to take my self-hosting to the next level. I leveraged what I'd built / learned over those past 2 years to build ElfHosted - a multi-tenant, resilient, automated and scalable app hosting platform, running on "budget" bare-metal cloud hardware. I wanted to be able to rapidly deploy new self-hosted apps in a templatized way, and I wanted to invite other geeks to join in / observe the process.
 
 > \- David (@funkypenguin)
 
