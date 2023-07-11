@@ -11,7 +11,7 @@ This page lists frequently asked questions about ElfHosted.
 
 ### Can I install more apps?
 
-You can subscribe to any app in the [bundle][store/bundle], and you can exchange apps for others (*cross-grade/upgrade*).
+You can subscribe to any app in [store][store], and you can exchange apps (*or spare elves*) for others (*cross-grade/upgrade*).
 
 ### Can I use rclone?
 

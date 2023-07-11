@@ -1,1 +1,0 @@
-Services are provisioned via the [store][store].

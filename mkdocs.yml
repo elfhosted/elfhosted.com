@@ -65,7 +65,8 @@ plugins:
 
 #theme_dir: mkdocs-material
 nav:
-  - Home: index.md
+  - Home: 
+    - index.md
   - Apps:
     - apps/index.md # yes, the plural is intentional
     - Consume Media:
