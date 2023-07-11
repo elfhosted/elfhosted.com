@@ -12,7 +12,6 @@ File Browser is particularly useful for:
 * [Viewing app logs][view-logs]
 * Launching [ElfBot][elfbot]
 
-{% include 'app.md' %}
 {% include 'app_access.md' %}
 {% include 'app_footer.md' %}
 
