@@ -90,19 +90,19 @@ Yes, you could, and depending on what you want, it may be more customizable, che
 
 That's not necessarily our jam though, consider this alternative 👇
 
-!!! note "How to build a classic seedbox on ElfHosted"
+!!! note "How to build a classic seedbox on ElfHosted for 50c/day"
 
     You could buy the following apps:
 
-    * [Plex][plex] (*$3/month*)
-    * [Radarr][radarr] (*$1/month*)
-    * [Sonarr][sonarr] (*$1/month*)
-    * [Prowlarr][prowlarr] (*$1/month*)
-    * [NZBGet][nzbget] (*$3/month*)
+    * [Plex][plex] (*$0.15/day*)
+    * [Radarr][radarr] (*$0.05/day*)
+    * [Sonarr][sonarr] (*$0.05/day*)
+    * [Prowlarr][prowlarr] (*$0.05/day*)
+    * [NZBGet][nzbget] (*$0.15/day*)
 
-    For \$9/month, you have the basic Arrs, a download client, and a streaming client. For storage, you buy a 1TB [Hetzner Storagebox](https://www.hetzner.com/storage/storage-box) (*\$4/month*), and mount it to your apps (*\$1/month*).
+    For \$0.45/day (*\$13.50/month*), you have the basic Arrs, a download client, and a streaming client. For storage, you buy a 1TB [Hetzner Storagebox](https://www.hetzner.com/storage/storage-box) (*\$4/month*), and mount it to your apps (*\$0.05/day*).
 
-    Now you have a basic seedbox, plus 1TB storage, for $US14/month, and importantly, if ElfHosted fails, **you own your storage**, and you can migrate it / mount it to another provider 💪
+    Now you have a basic seedbox, plus 1TB storage, for $0.50/day, and importantly, if ElfHosted fails, **you own your storage**, and you can migrate it / mount it to another provider 💪
 
 [^1]: Defined as controlling and managing the apps I use, regardless of where they run
 [^2]: Sarcasm, people! DYOR! :stuck_out_tongue:
