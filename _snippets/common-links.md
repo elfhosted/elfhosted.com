@@ -62,3 +62,4 @@
 [elfstorage]:         /what-is/elfstorage
 [storagebox]:         /what-is/storagebox
 [rclone]:             /how-to/use-rclone
+[elfbuckz]:           /how-to/spend-elfbuckz

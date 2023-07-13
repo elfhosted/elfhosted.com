@@ -135,9 +135,9 @@ nav:
     - Discord: https://discord.elfhosted.com
     - Get Started: how-to/get-started.md
     - Migrate: how-to/migrate.md
+    - ElfBuckz: how-to/spend-elfbuckz.md
     - Use rclone: how-to/use-rclone.md
     - Connect Apps: how-to/connect-apps.md
-    - Restoring an Arr: how-to/restoring-arr-app.md  
     - FAQ: faq.md
   - Blog: 
     - blog/index.md
