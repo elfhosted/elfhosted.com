@@ -63,3 +63,4 @@
 [storagebox]:         /what-is/storagebox
 [rclone]:             /how-to/use-rclone
 [elfbuckz]:           /how-to/spend-elfbuckz
+[elfhelp]:            https://discord.com/channels/396055506072109067/1119478614287712337

@@ -21,4 +21,10 @@ No. You can back it up yourself from `/config/vaultwarden` using [FileBrowser](/
 
 No, your data is encrypted client-side. All we do is host the database. You can confirm this, by backing up your data, and examining it (see above).
 
+### How do I enable the admin page?
+
+Per the [upstream docs](https://github.com/dani-garcia/vaultwarden/wiki/Enabling-admin-page), you need to supply an `ADMIN_TOKEN` environment variable to VaultWarden.
+
+It's an advanced / beta operation, but you can achieve this with [ElfBot][elfbot]! :robot:
+
 {% include 'app_footer.md' %}

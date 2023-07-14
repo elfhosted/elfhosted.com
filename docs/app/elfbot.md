@@ -10,6 +10,7 @@ ElfBot is not a standalone app, it's a command-line script written for ElfHoster
 3. Reset apps (*wipe config and restore original pre-setup where applicable*)
 4. Backup apps (*restart and create an offline backup*)
 5. Claim a plex server
+6. Set an arbitrary ENV var for an app (*advanced, beta feature*)
 
 ## Using ElfBot
 
@@ -78,5 +79,28 @@ After the claim is made, you'll need to restart plex. To restart Plex, and acces
 elfbot restart plex
 ```
 
+### How to set an ENV var for an app
+
+If you need to set a custom ENV var for an app (*for [VaultWarden][vaultwarden]'s `ADMIN_TOKEN`, for example*), you can use ElfBot to apply it to the app, by running:
+
+```bash
+elfbot env <app> <key>=<value>
+```
+
+For example:
+
+```bash
+elfbot env vaultwarden ADMIN_TOKEN=thisisnotasecuretoken
+```
+
+Be aware that this process has some limitations, namely:
+
+1. You can't see the ENV vars you've already set
+2. You can't delete an ENV var, but you can set its value to nothing ('')
+3. Only the apps below are supported (*Seek [#elf-help][elfhelp] if you need an app added*):
+
+#### Apps supporting custom ENV vars
+
+* [VaultWarden][vaultwarden]
 
 --8<-- "common-links.md"
