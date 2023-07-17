@@ -47,7 +47,7 @@ Need to reset an app to defaults? Run `elfbot reset <app> --yesiamsure` to perfo
 
 ### How to backup an app
 
-In order to safely backup an app, the app can't be running. ElfBot can trigger a restart of your app, and before the app actually starts, make a backup of its config folder to `/config/backup/<app name>-<timestamp>`.
+In order to safely backup an app, the app can't be running. ElfBot can trigger a restart of your app, and before the app actually starts, make a backup of its config folder to `/storage/elfhosted/backup/<app name>-<timestamp>`.
 
 Run:
 
