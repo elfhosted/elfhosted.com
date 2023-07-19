@@ -43,9 +43,9 @@ plugins:
       - categories
       - tags
     abstract_chars_count: 200
-    image: https://geek-cookbook.funkypenguin.co.nz/images/site-logo.png
+    image: https://elfhosted.com/images/logo.png
     url_parameters:
-      utm_source: "geek-cookbook-blog"
+      utm_source: "elfhosted-com"
       utm_medium: "RSS"
       utm_campaign: "feed-syndication"
   social:

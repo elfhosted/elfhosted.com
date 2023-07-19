@@ -2,7 +2,7 @@
 
 While each app is reachable externally as `https://<username>.<app name>.elfhosted.com`, winith your namespace, each app is reachable to each other app on its own hostname and port, as described below.
 
-You may need these details when configuring inter-app communication, like connecting [Radarr](/Apps/Radarr) to [Plex](/Apps/Plex), or [Autobrr](/Apps/Autobrr) to [Deluge](/Apps/Deluge)..
+You may need these details when configuring inter-app communication, like connecting [Radarr][radarr] to [Plex][plex], or [Autobrr][autobrr] to [Deluge][deluge]..
 
 ## [Calibre][calibre]
 
