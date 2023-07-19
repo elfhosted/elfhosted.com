@@ -12,8 +12,8 @@ edit_uri: 'edit/main/docs/'
 copyright: 'Copyright &copy; 2023 David Young, Funky Penguin Limited'
 
 # Repository
-repo_name: 'elfhosted-docs'
-repo_url: 'https://github.com/geek-cookbook/elfhosted-docs'
+# repo_name: 'elfhosted-docs'
+# repo_url: 'https://github.com/geek-cookbook/elfhosted-docs'
 
 
 # Plugins
@@ -108,6 +108,7 @@ nav:
       - Pyload: app/pyload.md
       - qBittorrent: app/qbittorrent.md
       - Rapidleech: app/rapidleech.md
+      - RDT Client: app/rdtclient.md
       - ruTorrent: app/rutorrent.md
       - SABnzbd: app/sabnzbd.md
       - Unpackerr: app/unpackerr.md
