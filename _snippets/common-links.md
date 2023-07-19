@@ -36,6 +36,7 @@
 [rclonefm]:           /app/rclonefm
 [rcloneui]:           /app/rcloneui
 [rclonebrowser]:      /app/rclonebrowser
+[rdtclient]:          /app/rdtclient
 [readarr]:            /app/readarr
 [resiliosync]:        /app/resiliosync
 [rpdb]:               /app/rpdb
