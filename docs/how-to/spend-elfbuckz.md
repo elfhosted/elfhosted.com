@@ -20,4 +20,10 @@ Simply use ElfBuckz as your payment gateway when buying app subscriptions. Provi
 [^1]: Because payment processors won't let you bill $0.05/day, apparently!
 [^2]: $10 during beta-testing in June 2023
 
+## Troubleshooting
+
+### I can't pay with ElfBuckz
+
+Check that you don't have a mixture of daily and monthly subscriptions in your cart. ElfBuckz doesn't like that!
+
 --8<-- "common-links.md"
