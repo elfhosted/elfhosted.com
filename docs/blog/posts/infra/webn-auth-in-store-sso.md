@@ -16,6 +16,8 @@ The development got stuck behind decomissioning longhorn (*another long story, i
 
 So... we now have passwordless / biometric logins for the store / SSO! :partying_face:
 
+<!-- more -->
+
 ## How to go passwordless
 
 Just log out and log in again. When you login, "[magic](https://en.wikipedia.org/wiki/WebAuthn)" will happen, and thereafter, you'll be able to login with your fingerprint / face / eyeballs etc.
