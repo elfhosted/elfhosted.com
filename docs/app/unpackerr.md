@@ -8,8 +8,6 @@ upstream: https://github.com/davidnewhall/unpackerr
 
 Unpackerr extracts downloads for Torrents, [Radarr][radarr], [Sonarr][sonarr], [Lidarr][lidar] and [Readarr][readarr], and deletes extracted files after import . Use it to automatically unpack archives after download.
 
-{% include 'app.md' %}
-
 ## How do I use it?
 
 ### Troubleshooting

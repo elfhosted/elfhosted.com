@@ -1,25 +1,25 @@
 # ElfHosted Terms of Service  
 
-This document, the ElfHosted Terms of Service Agreement, outlines the specific rules and regulations required to use our any of our products, software, services and web pages described for use by customers offered by ElfHosted. These Terms may be updated by ElfHosted at any time. The most current version of Terms will be available at https://wiki.elfhosted.com/en/Legal/Terms-of-Service
+This document, the ElfHosted Terms of Service Agreement, outlines the specific rules and regulations required to use our any of our products, software, services and web pages described for use by customers offered by ElfHosted. These Terms may be updated by ElfHosted at any time. The most current version of Terms will be available at https://elfhosted.com/legal/terms-of-service/
 
 ### General
 
-Services may not be used without agreeing to the Terms. The Terms of this agreement (including the [AUP](/Legal/acceptable-use-policy), [Privacy Policy](/Legal/privacy-policy) and [Refund Policy](/Legal/refund-policy)) are accepted by the customer and ElfHosted whenever Services are ordered or paid for by the customer. The Terms are maintained independently of any other agreement between ElfHosted and the customer. Unless otherwise agreed in writing with ElfHosted, any secondary agreements between ElfHosted and the customer will always include at minimum, the Terms outlined here. If a secondary agreement between ElfHosted and customer contradicts any attribute of Terms as outlined here, the secondary agreement shall take precedence. You may not use the services if you are not of legal age to form a binding contract with ElfHosted, or you are barred from receiving services under the laws of the country in which you will be using the Services.
+Services may not be used without agreeing to the Terms. The Terms of this agreement (including the [AUP](/legal/acceptable-use-policy/), [Privacy Policy](/legal/privacy-policy/) and [Refund Policy](/legal/refund-policy/)) are accepted by the customer and ElfHosted whenever Services are ordered or paid for by the customer. The Terms are maintained independently of any other agreement between ElfHosted and the customer. Unless otherwise agreed in writing with ElfHosted, any secondary agreements between ElfHosted and the customer will always include at minimum, the Terms outlined here. If a secondary agreement between ElfHosted and customer contradicts any attribute of Terms as outlined here, the secondary agreement shall take precedence. You may not use the services if you are not of legal age to form a binding contract with ElfHosted, or you are barred from receiving services under the laws of the country in which you will be using the Services.
 Privacy
 
 NOTICE: If you sign up for an account and fail to comply with these terms, no refunds will be given. We will, however, advise you by e-mail prior to taking any action to provide you with an opportunity to correct the problem.
 
 ### Privacy
 
-The customer understands and agrees to the [Privacy Policy](/Legal/privacy-policy) provided by ElfHosted.
+The customer understands and agrees to the [Privacy Policy](/legal/privacy-policy/) provided by ElfHosted.
 
 ### Acceptable Uses of the Service
 
-The customer understands and agrees to abide by the [Acceptable Use Policy](/Legal/acceptable-use-policy) provided by ElfHosted.
+The customer understands and agrees to abide by the [Acceptable Use Policy](/legal/acceptable-use-policy/) provided by ElfHosted.
 
 ### Refund Policy
 
-The customer understands and agrees that by ordering a service, they are bound by the [Refund Policy](/Legal/refund-policy). Please note, as per outlined by the Refund Policy, that any and all cryptocurrency payments will not be bound by the Refund Policy.
+The customer understands and agrees that by ordering a service, they are bound by the [Refund Policy](/legal/refund-policy/). Please note, as per outlined by the Refund Policy, that any and all cryptocurrency payments will not be bound by the Refund Policy.
 
 ### Term
 
@@ -45,7 +45,7 @@ ElfHosted reserves the right to alter prices, storage quantities, network rates,
 
 ElfHosted users will properly use the assigned resources in a fair manner without interfering other users in the same environment, otherwise, ElfHosted has every right to regain control of the abused resource from users without prior notice. ElfHosted will not be liable nor responsible for any customer/user loss out of this arrangement, and there will not be any refund of customer paid fee. Users of all ElfHosted services agree not to interfere with other users in an unfair or malicious manner such that other users are not able to receive due level of services. In all ElfHosted services, the word “unlimited” refers to an “unmetered” usage, but not without restrictions. ElfHosted reserves the right to impose restrictions of various sorts to ensure a fair usage among the user community without prior notice, to existing and new users, and upon repeated warnings, suspend and/or terminate offending users.
 
-For further information, please read the [Acceptable Use Policy](/Legal/acceptable-use-policy)
+For further information, please read the [Acceptable Use Policy](/legal/acceptable-use-policy/)
 
 ### Proprietary Rights
 
@@ -110,5 +110,3 @@ The customer is responsible for independent backup of data stored on ElfHosted�
 ### DISCLAIMER OF WARRANTIES
 
 SERVICES PROVIDED BY SEEPLICITY ARE PROVIDED ON AN “AS IS, AS AVAILABLE” BASIS. ElfHosted SPECIFICALLY DISCLAIMS ANY OTHER WARRANTY, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL ElfHosted BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, SPECIAL OR INCIDENTAL DAMAGES, EVEN IF ElfHosted HAS BEEN ADVISED BY THE CUSTOMER OF THE POSSIBILITY OF SUCH POTENTIAL LOSS OR DAMAGE. IF ElfHosted’S SERVICE TO THE CUSTOMER IS DISRUPTED OR MALFUNCTIONS FOR ANY REASON, ElfHosted SHALL NOT BE RESPONSIBLE FOR ANY LOSSES OF INCOME DUE TO DISRUPTION OF SERVICE DURING THE PERIOD OF DISRUPTION OF MALFUNCTION.
-
-

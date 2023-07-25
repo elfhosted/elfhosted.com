@@ -7,7 +7,7 @@ description: How to use ElfBuckz to manage your app subscriptinos
 
 "ElfBuckz" is our "in-store credits" system, and is the preferred way to pay for daily app subscriptions[^1]
 
-Every new user receives $1[^2] ElfBuckz on account creation, which is enough to run [Radarr][radarr] for 20 days, or [Plex][plex] for 6 1/2 days.
+Every new user receives $1[^2] ElfBuckz on account creation, which is enough to run [Radarr][radarr] for 20 days, or [Plex][plex] for 6 1/2 days :partying_face:
 
 ## ElfBuckz Balance / Topup
 

@@ -42,7 +42,7 @@ Upon launch, you'll be prompted to create a username/password. Once this is comp
 
 By default, `/storage/elfhostedaudiobooks` is the intended location for audiobooks (*note this is separate from `/storage/elfhostedbooks` intentionally*)
 
-To connect to other apps, refer to [Interconnecting-Apps](/Reference/Interconnecting-Apps)
+To connect to other apps, refer to [this documentation][connect-apps]
   
 ## Integrating with Readarr
 

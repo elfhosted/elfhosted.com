@@ -137,6 +137,8 @@ nav:
     - Get Started: how-to/get-started.md
     - Migrate: how-to/migrate.md
     - ElfBuckz: how-to/spend-elfbuckz.md
+    - ElfStorage: what-is/elfstorage.md
+    - StorageBox: what-is/storagebox.md
     - Use rclone: how-to/use-rclone.md
     - Connect Apps: how-to/connect-apps.md
     - FAQ: faq.md

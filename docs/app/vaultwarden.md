@@ -15,7 +15,7 @@ Alternative implementation of the Bitwarden server API written in Rust and compa
 
 ### Is it backed up?
 
-No. You can back it up yourself from `/config/vaultwarden` using [FileBrowser](/Apps/FileBrowser)
+No. You can back it up yourself using [ElfBot][elfbot].
 
 ### Can you see my passwords?
 
