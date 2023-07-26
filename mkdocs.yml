@@ -151,6 +151,9 @@ nav:
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
     # - Refund Policy: legal/refund-policy.md
+  - Open:
+    - open/index.md
+    - June 2023: open/june-2023.md
 
 theme:
   name: 'material'
