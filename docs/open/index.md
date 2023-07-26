@@ -21,13 +21,13 @@ Contains the containers we run ([available at ghcr.io](https://github.com/orgs/g
 
 Contains the flux GitOps manifests used to run various services on the cluster, as well as the ansible playbooks / roles to maintain these.
 
-![GitHub Repo stars](https://img.shields.io/github/stars/geek-cookbook/elfhosted-infra) 
+![GitHub Repo stars](https://img.shields.io/github/stars/geek-cookbook/elf-infra) 
 
 #### [geek-cookbook/elf-charts](https://github.com/geek-cookbook/elf-charts)
 
 Contains the charts we use to provide apps, under a single umbrella chart "myprecious". Heavily inspired by https://github.com/k8s-at-home/charts, which I've since forked to https://github.com/geek-cookbook/charts, and continue to maintain
 
-![GitHub Repo stars](https://img.shields.io/github/stars/geek-cookbook/elfhosted-charts) 
+![GitHub Repo stars](https://img.shields.io/github/stars/geek-cookbook/elf-charts) 
 
 #### [geek-cookbook/elfhosted.com](https://github.com/geek-cookbook/elfhosted.com)
 
