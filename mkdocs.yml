@@ -59,7 +59,7 @@ plugins:
       target: _blank 
       rel: nofollow   
     external_assets_exclude:
-      - shields.io/*      
+      - img.shields.io/*
   optimize:
     enabled: true
 
@@ -151,9 +151,13 @@ nav:
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
     # - Refund Policy: legal/refund-policy.md
-  - Open:
+  - Open (Source):
     - open/index.md
-    - June 2023: open/june-2023.md
+    - Design:
+      - open-source/design/index.md
+    - Metrics:
+      - June 2023: open/june-2023.md
+
 
 theme:
   name: 'material'
