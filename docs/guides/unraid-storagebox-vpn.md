@@ -95,9 +95,33 @@ Now, you can mount your share, and happily consume the media on your remote stor
 !!! question "What do we have now?"
     You're able to view the media on your storagebox alongside the exitsing media on your unRAID, and transfer files to/from Storagoebox
 
-## Optional extras
+### Optional extras
 
 Want to share your media with friends and family without exposing your unRAID? Install [Plex][plex], [Jellyfin][jellyfin], or [Emby][emby], and point your libraries at your storagebox, at `/storage/storagebox-a`
+
+## Questions
+
+### Storagebox location
+
+Question:
+
+> What if my storagebox is in Finland, and not Germany?
+
+Answer:
+
+> The torrent-client->storagebox performance will likely be much worse, and Hetzner will ultimately charge me for egress traffic (not currently an issue at our scale), so I'd strongly suggest sticking with Germany
+
+### Integrating local apps
+
+Question: 
+
+> Can my apps (Arrs) running locally on unRAID talk to the torrent clients?
+
+Answer:
+
+> No, because the torrent clients are all protected with a layer of SSO which is applied at the ingress (Traefik) level. While we can **technically** enable/disable SSO per-app (*some apps like Plex are obviously not SSO'd*), the torrent apps will always remain behind SSO due to the risk of an accidental misconfiguration exposing all our customers to suspension / shutdown.
+
+> Any ElfHosted apps can connect with the torrent clients though, so while it's not a **perfect** solution, you may be able to configure [Sonarr][sonarr] / [Radarr][radarr] to import from your home Arr instances.
 
 ## Now what?
 
