@@ -12,8 +12,8 @@ edit_uri: 'edit/main/docs/'
 copyright: 'Copyright &copy; 2023 David Young, Funky Penguin Limited'
 
 # Repository
-# repo_name: 'elfhosted-docs'
-# repo_url: 'https://github.com/geek-cookbook/elfhosted-docs'
+repo_name: 'elfhosted-docs'
+repo_url: 'https://github.com/geek-cookbook/elfhosted.com'
 
 
 # Plugins

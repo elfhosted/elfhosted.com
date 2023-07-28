@@ -27,7 +27,7 @@ ElfHosted plus a [Hetzner StorageBox]( https://www.hetzner.com/storage/storage-b
 
 ### Aquire a Hetzner Storagebox
 
-Pick the appropriate size from https://www.hetzner.com/storage/storage-box, ensuring it's located in the Germany / FSN1 / Falkenstein location. This is **your storage**, to keep or expand as you please.
+Pick your [preferred size storagebox](https://www.hetzner.com/storage/storage-box), ensuring it's located in the Germany / FSN1 / Falkenstein location. This is **your storage**, to keep or expand as you please.
 
 Enable **Samba Support**, and **External Reachability**:
 
