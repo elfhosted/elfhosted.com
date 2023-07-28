@@ -131,6 +131,8 @@ nav:
       - Vaultwarden: app/vaultwarden.md
 
   - Store : https://store.elfhosted.com
+  - Guides : 
+    - unRAID: guides/unraid-storagebox-vpn.md
   - Support:
     - get-help.md
     - Discord: https://discord.elfhosted.com
