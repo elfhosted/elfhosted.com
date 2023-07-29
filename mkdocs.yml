@@ -12,7 +12,7 @@ edit_uri: 'edit/main/docs/'
 copyright: 'Copyright &copy; 2023 David Young, Funky Penguin Limited'
 
 # Repository
-repo_name: 'elfhosted-docs'
+repo_name: 'elfhosted.com'
 repo_url: 'https://github.com/geek-cookbook/elfhosted.com'
 
 
@@ -271,7 +271,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: geek-cookbook
-      repo: elfhosted-docs
+      repo: elfhosted.com
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
