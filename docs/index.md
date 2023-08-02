@@ -9,7 +9,7 @@ hide:
 
 * [x] We host typical self-hosted apps for you, securely and reliably.
 * [x] Attach your own storage and VPN or just use ours.
-* [x] Only pay for the apps you need, swap them out when you want to
+* [x] Only pay for the apps you need, swap them out when you want to, billed from $0.05/day
 
 [See the apps :gift:](/apps/){ .md-button .md-button--primary } [Buy buy buy! :shopping_cart:](https://store.elfhosted.com){ .md-button .md-button--primary }
 

@@ -157,12 +157,12 @@ nav:
     - open/index.md
     - Design:
       - open-source/design/index.md
+    - Reports:
+      - July 2023: open/july-2023.md    
+      - June 2023: open/june-2023.md
     - Traffic:
       - elfhosted.com: open/traffic/elfhosted.com.md
       - store.elfhosted.com: open/traffic/store.elfhosted.com.md
-    - Metrics:
-      - June 2023: open/june-2023.md
-
 
 theme:
   name: 'material'
