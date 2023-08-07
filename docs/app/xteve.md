@@ -2,6 +2,7 @@
 slug: xTeVe
 description: xTeVe M3U Proxy for Plex DVR and Emby Live TV
 upstream: https://github.com/xteve-project/xTeVe
+price: 0.10
 ---
 
 # {{ page.meta.slug }}

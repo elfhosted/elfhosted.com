@@ -5,6 +5,7 @@ upstream: https://komga.org
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/Komga/
+price: 0.15
 ---
 
 # {{ page.meta.slug }}

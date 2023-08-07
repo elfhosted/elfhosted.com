@@ -7,6 +7,7 @@ links:
   uri: https://forums.nextpvr.com/
 - name: wiki
   uri: https://github.com/sub3/NextPVR/wiki
+price: 0.10
 ---
 
 # {{ page.meta.slug }}

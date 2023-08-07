@@ -5,6 +5,7 @@ upstream: https://docs.shokoanime.com
 links:
 - name: Discord
   uri: https://discord.com/invite/vpeHDsg
+price: 0.10
 ---
 
 # {{ page.meta.slug }}

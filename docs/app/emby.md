@@ -9,6 +9,7 @@ upstream: https://emby.media
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/emby
+price: 0.15
 ---
 
 # {{ page.meta.slug }}

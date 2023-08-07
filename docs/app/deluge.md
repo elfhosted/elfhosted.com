@@ -9,6 +9,7 @@ works_with:
 - Readarr
 - Sonarr
 upstream: https://deluge-torrent.org
+price: 0.10
 ---
 
 # {{ page.meta.slug }}

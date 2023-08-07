@@ -12,6 +12,7 @@ works_with:
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/seafile/
+price: 0.15
 ---
 
 # {{ page.meta.slug }}

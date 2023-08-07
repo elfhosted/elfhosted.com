@@ -5,6 +5,7 @@ upstream: https://mattermost.com/
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/mattermost
+price: 0.15
 ---
 
 # {{ page.meta.slug }}

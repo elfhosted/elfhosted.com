@@ -9,6 +9,7 @@ upstream: https://plex.tv
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/plex
+price: 0.15
 ---
 
 # {{ page.meta.slug }}

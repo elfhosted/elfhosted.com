@@ -5,6 +5,7 @@ upstream: https://syncthing.net
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/Syncthing
+price: 0.10
 ---
 
 # {{ page.meta.slug }}

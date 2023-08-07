@@ -14,6 +14,7 @@ works_with:
 - ruTorrent
 - SABnzbd
 - Sonarr
+price: 0.10
 ---
 
 # {{ page.meta.slug }}
