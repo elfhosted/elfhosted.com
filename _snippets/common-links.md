@@ -25,6 +25,7 @@
 [nzbget]:             /app/nzbget/
 [nzbhydra]:           /app/nzbhydra/
 [ombi]:               /app/ombi/
+[openbooks]:          /app/openbooks/
 [overseerr]:          /app/overseerr/
 [plex]:               /app/plex/
 [privatebin]:         /app/privatebin/
