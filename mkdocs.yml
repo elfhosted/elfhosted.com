@@ -104,6 +104,7 @@ nav:
       - Flaresolverr: app/flaresolverr.md
       - NZBGet: app/nzbget.md
       - NZBHydra: app/nzbhydra.md
+      - Openbooks: app/openbooks.md
       - Prowlarr: app/prowlarr.md
       - Pyload: app/pyload.md
       - qBittorrent: app/qbittorrent.md
