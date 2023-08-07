@@ -6,6 +6,17 @@
 </div>
 {% endblock %}
 
+<!-- Add little penguin ascii-art to titles instead of 20-character-long site name -->
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+  <title>{{ page.meta.title }} | ElfHosted</title>
+  {% elif page.title and not page.is_homepage %}
+  <title>{{ page.title | striptags }} | ElfHosted</title>
+  {% else %}
+  <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
 {% block analytics %}
 <script src="/js/i-am-groot.js"></script>
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>

@@ -1,6 +1,7 @@
 ---
+title: Plex hosting with hardware transcoding for $0.15/day
 slug: Plex
-description: Plex is a power media player with support across a large range of platforms
+description: ElfHosted provides simple Plex hosting - including hardware transcoding
 works_with:
 - Ombi
 - Overseerr

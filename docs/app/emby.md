@@ -1,4 +1,5 @@
 ---
+title: Elf Hosted Emby 🪄 from $0.15/day
 slug: Emby
 works_with:
 - Overseerr

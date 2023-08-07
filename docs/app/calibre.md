@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Calibre 🪄 from $0.05/day
 slug: Calibre
 description: Calibre is a cross-platform free and open-source suite of e-book software
 works_with:
