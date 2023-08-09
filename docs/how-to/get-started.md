@@ -10,7 +10,7 @@ See the "elf-abetically sorted" list of [apps](/apps/), and subscribe to one or 
 
 ### Choose a username
 
-On checkout, you'll be asked to verify your email address, and create an account. The username that you use will define the URLs your apps will appear at, so user "johnwick" will end up with [Plex][plex] at `https://johnwick.plex.elfhosted.com`. 
+On checkout, you'll be asked to verify your email address, and create an account. The username that you use will define the URLs your apps will appear at, so user "johnwick" will end up with [Plex][plex] at `https://johnwick-plex.elfhosted.com`. 
 
 !!! tip
     Choose a sensible username, it can't be changed later. (*`ilikebigbutts007.elfhosted.com` won't be so funny when you invite Grandma :older_woman: to your [Plex][plex] server!*)
@@ -74,13 +74,11 @@ If it's a new config we've not encountered, you'll need to get in touch so that 
     
     A mount permanently attaches the rclone-compatible storage to your apps, so if you want to play media from Droxbox via Plex, then you'll need a mount.
 
-## Bring your VPN (optional)
+## Bring your own VPN
 
-Our bittorrent clients default to "ElfVPN", a shared (*and occasionally overloaded*) VPN link for occasional use.
+If you want to use bittorrent clients, you'll need to bring your existing VPN subscription. If you don't yet **have** a VPN subscription, we can recommend [Private Internet Access](https://www.privateinternetaccess.com/pages/buy-a-vpn/1218buyavpn?invite=U2FsdGVkX18CE8WQvq-yt5OJ9UFpALCzci2Oz_px1uA%2CGuAfcPbAeh-UmP4KJ2uroADgSdY) (*referral link*), who are currently running a big 3-year special, and whose port-forwarding implementation is known to work well. 
 
-If you want better performance from bittorrent clients, you can instead attach your own existing VPN subscription to your torrenting apps.
-
-Edit your subscription, and change the torrent app for a BYO VPN variant supporting your provider. If you don't see your provider listed, get in touch and we can try to add it.
+Choose your torrent app variant matching your VPN provider. If you don't see your provider listed, get in touch and we can try to add it.
 
 !!! question "What VPN providers can you support?"
     Typically any providers which support WireGuard or OpenVPN.

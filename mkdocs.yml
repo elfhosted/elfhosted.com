@@ -133,6 +133,7 @@ nav:
 
   - Store : https://store.elfhosted.com
   - Guides : 
+    - Media Server: guides/build-media-streaming-server.md
     - unRAID: guides/unraid-storagebox-vpn.md
   - Support:
     - get-help.md
