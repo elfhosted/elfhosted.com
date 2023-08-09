@@ -17,7 +17,7 @@ Pay only for what you use, and walk away without lock-in, anytime.
 
 ### Create account, get $10 credit
 
-[Sign up for an account](https://store.elfhosted.com/my-account/), and confirm your $10 [ElfBuckz][elfbuckz] balance.
+[Sign up for an account](https://store.elfhosted.com/my-account/), and confirm your $10 [ElfBuckz][elfbuckz] (*store credit*) balance.
 
 ### Add streaming apps
 
@@ -77,8 +77,6 @@ Configure your usenet provider in your apps (above)
 
 To find content to download form Usenet, you'll need a indexer. See [here for a detailed collection](https://www.reddit.com/r/usenet/wiki/indexers/).
 
-### Configure Usenet indexers in Prowlarr
-
 Add your indexers to Prowlarr, and sync to the apps, so that each app can query the indexers.
 
 ## Add media via Torrents (optional)
@@ -115,8 +113,6 @@ And to make it all nice and automatic, optionally add [Prowlarr][prowlarr] to sy
 ### Add torrent trackers
 
 You'll need to use a tracker to find .torrent files to download. Here's an [exhaustive list of public trackers](https://github.com/ngosang/trackerslist), and here's an [r/trackers wiki page explaining the difference between public and private trackers](https://www.reddit.com/r/trackers/comments/tw4ji0/tracker_faq_and_recommended_sites/), and where to go next.
-
-### Configure torrent trackers in Prowlarr
 
 Add your trackers to Prowlarr, and sync to the apps, so that each app can query the trackers.
 
