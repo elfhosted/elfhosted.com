@@ -87,10 +87,7 @@ If your data is elsewhere, and you want to "pull" it into ElfStorage, use [Rclon
 
 #### Pushing data into ElfStorage
 
-Unlike Hetzner's Storageboxes, you can't transfer data into ElfStorage directly, so if you want to **push** data into ElfStorage, you'll need to add [Minio][minio] to your apps, and then use Minio as an S3-compatible endpoint transfer data **into** ElfStorage.
-
-!!! warning
-    You'll need to throttle down your requests/sec to below 5, to avoid 429 errors
+Unlike Hetzner's Storageboxes, you can't transfer data into ElfStorage directly, so if you want to **push** data into ElfStorage, you'll need to add [WebDAV][webdav] to your apps, and then use rclone to transfer data **into** ElfStorage as a WebDAV remote.
 
 ## Config
 

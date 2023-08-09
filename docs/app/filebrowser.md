@@ -9,7 +9,7 @@ File Browser lets you interact with your files through a quick and beautiful web
 
 File Browser is particularly useful for:
 
-* [Viewing app logs][view-logs]
+* Viewing app logs / config in `/config`
 * Launching [ElfBot][elfbot]
 
 {% include 'app_access.md' %}

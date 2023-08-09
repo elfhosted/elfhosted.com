@@ -17,7 +17,6 @@
 [lazylibrarian]:      /app/lazylibrarian/
 [lidarr]:             /app/lidarr/
 [mattermost]:         /app/mattermost/
-[minio]:              /app/minio/
 [mylar]:              /app/mylar/
 [navidrome]:          /app/navidrome/
 [nextpvr]:            /app/nextpvr/
@@ -52,10 +51,10 @@
 [unpackerr]:          /app/unpackerr/
 [uptimekuma]:         /app/uptimekuma/
 [vaultwarden]:        /app/vaultwarden/
+[webdav]:             /app/webdav/
 [xteve]:              /app/xteve/
 [youtubedl]:          /app/youtubedl/
 [connect-apps]:       /how-to/connect-apps/
-[view-logs]:          /how-to/view-app-logs/
 [store/storage]:      https://store.elfhosted.com/product-category/storage/
 [store/storagebox]:   https://store.elfhosted.com/product/hetzner-storagebox-mount/
 [store/elfstorage]:   https://store.elfhosted.com/product/elfstorage/

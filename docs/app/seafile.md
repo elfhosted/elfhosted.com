@@ -41,7 +41,7 @@ You should immediately navigate to settings, and change your password. Ideally, 
 
 ## Can I access synced data from my other apps?
 
-**No**. Seafile uses git-like commits to track the sync state of files, which is why it's so fast, but consequently the files are unreadable in any other app. If you want to transfer files for the purposes of accessing with other apps (*i.e. streaming with [Jellyfin][jellyfin]*), then use [File Browser][filebrowser] or [Minio][minio].
+**No**. Seafile uses git-like commits to track the sync state of files, which is why it's so fast, but consequently the files are unreadable in any other app. If you want to transfer files for the purposes of accessing with other apps (*i.e. streaming with [Jellyfin][jellyfin]*), then use [File Browser][filebrowser].
 
 ## Can you see my files?
 
