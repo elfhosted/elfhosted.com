@@ -34,7 +34,6 @@ However, Rclone Browser is very effective at managing long-running transfer queu
 
 ![Screenshot of Rclone FM](/images/screenshots/rclonefm.png){ loading=lazy }
 
-
 !!! warning
     Rclone FM maintains its own queue which you can manage (*even deletes are queued*), but be aware that this queue persists only in your browser tab, and closing the tab will cause you to loose the queue. The active transfer will still complete though.
 

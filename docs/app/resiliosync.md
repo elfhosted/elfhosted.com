@@ -1,4 +1,5 @@
 ---
+title: sElfHosted ResilioSync 🪄 from $0.10/day
 slug: ResilioSync
 description: ResilioSync allows you to sync files between devices on a local network, or between remote devices over the Internet via a modified version of the BitTorrent protocol
 upstream: https://www.resilio.com

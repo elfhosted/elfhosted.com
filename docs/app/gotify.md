@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Gotify 🪄 from $0.05/day
 slug: Gotify
 upstream: https://gotify.net
 description: Gotify is a simple server for sending and receiving messages. You can connect it to several apps, and use it as a destination for notifications, avoiding traditional notification channels like Telegram, Pushover, Discord, etc.

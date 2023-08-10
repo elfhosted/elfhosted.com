@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Prowlarr 🪄 from $0.05/day
 slug: Prowlarr
 description: Prowlarr is an indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports management of both Torrent Trackers and Usenet Indexers
 upstream: https://wiki.servarr.com/prowlarr

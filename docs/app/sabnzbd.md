@@ -1,4 +1,5 @@
 ---
+title: sElfHosted SABnzbd 🪄 from $0.10/day
 slug: SABnzbd
 description: SABnzbd is a popular usenet client
 upstream: https://sabnzbd.org

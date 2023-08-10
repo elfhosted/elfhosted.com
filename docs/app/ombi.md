@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Ombi 🪄 from $0.05/day
 slug: Ombi
 description: Ombi is a self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves!
 upstream: https://ombi.io

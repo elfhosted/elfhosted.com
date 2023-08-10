@@ -1,4 +1,5 @@
 ---
+title: sElfHosted NextPVR 🪄 from $0.15/day
 slug: NextPVR
 description: NextPVR provides IPTV support for Jellyfin/Emby/Plex
 upstream: https://nextpvr.com/
@@ -7,7 +8,7 @@ links:
   uri: https://forums.nextpvr.com/
 - name: wiki
   uri: https://github.com/sub3/NextPVR/wiki
-price: 0.10
+price: 0.15
 ---
 
 # {{ page.meta.slug }}

@@ -1,4 +1,5 @@
 ---
+title: sElfHosted NZBHydra 🪄 from $0.05/day
 slug: NZBHydra
 description: NZBGet is an efficient usenet downloader
 upstream: https://github.com/theotherp/nzbhydra2

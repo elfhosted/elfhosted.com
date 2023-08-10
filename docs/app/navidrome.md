@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Navidrome 🪄 from $0.05/day
 slug: Navidrome
 description: Navidrome allows you to enjoy your music collection from anywhere, by making it available through a modern Web UI and through a wide range of third-party compatible mobile apps, for both iOS and Android devices
 upstream: https://www.navidrome.org

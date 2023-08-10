@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Seafile 🪄 from $0.15/day
 slug: Seafile
 description: SABnzbd is a popular usenet client
 upstream: https://www.seafile.com/en/support/

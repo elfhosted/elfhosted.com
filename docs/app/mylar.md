@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Mylar 🪄 from $0.05/day
 slug: Mylar
 description: Mylar is an automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents
 upstream: https://github.com/mylar3/mylar3

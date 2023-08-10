@@ -1,4 +1,5 @@
 ---
+title: sElfHosted PrivateBin 🪄 from $0.05/day
 slug: PrivateBin
 description: PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted and decrypted in the browser using 256bit AES in Galois Counter mode.
 upstream: https://privatebin.info

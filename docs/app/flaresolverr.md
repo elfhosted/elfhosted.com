@@ -1,4 +1,6 @@
 ---
+title: sElfHosted Flaresolverr 🪄 from $0.05/day
+description: FlareSolverr is a proxy server to bypass Cloudflare protection commonly applied to indexers / trackers, so that they can be auto-queried by Prowlarr
 slug: Flaresolverr
 upstream: https://github.com/FlareSolverr/FlareSolverr
 works_with:

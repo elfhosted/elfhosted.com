@@ -1,4 +1,5 @@
 ---
+title: ElfBot, your helpful ElfHosted CLI tool
 description: ElfBot is a CLI tool for ElfHosted users providing self-service functions such as restarts, backups, and Plex claims
 ---
 # ElfBot

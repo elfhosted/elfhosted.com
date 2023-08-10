@@ -92,6 +92,6 @@ That's it, we're done!
 Where to now?
 
 * [Discord][discord]: Support tickets, new app suggestions, and community support are all here - Jump in and say hi, we're friendly! :wave:
-* FAQ: Got more questions? See the [FAQ](/faq)
+* FAQ: Got more questions? See the [FAQ](/faq/)
 
 --8<-- "common-links.md"

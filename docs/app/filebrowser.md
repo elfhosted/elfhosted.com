@@ -1,4 +1,6 @@
 ---
+title: sElfHosted Filebrowser 🪄 FREE
+description: File Browser lets you interact with your files through a quick and beautiful web interface.
 slug: Filebrowser
 upstream: https://filebrowser.org
 ---

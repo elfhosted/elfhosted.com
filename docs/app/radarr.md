@@ -1,5 +1,5 @@
 ---
-title: Subscribe to seedbox with Radarr for $0.05/day
+title: sElfHosted Radarr 🪄 from $0.05/day
 slug: Radarr
 description: Radarr is a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them
 upstream: https://radarr.video/

@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Lidarr 🪄 from $0.05/day
 slug: Lidarr
 description: Lidarr is a music collection manager for Usenet and BitTorrent users
 upstream: https://lidarr.audio

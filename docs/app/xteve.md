@@ -1,4 +1,5 @@
 ---
+title: sElfHosted xTeVe 🪄 from $0.05/day
 slug: xTeVe
 description: xTeVe M3U Proxy for Plex DVR and Emby Live TV
 upstream: https://github.com/xteve-project/xTeVe

@@ -1,5 +1,6 @@
 ---
-title: Elf Hosted Emby 🪄 from $0.15/day
+title: sElfHosted Emby 🪄 from $0.15/day
+description: Emby brings all of your home videos, music, and photos together into one place.
 slug: Emby
 works_with:
 - Overseerr

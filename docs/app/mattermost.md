@@ -1,4 +1,5 @@
 ---
+title: sElfHosted Mattermost 🪄 from $0.15/day
 slug: MatterMost
 description: Mattermost is an open-source, self-hostable online chat service with file sharing, search, and integrations
 upstream: https://mattermost.com/

@@ -1,4 +1,5 @@
 ---
+title: sElfHosted RPDB 🪄 from $0.05/day
 slug: RPDB
 description: RPDB-Folders monitors media folders and adds images with ratings (*poster.jpg / background.jpg*) from the RPDB API
 upstream: https://github.com/RatingPosterDB/rpdb-folders

@@ -1,5 +1,6 @@
 ---
 slug: RcloneBrowser
+title: sElfHosted Rclonebrowser 🪄 FREE
 description: RcloneBrowser is a simple cross platform GUI for rclone command line tool
 upstream: https://github.com/kapitainsky/RcloneBrowser
 ---
