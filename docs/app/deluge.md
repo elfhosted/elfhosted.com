@@ -26,7 +26,7 @@ Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
 
 The default credentials are:
 
-* user: `deluge`
+* password: `deluge`
 
 See [here][connect-apps] for details re connecting with your other apps.
 
