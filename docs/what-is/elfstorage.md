@@ -5,9 +5,9 @@ description: ElfStorage is ElfHosted's native storage, available you'd prefer no
 
 # ElfStorage
 
-While we encourage users to BYO storage (*especially Hetzner StorageBoxes*), ElfStorage exists to provide quick and easy storage for cases where you might not want to bolt-on external storage.
+While we encourage users to BYO storage (*especially Hetzner [StorageBoxes][storagebox]*), ElfStorage exists to provide quick and easy storage for cases where you might not want to bolt-on external storage.
 
-Every user gets 10Gi ElfStorage free, mounted at `/storage/elfhosted`. Technically, this is done to ensure a smooth user experience when using our pre-provisioned apps, which would not otherwise be possible with the BYO mounts.
+Every user gets 100Gi ElfStorage free, mounted at `/storage/elfhosted`. This is done to ensure a smooth user experience when using our pre-provisioned apps, which would not otherwise be possible with the BYO mounts.
 
 ## How to get more ElfStorage
 
@@ -22,6 +22,6 @@ ElfStorage is provided by a ceph cluster running within our Hetzner environment.
 
 * Nodes are 1Gbps
 * Disks are HDD, with no DB/WAL journals
-* We keep 2 copies of each object, with the failure domain set to an individual host, so we can loose one Ceph host without impacting data availability.
+* We keep 2 copies of each object, with the failure domain set to an individual host, so we can lose one Ceph host without impacting data availability.
 
 --8<-- "common-links.md"

@@ -30,7 +30,7 @@ Take note of the built-in apps, including:
 
 ## Get mooar storage!
 
-OK, so now you have some apps, but there's only 10Gi of storage available at `/storage/elfhosted`, what gives?
+OK, so now you have some apps, but there's only 100Gi of storage available at `/storage/elfhosted`, what gives?
 
 We're storage-flexible - you can buy from us, attach a Hetzner storagebox, or attach your existing rclone-compatible storage. See BYO Storage for more details.
 
@@ -44,11 +44,11 @@ We're storage-flexible - you can buy from us, attach a Hetzner storagebox, or at
     | [StorageBox][storagebox]       | Depends on your relationship with Hetzner. It can be 1-2h, but users have reported multi-day delays waiting on Hetzner to approve their accounts|
     | [Rclone][rclone]    | Instant (*if it's an existing product*), else ~<24h to test and productize |
 
-### Buy from us ($0.01/GB)
+### Buy from us ($6/TB)
 
 Just want it to work instantly? Want to grow your storage over time?
 
-Buy some [ElfStorage][elfstorage] from the [store][store/elfstorage] - you can choose your size to the GB, and we'll instantly and transparently add it to your `/storage/elfhosted` mount. Done! :magic_wand:
+Buy more [ElfStorage][elfstorage] from the [store][store/elfstorage], and we'll instantly and transparently add it to your `/storage/elfhosted` mount. Done! :magic_wand:
 
 !!! warning "Welcome to the Hotel Elf-ifornia"
     We can transparently **grow**, but we can't **shrink** an ElfStorage volume. 
@@ -57,7 +57,7 @@ Buy some [ElfStorage][elfstorage] from the [store][store/elfstorage] - you can c
 
 ### Storagebox
 
-Not willing to commit TBs of data? We get it. Buy a Storagebox [directly from Hetzner](https://www.hetzner.com/storage/storage-box), then [subscribe to a mount][store/storagebox], we'll make it appear in `/storage/storagebox-a` (*`-b and -c` are available too for multiple storageboxen!*)
+Not willing to commit to TBs of data? We get it. Buy a Storagebox [directly from Hetzner](https://www.hetzner.com/storage/storage-box), then [subscribe to a mount][store/storagebox], we'll make it appear in `/storage/storagebox-a` (*`-b and -c` are available too for multiple storageboxen!*)
 
 !!! tip "What's so great about a StorageBox?"
 
