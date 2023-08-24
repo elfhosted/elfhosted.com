@@ -3,7 +3,7 @@ date: 2023-08-18
 categories:
   - CHANGELOG
 tags:
-  - apps
+  - new-apps
 title: SABnzbd / qBitorrent dashboard stats, Calibre upgrade, bugfixes
 description: We've now got SABnzbd and qBitorrent stats on your dashboard, Calibre has a fresh coat of paint, and bugz are squashzed
 ---

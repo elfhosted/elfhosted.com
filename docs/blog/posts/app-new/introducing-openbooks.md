@@ -1,7 +1,7 @@
 ---
 date: 2023-08-07
 categories:
-  - app
+  - new-app
 tags:
   - openbooks
 title: Introducing OpenBooks, Bitcoin payments, PayPal issues

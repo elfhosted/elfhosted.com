@@ -1,7 +1,7 @@
 ---
 date: 2023-07-20
 categories:
-  - app
+  - new-app
 tags:
   - premiumize
   - radarr

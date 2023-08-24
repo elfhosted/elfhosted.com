@@ -36,7 +36,7 @@ TL;DR - the store should be faster to navigate, and stop 404ing under load! (*RA
 
 Our first maintenance window rolled by a few hours ago (*10h00 UTC to 11h00 UTC*), and it's likely that most of you pods were restarted, given there were lots of little changes queued up. Your health tab will show you whether any of your apps were restarted[^1], but it only checks every 5 min, so the restart may have been completely under-the-[radarr][radarr] (*haha*). 
 
-We'll keep to a daily schedule for these updates - apps only restart if there's an upstream (*depends on the pace of upstream development*) or base image security update (*once or twice a month*), and they're typically back in < 1 min.
+We'll keep to a daily schedule for these updates - new-apps only restart if there's an upstream (*depends on the pace of upstream development*) or base image security update (*once or twice a month*), and they're typically back in < 1 min.
 
 ## Next Up
 

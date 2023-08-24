@@ -12,7 +12,7 @@ description: To improve new-user-friendliness, we've got some new bare-bones bun
 
 # New basic streaming bundles
 
-As alluded to yesterday, now that we can sell storage in 1TB "chunks", I've created some [discounted bundles](https://store.elfhosted.com/product-category/bundles/) in the store for minimal streaming stacks.
+As alluded to a few days ago, now that we can sell storage in 1TB "chunks", I've created some [discounted bundles](https://store.elfhosted.com/product-category/bundles/) in the store for minimal streaming stacks.
 
 For users who just want to get started with the basic toolset for media management, we now have bundles with Jellyfin/Plex/Emby, Radarr, Sonarr, and SABnzbd, with the option for 1TB extra storage bundled in.
 
