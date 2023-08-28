@@ -30,9 +30,9 @@ plugins:
     include_dir: _includes
   meta-descriptions: # If not provided, auto-generate a description (https://pypi.org/project/mkdocs-meta-descriptions-plugin/)
   meta:
-  # blog:
-  #   # post_excerpt: required
-  #   post_url_format: "{date}/{file}" # this allows us to change the post title in future without breaking URLs
+  blog:
+    # post_excerpt: required
+    post_url_format: "{date}/{file}" # this allows us to change the post title in future without breaking URLs
   tags:
     tags_file: blog/tags.md
   rss:
