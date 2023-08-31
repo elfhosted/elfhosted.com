@@ -54,12 +54,12 @@ plugins:
     cards_color:
         fill: "#FFFFFF" 
         text: "#000000"  
-  privacy:
-    external_links_attr_map:
-      target: _blank 
-      rel: nofollow   
-    external_assets_exclude:
-      - img.shields.io/*
+  # privacy:
+  #   external_links_attr_map:
+  #     target: _blank 
+  #     rel: nofollow   
+  #   external_assets_exclude:
+  #     - img.shields.io/*
   optimize:
     enabled: true
 
