@@ -19,4 +19,9 @@ Miniflux is a minimalist and opinionated feed reader. The full list of features 
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
+
+### What's my password?
+
+The default username is your own ElfHosted username, and the password is `yesireadthedocs` (*change this after logging in, obviously!*)
+
 {% include 'app_footer.md' %}
