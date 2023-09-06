@@ -17,6 +17,7 @@
 [lazylibrarian]:      /app/lazylibrarian/
 [lidarr]:             /app/lidarr/
 [mattermost]:         /app/mattermost/
+[miniflux]:           /app/miniflux/
 [mylar]:              /app/mylar/
 [navidrome]:          /app/navidrome/
 [nextpvr]:            /app/nextpvr/

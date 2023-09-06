@@ -120,10 +120,10 @@ nav:
       - Filebrowser: app/filebrowser.md
       - Gotify: app/gotify.md
       - Mattermost: app/mattermost.md
+      - Miniflux: app/miniflux.md
       - Privatebin: app/privatebin.md
       - RCloneFM: app/rclonefm.md
       - RCloneUI: app/rcloneui.md
-      - RClone Browser: app/rclonebrowser.md
       - Resilio Sync: app/resiliosync.md
       - Seafile: app/seafile.md
       - Syncthing: app/syncthing.md
