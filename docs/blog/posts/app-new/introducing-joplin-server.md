@@ -28,9 +28,10 @@ If you don't trust a seedy seedbox host with your super secret notes (*and why s
 
 :material-target: Metric | Numberz
 ---------|----------
-:fontawesome-regular-circle-user: Total subscribers[^1] | 39
+:fontawesome-regular-circle-user: Total subscribers | 39
 :fontawesome-solid-hard-drive: Storageboxes mounted | 17
 :material-sync: Rclone mounts | 11
+:material-dolphin: Tenant pods | 705
 :material-bug: Bugz squished | 1
 :fontawesome-solid-gamepad: New toyz | 1
 
