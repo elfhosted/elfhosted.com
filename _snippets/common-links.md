@@ -12,6 +12,7 @@
 [jellyfin]:           /app/jellyfin/
 [jellyseerr]:         /app/jellyseerr/
 [jellyfin-accounts]:  /app/jellyfin-accounts/
+[joplin-server]:      /app/joplin-server/
 [kavita]:             /app/kavita/
 [komga]:              /app/komga/
 [lazylibrarian]:      /app/lazylibrarian/
