@@ -10,9 +10,18 @@ links:
 
 # {{ page.meta.slug }}
 
-Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device, with syncing and publishing provided by Jopin Server.
+[Joplin](https://joplinapp.org/) is a 100% open-source , markdown-driven note-taking app, similar to [Obsidian](https://obsidian.md/) or [Logseq](https://logseq.com/). There are [apps](https://joplinapp.org/) for Mac, Windows, and Linux, even a terminal app!
 
 {% include 'app.md' %}
+
+Joplin Server is the open-source version of the sync engine behind https://joplincloud.com, which takes you beyond simple apps, by enabling cross-device sync, sharing, publishing, etc.
+
+Adding Joplin Server to your "Elf Stack" will let you utilize your ElfStorage (*pass go, collect 100GB*) for storing notes, attachments, etc.
+
+The "publish note" feature is pretty - [here's an example](https://funkypenguin-joplin-server.elfhosted.com/shares/6m2JjKW5zUqtZrWNMj1lNI) of what a published note looks like - it's published by joplin-server (*so you can edit it with any client on any device*), and it's auto-updated whenever the note is updated.
+
+If you don't trust a seedy seedbox host with your super secret notes (*and why should you?*), you can enable E2E encryption in the client apps, which (*like [Seafile][seafile]*) means that all that's stored in ElfStorage is the encrypted blobs, and some metadata in the postgresql database.
+
 {% include 'app_access.md' %}
 
 ### What's my password?
