@@ -49,6 +49,7 @@
 [sonarr]:             /app/sonarr/
 [syncthing]:          /app/syncthing/
 [tautulli]:           /app/tautulli/
+[tdarr]:              /app/tdarr/
 [thelounge]:          /app/thelounge/
 [unpackerr]:          /app/unpackerr/
 [uptimekuma]:         /app/uptimekuma/
