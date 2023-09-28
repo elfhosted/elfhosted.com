@@ -3,9 +3,6 @@ title: sElfHosted Notifiarr 🪄 from $0.05/day
 slug: Notifiarr
 description: Notifiarr is a client interface for Notifiarr.com, a fancy thing-doer for integration with the various apps, as well as with a Discord server
 upstream: https://notifiarr.wiki/
-links:
-- name: subreddit
-  uri: https://www.reddit.com/r/Komga/
 ---
 
 # {{ page.meta.slug }}
