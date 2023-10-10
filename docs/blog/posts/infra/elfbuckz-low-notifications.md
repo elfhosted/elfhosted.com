@@ -9,11 +9,11 @@ description: Now you'll be notified when your ElfBuckz balance is running low
 ---
 # Notifications enabled on low ElfBuckz balances
 
-A longstanding issue we've been dealing with is that the [Wordpress plugin we use to provide ElfBuckz](https://woocommerce.com/document/account-funds/) doesn't include the ability to notify users when their balance is running low. So unless you manually keep track of your ElfBuckz balance, you're at risk of having your services stop when the ElfBuckz run out, without notice :scream:
+A longstanding issue we've been dealing with is that the [Wordpress plugin we use to provide ElfBuckz](https://woocommerce.com/document/account-funds/) doesn't include the ability to notify users when their balance is running low. So unless you manually keep track of your ElfBuckz balance, you're at risk of having your services stop when your ElfBuckz run out, without notice! :scream:
 
 Since we recently fixed the deprovisioning bug, this has become even more important, so today I finally got my hands dirty and modified the plugin myself, adding the ability to notify users when their account balance goes low.
 
-So.. you should now be alerted whenever your ElfBuckz balance drops below $1, which should give you plenty of time to arrange a [topup](https://store.elfhosted.com/product/elfbuckz-topup/) (*of course, once you subscribe to a top-up with the appropriate quantity, your ElfBuckz will "refill" every months, and you may never see these notifications*)
+So.. you should now be alerted whenever your ElfBuckz balance drops below $1, which should give you plenty of time to arrange a [topup](https://store.elfhosted.com/product/elfbuckz-topup/) (*of course, once you subscribe to a top-up with the appropriate quantity, your ElfBuckz will "refill" every month, and you may never see these notifications*)
 
 <!-- more -->
 
