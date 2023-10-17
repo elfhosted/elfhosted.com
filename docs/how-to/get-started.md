@@ -4,20 +4,26 @@ Here's a TL;DR guide to getting started. We'll start simple, and then go through
 
 ## First steps
 
-### Choose your first app(s)
+### Create your account, get your $10 ElfBuckz
 
-See the "elf-abetically sorted" list of [apps](/apps/), and subscribe to one or more apps from the [store][store].
+Register your account at https://store.elfhosted.com/my-account/. Enter your username in lower-case (*the store will tell you if your username is invalid, but not why! :man_facepalming:*)
 
-### Choose a username
-
-On checkout, you'll be asked to verify your email address, and create an account. The username that you use will define the URLs your apps will appear at, so user "johnwick" will end up with [Plex][plex] at `https://johnwick-plex.elfhosted.com`. 
+The username that you use will define the URLs your apps will appear at, so user "johnwick" will end up with [Plex][plex] at `https://johnwick-plex.elfhosted.com`. 
 
 !!! tip
     Choose a sensible username, it can't be changed later. (*`ilikebigbutts007.elfhosted.com` won't be so funny when you invite Grandma :older_woman: to your [Plex][plex] server!*)
 
+Once you've logged into your account, you'll note that your [ElfBuckz balance](https://store.elfhosted.com/my-account/account-funds/) is at $10. 
+
+Time to spend those free ElfBuckz!
+
+### Choose your first app(s)
+
+See the "elf-abetically sorted" list of [apps](/apps/), and subscribe to one or more apps from the [store][store].
+
 ### Explore your dashboard
 
-After purchase, you'll receive email confirmation of your order, and your apps will be available at `https://<your username>.elfhosted.com`. Log in, look around. 
+After a subscription purchase, you'll receive email confirmation of your order, and your apps will be available at `https://<your username>.elfhosted.com`. Log in, look around.
 
 Take note of the built-in apps, including:
 
@@ -32,7 +38,7 @@ Take note of the built-in apps, including:
 
 OK, so now you have some apps, but there's only 100Gi of storage available at `/storage/elfhosted`, what gives?
 
-We're storage-flexible - you can buy from us, attach a Hetzner storagebox, or attach your existing rclone-compatible storage. See BYO Storage for more details.
+We're storage-flexible - you can buy from us, attach a [Hetzner storagebox][storagebox], or attach your existing rclone-compatible storage. See the [storage category in the store](https://store.elfhosted.com/product-category/storage/) for more options.
 
 !!! question "Are we there yet?"
 
