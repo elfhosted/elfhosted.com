@@ -20,17 +20,9 @@ There are two ways to use Rclone, here's the difference:
 
 ![Screenshot of Rclone UI](/images/screenshots/rcloneui.png){ loading=lazy }
 
-### Rclone Browser
-
-[Rclone Browser][rclonebrowser] is a desktop rclone UI running inside a VNC session, inside a browser tab. For this reason, it's a little fiddly to navigate, and it doesn't support copy/paste, so using it to add rclone remotes is not recommended.
-
-However, Rclone Browser is very effective at managing long-running transfer queue. Because it's just a VNC session, you can close the browser tab, open it again elsewhere, and see the app running just as you left it.
-
-![Screenshot of Rclone Browser](/images/screenshots/rclonebrowser.png){ loading=lazy }
-
 ### RcloneFM
 
-[Rclone FM][rclonefm] ("File Manager") is an alternative rclone web UI, which is a good middle-ground between the simplicity of [RcloneUI][rcloneui] and the fiddliness of [Rclone Browser][rclonebrowser]. You can't use it to configure remotes (*use [RcloneUI][rcloneui] for this*), but you can use it for simple side-by-side filemanager-type operations.
+[Rclone FM][rclonefm] ("File Manager") is an alternative rclone web UI. You can't use it to configure remotes (*use [RcloneUI][rcloneui] for this*), but you can use it for simple side-by-side filemanager-type operations.
 
 ![Screenshot of Rclone FM](/images/screenshots/rclonefm.png){ loading=lazy }
 
