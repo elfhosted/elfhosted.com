@@ -61,6 +61,7 @@
 [store/storage]:      https://store.elfhosted.com/product-category/storage/
 [store/storagebox]:   https://store.elfhosted.com/product/hetzner-storagebox-mount/
 [store/elfstorage]:   https://store.elfhosted.com/product/elfstorage/
+[store/plex]:         https://store.elfhosted.com/product/plex/
 [store]:              https://store.elfhosted.com
 [discord]:            https://discord.elfhosted.com
 [elfstorage]:         /what-is/elfstorage/

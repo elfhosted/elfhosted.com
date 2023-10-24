@@ -136,6 +136,7 @@ nav:
   - Store : https://store.elfhosted.com
   - Guides : 
     - Media Server: guides/build-media-streaming-server.md
+    - Plex Cloud: guides/your-own-plex-cloud.md 
     - unRAID: guides/unraid-storagebox-vpn.md
   - Support:
     - get-help.md

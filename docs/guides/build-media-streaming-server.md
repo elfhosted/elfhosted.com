@@ -24,14 +24,14 @@ Pay only for what you use, and walk away without lock-in, anytime.
 Add one (or more) of these media-streaming apps:
 
 * [Jellyfin][jellyfin] - Most popular free app
-* [Plex][plex] - The most popular / polished app, but a paid PlexPass is required for some features like hardware transcoding
+* [Plex][plex] - The most popular / polished app, but requires a VPN, and a paid PlexPass is required for some features like hardware transcoding.
 * [Emby][emby] - Competitor to Plex, some features required paid "Emby Premier" subscription (*Jellyfin is an open-source fork of Emby*)
 
 ### Add storage
 
 You get 10GB free "[ElfStorage][elfstorage]", but this won't be enough for any sort of media collection (*other than perhaps [books][calibre-web]!*) Pick one (or more) of the options below:
 
-1. Add more [ElfStorage][elfstorage] at $0.01/GB/month (*so $10/TB*)
+1. Add more [ElfStorage][elfstorage] at $0.20/TB/month (*so $6/TB*)
 2. [Buy a storagebox][storagebox] from Hetzner
 3. [Mount][store/storage] your existing (rclone-compatible) cloud storage
 
@@ -45,7 +45,7 @@ That's it! Use your media streamer to stream your media!
 
 ## Add media via NZBs (optional)
 
-See [r/torrents](https://reddit.com/r/usenet) for general details about aquiring media using usenet.
+See [r/torrents](https://reddit.com/r/usenet) for general details about acquiring media using usenet.
 
 ### Add apps
 
@@ -66,7 +66,7 @@ And to make it all nice and automatic, optionally add [Prowlarr][prowlarr] to sy
 
 ### Add Usenet providers
 
-Choose one or more [usenet providers](https://www.reddit.com/r/usenet/wiki/providers/), and add them to your NZB client. Some of them offer free trial accounts. 
+Choose one or more [usenet providers](https://www.reddit.com/r/usenet/wiki/providers/), and add them to your NZB client. Some of them offer free trial accounts.
 
 !!! question "What Usenet provider should I choose?"
     If you have no idea what to chose, try [UsenetFarm](https://usenet.farm?a=elfhosted.com) (*affiliate link*), who offer a free 10GB trial to get you started.
