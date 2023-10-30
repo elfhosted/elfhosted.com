@@ -85,6 +85,11 @@ Preconfigured in Radarr/Sonarr/Lidarr/Readarr/Mylarr
 * port: `7878`
 * credentials: `(get api key from UI at Settings -> General)`
 
+## [RDTClient][rdtclient]
+
+* host: `rdtclient`
+* port: `6500`
+
 ## [Readarr][readarr]
 
 * host: `readarr` (*or `readarraudio`*)
