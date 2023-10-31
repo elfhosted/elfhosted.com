@@ -32,7 +32,7 @@ If you'd prefer something automated for a more complex migration, here are some 
     ```bash
     [hetzner]
     type = smb
-    host = //u*****.your-storagebox.de/backup
+    host = u*****.your-storagebox.de
     user = u*****
     pass = ************
     ```
@@ -42,7 +42,7 @@ If you'd prefer something automated for a more complex migration, here are some 
     ```bash
     [hetzner]
     type = smb
-    host = //u*****-sub**.your-storagebox.de/sub-**
+    host = u*****-sub**.your-storagebox.de
     user = sub**
     pass = ************
     ```
@@ -71,10 +71,11 @@ If you'd prefer something automated for a more complex migration, here are some 
 
 #### Using Rclone
 
-!!! tip
-    In this case, we use [Rclone][rclone] / [RcloneBrowser][rclonebrowser] on ElfHosted to suck data **into** Storagebox
+Here's a brief example re using rclone to transfer data from an existing seedbox into your Storagebox.
 
-If you don't **have** a remote location from which transfer data into StorageBox, use [Rclone][rclone] / [RcloneBrowser][rclonebrowser] within ElfHosted, to connect to your remote storage, and start a transfer to `/storage/storagebox-a` (*you need to have purchased a [StorageBox mount][store/storagebox]*). You might use this, for example, if you wanted to bring content from a Dropbox folder into Storagebox.
+1. Configure rclone for your Storagebox settings, with `rclone config`. Create a new SMB remote named `storagebox`, and choose the defaults aside for hostname, username, and password.
+2. Confirm your remote is correct, by running `rclone mkdir storagebox:test`. Confirm that the test folder appears in your [elfhosted-mounted storagebox][store/storagebox]
+3. Assuming your content is stored under `/home/harrypotter/secretfiles`, copy it to your storagebox by running `rclone copy -v /home/harrypotter/secretfiles storagebox:backup/` (*`backup` is the name of the default storagebox share*)
 
 ### Into ElfStorage
 
