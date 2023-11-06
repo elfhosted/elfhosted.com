@@ -21,6 +21,6 @@ Connect your subsonic-compatible app to `https://<username>.navidrome.elfhosted.
 
 ## Where's my music?
 
-Navidrome will automatically index and display music from the `/storage/elfhosted/music` folder. To change the target folder, create `/config/navidrome/navidrome.toml`, and populate with the [desired configuration options](https://www.navidrome.org/docs/usage/configuration-options/#basic-configuration). Use [ElfBot][elfbot] to restart Navidrome after saving changes.
+Navidrome will automatically index and display music from the `/storage/elfstorage/music` folder. To change the target folder, create `/config/navidrome/navidrome.toml`, and populate with the [desired configuration options](https://www.navidrome.org/docs/usage/configuration-options/#basic-configuration). Use [ElfBot][elfbot] to restart Navidrome after saving changes.
 
 {% include 'app_footer.md' %}
