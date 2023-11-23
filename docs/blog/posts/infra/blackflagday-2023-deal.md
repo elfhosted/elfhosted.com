@@ -4,7 +4,7 @@ categories:
   - Notes
 tags:
   - store
-title: 80% on Arrs ($0.01/day) for BlackFlagDay 🏴‍☠️
+title: 80% off Arrs ($0.01/day) for BlackFlagDay 🏴‍☠️
 description: Aaar ye on the fence, matey? For yon Friday, black as me poorly-brushed teeth, we have scurvy 80% deal on all the Arrs.. that's $0.01/day, or $3.65/year! Shiver me timbaaars!
 ---
 # 80% off Arrs ($0.01/day) for Black Flagday 🏴‍☠️ !
