@@ -31,7 +31,7 @@ Our nodes support Intel QuickSync for Video (QSV). Enable this under the admin d
 
 ### From media players
 
-When you configure the Jellyfin app in your media player, use `https://<username>.jellyfin.elfhosted.com` as the address (*if a port is required, use `443`*)
+When you configure the Jellyfin app in your media player, use `https://<username>-jellyfin.elfhosted.com` as the address (*if a port is required, use `443`*)
 
 ## Solutions to common issues
 

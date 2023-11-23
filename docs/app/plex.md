@@ -28,7 +28,7 @@ You'll be prompted to setup your libraries, etc.
 
 ### From media players
 
-When you configure the Plex app in your media player, use `https://<username>.plex.elfhosted.com` as the address (*if a port is required, use `443`*)
+When you configure the Plex app in your media player, use `https://<username>-plex.elfhosted.com` as the address (*if a port is required, use `443`*)
 
 ### Enable Hardware transcoding
 

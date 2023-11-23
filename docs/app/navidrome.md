@@ -17,7 +17,7 @@ Navidrome allows you to enjoy your music collection from anywhere, by making it 
 
 ### From mobile apps
 
-Connect your subsonic-compatible app to `https://<username>.navidrome.elfhosted.com`
+Connect your subsonic-compatible app to `https://<username>-navidrome.elfhosted.com`
 
 ## Where's my music?
 
