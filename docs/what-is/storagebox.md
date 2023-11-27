@@ -29,4 +29,8 @@ Technically, Storage boxes can be accessed via SMB, making them an efficient and
 
 You can subscribe to a slot (A, B, or C) [in the store][store/storagebox]. Enter your storagebox credentials (*subaccounts also work*), and purchase. The storage will appear in `/storage/storagebox-<a/b/c>` within your apps.
 
+Use the username provided with your storagebox, and reset the password if you don't already have one:
+
+![](/images/storagebox-reset-password.png)
+
 --8<-- "common-links.md"
