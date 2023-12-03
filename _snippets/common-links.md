@@ -9,6 +9,7 @@
 [filebrowser]:        /app/filebrowser/
 [flaresolverr]:       /app/flaresolverr/
 [gotify]:             /app/gotify/
+[homepage]:           /app/homepage/
 [jellyfin]:           /app/jellyfin/
 [jellyseerr]:         /app/jellyseerr/
 [jellyfin-accounts]:  /app/jellyfin-accounts/
