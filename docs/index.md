@@ -7,12 +7,13 @@ hide:
 ---
 # 👋 Welcome to ElfHosted!
 
+![](/images/logo.png){ align=left }
+
 * [x] We run popular self-hosted apps for you, securely and reliably.
 * [x] Attach your own storage or just use ours.
 * [x] Only pay for the apps you need, swap them out when you want to, billed from $0.05/day
 
-[See the apps :gift:](/apps/){ .md-button .md-button--primary } [Get started with FREE $10 credit](https://store.elfhosted.com){ .md-button .md-button--primary }
-
+[See the apps :gift:](/apps/){ .md-button .md-button--primary } [Get started with FREE $10 credit :moneybag:](https://store.elfhosted.com){ .md-button .md-button--primary }
 
 ## Quick Start Guides
 

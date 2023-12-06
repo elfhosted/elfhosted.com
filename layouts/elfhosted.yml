@@ -1,0 +1,117 @@
+definitions:
+
+  - &page_title >-
+    {%- if not page.is_homepage -%}
+      {{ page.meta.get("slug", page.title) }}
+    {%- else -%}
+      {{ page.meta.get("title", page.title) }}
+    {%- endif -%}
+
+  - &page_description >-
+    {%- if not page.is_homepage -%}
+      {{ page.meta.get("description", page.title) }}
+    {%- else -%}
+      {{ page.meta.get("title", page.title) }}
+    {%- endif -%}  
+
+  - &page_background >-
+    {%- if not page.is_homepage -%}
+      docs/images/screenshots/{{ page.meta.get("slug", "notifiarr") | lower }}.png
+    {%- else -%}
+      {{ page.meta.get("title", page.title) }}
+    {%- endif -%}        
+
+size: { width: 1200, height: 630 }
+layers:
+
+  # Screenshot (if it exists)
+  - background:
+      color: "#8B877F1A"
+      image: *page_background    
+
+  # Triangle
+  - size: { width: 1800, height: 1800 }
+    offset: { x: 0, y: -300 }
+    icon:
+      value: material/triangle
+      color: "#889f2bDB"  
+    origin: start bottom
+
+  # logo
+  - size: { width: 300, height: 300 }
+    offset: { x: 60, y: 0 }
+    icon:
+      value: elfhosted
+      # color: "#889f2bDB"  
+    origin: start bottom
+
+  # Elf
+  - size: { width: 160, height: 100 }
+    offset: { x: 250, y: 0 }
+    typography:
+      content: Elf
+      color: "#2B180A"
+      align: end bottom
+      font: 
+        family: Ubuntu
+        style: Bold
+    origin: start bottom        
+
+  # Hosted
+  - size: { width: 310, height: 100 }
+    offset: { x: 410, y: 0 }
+    typography:
+      content: Hosted
+      align: end bottom
+      color: "#2E5215"
+      font: 
+        family: Ubuntu       
+        style: Bold
+    origin: start bottom    
+
+  # .com
+  - size: { width: 200, height: 100 }
+    offset: { x: 710, y: 0 }
+    typography:
+      content: .com
+      color: "#2B180A4F"
+      align: end bottom
+      font: 
+        family: Ubuntu
+        style: Bold
+    origin: start bottom          
+
+  # Slug
+  - size: { width: 700, height: 200 }
+    offset: { x: 20, y: 20 }
+    typography:
+      content: *page_title
+      overflow: shrink
+      align: center
+      color: "#2B180A"
+      font: 
+        family: Ubuntu       
+        style: Bold  
+      line:
+        amount: 1
+        height: 1.25        
+    origin: end top       
+
+  - size: { width: 850, height: 300 }
+    offset: { x: 20, y: 220 }
+    typography:
+      overflow: shrink
+      content: *page_description
+      align:  end
+      color: "#2E5215"
+      font: 
+        family: Ubuntu       
+        style: Light Italic
+      line:
+        amount: 5
+        height: 1.6        
+    origin: end top
+
+
+  # - size: { width: 1200, height: 630 }
+  #   offset: { x: 0, y: 0 }

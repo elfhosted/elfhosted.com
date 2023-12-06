@@ -55,6 +55,7 @@
 [unpackerr]:          /app/unpackerr/
 [uptimekuma]:         /app/uptimekuma/
 [vaultwarden]:        /app/vaultwarden/
+[wallabag]:           /app/wallabag/
 [webdav]:             /app/webdav/
 [xteve]:              /app/xteve/
 [youtubedl]:          /app/youtubedl/

@@ -1,0 +1,63 @@
+size: { width: 1200, height: 630 }
+layers:
+
+  - background:
+      color: "#8B877F1A"
+      # image: docs/images/screenshots/plex.png      
+
+  - size: { width: 1800, height: 1800 }
+    offset: { x: 0, y: -300 }
+    icon:
+      value: material/triangle
+      color: "#889f2b"  
+    origin: start bottom
+
+  - size: { width: 200, height: 100 }
+    offset: { x: 310, y: 0 }
+    typography:
+      content: Elf
+      color: "#2B180A"
+      align: end bottom
+      font: 
+        family: Ubuntu
+        style: Bold
+    origin: end bottom        
+
+  - size: { width: 310, height: 100 }
+    # offset: { x: -450, y: 0 }
+    typography:
+      content: Hosted
+      align: end bottom
+      color: "#2E5215"
+      font: 
+        family: Ubuntu       
+        style: Bold
+    origin: end bottom        
+
+  - size: { width: 900, height: 300 }
+    offset: { x: 0, y: 150 }
+    typography:
+      content: Plex
+      overflow: shrink
+      align: center
+      color: "#2B180A"
+      font: 
+        family: Ubuntu       
+        style: Bold  
+    origin: end top       
+
+  - size: { width: 550, height: 200 }
+    offset: { x: 220, y: 0 }
+    typography:
+      content: "I am a lot of very fancy text describing how to do things"
+      overflow: shrink
+      align: start center
+      color: "#2E5215"
+      font: 
+        family: Ubuntu       
+        style: Light  
+    origin: start bottom   
+
+
+  # - size: { width: 1200, height: 630 }
+  #   offset: { x: 0, y: 0 }

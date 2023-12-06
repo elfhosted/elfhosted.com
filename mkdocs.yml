@@ -1,4 +1,4 @@
-site_name: "ElfHosted - app hosting that works like magic! 🪄"
+site_name: "ElfHosted : app hosting that works like magic! 🪄"
 # site_description: app hosting that magically "Just Works(tm)"
 site_author: 'David Young'
 site_url: 'https://elfhosted.com'
@@ -49,11 +49,10 @@ plugins:
       utm_medium: "RSS"
       utm_campaign: "feed-syndication"
   social:
-    cards_layout_options:
-      font_family: Ubuntu  
-    cards_color:
-        fill: "#FFFFFF" 
-        text: "#000000"  
+    debug: false
+    debug_color: yellow
+    cards_layout: elfhosted
+
   # privacy:
   #   external_links_attr_map:
   #     target: _blank 
@@ -133,6 +132,7 @@ nav:
       - The Lounge: app/thelounge.md
       - Uptime Kuma: app/uptimekuma.md
       - Vaultwarden: app/vaultwarden.md
+      - Wallabag: app/wallabag.md
 
   - Store : https://store.elfhosted.com
   - Guides : 
@@ -177,7 +177,6 @@ nav:
 theme:
   name: 'material'
   custom_dir: 'overrides'
-  logo: images/logo.png
   favicon: 'images/logo.png'
   features:
       - navigation.tabs
@@ -196,6 +195,7 @@ theme:
       - announce.dismiss
       - toc.follow
   icon:
+    logo: material/server-security
     repo: 'fontawesome/brands/github'
     tag:
       kubernetes: material/kubernetes
@@ -213,7 +213,7 @@ theme:
     # Toggle light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: 'black'
+      primary: 'custom'
       accent: 'green'
       toggle:
         icon: material/brightness-7
@@ -222,7 +222,7 @@ theme:
     # Toggle dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: 'black'
+      primary: 'custom'
       accent: 'green'
       toggle:
         icon: material/brightness-4
@@ -234,6 +234,7 @@ theme:
 
 extra_css:
   - extras/css/icons.css
+  - extras/css/stylesheets.css
     
 extra:
   status:
@@ -275,8 +276,11 @@ markdown_extensions:
       check_paths: true
       base_path: _snippets
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons      
   - pymdownx.inlinehilite
   - pymdownx.magiclink:
       repo_url_shorthand: true

@@ -1,9 +1,9 @@
 authors:
   - funkypenguin
 links:
-  - 🎁 Apps: /apps/
-  - 👶 Get started: /how-to/get-started/
-  - 🚛 Migrate in: /how-to/migrate/
+  - 🎁 Apps: apps/index.md
+  - 👶 Get started: how-to/get-started.md
+  - 🚛 Migrate in: how-to/migrate.md
   - 💬 Discord: http://discord.elfhosted.com
 search:
   boost: -0.1 
