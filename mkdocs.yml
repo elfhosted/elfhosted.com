@@ -1,5 +1,5 @@
-site_name: "ElfHosted : app hosting that works like magic! 🪄"
-# site_description: app hosting that magically "Just Works(tm)"
+site_name: "ElfHosted / app hosting that works like magic! 🪄"
+site_description: App hosting that works like magic! 🪄
 site_author: 'David Young'
 site_url: 'https://elfhosted.com'
 edit_uri: 'edit/main/docs/'
