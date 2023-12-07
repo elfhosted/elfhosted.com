@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Shoko 🪄 from $0.10/day
+title: Elf Hosted Shoko 🧝 from $0.10/day
 slug: Shoko
 description: Shoko is a specialized tool for managing anime, organizing media using AniDB, the authoritative record for anime information
 upstream: https://docs.shokoanime.com

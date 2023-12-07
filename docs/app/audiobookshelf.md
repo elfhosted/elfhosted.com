@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted AudioBookshelf 🪄 from $0.05/day
+title: 🧝 Hosted AudioBookshelf 🎧 from $0.05/day
 slug: Audiobookshelf
 upstream: https://www.audiobookshelf.org
 links:

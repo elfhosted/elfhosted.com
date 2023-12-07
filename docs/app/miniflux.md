@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Miniflux 🪄 from $0.05/day
+title: Elf Hosted Miniflux 🧝 from $0.05/day
 slug: Miniflux
 description: Self-host Miniflux, lean-and-mean RSS reader
 upstream: https://miniflux.app

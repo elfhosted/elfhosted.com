@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Wallabag 🦘 from $0.15/day
+title: 🧝 Hosted Wallabag 🦘 from $0.05/day
 slug: Wallabag
 description: Wallabag is an popular, open-source read-it-later app, like Instapaper or Pocket, but yours to control!
 upstream: https://wallabag.org
@@ -22,4 +22,22 @@ wallabag extracts the article's content (*and only its content!*) and displays i
 If you already have data on Pocket©, Readability©, Instapaper©, Pinboard©, Firefox or Chrome, you can import your data into wallabag: add easily thousands of articles in your account.
 
 {% include 'app_access.md' %}
+
+## How to get started
+
+To log into Wallabag, use the default credentials (*username `wallabag`, password `wallabag`*). Once you've logged in, change your password
+
+!!! warning "Change your password, there's no SSO"
+    Because many of Wallabag's features require external access (*mobile apps, public sharing*), we don't secure it behind SSO, so take care to change your password ASAP, and ideally enable 2FA
+
+## How to setup email
+
+The docs describe [how to setup a mailer configuration](https://doc.wallabag.org/en/admin/mailer). In our case, you'll need to pass this `mailer_dsn` value as an environment variable, so you'll use `SYMFONY__ENV__MAILER_DSN`. 
+
+Use [ElfBot][elfbot] to set this env var, by running (*for example*) `elfbot env wallabag SYMFONY__ENV__DOMAIN_NAME=smtp://user:pass@host:465`. This will trigger a restart of Wallabag, and upon the next start, the environment variable will be available.
+
+
+
+elfbot env wallabag SYMFONY__ENV__DOMAIN_NAME=smtp://wallabag@mg.funkypenguin.co.nz:1ce2a2858a5d7ae3526f70ee71b548a6-0a688b4a-dbbfae57@smtp.mailgun.org
+
 {% include 'app_footer.md' %}

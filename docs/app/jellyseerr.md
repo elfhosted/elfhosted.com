@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Jellyseerr 🪄 from $0.05/day
+title: Elf Hosted Jellyseerr 🧝 from $0.05/day
 slug: Jellyseerr
 description: Jellyseer is a Jellyfin/Emby-compatible fork of Overseerr, a request management and media discovery tool built to work with a existing Plex ecosystem.
 upstream: https://noted.lol/jellyseerr/

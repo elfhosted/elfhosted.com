@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Kavita 🪄 from $0.15/day
+title: Elf Hosted Kavita 🧝 from $0.15/day
 slug: Kavita
 description: Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats
 upstream: https://www.kavitareader.com

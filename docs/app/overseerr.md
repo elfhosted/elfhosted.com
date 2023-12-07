@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Overseerr 🪄 from $0.05/day
+title: Elf Hosted Overseerr 🧝 from $0.05/day
 slug: Overseerr
 description: Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem
 upstream: https://overseerr.dev

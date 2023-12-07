@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Rclone File Manager 🪄 FREE
+title: Elf Hosted Rclone File Manager 🪄 FREE
 slug: RcloneFM
 description: Rclone FM is a file-manager-type interface to Rclone, supporting queued transfers
 upstream: https://rclone.org/

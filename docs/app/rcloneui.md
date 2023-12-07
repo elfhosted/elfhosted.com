@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Rclone UI 🪄 FREE
+title: Elf Hosted Rclone UI 🪄 FREE
 slug: Rclone
 description: Rclone is the defacto tool for managing multiple remote storage endpoints
 upstream: https://rclone.org/

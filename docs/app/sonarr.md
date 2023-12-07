@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Sonarr 🪄 from $0.05/day
+title: Elf Hosted Sonarr 🧝 from $0.05/day
 slug: Sonarr
 description: Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them
 upstream: https://sonarr.tv/

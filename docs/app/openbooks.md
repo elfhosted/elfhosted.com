@@ -1,5 +1,5 @@
 ---
-title: sElfHosted OpenBooks 🪄 from $0.05/day
+title: Elf Hosted OpenBooks 🧝 from $0.05/day
 slug: openbooks
 description: Allows you to download ebooks from irc.irchighway.net quickly and easily.
 upstream: https://github.com/evan-buss/openbooks

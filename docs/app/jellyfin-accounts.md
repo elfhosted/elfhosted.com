@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Jellyfin Accounts 🪄 from $0.05/day
+title: Elf Hosted Jellyfin Accounts 🧝 from $0.05/day
 slug: jellyfin-accounts
 description: jellyfin-accounts (JFA) is a better way to manage your Jellyfin users
 upstream: https://jfa-go.com/

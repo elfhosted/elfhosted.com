@@ -1,5 +1,5 @@
 ---
-title: sElfHosted RDTClient 🪄 from $0.05/day
+title: Elf Hosted RDTClient 🧝 from $0.05/day
 slug: rdtclient
 description: A web interface to manage your torrents on Real-Debrid, AllDebrid or Premiumize
 upstream: https://github.com/rogerfar/rdt-client

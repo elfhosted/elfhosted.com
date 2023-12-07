@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Autobrr 🪄 from $0.05/day
+title: 🧝 Hosted Autobrr 🏎️ from $0.05/day
 slug: Autobrr
 description: Autobrr monitors IRC announce channels to get releases as soon as they are available, with good filtering
 works_with:

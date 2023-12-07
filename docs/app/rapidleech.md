@@ -1,6 +1,6 @@
 ---
 slug: RapidLeech
-title: sElfHosted Rapidleech 🪄 from $0.05/day
+title: Elf Hosted Rapidleech 🧝 from $0.05/day
 description: Rapid Leech is a free server transfer script for use on various popular upload/download sites such as uploaded.net, Rapidgator.net and more than 127 others
 upstream: https://rapidleech.com/forum
 ---

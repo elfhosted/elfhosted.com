@@ -1,5 +1,5 @@
 ---
-title: sElfHosted NZBGet 🪄 from $0.15/day
+title: Elf Hosted NZBGet 🧝 from $0.15/day
 slug: NZBGet
 description: NZBGet is an efficient usenet downloader
 upstream: https://nzbget.net

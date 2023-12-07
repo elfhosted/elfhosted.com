@@ -1,5 +1,5 @@
 ---
-title: sElfHosted VaultWarden 🪄 from $0.05/day
+title: Elf Hosted VaultWarden 🧝 from $0.05/day
 slug: VaultWarden
 description: Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients
 upstream: https://github.com/dani-garcia/vaultwarden

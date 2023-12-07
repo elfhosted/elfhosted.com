@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Tdarr 🪄 from $0.15/day
+title: Elf Hosted Tdarr 🧝 from $0.15/day
 slug: Tdarr
 description: Tdarr will batch-transcode your media, for efficient storage and maximum-compatibility streaming
 price: 0.15

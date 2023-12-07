@@ -1,5 +1,5 @@
 ---
-title: sElfHosted Komga 🪄 from $0.15/day
+title: Elf Hosted Komga 🧝 from $0.15/day
 slug: Komga
 description: Komga is a beautiful web interface to use to manage / consume your library of comics / ebooks in CBZ, CBR, PDF and EPUB format
 upstream: https://komga.org
