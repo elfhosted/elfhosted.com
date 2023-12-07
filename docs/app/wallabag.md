@@ -36,8 +36,4 @@ The docs describe [how to setup a mailer configuration](https://doc.wallabag.org
 
 Use [ElfBot][elfbot] to set this env var, by running (*for example*) `elfbot env wallabag SYMFONY__ENV__DOMAIN_NAME=smtp://user:pass@host:465`. This will trigger a restart of Wallabag, and upon the next start, the environment variable will be available.
 
-
-
-elfbot env wallabag SYMFONY__ENV__DOMAIN_NAME=smtp://wallabag@mg.funkypenguin.co.nz:1ce2a2858a5d7ae3526f70ee71b548a6-0a688b4a-dbbfae57@smtp.mailgun.org
-
 {% include 'app_footer.md' %}
