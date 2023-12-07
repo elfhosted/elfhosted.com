@@ -98,12 +98,12 @@ layers:
     origin: end top       
 
   - size: { width: 850, height: 300 }
-    offset: { x: 20, y: 220 }
+    offset: { x: 10, y: 220 }
     typography:
       overflow: shrink
       content: *page_description
       align:  end
-      color: "#2E5215"
+      color: "#2B180A"
       font: 
         family: Ubuntu       
         style: Light Italic
