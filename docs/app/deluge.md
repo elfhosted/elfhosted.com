@@ -34,4 +34,6 @@ See [here][connect-apps] for details re connecting with your other apps.
 
 Deluge requires the "Label" plugin for compatibilty with Arr, which is already enabled on our default Deluge config.
 
+{% include 'faq_use_mam.md' %}
+
 {% include 'app_footer.md' %}

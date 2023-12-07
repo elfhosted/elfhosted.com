@@ -19,4 +19,9 @@ ruTorrent is a popular Bittorrent client for power users, which includes the uni
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
+
+## How do I use it ?
+
+{% include 'faq_use_mam.md' %}
+
 {% include 'app_footer.md' %}

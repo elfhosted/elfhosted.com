@@ -25,6 +25,10 @@ The qBittorrent project aims to provide an open-source software alternative to Â
 {% include 'app.md' %}
 {% include 'app_access.md' %}
 
+## How do I use it ?
+
+{% include 'faq_use_mam.md' %}
+
 ## Alternate themes
 
 Our qBittorrent apps include the popular [VueTorrent](https://github.com/WDaan/VueTorrent) alternative theme, which can be enabled in by setting "Use alternative Web UI" to `/vuetorrent` as illustrated below:
