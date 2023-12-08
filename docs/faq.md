@@ -6,7 +6,7 @@ This page lists frequently asked questions about ElfHosted.
 
 ### Can I get a trial?
 
-Sort of. Every new user gets $1 "[ElfBuckz][elfbuckz]" to spend on apps. Provided you have a positive ElfBuckz balance, you can trial apps, or subscribe daily. ElfBuckz can be topped up either manually or on a monthly subscription.
+Sort of. Every new user gets $10 "[ElfBuckz][elfbuckz]" to spend on apps. Provided you have a positive ElfBuckz balance, you can trial apps, or subscribe daily. ElfBuckz can be topped up either manually or on a monthly subscription.
 
 ### Why are there two prices for each app?
 
@@ -15,10 +15,6 @@ Each app can be purchased either as a once-off, expiring after 24h, or on an ong
 ### Why are some apps priced higher than others?
 
 Apps are priced based on their resource consumption. "Heavier" apps consume more resources, and are priced accordingly.
-
-### How do I swap an app?
-
-View the bundled apps in [your subscription](https://store.elfhosted.com/my-account/subscriptions/). Remove any apps you don't want, and add new apps you **do** want. Changes are effected immediately.
 
 ## General
 
@@ -39,9 +35,9 @@ If you just need temporary / occasional rclone move data around, then see [how t
 
 Services with strong authentication or whose functionality requires access without SSO (*[Plex][plex], [Ombi][ombi], etc*) don't need to be protected by SSO. 
 
-Services which can't be categorically secured are proteced by SSO to prevent abuse / accidental misconfiguration.
+Services which can't be categorically secured are protected by SSO to prevent abuse / accidental misconfiguration.
 
-Due to the risk to all our customers if downloading apps are misconfigured and abused, these apps will are configured for SSO regardless of their own authentication layer. This may cause some 3rd-party mobile client apps to fail. We may one day be able to provide header-based authentication on a per-apps basis, get in touch!
+Due to the risk to all our customers if downloading apps are misconfigured and abused, these apps will are configured for SSO regardless of their own authentication layer. This may cause some 3rd-party mobile client apps to fail. In some cases, if API keys are rotate and recorded, we are able to "expose" individual apps using a separate purchase - see the "[Advanced](https://store.elfhosted.com/product-category/advanced/)" category in the store for details.
 
 ### How do I restart my apps?
 
