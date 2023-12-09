@@ -53,12 +53,12 @@ plugins:
     debug_color: yellow
     # cards_layout: elfhosted
 
-  # privacy:
-  #   external_links_attr_map:
-  #     target: _blank 
-  #     rel: nofollow   
-  #   external_assets_exclude:
-  #     - img.shields.io/*
+  privacy:
+    external_links_attr_map:
+      target: _blank 
+      rel: nofollow   
+    external_assets_exclude:
+      - img.shields.io/*
   optimize:
     enabled: true
 
