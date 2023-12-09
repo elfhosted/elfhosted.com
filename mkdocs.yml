@@ -49,8 +49,8 @@ plugins:
       utm_medium: "RSS"
       utm_campaign: "feed-syndication"
   social:
-    debug: false
-    debug_color: yellow
+    # debug: false
+    # debug_color: yellow
     # cards_layout: elfhosted
 
   # privacy:
