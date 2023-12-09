@@ -1,4 +1,4 @@
-notdefinitions:
+definitions:
 
   - &page_title >-
     {%- if not page.is_homepage -%}

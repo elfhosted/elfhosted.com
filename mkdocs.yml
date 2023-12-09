@@ -51,7 +51,7 @@ plugins:
   social:
     debug: false
     debug_color: yellow
-    cards_layout: elfhosted
+    # cards_layout: elfhosted
 
   # privacy:
   #   external_links_attr_map:
