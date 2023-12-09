@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <style>.md-banner a,.md-banner a:focus,.md-banner a:hover{color:currentColor}.md-banner strong{white-space:nowrap}.md-banner .twitter{margin-left:.2em;color:#00acee}</style>
+  <div align="center">Curious? 🤨 <A HREF='https://store.elfhosted.com/my-account/'>Create an account</A> and get $10 FREE ElfBuckz to play around with, no strings attached! 🎉<BR/>(<A HREF='/how-to/spend-elfbuckz/'>What is ElfBuckz?</A>)
+</div>
+{% endblock %}
+
+<!-- Add little penguin ascii-art to titles instead of 20-character-long site name -->
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+  <title>{{ page.meta.title }} | ElfHosted</title>
+  {% elif page.title and not page.is_homepage %}
+  <title>{{ page.title | striptags }} | ElfHosted</title>
+  {% else %}
+  <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
+{% block analytics %}
+<script src="/js/i-am-groot.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+{% endblock %}
+
+{% block scripts %}
+
+<!-- For widgetbot -->
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+  const button = new Crate({
+      server: '396055506072109067', // Funky Penguin
+      channel: '1118645576884572303', // #elf-friends channel
+      username: 'ElfHosted Website Reader',
+      indicator: true, // most recent change
+      color: '#50762E'
+  })
+</script>
+
+
+{% endblock %}
