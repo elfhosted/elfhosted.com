@@ -22,7 +22,7 @@
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 {% endblock %}
 
-{% block scripts %}
+{% block extrahead %}
 
 <!-- For widgetbot -->
 <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
@@ -30,9 +30,15 @@
       server: '396055506072109067', // Funky Penguin
       channel: '1118645576884572303', // #elf-friends channel
       username: 'ElfHosted Website Reader',
-      indicator: true, // most recent change
-      color: '#50762E'
+      indicator: true,
+      color: '#50762E',
+      location: ['bottom', 'left']
   })
+</script>
+
+<script
+  onload="window.glime.init(`aFBnUsAsjLPQLj`)"
+  src="https://cdn.glimelab.ai/widget/1.0.0/widget.js">
 </script>
 
 
