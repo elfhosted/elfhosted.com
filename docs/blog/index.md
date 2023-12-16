@@ -1,9 +1,11 @@
 ---
-title: Blog
-description: What's new? Follow our blog to keep track!
+title: ElfHosted Blog
+description: We're small, passionate, and building rapidly. Keep an eye on our blog for updates!
 ---
 
 # What's new at ElfHosted?
+
+We're small, passionate, and building rapidly. Keep an eye on our blog for updates!
 
 Here's our latest developments...
 

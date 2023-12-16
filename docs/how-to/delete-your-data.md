@@ -27,7 +27,7 @@ If you...
 
 * ... decide to switch from [Plex][plex] to [Jellyfin][jellyfin], after ==7 days== your previous Plex data will be ^^deleted^^.
 * ... run out of [ElfBuckz][elfbuckz] and all your subscriptions stop, after ==7 days==, ^^all^^ your application data will be ^^deleted^^, and after ==31 days== ^^all^^ your ElfStorage data will be ^^deleted^^ (*you'll get a fresh 100GB if you start a new subscription*)
-* ... delete your account from the store, all your data (*including your store account, ElfStorage, app data*) will be ==^^immediately deleted^^==.
+* ... delete your account from the store, ^^all^^ your data (*including your store account, ElfStorage, app data*) will be ==^^immediately deleted^^==.
 
 ## Questions
 
