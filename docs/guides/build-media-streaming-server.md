@@ -29,11 +29,11 @@ Add one (or more) of these media-streaming apps:
 
 ### Add storage
 
-You get 10GB free "[ElfStorage][elfstorage]", but this won't be enough for any sort of media collection (*other than perhaps [books][calibre-web]!*) Pick one (or more) of the options below:
+You get 100GB free "[ElfStorage][elfstorage]", but this won't be enough for any sort of media collection (*other than perhaps [books][calibre-web]!*) Pick one (or more) of the options below:
 
 1. Add more [ElfStorage][elfstorage] at $0.20/TB/month (*so $6/TB*)
 2. [Buy a storagebox][storagebox] from Hetzner
-3. [Mount][store/storage] your existing (rclone-compatible) cloud storage
+3. [Mount][store/storage] your existing (*rclone-compatible*) cloud storage
 
 ### Import your media
 
