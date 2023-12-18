@@ -9,13 +9,13 @@ You may need these details when configuring inter-app communication, like connec
 * host: `autoscan`
 * port: `3030`
 * triggers:
-  * Radarr: `/trigger/radarr`
-  * Radarr 4k: `/trigger/radarr4k`
-  * Sonarr: `/trigger/sonarr`
-  * Sonarr 4K: `/trigger/sonarr4k`
-  * Lidarr: `/trigger/lidarr`
-  * Readarr: `/trigger/readarr`
-  * Readarr Audio: `/trigger/readarraudio`
+    * [Radarr][radarr]: `/trigger/radarr`
+    * [Radarr 4k][radarr]: `/trigger/radarr4k`
+    * [Sonarr][sonarr]: `/trigger/sonarr`
+    * [Sonarr 4K][sonarr]: `/trigger/sonarr4k`
+    * [Lidarr][lidarr]: `/trigger/lidarr`
+    * [Readarr][readarr]: `/trigger/readarr`
+    * [Readarr Audio][readarr]: `/trigger/readarraudio`
 
 ## [Calibre][calibre]
 
