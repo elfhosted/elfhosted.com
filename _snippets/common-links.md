@@ -1,5 +1,6 @@
 [audiobookshelf]:     /app/audiobookshelf/
 [autobrr]:            /app/autobrr/
+[autoscan]:           /app/autoscan/
 [bazarr]:             /app/bazarr/
 [calibre]:            /app/calibre/
 [calibre-web]:        /app/calibre-web/

@@ -79,6 +79,7 @@ nav:
       - Plex: app/plex.md
       - Emby: app/emby.md
     - Manage Media:
+      - Autoscan: app/autoscan.md
       - Bazarr: app/bazarr.md
       - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellyseerr: app/jellyseerr.md

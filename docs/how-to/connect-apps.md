@@ -4,6 +4,19 @@ While each app is reachable externally as `https://<username>-<app name>.elfhost
 
 You may need these details when configuring inter-app communication, like connecting [Radarr][radarr] to [Plex][plex], or [Autobrr][autobrr] to [Deluge][deluge]..
 
+## Autoscan
+
+* host: `autoscan`
+* port: `3030`
+* triggers:
+  * Radarr: `/trigger/radarr`
+  * Radarr 4k: `/trigger/radarr4k`
+  * Sonarr: `/trigger/sonarr`
+  * Sonarr 4K: `/trigger/sonarr4k`
+  * Lidarr: `/trigger/lidarr`
+  * Readarr: `/trigger/readarr`
+  * Readarr Audio: `/trigger/readarraudio`
+
 ## [Calibre][calibre]
 
 * host: `calibre`
