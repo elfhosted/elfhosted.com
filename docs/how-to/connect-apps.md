@@ -1,10 +1,10 @@
 # Inter-app Communication
 
-While each app is reachable externally as `https://<username>-<app name>.elfhosted.com`, winith your namespace, each app is reachable to each other app on its own hostname and port, as described below.
+While each app is reachable externally as `https://<username>-<app name>.elfhosted.com`, within your namespace, each app is reachable to each other app on its own hostname and port, as described below.
 
 You may need these details when configuring inter-app communication, like connecting [Radarr][radarr] to [Plex][plex], or [Autobrr][autobrr] to [Deluge][deluge]..
 
-## Autoscan
+## [Autoscan][autoscan]
 
 * host: `autoscan`
 * port: `3030`
@@ -115,7 +115,7 @@ Preconfigured in Radarr/Sonarr/Lidarr/Readarr/Mylarr
 * port: `8080`
 * path: `plugins/rpc/rpc.php`
 
-## [SABnzbd]([sabnzbd]
+## [SABnzbd][sabnzbd]
 
 * host: `sabnzbd`
 * port: `8080`
