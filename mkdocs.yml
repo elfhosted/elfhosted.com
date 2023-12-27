@@ -79,7 +79,7 @@ nav:
       - Plex: app/plex.md
       - Emby: app/emby.md
     - Manage Media:
-      - Autoscan: app/autoscan.md
+      - Autobrr: app/autobrr.md
       - Bazarr: app/bazarr.md
       - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellyseerr: app/jellyseerr.md
@@ -115,6 +115,7 @@ nav:
       - SABnzbd: app/sabnzbd.md
       - Unpackerr: app/unpackerr.md
       - Youtube DL: app/youtubedl.md
+      # - Zurg: app/zurg.md
   
     - Tools:
       - ElfBot: app/elfbot.md
@@ -134,6 +135,7 @@ nav:
       - Uptime Kuma: app/uptimekuma.md
       - Vaultwarden: app/vaultwarden.md
       - Wallabag: app/wallabag.md
+      - WebDAV Export: app/webdavexport.md
 
   - Store : https://store.elfhosted.com
   - Guides : 

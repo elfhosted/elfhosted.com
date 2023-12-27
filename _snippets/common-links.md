@@ -57,7 +57,7 @@
 [uptimekuma]:         /app/uptimekuma/
 [vaultwarden]:        /app/vaultwarden/
 [wallabag]:           /app/wallabag/
-[webdav]:             /app/webdav/
+[webdavexport]:       /app/webdavexport/
 [xteve]:              /app/xteve/
 [youtubedl]:          /app/youtubedl/
 [connect-apps]:       /how-to/connect-apps/

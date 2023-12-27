@@ -3,11 +3,11 @@ title: Migrating data/config in
 description: Need to migrate your data or config into ElfHosted? Here's a detailed guide
 ---
 
-# Migrating into ElfHosted
+# Migrating to ElfHosted
 
-If you have data and config you'd like to migrate ElfHosted, this guide is for you!
+If you have data and config you'd like to migrate to / from ElfHosted, this guide is for you!
 
-## Into a StorageBox
+## Media (StorageBox)
 
 The ideal migration strategy is to transfer files directly into your Storagebox, independently of ElfHosted infrastructure. This bypasses our 1Gbps node limits, and any rate-limits we apply on our migration tools to avoid customer impact. I.e., from a remote location, you can SFTP/SMB/WebDAV your data into your storagebox, before you're even an ElfHosted user!
 
@@ -72,23 +72,20 @@ Here's a brief example re using rclone to transfer data from an existing seedbox
 2. Confirm your remote is correct, by running `rclone mkdir storagebox:backup/test`. Confirm that the test folder appears in your [elfhosted-mounted storagebox][store/storagebox]
 3. Assuming your content is stored under `/home/harrypotter/secretfiles`, copy it to your storagebox by running `rclone copy -v /home/harrypotter/secretfiles storagebox:backup/` (*`backup` is the name of the default storagebox share*)
 
-## Into ElfStorage
+## Media (ElfStorage)
 
 If you're using [ElfStorage][elfstorage], rather than a [Storagebox][storagebox], then you'll of necessity **have** to transfer via our migration tools.
 
 !!! question "What's the difference?"
     The fundamental difference is that a storagebox belongs to you (*you pay Hetzner for it directly*), and if you stop using ElfHosted, you retain access to all of the content in the storagebox without having to do anything.
 
-#### Pulling data into ElfStorage (preferred)
+### Pulling into ElfStorage (optimal)
 
 If your data is elsewhere, and you want to "pull" it into ElfStorage, use our [Rclone][rclone] UIs, configure the remote, and copy into `/storage/elfstorage`. Transfers are limited to 10Mbps.
 
-!!! tip
-    Using RCloneBrowser is preferable, since you can control the transfer parameters (*rate, etc, to avoid impacting other users*).
+### Pushing into ElfStorage
 
-#### Pushing data into ElfStorage
-
-Unlike Hetzner's Storageboxes, you can't transfer data into ElfStorage directly, so if you want to **push** data into ElfStorage, you'll need to add [WebDAV][webdav] to your apps, and then use rclone to transfer data **into** ElfStorage as a WebDAV remote. Transfers are limited to 10Mbps.
+Unlike Hetzner's Storageboxes, you can't transfer data into ElfStorage using FTP/SSH, so if you want to **push** data into ElfStorage, you'll need to add [WebDAV Export][webdavexport] to your apps, and then use rclone to transfer data **into** ElfStorage as a WebDAV remote. Transfers are limited to 10MBps.
 
 ## Config
 

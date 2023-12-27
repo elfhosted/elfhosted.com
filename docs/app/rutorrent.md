@@ -26,7 +26,9 @@ ruTorrent is a popular Bittorrent client for power users, which includes the uni
 
 If you're using Private Internet Access, or ProtonVPN, then your inbound port will be automatically configured for you.
 
-If you're using a different VPN provider, you may need to manually configure a port assigned to you by your VPN provider. In this case, use [FileBrowser][filebrowser] to create `/config/rtorrent/forwarded-port-override`, populated with the port number you'd like rtorrent to listen on.
+If you're using a different VPN provider, you may need to manually configure a port assigned to you by your VPN provider. In this case, use [FileBrowser][filebrowser] to create `/config/rutorrent/forwarded-port-override`, populated with the port number you'd like rtorrent to listen on.
+
+For example, for port 40000, you'd ensure that this file contained only the string `40000`.
 
 Restart rutorrent using [ElfBot][elfbot], and the port will be fixed at the one you specified.
 
