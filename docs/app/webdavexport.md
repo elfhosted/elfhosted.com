@@ -11,7 +11,7 @@ You can use SFTP / FTP / WebDAV to move data in and out of a [Hetzner Storagebox
 
 However, to bulk-transfer files to / from [ElfStorage][elfstorage], you'll need something a little more robust than [Filebrowser][filebrowser], so we've added a product which exports **all** your storage (*including Storageboxes and rclone mounts*) using WebDAV.
 
-[Get Elf Hosted {{ page.meta.slug }} from ${{ page.meta.price }}/day :magic_wand:](https://store.elfhosted.com/product/rclonewebdav/){ .md-button .md-button--primary }
+[Get Elf Hosted {{ page.meta.slug }} from ${{ page.meta.price }}/day :magic_wand:](https://store.elfhosted.com/product/webdav/){ .md-button .md-button--primary }
 
 When you purchase WebDAV Export, you'll choose a password. Your username is preset to your existing, ElfHosted, username. Your WebDAV url will be `https://<username>-webdav.elfhosted.com`
 
