@@ -22,8 +22,8 @@ else
   echo "GH_TOKEN passed, doing an insiders build.."
 
   # Try the latest
-  pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-  # pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.3.1-insiders-4.41.0
+  # pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+  pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.5.2+insiders.4.47.1
   mkdocs build -f mkdocs.yml
 fi
 
