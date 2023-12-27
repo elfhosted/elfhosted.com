@@ -23,7 +23,7 @@ else
 
   # Try the latest
   # pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-  pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.5.2-insiders.4.47.1
+  pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.5.2-insiders-4.47.1
   mkdocs build -f mkdocs.yml
 fi
 
