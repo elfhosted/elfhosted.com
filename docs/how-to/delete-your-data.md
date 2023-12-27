@@ -27,7 +27,7 @@ If you...
 
 * ... decide to switch from [Plex][plex] to [Jellyfin][jellyfin], after ==7 days== your previous Plex data will be ^^deleted^^.
 * ... run out of [ElfBuckz][elfbuckz] and all your subscriptions stop, after ==7 days==, ^^all^^ your application data will be ^^deleted^^, and after ==31 days== ^^all^^ your ElfStorage data will be ^^deleted^^ (*you'll get a fresh 100GB if you start a new subscription*)
-* ... delete your account from the store, ^^all^^ your data (*including your store account, ElfStorage, app data*) will be ==^^immediately deleted^^==.
+* ... [delete your account from the store](https://store.elfhosted.com/delete-my-account/), ^^all^^ your data (*including your store account, ElfStorage, app data*) will be ==^^immediately deleted^^==.
 
 ## Questions
 
@@ -42,5 +42,8 @@ If you...
 
 !!! question "I'm no longer subscribed to my app, how can I get my app data?"
     Re-subscribe to the app, backup the data using [ElfBot][elfbot], then copy your backup using [FileBrowser][filebrowser], and then unsubscribe again.
+
+!!! question "How can I immediately delete my account and data?"
+    Go to the [Delete My Account](https://store.elfhosted.com/delete-my-account/) page on the store, enter your account password, and confirm deletion.
 
 --8<-- "common-links.md"
