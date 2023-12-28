@@ -135,7 +135,7 @@ nav:
       - Uptime Kuma: app/uptimekuma.md
       - Vaultwarden: app/vaultwarden.md
       - Wallabag: app/wallabag.md
-      - WebDAV Export: app/webdavexport.md
+      - WebDAV Access: app/webdav.md
 
   - Store : https://store.elfhosted.com
   - Guides : 
