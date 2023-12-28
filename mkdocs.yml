@@ -115,7 +115,7 @@ nav:
       - SABnzbd: app/sabnzbd.md
       - Unpackerr: app/unpackerr.md
       - Youtube DL: app/youtubedl.md
-      # - Zurg: app/zurg.md
+      - Zurg: app/zurg.md
   
     - Tools:
       - ElfBot: app/elfbot.md

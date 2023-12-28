@@ -1,6 +1,6 @@
 ---
 title: Migrate your data using WebDAV
-slug: WebDAV Export
+slug: WebDAV
 description: Migrate data to / from ElfHosted using WebDAV
 upstream: https://rclone.org/commands/rclone_serve_webdav/
 ---

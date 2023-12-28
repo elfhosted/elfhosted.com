@@ -57,9 +57,10 @@
 [uptimekuma]:         /app/uptimekuma/
 [vaultwarden]:        /app/vaultwarden/
 [wallabag]:           /app/wallabag/
-[webdavexport]:       /app/webdavexport/
+[webdav]:             /app/webdav/
 [xteve]:              /app/xteve/
 [youtubedl]:          /app/youtubedl/
+[zurg]:               /app/zurg/
 [connect-apps]:       /how-to/connect-apps/
 [store/storage]:      https://store.elfhosted.com/product-category/storage/
 [store/storagebox]:   https://store.elfhosted.com/product/hetzner-storagebox-mount/
