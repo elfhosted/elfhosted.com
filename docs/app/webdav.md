@@ -23,6 +23,9 @@ You'll want to tell your file client (*i.e. Windows Explorer or MacOS Finder*) t
 
 Here are generic instructions for [Windows](https://windowsloop.com/map-webdav-drive-in-windows-10/) and [MacOS](https://support.apple.com/en-nz/guide/mac-help/mchlp1546/mac).
 
+!!! warning "Windows being windows"
+    Per the [rclone docs](https://rclone.org/commands/rclone_serve_webdav/#access-webdav-on-windows), to make WebDAV work with basic auth (which is what we're doing), you need to get your hands a little dirty, tinkering with the registry!
+
 ## Rclone
 
 If you're more comfortable on the command line, or wanting to run long, batch transfers, then using rclone directly may be more suitable.
@@ -52,5 +55,9 @@ The web-gui should now be available at the url http://localhost:5572 - login usi
 Either configure the remote via CLI as above, or use the UI to configure a similar WebDAV remote.
 
 Use the Explorer interface to upload/download from ElfHosted.
+
+## Expected speed 10MB/s
+
+Note that our WebDAV share is rate-limited to 10MB/s, or 80Mbit, which represents 8% of our total 1Gbps per-node bandwidth. This restriction is in place in order to prioritize more realtime traffic over batch transfers.
 
 --8<-- "common-links.md"
