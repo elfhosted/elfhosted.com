@@ -23,10 +23,11 @@ Sign in in with your [Plex][plex] account, or your ElfHosted [Emby][emby] accoun
 
 You can now change the branding on both the login page and within the app.
 To do so:
-1. Navigate in FileBrowser to config > overseerr > branding
-3. Overwrite the logo_stacked.svg and logo_full.svg
-4. Restart Overseerr using ElfBot
 
-You may just need to play with the size of the image to get it to fit correctly.
+1. Navigate in [FileBrowser][filebrowser] to `config/overseerr/branding`
+3. Overwrite `logo_stacked.svg` and `logo_full.svg`
+4. Refresh your browser tab to see the changes
+
+Some adjustments / trial-and-error re the size of the images may be required to get them to fit correctly.
 
 {% include 'app_footer.md' %}
