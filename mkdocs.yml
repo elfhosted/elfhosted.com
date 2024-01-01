@@ -140,6 +140,7 @@ nav:
   - Store : https://store.elfhosted.com
   - Guides : 
     - Media Server: guides/build-media-streaming-server.md
+    # - Real-Debrid Streaming: guides/stream-with-real-debrid.md
     - Plex Cloud: guides/your-own-plex-cloud.md 
     - unRAID: guides/unraid-storagebox-vpn.md
   - Support:
@@ -168,6 +169,7 @@ nav:
     - Design:
       - open-source/design/index.md
     - Reports:
+      - Dec 2023: open/dec-2023.md
       - Nov 2023: open/nov-2023.md
       - Oct 2023: open/oct-2023.md
       - Sep 2023: open/september-2023.md
