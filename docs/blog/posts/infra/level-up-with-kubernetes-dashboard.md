@@ -49,7 +49,7 @@ I've also added links to every app's page (*i.e., [Calibre][calibre] or [Jellyfi
 
 ## Bug fix : NZBGet /config volume
 
-A user support request unearthed another bug yesterday - NZBGet's `/config` volume was previously set to a maximum of 1GB (*as many apps are*). It turns out that if you have a big queue, and `/config` fills up, NBZGet doesn't tell you, but fails when adding new NZBs, resulting in a confusing and complicated fault-finding process!
+A user support request unearthed another bug yesterday - [NZBGet][nzbget]'s `/config` volume was previously set to a maximum of 1GB (*as many apps are*). It turns out that if you have a big queue, and `/config` fills up, NBZGet doesn't tell you, but fails when adding new NZBs, resulting in a confusing and complicated fault-finding process!
 
 Consequently, NZBGet's `/config` volume is now expanded to 2GB!
 
