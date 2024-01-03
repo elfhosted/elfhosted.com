@@ -7,6 +7,13 @@ links:
 - name: subreddit
   uri: https://www.reddit.com/r/Syncthing
 price: 0.10
+sponsorship:
+- name: syncthing.net/donations/
+  uri: https://syncthing.net/donations/
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/syncthing
+- name: Liberapay
+  uri: https://liberapay.com/Syncthing/
 ---
 
 # {{ page.meta.slug }}

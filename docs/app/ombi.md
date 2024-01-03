@@ -12,6 +12,13 @@ works_with:
 - Radarr
 - Sonarr
 - Lidarr
+sponsorship:
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/tidusjar
+- name: Patreon
+  uri: https://www.patreon.com/tidusjar
+- name: PayPal
+  uri: https://www.paypal.com/paypalme/PlexRequestsNet
 ---
 
 # {{ page.meta.slug }}

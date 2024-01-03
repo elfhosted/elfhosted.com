@@ -6,6 +6,13 @@ upstream: https://www.navidrome.org
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/navidrome
+sponsorship:
+- name: Liberapay
+  uri: https://liberapay.com/deluan
+- name: Ko-fi
+  uri: https://ko-fi.com/deluan
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/deluan
 ---
 
 # {{ page.meta.slug }}

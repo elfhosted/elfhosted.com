@@ -8,6 +8,13 @@ links:
   uri: https://discord.com/invite/MrtvuQmyhP
 - name: wiki
   uri: https://wiki.jfa-go.com/
+sponsorship:
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/hrfee
+- name: Ko-fi
+  uri: https://ko-fi.com/hrfee
+- name: Buy me a coffee
+  uri: https://www.buymeacoffee.com/hrfee
 ---
 
 # {{ page.meta.slug }}

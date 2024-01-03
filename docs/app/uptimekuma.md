@@ -6,6 +6,11 @@ upstream: https://github.com/louislam/uptime-kuma
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/UptimeKuma
+sponsorship:
+- name: Open Collective
+  uri: https://opencollective.com/uptime-kuma
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/louislam
 ---
 
 # {{ page.meta.slug }}

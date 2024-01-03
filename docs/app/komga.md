@@ -7,6 +7,13 @@ links:
 - name: subreddit
   uri: https://www.reddit.com/r/Komga/
 price: 0.15
+sponsorship: 
+- name: Open Collective
+  uri: https://opencollective.com/komga
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/gotson
+- name: Ko-fi
+  uri: https://ko-fi.com/gotson 
 ---
 
 # {{ page.meta.slug }}

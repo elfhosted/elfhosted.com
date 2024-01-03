@@ -8,6 +8,11 @@ links:
   uri: https://wiki.servarr.com/sonarr
 - name: subreddit
   uri: https://www.reddit.com/r/Sonarr
+sponsorship: 
+- name: Open Collective
+  uri: https://opencollective.com/sonarr
+- name: Bitcoin
+  uri: https://sonarr.tv/donate
 ---
 
 # {{ page.meta.slug }}

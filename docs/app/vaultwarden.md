@@ -3,6 +3,13 @@ title: Elf Hosted VaultWarden 🧝 from $0.05/day
 slug: VaultWarden
 description: Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients
 upstream: https://github.com/dani-garcia/vaultwarden
+sponsorship:
+- name: Liberapay
+  uri: https://liberapay.com/dani-garcia
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/dani-garcia
+- name: PayPal
+  uri: https://www.paypal.com/paypalme/DaniGG
 ---
 
 # {{ page.meta.slug }}

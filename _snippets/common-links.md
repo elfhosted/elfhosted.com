@@ -17,6 +17,7 @@
 [joplin-server]:      /app/joplin-server/
 [kavita]:             /app/kavita/
 [komga]:              /app/komga/
+[kubernetes-dashboard]: /app/kubernetes-dashboard/
 [lazylibrarian]:      /app/lazylibrarian/
 [lidarr]:             /app/lidarr/
 [mattermost]:         /app/mattermost/
@@ -73,3 +74,5 @@
 [rclone]:             /how-to/use-rclone/
 [elfbuckz]:           /how-to/spend-elfbuckz/
 [elfhelp]:            https://discord.com/channels/396055506072109067/1119478614287712337
+[pia]:                https://fnky.nz/support-me-when-you-buy-pia
+[realdebrid]:         https://fnky.nz/support-me-when-you-buy-real-debrid

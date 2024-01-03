@@ -9,6 +9,9 @@ links:
 - name: GitHub Repo
   uri: https://github.com/wallabag/wallabag
 price: 0.5
+sponsorship:
+- name: Liberapay
+  uri: https://liberapay.com/wallabag
 ---
 
 # {{ page.meta.slug }}

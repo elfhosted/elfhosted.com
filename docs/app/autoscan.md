@@ -8,6 +8,9 @@ works_with:
 - Lidarr
 - Readarr
 upstream: https://github.com/Cloudbox/autoscan
+sponsorship: 
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/l3uddz
 ---
 
 # {{ page.meta.slug }}

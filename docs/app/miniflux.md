@@ -6,6 +6,11 @@ upstream: https://miniflux.app
 links:
 - name: GitHub
   uri: https://github.com/miniflux/v2
+sponsorship:
+- name: Liberapay
+  uri: https://en.liberapay.com/Miniflux/
+- name: PayPal
+  uri: https://miniflux.app/#donations
 ---
 
 # {{ page.meta.slug }}

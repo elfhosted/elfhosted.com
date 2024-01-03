@@ -9,6 +9,15 @@ upstream: https://calibre-ebook.com
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/Calibre
+sponsorship: 
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/kovidgoyal
+- name: LibrePay
+  uri: https://liberapay.com/kovidgoyal/donate
+- name: Patreon
+  uri: https://www.patreon.com/kovidgoyal
+- name: PayPal
+  uri: https://calibre-ebook.com/donate
 ---
 
 # {{ page.meta.slug }}

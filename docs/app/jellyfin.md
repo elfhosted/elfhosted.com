@@ -12,6 +12,9 @@ links:
 - name: subreddit
   uri: https://www.reddit.com/r/jellyfin/
 price: 0.15
+sponsorship: 
+- name: Open Collective
+  uri: https://opencollective.com/jellyfin
 ---
 
 # {{ page.meta.slug }}

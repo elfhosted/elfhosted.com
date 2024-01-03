@@ -13,6 +13,9 @@ links:
   uri: https://www.reddit.com/r/bazarr/
 - name: Discord
   uri: https://discord.com/invite/MH2e2eb
+sponsorship: 
+- name: PayPal
+  uri: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=XHHRWXT9YB7WE&source=url&ssrt=1704275763056
 ---
 
 # {{ page.meta.slug }}

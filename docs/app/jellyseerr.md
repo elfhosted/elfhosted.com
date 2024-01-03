@@ -6,6 +6,9 @@ upstream: https://noted.lol/jellyseerr/
 links:
 - name: GitHub
   uri: https://github.com/Fallenbagel/jellyseerr
+sponsorship: 
+- name: Buy me a coffee
+  uri: https://www.buymeacoffee.com/fallen.bagel
 ---
 
 # {{ page.meta.slug }}

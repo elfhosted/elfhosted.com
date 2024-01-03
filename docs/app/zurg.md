@@ -2,16 +2,23 @@
 title: Stream from real-debrid with Zurg
 slug: Zurg
 description: Zurg is middleware, half of a clever solution which lets you stream from Real Debrid directly using Plex, Emby, or Jellyfin
-upstream: https://github.com/Tzahi12345/YoutubeDL-Material
+upstream: https://github.com/debridmediamanager/zurg-testing
 works_with:
 - plex
 - jellyfin
 - emby
+sponsorship:
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/debridmediamanager
+- name: Patreon
+  uri: https://www.patreon.com/debridmediamanager
+- name: PayPal
+  uri: https://www.paypal.com/paypalme/yowmamasita
 ---
 
 # {{ page.meta.slug }}
 
-Zurg is middleware, half of a clever solution which lets you stream from Real Debrid directly using [Plex][plex], [Emby][emby], or [Jellyfin][jellyfin].
+Zurg is middleware, half of a clever solution which lets you stream from [Real-Debrid][real-debrid] directly using [Plex][plex], [Emby][emby], or [Jellyfin][jellyfin].
 
 It works like this - you give Zurg your [Real-Debrid API token](https://real-debrid.com/apitoken), and a bunch of regular expressions (*regexes*) explaining roughly what filenames match to what kind of content.
 

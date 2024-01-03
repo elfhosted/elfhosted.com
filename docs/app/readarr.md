@@ -18,6 +18,13 @@ works_with:
 - qBittorrent
 - ruTorrent
 - SABnzbd
+sponsorship: 
+- name: Open Collective
+  uri: https://opencollective.com/readarr
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/readarr
+- name: Bitcoin
+  uri: https://readarr.com/donate
 ---
 
 # {{ page.meta.slug }}

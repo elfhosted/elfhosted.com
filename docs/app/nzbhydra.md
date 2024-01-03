@@ -14,6 +14,9 @@ works_with:
 - Radarr
 - Readarr
 - Sonarr
+sponsorship:
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/theotherp
 ---
 
 # {{ page.meta.slug }}

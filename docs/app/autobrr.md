@@ -6,6 +6,9 @@ works_with:
 - Radarr
 - Sonarr
 upstream: https://autobrr.com
+sponsorship: 
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/zze0s
 ---
 
 # {{ page.meta.slug }}

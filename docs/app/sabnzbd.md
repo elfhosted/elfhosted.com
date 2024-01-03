@@ -14,6 +14,9 @@ links:
 - name: subreddit
   uri: https://www.reddit.com/r/sabnzbd
 price: 0.10
+sponsorship:
+- name: sabnzbd.org/donate/
+  uri: https://sabnzbd.org/donate/
 ---
 
 # {{ page.meta.slug }}

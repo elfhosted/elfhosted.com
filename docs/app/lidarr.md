@@ -13,6 +13,13 @@ works_with:
 - qBittorrent
 - ruTorrent
 - SABnzbd
+sponsorship: 
+- name: Open Collective
+  uri: https://opencollective.com/lidarr
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/Lidarr
+- name: Bitcoin
+  uri: https://lidarr.audio/donate
 ---
 
 # {{ page.meta.slug }}

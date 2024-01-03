@@ -20,6 +20,13 @@ works_with:
 - qBittorrent
 - ruTorrent
 - SABnzbd
+sponsorship: 
+- name: Open Collective
+  uri: https://opencollective.com/radarr
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/radarr
+- name: Bitcoin
+  uri: https://radarr.video/donate
 ---
 
 # {{ page.meta.slug }}

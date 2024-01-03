@@ -6,6 +6,9 @@ upstream: https://joplinapp.org/
 links:
 - name: GitHub
   uri: https://github.com/laurent22/joplin
+sponsorship: 
+- name: Buy me a coffee
+  uri: https://www.buymeacoffee.com/etechonomy
 ---
 
 # {{ page.meta.slug }}

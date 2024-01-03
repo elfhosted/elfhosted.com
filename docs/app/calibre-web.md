@@ -6,6 +6,9 @@ works_with:
 - Readarr
 - Calibre
 upstream: https://github.com/janeczku/calibre-web
+sponsorship: 
+- name: PayPal
+  uri: https://www.paypal.com/paypalme/calibreweb
 ---
 
 # {{ page.meta.slug }}

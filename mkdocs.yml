@@ -123,6 +123,7 @@ nav:
       - Gotify: app/gotify.md
       - Homepage: app/homepage.md
       - Joplin Server: app/joplin-server.md
+      - Kubernetes Dashboard: app/kubernetes-dashboard.md
       - Mattermost: app/mattermost.md
       - Miniflux: app/miniflux.md
       - Privatebin: app/privatebin.md
@@ -179,6 +180,7 @@ nav:
     - Traffic:
       - elfhosted.com: open/traffic/elfhosted.com.md
       - store.elfhosted.com: open/traffic/store.elfhosted.com.md
+    - Sponsorship: open/sponsorship.md
 
 theme:
   name: 'material'

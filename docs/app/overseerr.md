@@ -6,6 +6,11 @@ upstream: https://overseerr.dev
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/Overseerr
+sponsorships:
+- name: Patreon
+  uri: https://www.patreon.com/overseerr
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/sct
 ---
 
 # {{ page.meta.slug }}

@@ -11,6 +11,9 @@ works_with:
 - Sonarr
 upstream: https://deluge-torrent.org
 price: 0.10
+sponsorship: 
+- name: Patreon
+  uri: https://www.patreon.com/deluge_cas
 ---
 
 # {{ page.meta.slug }}

@@ -16,6 +16,13 @@ works_with:
 - ruTorrent
 - SABnzbd
 - Sonarr
+sponsorship: 
+- name: Open Collective
+  uri: https://opencollective.com/prowlarr
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/prowlarr
+- name: Bitcoin
+  uri: https://prowlarr.com/donate
 ---
 
 # {{ page.meta.slug }}

@@ -16,6 +16,9 @@ works_with:
 - SABnzbd
 - Sonarr
 price: 0.10
+sponsorship:
+- name: www.qbittorrent.org/donate
+  uri: https://www.qbittorrent.org/donate
 ---
 
 # {{ page.meta.slug }}

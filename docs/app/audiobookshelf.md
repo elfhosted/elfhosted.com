@@ -2,6 +2,9 @@
 title: 🧝 Hosted AudioBookshelf 🎧 from $0.05/day
 slug: Audiobookshelf
 upstream: https://www.audiobookshelf.org
+sponsorship: 
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/advplyr
 links:
 - name: Official Subreddit 
   uri: https://www.reddit.com/r/audiobookshelf

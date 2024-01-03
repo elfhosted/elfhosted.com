@@ -11,6 +11,13 @@ works_with:
 - Readarr
 - Sonarr
 price: 0.10
+sponsorship:
+- name: PayPal (rtorrent)
+  uri: https://paypal.me/jarisundellno
+- name: Patreon (rtorrent)
+  uri: https://www.patreon.com/rtorrent
+- name: GitHub Sponsors (crazy-max, author of the container we use)
+  uri: https://github.com/sponsors/crazy-max
 ---
 
 # {{ page.meta.slug }}
@@ -24,7 +31,7 @@ ruTorrent is a popular Bittorrent client for power users, which includes the uni
 
 ### Set inbound port
 
-If you're using Private Internet Access, or ProtonVPN, then your inbound port will be automatically configured for you.
+If you're using [Private Internet Access][pia], or ProtonVPN, then your inbound port will be automatically configured for you.
 
 If you're using a different VPN provider, you may need to manually configure a port assigned to you by your VPN provider. In this case, use [FileBrowser][filebrowser] to create `/config/rutorrent/forwarded-port-override`, populated with the port number you'd like rtorrent to listen on.
 
