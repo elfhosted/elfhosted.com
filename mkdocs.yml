@@ -106,6 +106,7 @@ nav:
       - NZBGet: app/nzbget.md
       - NZBHydra: app/nzbhydra.md
       - Openbooks: app/openbooks.md
+      - Plex-Debrid: app/plex-debrid.md
       - Prowlarr: app/prowlarr.md
       - Pyload: app/pyload.md
       - qBittorrent: app/qbittorrent.md

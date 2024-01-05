@@ -32,6 +32,7 @@
 [openbooks]:          /app/openbooks/
 [overseerr]:          /app/overseerr/
 [plex]:               /app/plex/
+[plex-debrid]:        /app/plex-debrid/
 [privatebin]:         /app/privatebin/
 [prowlarr]:           /app/prowlarr/
 [pyload]:             /app/pyload/
