@@ -31,7 +31,7 @@ Here's a demo from the [upstream repo](https://github.com/itsToggle/plex_debrid)
 !!! warning "Advanced use"
     plex_debrid is an advanced and complex tool, you should expect to spend some time troubleshooting!
 
-    Further, plex_debrid requires an rclone WebDAV mount to your Debrid service, and if using Real-Debrid, you'll want [Zurg][zurg] plus the [Zurg-specific WebDAV mount](https://store.elfhosted.com/product/rclone-real-debrid/)!
+    Further, plex_debrid requires an [rclone WebDAV mount](https://store.elfhosted.com/product/rclone-webdav-mount/) to your Debrid service, and if using Real-Debrid, you'll want [Zurg][zurg] plus the [Zurg-specific WebDAV mount](https://store.elfhosted.com/product/rclone-real-debrid/)!
 
 {% include 'app_access.md' %}
 
