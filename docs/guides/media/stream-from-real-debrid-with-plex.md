@@ -59,9 +59,9 @@ Here's a demo from the plex_debrid repo:
 
 Here's a little more detail..
 
-1. Get a [Real-Debrid account][real-debrid] subscription, and copy your [API token](https://real-debrid.com/apitoken)
+1. Get a [Real-Debrid account][real-debrid] subscription for your ElfHosted account (*can't be used elsewhere at the same time, else you risk being banned*), and copy your [API token](https://real-debrid.com/apitoken)
 2. Paste the token into the [Zurg product][store/zurg] on the store, and add to your cart
-3. Add at the [Zurg rclone mount][store/zurgmount] and [Plex][store/plex] to your cart, and buy with [ElfBuckz][elfbuckz!
+3. Add at the [Zurg rclone mount][store/zurgmount] and [Plex][store/plex] to your cart, and buy with [ElfBuckz][elfbuckz]!
 
 On purchase, you'll get the necessary components deployed, but some configuration will be required, see below:
 
@@ -82,5 +82,12 @@ Launch [plex-debrid][plex-debrid] from your dashboard, and perform the initial s
 ## Success!
 
 That's it, you're done. Adding content to your Plex watchlist should trigger plex_debrid to find it for you, and once it appears in your real-debrid account, Zurg will make it available to Plex to stream! Hope into our [friendly Discord server][discord] if you have questions or suggestions!
+
+!!! warning "Beware Real-Debrid IP bans"
+    Be aware that Real-Debrid states:
+    
+    > You can use your account from any public IP address but you can't use your account from more than one public IP address at the same time.
+
+    So if you use RealDebrid **outside** of ElfHosted, it's likely that your account may be warned / banned.
 
 --8<-- "common-links.md"
