@@ -68,6 +68,8 @@
 [store/storagebox]:   https://store.elfhosted.com/product/hetzner-storagebox-mount/
 [store/elfstorage]:   https://store.elfhosted.com/product/elfstorage/
 [store/plex]:         https://store.elfhosted.com/product/plex/
+[store/zurg]:         https://store.elfhosted.com/product/zurg/
+[store/zurgmount]:    https://store.elfhosted.com/product/rclone-real-debrid/
 [store]:              https://store.elfhosted.com
 [discord]:            https://discord.elfhosted.com
 [elfstorage]:         /what-is/elfstorage/
@@ -76,4 +78,4 @@
 [elfbuckz]:           /how-to/spend-elfbuckz/
 [elfhelp]:            https://discord.com/channels/396055506072109067/1119478614287712337
 [pia]:                https://fnky.nz/support-me-when-you-buy-pia
-[realdebrid]:         https://fnky.nz/support-me-when-you-buy-real-debrid
+[real-debrid]:        https://fnky.nz/support-me-when-you-buy-real-debrid

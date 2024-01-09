@@ -2,10 +2,10 @@
 title: Elf Hosted plex_debrid 🧝 from $0.5/day
 slug: Plex-Debrid
 description: ruTorrent is a popular Bittorrent client for power users, which includes the unique ability (among our torrent apps) to create torrents from its web UI.
-upstream: https://github.com/Novik/ruTorrent
+upstream: https://github.com/itsToggle/plex_debrid
 links:
-- name: GitHub
-  uri: https://github.com/itsToggle/plex_debrid
+- name: Discord server
+  uri: https://discord.gg/jMpyFryfaj
 works_with:
 - Plex
 - Jellyfin
@@ -18,20 +18,18 @@ price: 0.5
 
 # {{ page.meta.slug }}
 
-plex_debrid facilicates [Plex][Plex] / [Emby][emby] / [Jellyfin][jellyfin] / Infuse torrent streaming through Debrid Services, using Plex Discover Watchlists, Trakt lists and [Overseerr] / [Jellyseerr].
+When combined with [Plex][plex], an rclone mount, and a Debrid service, plex_debrid facilitates "stremio-like" torrent streaming through Debrid Services. 
 
-Using content services like plex discover, trakt and overseerr, your personal media server users can add movies/shows to their watchlist and they become available to stream in seconds.
+In an ideal situation, you'd add a movie / TV show to your Plex watchlist / Trakt lists, [Overseerr] / [Jellyseerr], and then 10-20s later, it's available to stream it through your Plex instance, as per the upstream demo below:
 
 [Get Elf Hosted {{ page.meta.slug }} from ${{ page.meta.price }}/day :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
-
-Here's a demo from the [upstream repo](https://github.com/itsToggle/plex_debrid):
 
 ![Screenshot of {{ page.meta.slug }}](/images/plex-debrid-demo.gif){ loading=lazy }
 
 !!! warning "Advanced use"
     plex_debrid is an advanced and complex tool, you should expect to spend some time troubleshooting!
 
-    Further, plex_debrid requires an [rclone WebDAV mount](https://store.elfhosted.com/product/rclone-webdav-mount/) to your Debrid service, and if using Real-Debrid, you'll want [Zurg][zurg] plus the [Zurg-specific WebDAV mount](https://store.elfhosted.com/product/rclone-real-debrid/)!
+    Further, if you want to use it with your ElfHosted [Plex][plex] instance, plex_debrid requires an [rclone WebDAV mount](https://store.elfhosted.com/product/rclone-webdav-mount/) to your Debrid service, and if using Real-Debrid, you'll want [Zurg][zurg] plus the [Zurg-specific WebDAV mount](https://store.elfhosted.com/product/rclone-real-debrid/)!
 
 {% include 'app_access.md' %}
 
@@ -39,15 +37,23 @@ Here's a demo from the [upstream repo](https://github.com/itsToggle/plex_debrid)
 
 ### Initial setup
 
-plex_debrid is unusual in that it requires a CLI-based setup. For this reason, we run it within a VNC-based browser session. 
+Plex_debrid is unusual in that it requires a CLI-based setup. For this reason, we run it within a VNC-based browser session.
 
-The first time you open plex_debrid, you'll be prompted with the "setup wizard". Go through the wizard and enter the necessary details as prompted.
+The first time you open plex_debrid, you'll be prompted with the "Initial Setup". Go through the wizard and enter the necessary details as prompted.
 
 ElfHosted-specific config steps are illustrated below:
 
+### Copy / Paste (CTRL-Shift-V)
+
+Using plex_debrid over the VNC browser session can be a PITA. Use `ctrl-shift-v` to paste from your clipboard. Chrome and Edge may be able to copy/paste directly, but Firefox and other browsers require you to use the Kasm "clipboard" to transfer to/from the real_debrid clipboard.
+
+For example, to paste in data from your clipboard, you'd expand the menu on the left-hand side, paste the API token into the clipboard window, and **then** use the "paste" function in the terminal to paste it, as illustrated below:
+
+![Screenshot of {{ page.meta.slug }} copy / paste process](/images/plex-debrid-copy-paste.png){ loading=lazy }
+
 ### Connect Plex
 
-When you connect to plex, use the URL `http://plex:32400`
+When you connect to Plex, use the URL `http://plex:32400`
 
 ![Screenshot of {{ page.meta.slug }} connecting to plex](/images/plex-debrid-add-local-plex.png){ loading=lazy }
 
@@ -56,5 +62,9 @@ When you connect to plex, use the URL `http://plex:32400`
 To optionally connect to Jellyseerr / Overseerr, enter their details per [Connecting Apps](/how-to/connect-apps/), as illustrated below:
 
 ![Screenshot of {{ page.meta.slug }} connecting to Jellyseerr](/images/plex-debrid-add-overseerr-jellyseerr.png){ loading=lazy }
+
+### Editing / importing config
+
+If you don't want to use the CLI UI to make config changes, you can edit the config directly in [FileBrowser][filebrowser], at `config/plex-debrid/settings.json`. Restart plex-debrid either using [ElfBot][elfbot], or close the terminal window in VNC, then right-click on the desktop and re-launch plex-debrid! :grin:
 
 {% include 'app_footer.md' %}

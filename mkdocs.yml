@@ -140,9 +140,11 @@ nav:
       - WebDAV Access: app/webdav.md
 
   - Store : https://store.elfhosted.com
-  - Guides : 
+  - Guides: 
+    - Media: 
+      - guides/media/index.md
+      - Stream from Real-Debrid with Plex: guides/media/stream-from-real-debrid-with-plex.md
     - Media Server: guides/build-media-streaming-server.md
-    # - Real-Debrid Streaming: guides/stream-with-real-debrid.md
     - Plex Cloud: guides/your-own-plex-cloud.md 
     - unRAID: guides/unraid-storagebox-vpn.md
   - Support:

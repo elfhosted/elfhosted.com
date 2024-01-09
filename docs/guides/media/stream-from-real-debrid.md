@@ -1,31 +1,68 @@
 ---
-title: Stream your media with Real-Debrid and Plex/Jellyfin/Emby
-description: This guide describes how to setup your own "Streaming Platform", streaming your media from Real-Debrid, without having to store it locally or use a torrent client.
+title: Stream from Real-Debrid with Plex
+description: This guide describes how to setup your own "stremio", streaming your media from Real-Debrid using Plex, without having to store it locally or even touch a torrent client or a VPN!
 ---
+# "Infinite streaming" from Real Debrid with Plex
 
-# How to Setup your own Plex Cloud
-
-Once upon a time, Plex provided "Plex Cloud", a partnership with Amazon which would let you run your Plex server "in the cloud", and attach various cloud storage providers for storing your vast media libraries.
-
-The Plex Cloud service was [shut down](https://www.digitaltrends.com/home-theater/plex-cloud-shutting-down/) due to technical / cost issues, but given the popularity of online streaming platforms, a "cloud based" Plex instance is still an attractive solution for many users who don't want to bother with self-hosting their Plex server or their media.
-
-ElfHosted provides all the hosting and options to setup your own hosted Plex instance (*your Plex Cloud*), and stream your media from cloud storage, creating your own "Plex Google Drive", "Plex Onedrive", etc.
+This page describes a minimal solution to create your "infinite" Plex library, utilizing [Real-Debrid][real-debrid] for all media, streaming through your ElfHosted Plex instance.
 
 ## Requirements
 
-* [x] [Radarr][radarr] / [Sonarr][sonarr]
-* [x] [Jellyseerr][jellyseerr] / [Overseerr][overseerr]
-* [x] [RDTClient][rdtclient]
+* [x] [Real-Debrid account][real-debrid] and [API token](https://real-debrid.com/apitoken)
+* [x] [plex_debrid][plex-debrid]
 * [x] [Zurg][zurg]
-* [ ] Zurg Rclone Mount
-* [x] A [Real-Debrid account](http://real-debrid.com/?id=10184538) and [API token](https://real-debrid.com/apitoken)
+* [x] [Zurg Rclone Mount](https://store.elfhosted.com/product/rclone-real-debrid/)
+* [x] [Plex][plex
+
+## How does it work?
+
+Here's a diagram, followed by some explanations:
+
+```mermaid
+flowchart TD
+    K[Plex] --> |Stream|Z[User]
+    Z[User] --> |Add to watchlist|K[Plex]
+    K[Plex] --> |Watchlist|G[plex_debrid]
+    G[plex_debrid] --> |Scan on download|K[Plex]
+    G[plex_debrid] <--> |Find and add torrent|H[real-debrid]
+    H --> I[Zurg]
+    I --> |/storage/real-debrid/...|J[rclone mount]
+    K[Plex] <--> |Library|J
+```
+
+1. The user adds content to his Plex Watchlist
+2. Plex_debrid notices the change to the watchlist, searches for suitable cached torrents on Real-Debrid, triggers a download, and then tells Plex to rescan the appropriate Library
+3. Zurg + the rclone mount make it appear that the Real-Debrid account is locally mounted to Plex - Plex detects the new content, adds it to the library, and it's ready to stream!
+
+Here's a demo from the plex_debrid repo:
+
+![Demo of operation of plex_debrid](/images/plex-debrid-demo.gif){ loading=lazy }
+
+## How to set it up
+
+
+## Lightweight debrid setup
+
+```mermaid
+flowchart TD
+    K[Plex] --> |Stream|Z[User]
+    T["Trakt (optional)"] --> |Watchlist|G[plex_debrid]
+    O["Overseerr (optional)"] --> |Watchlist|G[plex_debrid]
+    Z[User] --> |Add to watchlist|K[Plex]
+    K[Plex] --> |Watchlist|G[plex_debrid]
+    G[plex_debrid] --> |Scan on download|K[Plex]
+    G[plex_debrid] <--> |Find and add torrent|H[real-debrid]
+    H --> I[Zurg]
+    I --> |/storage/real-debrid/...|J[rclone mount]
+    K[Plex] <--> |Library|J
+```
 
 ## The classic Arr setup
 
 ```mermaid
 flowchart TD
     B[Manual Request] --> C[Jellyseer]
-    A[Add to watchlist] --> C[Overseer/Jellyseer]
+    A[Add to watchlist] --> C[Overseer/Jellyseer/Plex]
     C <--> |Add to Arrs|D[Radarr/Sonarr]
     D <--> |Search for media|E[Prowlarr]
     D <--> |Add to downloader|G[RDTClient]
@@ -39,24 +76,6 @@ flowchart TD
     Z[fa:fa-user User] --> A
 ```
 
-## Lightweight debrid setup
-
-```mermaid
-flowchart TD
-    B[Manual Request] --> C[plex_debrid]
-    A[Add to watchlist] --> C[plex_debrid]
-    C <--> |Add to Arrs|D[Radarr/Sonarr]
-    D <--> |Search for media|E[Prowlarr]
-    D <--> |Add to downloader|G[RDTClient]
-    E --> |Search trackers|F[Trackers]
-    G <--> |Add torrent|H[real-debrid]
-    H --> I[Zurg]
-    J[rclone mount] --> |WebDAV endpoint|I
-    K[Plex/Jellyfin/Emby] --> |Add library|J
-    Z[fa:fa-user User] --> K
-    Z[fa:fa-user User] --> B
-    Z[fa:fa-user User] --> A
-```
 
 ### Create account, get $10 free credit
 
