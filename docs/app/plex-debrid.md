@@ -67,4 +67,10 @@ To optionally connect to Jellyseerr / Overseerr, enter their details per [Connec
 
 If you don't want to use the CLI UI to make config changes, you can edit the config directly in [FileBrowser][filebrowser], at `config/plex-debrid/settings.json`. Restart plex-debrid either using [ElfBot][elfbot], or close the terminal window in VNC, then right-click on the desktop and re-launch plex-debrid! :grin:
 
+### Re-launch plex-debrid (blank desktop)
+
+If you accidentally closed plex-debrid, and are now faced with a blank desktop, you can re-launch it by right-clicking anywhere on the blank desktop, and choosing to "re-launch plex-debrid"
+
+If the entire KasmVNC session is **really** broken, you can restart the whole app using [ElfBot][elfbot].
+
 {% include 'app_footer.md' %}
