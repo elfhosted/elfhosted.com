@@ -11,4 +11,9 @@ A modern IRC client (PWA), which works on desktops, smartphones and tablets. Sup
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
+
+### How do I login?
+
+The username is set your ElfHosted username, and the default password (*which you should change, ASAP*), is `ireadthedocs`
+
 {% include 'app_footer.md' %}

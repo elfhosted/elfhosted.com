@@ -1,7 +1,7 @@
 ---
-title: Elf Hosted plex_debrid 🧝 from $0.5/day
+title: Elf Hosted plex_debrid 🧝 from $0.05/day
 slug: Plex-Debrid
-description: ruTorrent is a popular Bittorrent client for power users, which includes the unique ability (among our torrent apps) to create torrents from its web UI.
+description: Plex-debrid "glues" Plex, Zurg, and rclone together, to create an "infinite streaming" solution for Real Debrid
 upstream: https://github.com/itsToggle/plex_debrid
 links:
 - name: Discord server
@@ -13,12 +13,12 @@ works_with:
 - Zurg
 - Overseerr
 - Jellyseerr
-price: 0.5
+price: 0.05
 ---
 
 # {{ page.meta.slug }}
 
-When combined with [Plex][plex], an rclone mount, and a Debrid service, plex_debrid facilitates "stremio-like" torrent streaming through Debrid Services. 
+When combined with [Plex][plex], an rclone mount, and a Debrid service, plex_debrid facilitates "stremio-like" torrent streaming through Debrid Services.
 
 In an ideal situation, you'd add a movie / TV show to your Plex watchlist / Trakt lists, [Overseerr] / [Jellyseerr], and then 10-20s later, it's available to stream it through your Plex instance, as per the upstream demo below:
 
