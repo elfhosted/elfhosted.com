@@ -70,6 +70,7 @@
 [store/plex]:         https://store.elfhosted.com/product/plex/
 [store/zurg]:         https://store.elfhosted.com/product/zurg/
 [store/zurgmount]:    https://store.elfhosted.com/product/rclone-real-debrid/
+[store/elfbuckz]:     https://store.elfhosted.com/product/elfbuckz-topup/
 [store]:              https://store.elfhosted.com
 [discord]:            https://discord.elfhosted.com
 [elfstorage]:         /what-is/elfstorage/
@@ -79,3 +80,4 @@
 [elfhelp]:            https://discord.com/channels/396055506072109067/1119478614287712337
 [pia]:                https://fnky.nz/support-me-when-you-buy-pia
 [real-debrid]:        https://fnky.nz/support-me-when-you-buy-real-debrid
+[elf-help]:           https://discord.com/channels/396055506072109067/1119478614287712337
