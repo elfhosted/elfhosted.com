@@ -77,7 +77,7 @@
 [storagebox]:         /what-is/storagebox/
 [rclone]:             /how-to/use-rclone/
 [elfbuckz]:           /how-to/spend-elfbuckz/
-[elfhelp]:            https://discord.com/channels/396055506072109067/1119478614287712337
+[elfhelp]:            https://discord.gg/funky-penguin-396055506072109067
 [pia]:                https://fnky.nz/support-me-when-you-buy-pia
 [real-debrid]:        https://fnky.nz/support-me-when-you-buy-real-debrid
 [elf-help]:           https://discord.com/channels/396055506072109067/1119478614287712337
