@@ -31,6 +31,10 @@ If you just need temporary / occasional rclone move data around, then see [how t
 
 ## Apps
 
+### Can I download torrents from public trackers?
+
+{% include 'faq_public_trackers.md' %}
+
 ### Can I access my services without SSO?
 
 Services with strong authentication or whose functionality requires access without SSO (*[Plex][plex], [Ombi][ombi], etc*) don't need to be protected by SSO. 
@@ -41,11 +45,15 @@ Due to the risk to all our customers if downloading apps are misconfigured and a
 
 ### How do I restart my apps?
 
-Use [ElfBot][elfbot]!
+Use [ElfBot][elfbot], or just delete the pod with [Kubernetes Dashboard][kubernetes-dashboard]!
 
 ### How do I backup my app config?
 
 Use [ElfBot][elfbot]!
+
+### How do I see app logs?
+
+Some apps create logs in their `config/<app>/` folder, which you can examine using [FileBrowser][filebrowser]. Alternately, you can watch each app's logs in realtime using [Kubernetes Dashboard][kubernetes-dashboard].
 
 ## Streaming
 

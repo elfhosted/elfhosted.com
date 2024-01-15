@@ -25,7 +25,7 @@ TL;DR - From now on, in order to use the torrent clients, you will need to BYO V
 Because the product has been withdrawn from the store, it won't be included on your next (daily) subscription renewal. Please subscribe to one of the BYOVPN torrent clients instead.
 
 !!! tip "Don't see your VPN provider? We can add it!"
-    If you don't see your particular VPN provider, create an [#elf-help][elfhelp] ticket, and we should be able to add it for you. Typically any OpenVPN or Wireguard VPNs will work, but OpenVPN is priced higher due to its higher CPU requirements.
+    If you don't see your particular VPN provider, create an [#elf-help][elf-help] ticket, and we should be able to add it for you. Typically any OpenVPN or Wireguard VPNs will work, but OpenVPN is priced higher due to its higher CPU requirements.
 
 !!! question "What if I don't want to BYO VPN?"
 

@@ -30,6 +30,10 @@ The qBittorrent project aims to provide an open-source software alternative to Â
 
 ## How do I use it ?
 
+### Can I use public trackers?
+
+{% include 'faq_public_trackers.md' %}
+
 {% include 'faq_use_mam.md' %}
 
 ### Alternate themes

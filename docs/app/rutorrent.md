@@ -29,6 +29,10 @@ ruTorrent is a popular Bittorrent client for power users, which includes the uni
 
 ## How do I use it ?
 
+### Can I use public trackers?
+
+{% include 'faq_public_trackers.md' %}
+
 ### Set inbound port
 
 If you're using [Private Internet Access][pia], or ProtonVPN, then your inbound port will be automatically configured for you.

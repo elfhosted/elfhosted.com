@@ -23,7 +23,7 @@ We did find a few bugs today, which I'll list below, in order of criticality:
 
 In a few reported cases now, users have topped up their ElfBuckz, paid their $$, and found that their ElfBuckz balance hasn't changed! I've created a support issue with the developer of the "[Account Funds](https://woocommerce.com/document/account-funds/)" plugin we use - the problem seems to be caused by the PayPal Payments plugin grumbling about missing metadata, when paying with a credit card (*i.e., PayPal is sad it's not invited to play*). Sad plugins shouldn't affect our top-ups though, so I'll progress this via the devs.
 
-If you suspect that your ElfBuckz top-ups are missing, create an [#elf-help][elfhelp] ticket, and I'll straighten it out!
+If you suspect that your ElfBuckz top-ups are missing, create an [#elf-help][elf-help] ticket, and I'll straighten it out!
 
 ## Subscriptions flapping
 
@@ -31,7 +31,7 @@ Some users have noticed their entire subscription disappearing, and then quickly
 
 I've refactored the provisioning script to be less complicated therefore less fragile, and these issues should be a thing of the past now, but the effect may take up to 24h to roll out. 
 
-If you suddenly find yourself with no apps, and your ElfBuckz are in the green, [you know what to do][elfhelp]...
+If you suddenly find yourself with no apps, and your ElfBuckz are in the green, [you know what to do][elf-help]...
 
 ## Autoscan missing for Plex users
 

@@ -98,7 +98,7 @@ Be aware that this process has some limitations, namely:
 
 1. You can't see the ENV vars you've already set
 2. You can't delete an ENV var, but you can set its value to nothing ('')
-3. Only the apps below are supported (*Seek [#elf-help][elfhelp] if you need an app added*):
+3. Only the apps below are supported (*Seek [#elf-help][elf-help] if you need an app added*):
 
 #### Apps supporting custom ENV vars
 

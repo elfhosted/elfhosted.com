@@ -42,7 +42,7 @@ Reset your password (*you're not given one initially*) and store it securely.
 
 * Get a FREE [$10 ElfBuckz starter pack](https://store.elfhosted.com/product/elfbuckz-10-starter-pack/) with coupon code `ELFELFBABY`, check out and create your account. Now you have an ElfBuckz balance!
 * Subscribe to a [Storagebox mount](https://store.elfhosted.com/product/hetzner-storagebox-mount/), enter your storagebox details (*you can optionally use a subaccount*)
-* Subscribe to [qBittorrent](https://store.elfhosted.com/product/qbittorrent/) / [Deluge](https://store.elfhosted.com/product/deluge/) / [ruTorrent](https://store.elfhosted.com/product/rutorrent/) - plug in your VPN details (*if your VPN provider isn't listed yet, get in touch via [#elf-help][elfhelp], and we'll add it!*)
+* Subscribe to [qBittorrent](https://store.elfhosted.com/product/qbittorrent/) / [Deluge](https://store.elfhosted.com/product/deluge/) / [ruTorrent](https://store.elfhosted.com/product/rutorrent/) - plug in your VPN details (*if your VPN provider isn't listed yet, get in touch via [#elf-help][elf-help], and we'll add it!*)
 * Optionally, add other media management apps you need such as [Radarr][radarr], [Sonarr][sonarr], [Prowlarr][prowlarr], etc.
 * Pay with your ElfBuckz balance! 🧝💰 (*when it runs out, you can top it up at from [my account](https://store.elfhosted.com/my-account/account-funds/)*)
 

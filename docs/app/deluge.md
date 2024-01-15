@@ -25,6 +25,10 @@ Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
 
 ## How do I use it?
 
+### Can I use public trackers?
+
+{% include 'faq_public_trackers.md' %}
+
 ### What's the password for Deluge?
 
 The default credentials are:

@@ -51,7 +51,7 @@ More details in the [advanced guide](/guides/media/stream-from-real-debrid-with-
 
 ## Update on ElfBuckz top-ups not topping-up
 
-The developers of the plugin we use for ElfBuckz have responded to me on the issue of occasional topups failing. Apparently the [fault lay with the PayPal payments plugin](https://wordpress.org/support/topic/conflict-with-woocommerce-payments-throws-exception-looking-for-paypal-meta/), which broke some Woocommerce automations. This is supposedly now fixed, but if you do notice your top-ups failing again, [let me know][elfhelp]!
+The developers of the plugin we use for ElfBuckz have responded to me on the issue of occasional topups failing. Apparently the [fault lay with the PayPal payments plugin](https://wordpress.org/support/topic/conflict-with-woocommerce-payments-throws-exception-looking-for-paypal-meta/), which broke some Woocommerce automations. This is supposedly now fixed, but if you do notice your top-ups failing again, [let me know][elf-help]!
 
 ## Update on Subscriptions stuck on hold
 
