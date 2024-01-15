@@ -127,6 +127,8 @@ Add RDTClient to Radarr / Sonarr as a qBittorrent download client, using the fol
 
 Radarr / Sonarr are pre-configured for [Autoscan][autoscan], but you'll need to edit Autoscan's config (`config/autoscan/` in [FileBrowser][filebrowser]), and add a token for Plex / Jellyfin / Emby, in order for the autoscanning to work.
 
+(See [here](https://www.plexopedia.com/plex-media-server/general/plex-token/) for instructions on getting your Plex API key)
+
 ## Success!
 
 That's it! You've got the basic plumbing in place for "unlimited storage" from Real-Debrid, managed by the Arrs and streamed by Plex!
