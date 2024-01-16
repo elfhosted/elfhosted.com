@@ -24,6 +24,7 @@ Project | Why
 [rclone](https://github.com/sponsors/rclone) | Used to mount remote storage
 [homer](https://www.buymeacoffee.com/bastien) | Provides our default user dashboard
 [mkdocs-material](https://github.com/sponsors/squidfunk) | Makes our website beautiful
+[zurg](https://github.com/sponsors/debridmediamanager) | Makes streaming from Real Debrid possible
 
 (*confirm my sponsorship [here](https://github.com/funkypenguin/)*)
 
