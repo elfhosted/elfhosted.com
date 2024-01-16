@@ -33,4 +33,11 @@ It integrates seamlessly with [Lidarr][lidarr], [Mylar][mylar], [Radarr][radarr]
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
+
+## How do I use it?
+
+### Adding torrents.io
+
+An custom indexer has been setup for torrents.io, the name of the indexer, confusingly, is "torrentsio" :grin:
+
 {% include 'app_footer.md' %}
