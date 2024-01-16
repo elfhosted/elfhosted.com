@@ -86,23 +86,19 @@ On purchase, you'll get the necessary components deployed, but some configuratio
 
 ### Setup zurg
 
-Edit your zurg config via [FileBrowser][filebrowser], and set:
+Edit your zurg config via [FileBrowser][filebrowser], and confirm that the following is set:
 
 ```
 retain_rd_torrent_name: true
 ```
 
-Restart zurg from FileBrowser console, using `elfbot restart zurg`
+If you needed to make a change, restart zurg from FileBrowser console, using `elfbot restart zurg`
 
-### Setup Real-Debrid
-
-Currently, Zurg will crash if your Real-Debrid account is empty. This is scheduled for fix in the next release, but in the meantime, ensure that in your Plex-Debrid account you have at least one file to be detected as "movies", and another as "shows".
-
-Confirm Zurg is setup correctly by browsing it from your ElfHosted dashboard.
+Confirm Zurg is setup correctly by browsing it from the link on your your ElfHosted dashboard.
 
 ### Setup Plex
 
-Claim your Plex instance using [ElfBot][elfbot], and add media libraries, using the pre-prepared 100GB [ElfStorage][elfstorage] in `/storage/elfstorage`.
+Claim your Plex instance using [ElfBot][elfbot], and add media libraries in `/storage/elfstorage`.
 
 ### Setup RDTClient
 
@@ -112,16 +108,18 @@ Configure [RDTClient], creating a username and password, and configuring per the
 
 Navigate to Prowlarr, and configure a new indexer for Torrentsio (*search "torrentio", there's no `.` in the name*). In the properties of the indexer, set your `Real-Debrid API Key`, test, and save.
 
-Prowlarr is pre-configured to sync with Radarr / Sonarr, so simply `Sync App Indexers` to add the torrentio (*via Prowlarr*) indexer to Radarr and Sonarr.
+Prowlarr is pre-configured to sync with Radarr / Sonarr, so enable these apps (*they are disabled by default*), and run `Sync App Indexers` to add the torrentio (*via Prowlarr*) indexer to Radarr and Sonarr.
 
 ### Setup Radarr / Sonarr
 
 Add RDTClient to Radarr / Sonarr as a qBittorrent download client, using the following details:
 
+* Name: `RDTClient`
 * Host: `rdtclient`
 * Port: `6500`
 * Username: `<your RDTClient username>`
 * Password: `<your RDTClient password>`
+* Remove Completed: :material-checkbox-blank-outline: **(unchecked)**
 
 ### Setup Autoscan
 
