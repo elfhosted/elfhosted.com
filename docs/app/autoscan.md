@@ -27,6 +27,8 @@ Using [FileBrowser][filebrowser], navigate to `/config/autoscan`, and edit `conf
 
 Uncomment your streamer of choice, and enter in an API token / key as described below.
 
+After changing the autoscan config, restart autoscan using [ElfBot][elfbot], by running `elfbot restart autoscan`.
+
 ### Setup Aars 
 
 Configure your Aars (*if they predate our preconfiguring*) by adding a new webhook connection in **Settings** -> **Connect**, with only the following parameters (*see [here][connect-apps] for arr-specific details*)
