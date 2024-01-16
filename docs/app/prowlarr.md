@@ -40,4 +40,10 @@ It integrates seamlessly with [Lidarr][lidarr], [Mylar][mylar], [Radarr][radarr]
 
 An custom indexer has been setup for torrents.io, the name of the indexer, confusingly, is "torrentsio" :grin:
 
+### Enabling apps
+
+All the supported apps are pre-configured in Prowlarr, but set to a disabled state. To enable Radarr and Sonarr, for example, you'd edit each disabled app, check the "**Enabled**" checkbox, and test and save. 
+
+Then "Sync app indexers" to have Prowlarr sync your indexers to the supported, enabled apps :thumbsup:
+
 {% include 'app_footer.md' %}

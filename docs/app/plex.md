@@ -40,4 +40,16 @@ Our nodes support Intel QuickSync for Video (QSV). If you're a PlexPass user, yo
 
 Plex may be trying to transcode the media, based on a detected incompatibilty with your client/app, and running into CPU limitations. For optimal performance and quality, try to direct-play media where possible. You could also try enabling hardware transcoding (*above*), which will improve transcoding performance.
 
+### Database is corrupt
+
+Certain unplanned events (power outages, etc) can result in Plex's database becoming corrupted. Fortunately, Plex makes its own, internal backup of its database at regular intervals, so it's possible to restore from a backed-up version of the database.
+
+Here's the process to restore Plex to a database backup:
+
+1. "Pause" Plex, using [ElfBot][elfbot]
+2. In [FileBrowser][filebrowser], navigate to `config/plex/Library/Application Support/Plex Media Server/Plug-in Support/Databases`
+3. Rename `com.plexapp.plugins.library.db` to `com.plexapp.plugins.library.db-corrupt`, and then pick the most recent, dated version of `com.plexapp.plugins.library.db-<date>`, and rename it to `com.plexapp.plugins.library.db`.
+
+When Plex starts after the pause, the backup database will be used! :thumbsup:
+
 {% include 'app_footer.md' %}
