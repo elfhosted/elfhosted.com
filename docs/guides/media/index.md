@@ -4,5 +4,5 @@ The guides below present specific app configurations for specific purposes, and 
 
 * [Stream from Real-Debrid with Plex, with "infinite storage"](/guides/media/stream-from-real-debrid-with-plex)
 * [Stream from Real-Debrid with Plex, with "infinite storage", managed with Arrs](/guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr/)
-* [Stream from Real-Debrid with Jellyfin, with "infinite storage", managed with Arrs](/guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr/)*
+* [Stream from Real-Debrid with Jellyfin, with "infinite storage", managed with Arrs](/guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr/)
 * [Stream from Real-Debrid with Emby, with "infinite storage", managed with Arrs](/guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr/)
