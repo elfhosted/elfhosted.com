@@ -145,6 +145,8 @@ nav:
       - guides/media/index.md
       - Stream from Real-Debrid with Plex: guides/media/stream-from-real-debrid-with-plex.md
       - Stream from Real-Debrid with Plex and Arrs: guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr.md
+      - Stream from Real-Debrid with Jellyfin and Arrs: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
+      - Stream from Real-Debrid with Emby and Arrs: guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
     - Media Server: guides/build-media-streaming-server.md
     - Plex Cloud: guides/your-own-plex-cloud.md 
     - unRAID: guides/unraid-storagebox-vpn.md
