@@ -58,6 +58,6 @@ Use the Explorer interface to upload/download from ElfHosted.
 
 ## Expected speed 10MB/s
 
-Note that our WebDAV share is rate-limited to 10MB/s, or 80Mbit, which represents 8% of our total 1Gbps per-node bandwidth. This restriction is in place in order to prioritize more realtime traffic over batch transfers.
+Note that our WebDAV share is rate-limited to 50MB/s, or 40Mbit, which represents 4% of our total 1Gbps per-node bandwidth. This restriction is in place in order to prioritize more realtime traffic over batch transfers.
 
 --8<-- "common-links.md"
