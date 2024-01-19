@@ -36,4 +36,12 @@ Next, purchase an pre-prepared zurg WebDAV mount - we'll attach the zurg-exposed
  
  If you add `/storage/real-debrid-zurg` to your Plex / Jellyfin / Emby libraries, suddenly you can stream from Real-Debrid as if the media were locally attached, without any delay for download / transfer, etc! 
 
+## Access zurg externally via WebDAV
+
+If you'd rather just use Zurg's WebDAV endpoint, and attach to your existing clients, you can "expose" Zurg using basic auth (user/password). Add the "[Zurg Exposed](https://store.elfhosted.com/product/zurg-exposed)" product to your subscription, choosing a secure password.
+
+Your Zurg instance will now be available via WebDAV on `https://<username>-zurg.elfhosted.com/dav/`
+
+To change your username/password, edit `config/zurg/config.yml` via [FileBrowser][filebrowser], and then trigger a Zurg restart using [ElfBot][elfbot].
+
 --8<-- "common-links.md"
