@@ -1,5 +1,5 @@
 ---
-title: Stream from real-debrid with Zurg
+title: Stream from real-debrid via Plex / Jellyfin / Emby with Zurg 
 slug: Zurg
 description: Zurg is middleware, half of a clever solution which lets you stream from Real Debrid directly using Plex, Emby, or Jellyfin
 upstream: https://github.com/debridmediamanager/zurg-testing
@@ -40,8 +40,42 @@ Next, purchase an pre-prepared zurg WebDAV mount - we'll attach the zurg-exposed
 
 If you'd rather just use Zurg's WebDAV endpoint, and attach to your existing clients, you can "expose" Zurg using basic auth (user/password). Add the "[Zurg Exposed](https://store.elfhosted.com/product/zurg-exposed)" product to your subscription, choosing a secure password.
 
-Your Zurg instance will now be available via WebDAV on `https://<username>-zurg.elfhosted.com/dav/`
+Your Zurg instance will now be available via WebDAV on `https://<username>-zurg.elfhosted.com/dav/` or `https://<username>-zurg.elfhosted.com/infuse/` (*specifically suited for Infuse users*).
 
-To change your username/password, edit `config/zurg/config.yml` via [FileBrowser][filebrowser], and then trigger a Zurg restart using [ElfBot][elfbot].
+## Updating Libraries
+
+### Plex
+
+To trigger a Plex library update from Zurg when your Real-Debrid content changes, edit `config/zurg/plex_update.sh` via [FileBrowser][filebrowser], find this line:
+
+```
+token="yourplextoken"
+```
+
+And replace `yourplextoken` with a token found either by:
+
+1. Following [these instructions](https://www.plexopedia.com/plex-media-server/general/plex-token/), or 
+2. Open Plex in a browser, open dev console and copy-paste this: `window.localStorage.getItem("myPlexAccessToken")`
+
+### Jellyfin / Emby
+
+To trigger Jellyfin / Emby library updates, you'll need to setup [Autoscan][autoscan], and uncomment out the alternative `on_library_update` value in `config/zurg/config.yml`, as follows:
+
+```
+# nope
+# on_library_update: sh plex_update.sh "$@"
+  
+# advanced alternative for Jellyfin/Emby support
+on_library_update: |
+  # Log the updated directories and send refresh request to autoscan
+  for arg in "$@"
+  do
+      echo "Detected update on: $arg"
+      # URL encode the directory path
+      encoded_arg=$(python -c "import urllib.parse; print(urllib.parse.quote_plus('$arg'))")
+      curl -s -X GET "http://autoscan:3030/triggers/manual?dir=/storage/realdebrid-zurg/$encoded_arg" 
+  done
+  echo "All updated sections refreshed."
+```
 
 --8<-- "common-links.md"
