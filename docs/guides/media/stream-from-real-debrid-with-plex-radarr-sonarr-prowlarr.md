@@ -46,7 +46,7 @@ flowchart TD
     E --> |Search trackers|F[torrent.io]
     G <--> |1. Add torrent|H[real-debrid]
 
-    R[Autoscan] --> K[Plex] 
+    R[Zurg] --> |Update libraries|K[Plex] 
 
     K[Plex] --> |"Read file (symlink)"|L["/storage/elfstorage"]
 
@@ -84,6 +84,10 @@ Here's a little more detail..
 
 On purchase, you'll get the necessary components deployed, but some configuration will be required, see below:
 
+### Setup Plex
+
+Claim your Plex instance using [ElfBot][elfbot], and add media libraries in `/storage/elfstorage`.
+
 ### Setup zurg
 
 Edit your zurg config via [FileBrowser][filebrowser], and confirm that the following is set:
@@ -91,14 +95,11 @@ Edit your zurg config via [FileBrowser][filebrowser], and confirm that the follo
 ```
 retain_rd_torrent_name: true
 ```
-
 If you needed to make a change, restart zurg from FileBrowser console, using `elfbot restart zurg`
 
 Confirm Zurg is setup correctly by browsing it from the link on your your ElfHosted dashboard.
 
-### Setup Plex
-
-Claim your Plex instance using [ElfBot][elfbot], and add media libraries in `/storage/elfstorage`.
+To permit Zurg to trigger Library scans in Plex, edit `config/zurg/plex_update.sh`, and add your Plex token as describe [here](/app/zurg/#plex).
 
 ### Setup RDTClient
 
