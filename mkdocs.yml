@@ -103,6 +103,7 @@ nav:
       - Autobrr: app/autobrr.md
       - Deluge: app/deluge.md
       - Flaresolverr: app/flaresolverr.md
+      - Iceberg: app/iceberg.md      
       - NZBGet: app/nzbget.md
       - NZBHydra: app/nzbhydra.md
       - Openbooks: app/openbooks.md

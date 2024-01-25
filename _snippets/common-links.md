@@ -11,6 +11,7 @@
 [flaresolverr]:       /app/flaresolverr/
 [gotify]:             /app/gotify/
 [homepage]:           /app/homepage/
+[iceberg]:            /app/iceberg/
 [jellyfin]:           /app/jellyfin/
 [jellyseerr]:         /app/jellyseerr/
 [jellyfin-accounts]:  /app/jellyfin-accounts/
