@@ -43,7 +43,6 @@ You may need these details when configuring inter-app communication, like connec
 * host: `emby`
 * port: `8096`
 
-
 ## [Flaresolverr][flaresolverr]
 
 * host: `flaresolverr`
@@ -53,6 +52,11 @@ You may need these details when configuring inter-app communication, like connec
 
 * host: `jellyfin`
 * port: `8096`
+
+## [Jellyseerr][jellyseerr]
+
+* host: `jellyseerr`
+* port: `5055`
 
 ## [Lidarr][lidarr]
 
@@ -72,6 +76,11 @@ In Plex, use `nextpvr:8866` as your HDHomeRun network address
 * host: `nzbget`
 * port: `6789`
 * credentials: `<none>`
+
+## [Overseerr][overseerr]
+
+* host: `overseerr`
+* port: `5055`
 
 ## [Plex][plex]
 
