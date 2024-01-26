@@ -90,6 +90,7 @@ nav:
       - Notifiarr: app/notifiarr.md
       - Ombi: app/ombi.md
       - Overseerr: app/overseerr.md
+      - Plex Meta Manager: app/plex-meta-manager.md
       - Radarr: app/radarr.md
       - Readarr: app/readarr.md
       - RPDB: app/rpdb.md
