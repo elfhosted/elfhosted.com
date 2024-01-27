@@ -15,35 +15,24 @@ hide:
 
 [See the apps :gift:](/apps/){ .md-button .md-button--primary } [Get started with FREE $10 credit :moneybag:](https://store.elfhosted.com){ .md-button .md-button--primary }
 
-## Quick Start Guides
+## NEW! Infinite storage / streaming with Plex and Debrid
+
+Recently (2024), a selection of our apps used to integrate media streaming (Plex) and downloaders (Real-Debrid) have been popular. Here's a quick guide..
 
 <div class="grid cards" markdown>
 
-- :baby: **New user?**
+- :tv: **Simply stream from Debrid with Plex**
 
     ---
 
-     Here's [how to get started](/how-to/get-started/), stat!
+     Here's all you need for [infinite stream from Real Debrid with Plex](/guides/media/stream-from-real-debrid-with-plex/), stat!
 
-- :pickup_truck: **Migrating from elsewhere?** 
-
-    ---
-
-    Got data / settings to bring across? [Here's a guide](/how-to/migrate/)
-
-- :scientist: **How does this work?**
+- :scientist: **Advanced Debrid streaming with Aars** 
 
     ---
 
-    What makes us [~~different~~ special](#elfhosted-vs-seedbox)?
-
-- **Where my elfies :elf: at?**
-
-    ---
-
-    Join our friendly :fontawesome-brands-discord:{ .discord .lg .middle } [Discord](http://discord.elfhosted.com) community for help and fun!
+    Want to use familiar tools for advanced searching / quality? Here's the [Advanced guide to infinite streaming / storage](/guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr/)!
 </div>
-
 
 ## The back-story
 
