@@ -22,6 +22,12 @@ With Plex Meta Manager, you can:
 * Integrate with Radarr and Sonarr to expand your media libraries
 * Share your creations with others in a Discord and Configs Repo
 
-{% include 'app.md' %}
-{% include 'app_access.md' %}
+[Get Elf Hosted {{ page.meta.slug }} from ${{ page.meta.price }}/day :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
+
+![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.png){ loading=lazy }
+
+## How do I access {{ page.meta.slug }}?
+
+Being a command-line tool, {{ page.meta.slug }} doesn't actually have a UI you can "log into". However, your dashboard (`https://<username>.elfhosted.com>`) will link you to the FileBrowser path to the config and the logs - you can also view the logs in realtime using [Kubernetes Dashboard][kubernetes-dashboard].
+
 {% include 'app_footer.md' %}
