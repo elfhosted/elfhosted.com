@@ -12,7 +12,11 @@ works_with:
 
 # {{ page.meta.slug }}
 
-Elevate your Stremio experience with seamless access to [Jackett][jackett] torrent links, effortlessly fetching torrents for your selected movies within the Stremio interface.
+Stremio is an ingenious [Stremio][strem.io] addon, developed by @aymene69 and @hyoretsu. It acts as the "glue" between Stremio and RealDebrid, using your own Jackett indexer to seek out suitable torrents, and your Real-Debrid API key to identify cached torrents. 
+
+The result is a beautifully polished Stremio experience across your devices, to instantly stream any available torrent, without relying on the (*often overloaded*) torrentio addon!
+
+> Elevate your Stremio experience with seamless access to [Jackett][jackett] torrent links, effortlessly fetching torrents for your selected movies within the Stremio interface.
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
