@@ -12,6 +12,7 @@
 [gotify]:             /app/gotify/
 [homepage]:           /app/homepage/
 [iceberg]:            /app/iceberg/
+[jackett]:            /app/jackett/
 [jellyfin]:           /app/jellyfin/
 [jellyseerr]:         /app/jellyseerr/
 [jellyfin-accounts]:  /app/jellyfin-accounts/
@@ -52,6 +53,7 @@
 [seafile]:            /app/seafile/
 [shoko]:              /app/shoko/
 [sonarr]:             /app/sonarr/
+[stremio-jackett]:    /app/stremio-jackett/
 [syncthing]:          /app/syncthing/
 [tautulli]:           /app/tautulli/
 [tdarr]:              /app/tdarr/

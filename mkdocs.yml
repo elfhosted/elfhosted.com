@@ -72,12 +72,14 @@ nav:
       - Audiobookshelf: app/audiobookshelf.md
       - Calibre: app/calibre.md
       - Calibre Web: app/calibre-web.md
+      - Emby: app/emby.md
       - Jellyfin: app/jellyfin.md
       - Kavita: app/kavita.md
       - Komga: app/komga.md
       - Navidrome: app/navidrome.md
       - Plex: app/plex.md
-      - Emby: app/emby.md
+      - Stremio-Jackett: app/stremio-jackett.md
+
     - Manage Media:
       - Autobrr: app/autobrr.md
       - Bazarr: app/bazarr.md
@@ -104,7 +106,8 @@ nav:
       - Autobrr: app/autobrr.md
       - Deluge: app/deluge.md
       - Flaresolverr: app/flaresolverr.md
-      - Iceberg: app/iceberg.md      
+      - Iceberg: app/iceberg.md    
+      - Jackett: app/jackett.md  
       - NZBGet: app/nzbget.md
       - NZBHydra: app/nzbhydra.md
       - Openbooks: app/openbooks.md

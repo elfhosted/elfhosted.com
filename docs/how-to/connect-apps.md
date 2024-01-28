@@ -48,6 +48,11 @@ You may need these details when configuring inter-app communication, like connec
 * host: `flaresolverr`
 * port: `8191`
   
+## [Jackett][jackett]
+
+* host: `jackett`
+* port: `9117`
+
 ## [Jellyfin][jellyfin]
 
 * host: `jellyfin`

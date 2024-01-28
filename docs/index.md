@@ -25,7 +25,7 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
     ---
 
-     Here's all you need for [infinite stream from Real Debrid with Plex](/guides/media/stream-from-real-debrid-with-plex/), stat!
+     Here's all you need for [infinite streaming from Real Debrid with Plex](/guides/media/stream-from-real-debrid-with-plex/), stat!
 
 - :scientist: **Advanced Debrid streaming with Aars** 
 
