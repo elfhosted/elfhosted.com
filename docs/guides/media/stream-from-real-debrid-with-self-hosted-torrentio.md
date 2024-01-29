@@ -9,6 +9,12 @@ This guide illustrates how to use our ElfHosted [Torrentio][torrentio] addon to 
 !!! tip "New accounts get $10 credit, enough to run this stack for >2 months!"
     Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
 
+## How does it work?
+
+* ElfHosted maintains a torrentio instance for our users' apps (*[Prowlarr][prowlarr], [Iceberg][iceberg], etc*) to use, without rate-limiting.
+* This instance is publically available at ([rate-limited](https://github.com/funkypenguin/elf-infra/blob/ci/torrentio/middleware-rate-limit-torrentio.yaml)) at https://torrentio.elfhosted.com. 
+* Users can subscribe to their own instance of the addon (*still using the internal database*), with much more generous rate-limits
+
 The advantages of this solution are:
 
 * Use the highly-polished, multi-platform Stremio app
@@ -17,7 +23,6 @@ The advantages of this solution are:
 
 The disadvantages, of course, are:
 
-* Limited retention - you've only "got" the content as long as your Debrid subscription is current
 * IP restriction - your Debrid provider's regular IP restriction policies apply, so be cautious of streaming from multiple locations simultaneously.
 * Less history - we're working on more seeding, but our internal instance doesn't have the years of content that torrentio.strem.fm has.
 

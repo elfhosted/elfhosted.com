@@ -21,6 +21,18 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
 <div class="grid cards" markdown>
 
+- :material-database: **Run your own Torrentio** 
+
+    ---
+
+    Here's how to [get your own alternate, self-hosted torrentio instance](/guides/media/stream-from-real-debrid-with-self-hosted-torrentio)!
+
+- :hammer_pick: **DIY Stremio addon with Jackett** 
+
+    ---
+
+    Want to build your own, perfect torrent Stremio Addon? [Use Stremio-Jackett to a custom torrent index to Stremio](/guides/media/stream-from-real-debrid-with-stremio-jackett))!
+
 - :tv: **Simply stream from Debrid with Plex**
 
     ---
