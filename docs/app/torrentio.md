@@ -13,7 +13,7 @@ price: 0.15
 
 Torrentio is an extremely popular torrent indexer used for streaming torrents via Stremio. Due to massive usage, [the developer has significantly rate-limited the service](https://github.com/TheBeastLT/torrentio-scraper/issues/199#issuecomment-1913347357), and has been clear that he doesn't want to productize it.
 
-ElfHosted runs an internal scraper for our users (*rate-limited externally*), and this product makes the indexer available externally on a per-tenant basis
+ElfHosted runs an internal scraper for our users (*also free to the public, at https://torrentio.elfhosted.com but rate-limited*), and this product makes the indexer available externally on a per-tenant basis
 
 [Get Elf Hosted {{ page.meta.slug }} from $0.15/day :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
 
