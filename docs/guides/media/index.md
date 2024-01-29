@@ -4,6 +4,7 @@ The guides below present specific app configurations for specific purposes, and 
 
 ## Infinite Streaming with Stremio and Debrid
 
+* [Stream from Real-Debrid using Self Hosted Torrentio Addon](/guides/media/stream-from-real-debrid-with-self-hosted-torrentio)
 * [Stream from Real-Debrid using Stremio-Jackett Addon](/guides/media/stream-from-real-debrid-with-stremio-jackett)
 
 ## Infinite Streaming with Plex

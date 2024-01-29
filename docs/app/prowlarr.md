@@ -36,9 +36,13 @@ It integrates seamlessly with [Lidarr][lidarr], [Mylar][mylar], [Radarr][radarr]
 
 ## How do I use it?
 
-### Adding torrents.io
+### Adding torrentio
 
-An custom indexer has been setup for torrents.io, the name of the indexer, confusingly, is "torrentsio" :grin:
+There are two custom indexers pre-provisioned with Prowlarr.. one is for the public Torrentio, which is significantly rate-limited, and the other is for the ElfHosted internal instance, which is free and unrestricted to all ElfHosted apps.
+
+Search for "torrentio" to find and setup the indexers:
+
+![](/images/prowlarr-setup-torrentio.png)
 
 ### Enabling apps
 

@@ -43,10 +43,14 @@ When prompted for content services, use either `http://jellyseerr:5055` or `http
 
 #### Step 4 / 4
 
-Set your indexers (*I've not really tested this part yet*)
+##### Torrentio
 
-### Manual config
+To use the internal, unrestricted torrentio instance, set **Torrentio URL** to `http://elfhosted.torrentio`[^1]
 
-Onboarding is a new feature, and may be buggy. You can also edit your settings manually, using [FileBrowser][filebrowser], and then restarting Iceberg using [ElfBot][elfbot].
+##### Jackett
+
+To use your own ElfHosted Jackett instance, set the URL to `http://jackett:9117`
 
 {% include 'app_footer.md' %}
+
+[^1]: No, that's not a typo, it's a [Kubernetes service](https://github.com/funkypenguin/elf-infra/blob/ci/torrentio/service-elfhosted.yaml) called `elfhosted` in the namespace `torrentio`, on port `80`!

@@ -79,6 +79,7 @@ nav:
       - Navidrome: app/navidrome.md
       - Plex: app/plex.md
       - Stremio-Jackett: app/stremio-jackett.md
+      - Torrentio: app/torrentio.md      
 
     - Manage Media:
       - Autobrr: app/autobrr.md
