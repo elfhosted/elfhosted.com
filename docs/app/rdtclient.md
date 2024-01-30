@@ -58,6 +58,7 @@ The Symlink Downloader can be a bit fragile to configure, and we're using a fork
 
 * Log Level: `DEBUG` (*useful for troubleshooting*)
 * Maximum parallel downloads: 100 (*may as well, it's not as if we're actually downloading anything*)
+* Authentication Type: No Authentication (*already protected behind ElfHosted SSO*)
 * Categories: Make sure these match your chosen Arrs
 
 ![](/images/rdt-client-symlink-downloader-general.png)
@@ -82,7 +83,8 @@ The Symlink Downloader can be a bit fragile to configure, and we're using a fork
 ### qBittorrent / *darr
 
 * Post Torrent Download Action: `Download all files to host` (*well, except we're faking it with symlinks, but we'll call it that*)
-*  Only download available files on debrid provider: **checked** :white_checkmark:
+* Only download available files on debrid provider: **checked** :white_checkmark:
+* Minimum file size to download: `5` (*avoid downloading small samples and misc files*)
 
 ## Troubleshooting
 
