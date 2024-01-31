@@ -23,7 +23,7 @@ NextPVR provides IPTV support for [Jellyfin][jellyfin] / [Emby][emby] / [Plex][p
 The default login is:
 
 * Username: `admin`
-* Password: `password`
+* Password: `ireadthedocs`
 
 See [here][connect-apps] for details re connecting to Jellyfin / Emby / Plex
 
