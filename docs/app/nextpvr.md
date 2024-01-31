@@ -13,7 +13,7 @@ price: 0.15
 
 # {{ page.meta.slug }}
 
-NextPVR provides IPTV support for [Jellyfin][jellyfin] / [Emby][emby] / [Plex][plex]
+NextPVR provides IPTV support for [Jellyfin][jellyfin] / [Emby][emby]
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
@@ -25,7 +25,7 @@ The default login is:
 * Username: `admin`
 * Password: `ireadthedocs`
 
-See [here][connect-apps] for details re connecting to Jellyfin / Emby / Plex
+See [here][connect-apps] for details re connecting to Jellyfin / Emby
 
 ## Can I save recordings?
 
