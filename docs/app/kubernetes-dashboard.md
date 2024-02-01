@@ -13,7 +13,9 @@ Your ElfHosted account includes a limited instance of the Kubernetes Dashboard, 
 
 ![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.png){ loading=lazy }
 
-{% include 'app_access.md' %}
+## How do I access {{ page.meta.slug }}?
+
+{{ page.meta.slug }} will be available from your dashboard (`https://<username>.elfhosted.com>`), or directly, at `https://<username>-kubernetes.elfhosted.com`
 
 ## How do I use it?
 
