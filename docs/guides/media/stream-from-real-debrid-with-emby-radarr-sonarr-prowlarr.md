@@ -111,6 +111,8 @@ Prowlarr is pre-configured to sync with Radarr / Sonarr, so enable these apps (*
 
 ### Setup Radarr / Sonarr
 
+Configure your **Root Folders** to `/storage/elfstorage/<whatever>`, since this is where the symlinks will appear. You do **not** need `/storage/realdebrid-zurg` (*in fact, its read-only nature will just confuse the Arr!*)
+
 Add RDTClient to Radarr / Sonarr as a qBittorrent download client, using the following details:
 
 * Name: `RDTClient`
