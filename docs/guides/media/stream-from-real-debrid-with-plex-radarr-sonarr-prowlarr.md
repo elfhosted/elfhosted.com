@@ -107,7 +107,7 @@ Configure [RDTClient], creating a username and password, and configuring per the
 
 ### Setup Prowlarr
 
-Navigate to Prowlarr, and configure a new indexer for Torrentsio (*search "torrentio", there's no `.` in the name*). In the properties of the indexer, set your `Real-Debrid API Key`, test, and save.
+Navigate to Prowlarr, and configure ElfHosted's torrentio internal indexer (*search "torrentio*). In the properties of the indexer, set your `Real-Debrid API Key`, test, and save.
 
 Prowlarr is pre-configured to sync with Radarr / Sonarr, so enable these apps (*they are disabled by default*), and run `Sync App Indexers` to add the torrentio (*via Prowlarr*) indexer to Radarr and Sonarr.
 
