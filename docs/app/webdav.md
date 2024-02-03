@@ -56,8 +56,10 @@ Either configure the remote via CLI as above, or use the UI to configure a simil
 
 Use the Explorer interface to upload/download from ElfHosted.
 
-## Expected speed 10MB/s
+## Expected speed
 
-Note that our WebDAV share is rate-limited to 50MB/s, or 40Mbit, which represents 4% of our total 1Gbps per-node bandwidth. This restriction is in place in order to prioritize more realtime traffic over batch transfers.
+Note that our WebDAV share is rate-limited to ~5MB/s, or 40Mbit, outgoing, which represents 4% of our total 1Gbps per-node bandwidth. This restriction is in place in order to prioritize more realtime traffic over batch transfers.
+
+A prioritized, higher-rate-limited WebDAV instance [is also available](https://store.elfhosted.com/product/webdav-access-plus), with speeds of up to 150Mbps or ~20MB/s.
 
 --8<-- "common-links.md"
