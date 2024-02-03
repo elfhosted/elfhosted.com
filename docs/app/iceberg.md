@@ -14,9 +14,6 @@ links:
 
 Iceberg is a rewrite of [plex-debrid][plex-debrid], enabling Plex torrent streaming through Real Debrid and 3rd party services like Overseerr, Mdblist, etc.
 
-!!! warning "Under active development"
-    Iceberg is under active development, and may break at any time. Users are welcome to try it out (*it's $0 in the store provided you already have [Zurg][zurg]*), but should have realistic expectations of support and reliability!
-
 {% include 'app.md' %}
 {% include 'app_access.md' %}
 
@@ -28,28 +25,37 @@ Iceberg is a rewrite of [plex-debrid][plex-debrid], enabling Plex torrent stream
 
 When prompted, set 
 
-* **Host Path**: `/storage/elfstorage/movies`
+* **Host Path**: `/storage/elfstorage/downloads`
 * **Container Path**: `/storage/realdebrid-zurg`
 
 and paste in your RD API key.
+
+![](/images/iceberg-setup-step-1.png)
 
 #### Step 2 / 4
 
 Set your Plex URL to `http://plex:32400`, and authenticate
 
+![](/images/iceberg-setup-step-2.png)
+
 #### Step 3 / 4
 
-When prompted for content services, use either `http://jellyseerr:5055` or `http://overseerr:5055`, depending which app you use.
+When prompted for content services, use either `http://jellyseerr:5055` or `http://overseerr:5055`, depending which app you use. Navigate to Overseerr / Jellyseerr, retrieve your API key from **Settings** -> **General** --> **API Key**, and paste it in.
+
+![](/images/iceberg-setup-step-3.png)
 
 #### Step 4 / 4
 
+![](/images/iceberg-setup-step-4.png)
+
+
 ##### Torrentio
 
-To use the internal, unrestricted torrentio instance, set **Torrentio URL** to `http://elfhosted.torrentio`[^1]
+To use ElfHosted's internal, unrestricted torrentio instance, set **Torrentio URL** to `http://elfhosted.torrentio`[^1]
 
 ##### Jackett
 
-To use your own ElfHosted Jackett instance, set the URL to `http://jackett:9117`
+To use your own ElfHosted [Jackett][jackett] instance, set the URL to `http://jackett:9117`, and paste in your API key (*retrieved from the Jackett UI*)
 
 {% include 'app_footer.md' %}
 
