@@ -1,6 +1,6 @@
 ---
 title: Stream from Real-Debrid with Jellyfin and Radarr, Sonarr, Prowlarr
-description: This guide describes how to setup a torrent-like "arr stack", to achiev "stremio-style", streaming your media from Real-Debrid using Jellyfin, without having to store it locally or even touch a torrent client or a VPN!
+description: This guide describes how to setup a torrent-like "arr stack", to achieve "stremio-like", streaming your media from Real-Debrid using Jellyfin, without having to store it locally or even touch a torrent client or a VPN!
 ---
 # "Infinite streaming" from Real Debrid with Jellyfin, Prowlarr, Radarr, and Sonarr
 
@@ -25,7 +25,7 @@ Optional:
 
 * [ ] [Jellyseerr][jellyseerr]
 
-[Get all the required apps, conveniently bundled, for $0.50/day! :gift:](https://store.elfhosted.com/product/advanced-real-debrid-jellyfin-streaming-bundle){ .md-button .md-button--primary }
+[Get all the required apps, conveniently bundled, for $0.50/day! :gift:](https://store.elfhosted.com/product/advanced-infinite-arr-jellyfin-debrid-streaming-bundle){ .md-button .md-button--primary }
 
 ## How does it work?
 

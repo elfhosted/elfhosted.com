@@ -1,6 +1,6 @@
 ---
 title: Stream from Real-Debrid with Plex and Radarr, Sonarr, Prowlarr
-description: This guide describes how to setup a torrent-like "arr stack", to achiev "stremio-style", streaming your media from Real-Debrid using Plex, without having to store it locally or even touch a torrent client or a VPN!
+description: This guide describes how to setup a torrent-like "arr stack", to achieve "stremio-like", streaming your media from Real-Debrid using Plex, without having to store it locally or even touch a torrent client or a VPN!
 ---
 # "Infinite streaming" from Real Debrid with Plex, Prowlarr, Radarr, and Sonarr
 
@@ -26,7 +26,7 @@ Optional:
 * [ ] [Overseerr][overseerr]
 * [ ] [Ombi][ombi]
 
-[Get all the required apps, conveniently bundled, for $0.50/day! :gift:](https://store.elfhosted.com/product/advanced-real-debrid-plex-streaming-bundle){ .md-button .md-button--primary }
+[Get all the required apps, conveniently bundled, for $0.50/day! :gift:](https://store.elfhosted.com/product/advanced-arr-infinite-plex-debrid-streaming-bundle){ .md-button .md-button--primary }
 
 ## How does it work?
 
