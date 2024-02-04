@@ -21,14 +21,14 @@ Iceberg is a rewrite of [plex-debrid][plex-debrid], enabling Plex torrent stream
 
 ### Onboarding
 
-#### Step 1 / 4 
+#### General Settings
 
 When prompted, set 
 
 * **Host Path**: `/storage/elfstorage/downloads`
 * **Container Path**: `/storage/realdebrid-zurg`
 
-and paste in your RD API key.
+and paste in your [Real-Debrid][real-debrid] API key (*get it [here](https://real-debrid.com/apitoken)*)
 
 ![](/images/iceberg-setup-step-1.png)
 
