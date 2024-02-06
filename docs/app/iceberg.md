@@ -25,8 +25,8 @@ Iceberg is a rewrite of [plex-debrid][plex-debrid], enabling Plex torrent stream
 
 When prompted, set 
 
-* **Host Path**: `/storage/elfstorage/downloads`
-* **Container Path**: `/storage/realdebrid-zurg`
+* **Rclone Path**: `/storage/elfstorage/downloads`
+* **Library Path**: `/storage/realdebrid-zurg`
 
 and paste in your [Real-Debrid][real-debrid] API key (*get it [here](https://real-debrid.com/apitoken)*)
 
@@ -40,14 +40,13 @@ Set your Plex URL to `http://plex:32400`, and authenticate
 
 #### Step 3 / 4
 
-When prompted for content services, use either `http://jellyseerr:5055` or `http://overseerr:5055`, depending which app you use. Navigate to Overseerr / Jellyseerr, retrieve your API key from **Settings** -> **General** --> **API Key**, and paste it in.
+When prompted for content services, select your Plex watchlist - if you're a [Overseer][overseerr] / [Jellyseer][jellyseerr] user, use either `http://jellyseerr:5055` or `http://overseerr:5055`, depending which app you use. Navigate to Overseerr / Jellyseerr, retrieve your API key from **Settings** -> **General** --> **API Key**, and paste it in.
 
 ![](/images/iceberg-setup-step-3.png)
 
 #### Step 4 / 4
 
 ![](/images/iceberg-setup-step-4.png)
-
 
 ##### Torrentio
 
@@ -56,6 +55,21 @@ To use ElfHosted's internal, unrestricted torrentio instance, set **Torrentio UR
 ##### Jackett
 
 To use your own ElfHosted [Jackett][jackett] instance, set the URL to `http://jackett:9117`, and paste in your API key (*retrieved from the Jackett UI*)
+
+#### Now what?
+
+You'll see a summary of your setup displayed. Click "Status" to look at your requests / queue / library:
+
+![](/images/iceberg-setup-step-5.png)
+
+### Where do I find my files?
+
+Iceberg will put symlinks in `/storage/elfstorage/movies` and `/stories/elfstorage/tv`
+
+### Where do I find logs?
+
+To see what Iceberg is up to, use [Filebrowser] to inspect the logs in /storage/config/iceberg/
+
 
 {% include 'app_footer.md' %}
 
