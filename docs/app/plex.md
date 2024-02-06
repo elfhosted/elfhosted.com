@@ -36,7 +36,7 @@ Our nodes support Intel QuickSync for Video (QSV). If you're a PlexPass user, yo
 
 ## Solutions to common issues
 
-### Can't add media libraries
+### Claiming server / Can't add media libraries
 
 If you find that you can't add media libraries, or even administer your Plex instance, then it probably hasn't been "claimed" yet. Use [ElfBot][elfbot] to claim your server using a claim code from https://www.plex.tv/claim/.
 
@@ -79,5 +79,13 @@ Note that when you connect to Plex externally, your port will be `443`, since yo
 ### Unable to save settings
 
 Normally, Plex servers can be remotely administered using https://app.plex.tv - in our case, (maybe because we're using a VPN?), users have had inconsistent results saving server settings changes this way. To make changes to your Plex instance, use the `https://<your username>-plex.elfhosted.com` interface.
+
+### Get Plex token
+
+To integrate Zurg or plex-debrid with Plex, you need to retrieve a plex "authentication token". THis is a fiddly process, but there's a useful guide [here](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/).
+
+The easiest way to get the token is to examine the XML of an existing media item in your library - but if you're just getting setup, you don't **have** anything in your library! We've snuck a small movie into `/storage/elfstorage/videos/`, so that you can add this as an "Other Media" library in Plex, scan it, and use it to retrieve your token from the XML!
+
+
 
 {% include 'app_footer.md' %}

@@ -1,5 +1,5 @@
 ---
-title: Autoscan bundled free with Plex/Jellyfin/Emby
+title: Autoscan free with Plex/Jellyfin/Emby
 slug: Autoscan
 description: Autoscan works with the Arrs to trigger Plex/Jellyfin/Emby to scan targeted folders when new media has been added
 works_with:
@@ -17,7 +17,9 @@ sponsorship:
 
 Autoscan replaces the default Plex and Emby behaviour for picking up file changes on the file system. Autoscan integrates with [Sonarr][sonarr], [Radarr][radarr], [Readarr][readarr] and [Lidarr][lidarr] to fetch changes in near real-time without relying on the file system.
 
-Autoscan is bundled **FREE** with your ElfHosted streamer (*[Plex][plex], [Jellyfin][jellyfin], or [Emby][emby]*), and pre-setup in the Arrs.
+Autoscan is **FREE** with your ElfHosted streamer (*[Plex][plex], [Jellyfin][jellyfin], or [Emby][emby]*), and pre-setup in the Arrs.
+
+[Get Elf Hosted {{ page.meta.slug }} from FREE :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
 
 ## How do I use it?
 
