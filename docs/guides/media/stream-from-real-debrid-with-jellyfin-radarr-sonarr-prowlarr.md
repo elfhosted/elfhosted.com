@@ -21,7 +21,7 @@ The solution leverages the popular Arr tools to search, source, and sort your me
 * [x] [Zurg Rclone Mount](https://store.elfhosted.com/product/rclone-real-debrid/)
 * [x] [Jellyfin][jellyfin]
 * [x] [RDTClient][rdtclient]
-
+* [x] [Autoscan][autoscan]
 
 Optional:
 
