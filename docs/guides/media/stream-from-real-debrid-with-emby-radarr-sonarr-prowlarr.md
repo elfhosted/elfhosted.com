@@ -14,12 +14,14 @@ The solution leverages the popular Arr tools to search, source, and sort your me
 ## Requirements
 
 * [x] [Real-Debrid account][real-debrid] and [API token](https://real-debrid.com/apitoken)
-* [x] [prowlarr][prowlarr]
-* [x] [radarr][radarr]
-* [x] [sonarr][sonarr]
+* [x] [Prowlarr][prowlarr]
+* [x] [Radarr][radarr]
+* [x] [Sonarr][sonarr]
 * [x] [Zurg][zurg]
 * [x] [Zurg Rclone Mount](https://store.elfhosted.com/product/rclone-real-debrid/)
 * [x] [Emby][emby]
+* [x] [RDTClient][rdtclient]
+
 
 Optional:
 
