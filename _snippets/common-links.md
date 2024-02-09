@@ -35,6 +35,7 @@
 [overseerr]:          /app/overseerr/
 [plex]:               /app/plex/
 [plex-debrid]:        /app/plex-debrid/
+[plex-meta-manager]:  /app/plex-meta-manager/
 [privatebin]:         /app/privatebin/
 [prowlarr]:           /app/prowlarr/
 [pyload]:             /app/pyload/

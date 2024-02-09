@@ -103,5 +103,6 @@ Be aware that this process has some limitations, namely:
 #### Apps supporting custom ENV vars
 
 * [VaultWarden][vaultwarden]
+* [Plex Meta Manager][plex-meta-manager]
 
 --8<-- "common-links.md"

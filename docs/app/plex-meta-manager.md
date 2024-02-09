@@ -30,4 +30,8 @@ With Plex Meta Manager, you can:
 
 Being a command-line tool, {{ page.meta.slug }} doesn't actually have a UI you can "log into". However, your dashboard (`https://<username>.elfhosted.com>`) will link you to the FileBrowser path to the config and the logs - you can also view the logs in realtime using [Kubernetes Dashboard][kubernetes-dashboard].
 
+## Can I set env vars?
+
+Yes, [use ElfBot to set your ENV vars](/app/elfbot/#how-to-set-an-env-var-for-an-app) - here's a [link to the official docs](https://metamanager.wiki/en/latest/pmm/environmental/) describing how to use environment variables.
+
 {% include 'app_footer.md' %}
