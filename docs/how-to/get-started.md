@@ -36,7 +36,7 @@ Take note of the built-in apps, including:
 
 ## Get mooar storage!
 
-OK, so now you have some apps, but there's only 100Gi of storage available at `/storage/elfhosted`, what gives?
+OK, so now you have some apps, but there's only 100Gi of storage available at `/storage/elfstorage`, what gives?
 
 We're storage-flexible - you can buy from us, attach a [Hetzner storagebox][storagebox], or attach your existing rclone-compatible storage. See the [storage category in the store](https://store.elfhosted.com/product-category/storage/) for more options.
 
@@ -54,7 +54,7 @@ We're storage-flexible - you can buy from us, attach a [Hetzner storagebox][stor
 
 Just want it to work instantly? Want to grow your storage over time?
 
-Buy more [ElfStorage][elfstorage] from the [store][store/elfstorage], and we'll instantly and transparently add it to your `/storage/elfhosted` mount. Done! :magic_wand:
+Buy more [ElfStorage][elfstorage] from the [store][store/elfstorage], and we'll instantly and transparently add it to your `/storage/elfstorage` mount. Done! :magic_wand:
 
 !!! warning "Welcome to the Hotel Elf-ifornia"
     We can transparently **grow**, but we can't **shrink** an ElfStorage volume. 

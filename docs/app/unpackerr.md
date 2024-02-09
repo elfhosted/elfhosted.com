@@ -17,6 +17,6 @@ You can examine the Unpackerr logs using [File Browser][filebrowser], at `/confi
 
 ### Advanced customization
 
-Unpackerr should "just work", provided you use both the built-in API keys for the Arr apps, and download to `/storage/elfhosted/downloads/completed`. For more advanced Unpackerr options, you may (*using [File Browser][filebrowser]*) edit `/conf/unpackerr/unpackerr.conf` and make further customizations. Remember to restart Unpackerr afterwards, using [ElfBot][elfbot], by running `elfbot restart unpackerr`
+Unpackerr should "just work", provided you use both the built-in API keys for the Arr apps, and download to `/storage/elfstorage/downloads/completed`. For more advanced Unpackerr options, you may (*using [File Browser][filebrowser]*) edit `/conf/unpackerr/unpackerr.conf` and make further customizations. Remember to restart Unpackerr afterwards, using [ElfBot][elfbot], by running `elfbot restart unpackerr`
 
 {% include 'app_footer.md' %}

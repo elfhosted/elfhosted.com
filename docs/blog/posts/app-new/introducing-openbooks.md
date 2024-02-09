@@ -13,7 +13,7 @@ Today we added [Openbooks][openbooks], a tool which allows you to download ebook
 
 ![Screenshot of Openbooks](/images/screenshots/openbooks.png)
 
-Currently, Openbooks is hard-coded to save downloaded content to `/storage/elfhosted/downloads/completed/books`, and changing this is non-trivial, since it's a commandline argument fed to the application binary, rather than a user-configurable UI setting. If changing the download location is important to you, we may be able to effect this in future using [ElfBot][elfbot].
+Currently, Openbooks is hard-coded to save downloaded content to `/storage/elfstorage/downloads/completed/books`, and changing this is non-trivial, since it's a commandline argument fed to the application binary, rather than a user-configurable UI setting. If changing the download location is important to you, we may be able to effect this in future using [ElfBot][elfbot].
 
 While [Readarr][readarr] -> [Openbooks][openbooks] -> [Calibre][calibre] -> [Calibre-Web][calibre-web] would be the "holy grail", it doesn't look like we'll see Readarr integration. However, I have noticed some issues on the [Openbooks GitHub repo](https://github.com/evan-buss/openbooks) which explain how to setup a [Calibre][calibre] "auto-add" directory, which would create the "slightly-less-holy grail" of [Openbooks][openbooks] -> [Calibre][calibre] -> [Calibre-Web][calibre-web]. For this to work, we need to switch to the VNC-in-browser version of Calibre, which I'll try to do over the next few days.
 

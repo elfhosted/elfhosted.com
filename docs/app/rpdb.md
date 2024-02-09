@@ -25,7 +25,7 @@ Instead of browsing for a folder, click in the text box illustrated below..
 
 ![Right-clicking a folder in RPDB](/images/rpbd-1.png)
 
-Manually type in the path to your movie/series folder (starting with `/storage/elfhosted`), and click "Save Location":
+Manually type in the path to your movie/series folder (starting with `/storage/elfstorage`), and click "Save Location":
 
 ![Choosing a location for a movies/series folder in RPDB](/images/rpdb-2.png)
 

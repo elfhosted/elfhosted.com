@@ -7,7 +7,7 @@ description: ElfStorage is ElfHosted's native storage, available you'd prefer no
 
 While we encourage users to BYO storage (*especially Hetzner [StorageBoxes][storagebox]*), ElfStorage exists to provide quick and easy storage for cases where you might not want to bolt-on external storage.
 
-Every user gets 100Gi ElfStorage free, mounted at `/storage/elfhosted`. This is done to ensure a smooth user experience when using our pre-provisioned apps, which would not otherwise be possible with the BYO mounts.
+Every user gets 100Gi ElfStorage free, mounted at `/storage/elfstorage`. This is done to ensure a smooth user experience when using our pre-provisioned apps, which would not otherwise be possible with the BYO mounts.
 
 ## How to get more ElfStorage
 

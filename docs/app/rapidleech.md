@@ -14,7 +14,7 @@ Rapid Leech is a free server transfer script for use on various popular upload/d
 
 ## Where are my downloads?
 
-Downloaded files will appear in `/storage/elfhosted/rapidleech`, and config will be stored in `/config/rapidleech`.
+Downloaded files will appear in `/storage/elfstorage/rapidleech`, and config will be stored in `/config/rapidleech`.
 
 !!! warning "Upstream deprecation"
     Note that the [upsteam repo](https://github.com/Th3-822/rapidleech) indicates:

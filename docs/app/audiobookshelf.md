@@ -56,7 +56,7 @@ To connect to other apps, refer to [this documentation][connect-apps]
   
 ## Integrating with Readarr
 
-While [Readarr][readarr] is able to search for and download both ebooks and audio books, having both formats in one target folder (`/storage/elfhosted/books`) causes import errors due to [Calibre][calibre] integration, and results in a messy Audiobookshelf library.
+While [Readarr][readarr] is able to search for and download both ebooks and audio books, having both formats in one target folder (`/storage/elfstorage/books`) causes import errors due to [Calibre][calibre] integration, and results in a messy Audiobookshelf library.
 
 A cleaner solution is to install our `Readarr (Audio)` app, which is simply another instance of Readarr, intended to be dedicated to audio books. `Readarr (Audio)` is pre-configured with the "Spoken" profile, and `/storage/elfstorage/audiobooks` as root media folder.
 
