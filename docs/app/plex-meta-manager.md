@@ -34,6 +34,6 @@ Being a command-line tool, {{ page.meta.slug }} doesn't actually have a UI you c
 
 Yes, [use ElfBot to set your ENV vars](/app/elfbot/#how-to-set-an-env-var-for-an-app) - here's a [link to the official docs](https://metamanager.wiki/en/latest/pmm/environmental/) describing how to use environment variables.
 
-You could, for example, force Plex Meta Manager to run immediately, buy using ElfBot to set `PMM_RUN` to `TRUE` (causing a restart), and then after watching the run in the logs, set it back to `FALSE` to rely on the `PMM_TIME` value to trigger a 24h scan cycle, and avoid running on **every** restart.
+You could, for example, use `elfbot env plexmetamanager PMM_TIMES=10:00,23:00` to configure Plex Meta Manager to run at 10am and 11pm (UTC) daily.
 
 {% include 'app_footer.md' %}
