@@ -1,0 +1,327 @@
+site_name: "ElfHosted / app hosting that works like magic! 🪄"
+site_description: App hosting that works like magic! 🪄
+site_author: 'David Young'
+site_url: 'https://elfhosted.com'
+edit_uri: 'edit/main/docs/'
+
+
+# Fail to build if we have broken links
+# strict: true
+
+# Copyright
+copyright: 'Copyright &copy; 2023 David Young, Funky Penguin Limited'
+
+# Repository
+repo_name: 'elfhosted.com'
+repo_url: 'https://github.com/geek-cookbook/elfhosted.com'
+
+
+# Plugins
+plugins:
+  search:
+  minify:
+    minify_html: true
+  autolinks:
+  git-revision-date-localized:
+    type: date
+    fallback_to_build_date: true  
+  macros:
+    verbose: true
+    include_dir: _includes
+  meta-descriptions: # If not provided, auto-generate a description (https://pypi.org/project/mkdocs-meta-descriptions-plugin/)
+  # meta:
+  blog:
+    # post_excerpt: required
+    post_url_format: "{date}/{file}" # this allows us to change the post title in future without breaking URLs
+  tags:
+    tags_file: blog/tags.md
+  rss:
+    match_path: blog/posts/.*
+    date_from_meta:
+      as_creation: date
+    categories:
+      - categories
+      - tags
+    abstract_chars_count: 500
+    image: https://elfhosted.com/images/logo.png
+    url_parameters:
+      utm_source: "elfhosted-com"
+      utm_medium: "RSS"
+      utm_campaign: "feed-syndication"
+  social:
+    # debug: false
+    # debug_color: yellow
+    cards_layout: elfhosted
+
+  # privacy:
+  #   external_links_attr_map:
+  #     target: _blank 
+  #     rel: nofollow   
+  #   external_assets_exclude:
+  #     - img.shields.io/*
+  optimize:
+    enabled: true
+
+#theme_dir: mkdocs-material
+nav:
+  - Home: 
+    - index.md
+  - Apps:
+    - apps/index.md # yes, the plural is intentional
+    - Consume Media:
+      - Audiobookshelf: app/audiobookshelf.md
+      - Calibre: app/calibre.md
+      - Calibre Web: app/calibre-web.md
+      - Emby: app/emby.md
+      - Jellyfin: app/jellyfin.md
+      - Kavita: app/kavita.md
+      - Komga: app/komga.md
+      - Navidrome: app/navidrome.md
+      - Plex: app/plex.md
+      - Stremio-Jackett: app/stremio-jackett.md
+      - Torrentio: app/torrentio.md      
+
+    - Manage Media:
+      - Autobrr: app/autobrr.md
+      - Bazarr: app/bazarr.md
+      - Jellyfin Accounts: app/jellyfin-accounts.md
+      - Jellyseerr: app/jellyseerr.md
+      - Lazy Librarian: app/lazylibrarian.md
+      - Lidarr: app/lidarr.md
+      - Mylar: app/mylar.md
+      - NextPVR: app/nextpvr.md
+      - Notifiarr: app/notifiarr.md
+      - Ombi: app/ombi.md
+      - Overseerr: app/overseerr.md
+      - Plex Meta Manager: app/plex-meta-manager.md
+      - Radarr: app/radarr.md
+      - Readarr: app/readarr.md
+      - RPDB: app/rpdb.md
+      - Shoko: app/shoko.md
+      - Sonarr: app/sonarr.md
+      - Tautulli: app/tautulli.md
+      - Tdarr: app/tdarr.md
+      - xTeVe: app/xteve.md
+
+    - Manage Downloads:
+      - Autobrr: app/autobrr.md
+      - Deluge: app/deluge.md
+      - Flaresolverr: app/flaresolverr.md
+      - Iceberg: app/iceberg.md    
+      - Jackett: app/jackett.md  
+      - NZBGet: app/nzbget.md
+      - NZBHydra: app/nzbhydra.md
+      - Openbooks: app/openbooks.md
+      - Plex-Debrid: app/plex-debrid.md
+      - Prowlarr: app/prowlarr.md
+      - Pyload: app/pyload.md
+      - qBittorrent: app/qbittorrent.md
+      - Rapidleech: app/rapidleech.md
+      - RDT Client: app/rdtclient.md
+      - ruTorrent: app/rutorrent.md
+      - SABnzbd: app/sabnzbd.md
+      - Unpackerr: app/unpackerr.md
+      - Youtube DL: app/youtubedl.md
+      - Zurg: app/zurg.md
+  
+    - Tools:
+      - ElfBot: app/elfbot.md
+      - Filebrowser: app/filebrowser.md
+      - Gotify: app/gotify.md
+      - Homepage: app/homepage.md
+      - Joplin Server: app/joplin-server.md
+      - Kubernetes Dashboard: app/kubernetes-dashboard.md
+      - Mattermost: app/mattermost.md
+      - Miniflux: app/miniflux.md
+      - Privatebin: app/privatebin.md
+      - RCloneFM: app/rclonefm.md
+      - RCloneUI: app/rcloneui.md
+      - Resilio Sync: app/resiliosync.md
+      - Seafile: app/seafile.md
+      - Syncthing: app/syncthing.md
+      - The Lounge: app/thelounge.md
+      - Uptime Kuma: app/uptimekuma.md
+      - Vaultwarden: app/vaultwarden.md
+      - Wallabag: app/wallabag.md
+      - WebDAV Access: app/webdav.md
+
+  - Store : https://store.elfhosted.com
+  - Guides: 
+    - Media: 
+      - guides/media/index.md
+      - Infinite Streaming with Stremio and Jackett: guides/media/stream-from-real-debrid-with-stremio-jackett.md
+      - Infinite Streaming with Plex: guides/media/stream-from-real-debrid-with-plex.md
+      - Advanced Infinite Streaming with Plex and Arrs: guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr.md
+      - Advanced Infinite Streaming with with Jellyfin and Arrs: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
+      - Advanced Infinite Streaming with with Emby and Arrs: guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
+    - Media Server: guides/build-media-streaming-server.md
+    - Plex Cloud: guides/your-own-plex-cloud.md 
+    - unRAID: guides/unraid-storagebox-vpn.md
+  - Support:
+    - get-help.md
+    - Discord: https://discord.elfhosted.com
+    - Get Started: how-to/get-started.md
+    - Migrate: how-to/migrate.md
+    - ElfBuckz: how-to/spend-elfbuckz.md
+    - ElfStorage: what-is/elfstorage.md
+    - StorageBox: what-is/storagebox.md
+    - Use rclone: how-to/use-rclone.md
+    - Connect Apps: how-to/connect-apps.md
+    - Data Retention: how-to/delete-your-data.md
+    - FAQ: faq.md
+    - Team: team.md
+  - Blog: 
+    - blog/index.md
+    - Tags: blog/tags.md
+  - Legal:
+    - legal/index.md
+    - Acceptable Use: legal/acceptable-use.md
+    - Privacy Policy: legal/privacy-policy.md
+    - Terms of Service: legal/terms-of-service.md
+    # - Refund Policy: legal/refund-policy.md
+  - Open (Source):
+    - open/index.md
+    - Design:
+      - open-source/design/index.md
+    - Reports:
+      - Jan 2024: open/jan-2024.md
+      - Dec 2023: open/dec-2023.md
+      - Nov 2023: open/nov-2023.md
+      - Oct 2023: open/oct-2023.md
+      - Sep 2023: open/september-2023.md
+      - Aug 2023: open/august-2023.md
+      - Jul 2023: open/july-2023.md    
+      - Jun 2023: open/june-2023.md      
+    - Traffic:
+      - elfhosted.com: open/traffic/elfhosted.com.md
+      - store.elfhosted.com: open/traffic/store.elfhosted.com.md
+    - Sponsorship: open/sponsorship.md
+
+theme:
+  name: 'material'
+  custom_dir: 'overrides'
+  favicon: 'images/logo.png'
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.instant
+      # - navigation.sections
+      - navigation.indexes
+      - navigation.top
+      - navigation.pruning
+      - navigation.path
+      - search.suggest
+      - search.share
+      - content.code.annotate
+      - content.code.copy
+      - header.autohide
+      - announce.dismiss
+      - toc.follow
+  icon:
+    logo: material/server-security
+    repo: 'fontawesome/brands/github'
+    tag:
+      kubernetes: material/kubernetes
+      js: fontawesome/brands/js
+
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system preferences
+
+    # Toggle light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'custom'
+      accent: 'green'
+      toggle:
+        icon: material/brightness-7
+        name: Burn my eyes!
+
+    # Toggle dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'custom'
+      accent: 'green'
+      toggle:
+        icon: material/brightness-4
+        name: Love my eyes!
+
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+
+extra_css:
+  - extras/css/icons.css
+  - extras/css/stylesheets.css
+    
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  social:
+    - icon: 'fontawesome/brands/mastodon'
+      link: 'https://so.fnky.nz/@funkypenguin'
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/funkypenguin'
+    - icon: 'fontawesome/brands/discord'
+      link: 'http://discord.elfhosted.com' 
+    - icon: 'simple/matrix'
+      link: 'http://matrix.funkypenguin.co.nz' 
+
+extra_javascript:
+  # - extras/javascript/plausible.js
+  # - extras/javascript/widgetbot.js # uncommented for dev
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - extras/javascript/tablesort.js
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: false
+      toc_depth: 3 # ignore H4/5/6
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: _snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons      
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: geek-cookbook
+      repo: elfhosted.com
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - meta
+  - md_in_html
+
+
