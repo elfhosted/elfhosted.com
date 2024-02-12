@@ -18,7 +18,7 @@ Thanks to [Scannarr](https://github.com/Pukabyte/scannarr), we now have a soluti
 
 <!-- more -->
 
-## Simplo Scannarr Solution
+## Simple Scannarr Solution
 
 Scannarr is now deployed as a simple sidecar to all of our Radarr / Sonarr (HD and 4K) pods, and will trigger an automatic search of all your monitored content, every 2 hours. You don't have to do or change anything, this just means that you'll get more successful searches for your historical backlog and monitored series, over time.
 
