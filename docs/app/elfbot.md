@@ -115,6 +115,11 @@ ElfBot can help with this by creating a symlink to the remote content, in `/stor
 
 To perform a symlink import, run `elfbot symlink <path to read-only storage>`. ElfBot will symlink any **new**  content at `<path-to-readonly-storage>` to `/storage/elfstorage/download/symlinks/<directory>`. After this, you point the Aars at the `/storage/elfstorage/download/symlinks/` path, and tell them to perform an automatic or interactive import.
 
+For app-specific details, see:
+
+* [Radarr](/app/radarr/#import-existing-remote-media)
+* [Sonarr](/app/sonarr/#import-existing-remote-media)
+
 ElfBot keeps track of the content it's already symlinked - it won't re-create a symlink which you've already created, and then moved/renamed elsewhere. If you'd like to wipe ElfBot's memory, and recreate **all** symlinks, then delete the `/storage/elfstorage/downloads/.symlinks_cache` folder!
 
 --8<-- "common-links.md"

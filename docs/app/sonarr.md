@@ -32,9 +32,26 @@ Sonarr will be pre-configured for the other supported apps. By default, Sonarr H
 
 ## Import existing remote media
 
-If you have existing remote media mounted at `/storage/<something>` (*like Real-Debrid*), you can [use ElfBot to create symlinks](/app/elfbot#how-to-import-symlinks) to bring this into your Radarr library, without consuming any more space.
+If you have existing remote media mounted at `/storage/<something>` (*like Real-Debrid*), you can [use ElfBot to create symlinks](/app/elfbot#how-to-import-symlinks) to bring this into your Sonarr library, without consuming any more space.
 
-!!! warning
-    Be aware that our platform won't transcode 4K content for you reliably!
+Here's how the process works. The end result is that Plex only sees `[3]: /storage/elfstorage/series`:
+
+```mermaid
+flowchart TD
+    E["DMM/Torrentio"] --> |creates files in..|A
+    A["[1]: /storage/realdebrid-zurg/shows"] -->|elfbot creates symlinks to...| B("[2]: /storage/elfstorage/downloads/symlinks/shows/")
+    D[Plex] --> |Library points to...|C
+    B --> |Sonarr manual imports to..|C["[3]: /storage/elfstorage/series"]
+
+```
+
+To perform a symlink import using [ElfBot][elfbot], run `elfbot symlink /storage/realdebrid-zurg/shows`. ElfBot will symlink any **new**  content at `/storage/realdebrid-zurg/shows` to `/storage/elfstorage/download/symlinks/shows`. After this, use Sonarr to perform an automatic / interactive manual import from `/storage/elfstorage/download/symlinks/shows/`.
+
+In Sonarr, use `Wanted` -> `Manual Import`, and point the import at `/storage/elfstorage/downlods/symlinks/shows/`, as illustrated below:
+
+![](/images/sonarr-wanted-manual-import.png)
+
+!!! warning "Not Library Import"
+    We're not importing an organized library here, we're importing a messy bunch of files created by DMM / Stremio. Use `Wanted` -> `Manual Import` instead, since this will rename and upgrade your content, and move it to existing libraries
 
 {% include 'app_footer.md' %}

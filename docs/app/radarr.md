@@ -42,6 +42,27 @@ It can also be configured to automatically upgrade the quality of existing files
 
 If you have existing remote media mounted at `/storage/<something>` (*like Real-Debrid*), you can [use ElfBot to create symlinks](/app/elfbot#how-to-import-symlinks) to bring this into your Radarr library, without consuming any more space.
 
+Here's how the process works. The end result is that Plex only sees `[3]: /storage/elfstorage/movies`:
+
+```mermaid
+flowchart TD
+    E["DMM/Torrentio"] --> |creates files in..|A
+    A["[1]: /storage/realdebrid-zurg/movies"] -->|elfbot creates symlinks to...| B("[2]: /storage/elfstorage/downloads/symlinks/movies/")
+    D[Plex] --> |Library points to...|C
+    B --> |Radarr manual imports to..|C["[3]: /storage/elfstorage/movies"]
+
+```
+
+To perform a symlink import using [ElfBot][elfbot], run `elfbot symlink /storage/realdebrid-zurg/movies`. ElfBot will symlink any **new**  content at `/storage/realdebrid-zurg/movies` to `/storage/elfstorage/download/symlinks/movies`. After this, use Radarr to perform an automatic / interactive manual import from `/storage/elfstorage/download/symlinks/movies/`.
+
+In Radarr, use `Movies` -> `Manual Import`, and point the import at `/storage/elfstorage/downlods/symlinks/movies/`, as illustratetd below:
+
+![](/images/radarr-movies-manual-import.png)
+
+!!! warning "Not Library Import"
+    We're not importing an organized library here, we're importing a messy bunch of files created by DMM / Stremio. Use `Movies` -> `Manual Import` instead, since this will rename and upgrade your content, and move it to existing libraries
+
+
 ## HD and 4K Libraries
 
 Radarr isn't able to keep multiple copies of the same movie in different formats - it tries to upgrade a lower-quality format when a higher-quality one becomes available. It's sometimes desirable to keep multiple versions in your storage though, so that [Plex][plex] / [Jellyfin][jellyfin] / [Emby][emby] can prompt you which version you'd like to play.
