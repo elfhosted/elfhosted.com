@@ -30,6 +30,10 @@ Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), l
 
 Sonarr will be pre-configured for the other supported apps. By default, Sonarr HD is configured to seek out only 1080P content which can reliably be direct-played / transcoded on a range of equipment and bandwidth constraints. If you have the hardware / bandwidth to direct-play 4K content, you'll need to update the profiles yourself.
 
+## Import existing remote media
+
+If you have existing remote media mounted at `/storage/<something>` (*like Real-Debrid*), you can [use ElfBot to create symlinks](/app/elfbot#how-to-import-symlinks) to bring this into your Radarr library, without consuming any more space.
+
 !!! warning
     Be aware that our platform won't transcode 4K content for you reliably!
 
