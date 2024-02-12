@@ -59,8 +59,8 @@ plugins:
   #     rel: nofollow   
   #   external_assets_exclude:
   #     - img.shields.io/*
-  optimize:
-    enabled: true
+  # optimize:
+  #   enabled: true
 
 #theme_dir: mkdocs-material
 nav:
