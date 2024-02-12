@@ -86,6 +86,13 @@ The Symlink Downloader can be a bit fragile to configure, and we're using a fork
 * Only download available files on debrid provider: **checked** :white_checkmark:
 * Minimum file size to download: `5` (*avoid downloading small samples and misc files*)
 
+## Default credentials
+
+Our RDTClient instances are pre-configured for no authentication (*because they're protected by SSO*), but if you enable authentication, only to discover that you can't login, here are the default credentials:
+
+* User: `elfie`
+* Password: `w3LN'9WE;c@*BXVPq{.Udb`
+
 ## Troubleshooting
 
 If you encounter errors, for example your RDTClient downloads are stuck on "queued for downloading", this may be due to a path mismatch in the config. Under **Settings** -> **General**, set the log level to DEBUG. You should now be able to use [Kubernetes Dashboard][kubernetes-dashboard] or [FileBrowser][filebrowser] to examine the pod logs and identify the issue.

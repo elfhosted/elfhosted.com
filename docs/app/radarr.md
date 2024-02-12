@@ -38,6 +38,10 @@ It can also be configured to automatically upgrade the quality of existing files
 {% include 'app.md' %}
 {% include 'app_access.md' %}
 
+## Import existing remote media
+
+If you have existing remote media mounted at `/storage/<something>` (*like Real-Debrid*), you can [use ElfBot to create symlinks](/app/elfbot#how-to-import-symlinks) to bring this into your Radarr library, without consuming any more space.
+
 ## HD and 4K Libraries
 
 Radarr isn't able to keep multiple copies of the same movie in different formats - it tries to upgrade a lower-quality format when a higher-quality one becomes available. It's sometimes desirable to keep multiple versions in your storage though, so that [Plex][plex] / [Jellyfin][jellyfin] / [Emby][emby] can prompt you which version you'd like to play.

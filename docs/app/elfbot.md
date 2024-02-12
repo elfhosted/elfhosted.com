@@ -105,4 +105,16 @@ Be aware that this process has some limitations, namely:
 * [VaultWarden][vaultwarden]
 * [Plex Meta Manager][plex-meta-manager]
 
+### How to import symlinks
+
+If you've attached read-only external storage, which is managed outside of your ElfHosted tools (*[Real-Debrid][real-debrid] with [Debrid Media Manager](https://debridmediamanager.com/), for example*), then you may find that you have content in `/storage/<provider>` which you can't change (*rename, move, organize, etc*).
+
+This read-only content can be cumbersome to manage via [Radarr][radarr] / [Sonarr][sonarr] for example, which require read/write access to rename files, delete old files on quality upgrade etc.
+
+ElfBot can help with this by creating a symlink to the remote content, in `/storage/elfstorage/downloads/symlinks`. You can then manipulate this symlink as if it's a regular file (*rename, move into subfolders, etc*), but when accessed, it'll point to the original (*read-only*) content.
+
+To perform a symlink import, run `elfbot symlinkify <path to read-only storage>`. ElfBot will symlink any **new**  content at `<path-to-readonly-storage>` to `/storage/elfstorage/download/symlinks/<directory>`. After this, you point the Aars at the `/storage/elfstorage/download/symlinks/` path, and tell them to perform an automatic or interactive import.
+
+ElfBot keeps track of the content it's already symlinked - it won't re-create a symlink which you've already created, and then moved/renamed elsewhere. If you'd like to wipe ElfBot's memory, and recreate **all** symlinks, then delete the `/storage/elfstorage/downloads/.symlinks_cache` folder!
+
 --8<-- "common-links.md"
