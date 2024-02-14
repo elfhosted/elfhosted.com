@@ -1,3 +1,5 @@
+[annatar]:            /app/annatar/
+[airdcpp]:            /app/airdcpp/
 [audiobookshelf]:     /app/audiobookshelf/
 [autobrr]:            /app/autobrr/
 [autoscan]:           /app/autoscan/
