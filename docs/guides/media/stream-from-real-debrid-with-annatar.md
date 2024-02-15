@@ -19,7 +19,6 @@ The disadvantages, of course, are:
 
 * Limited retention - you've only "got" the content as long as your Debrid subscription is current
 * IP restriction - your Debrid provider's regular IP restriction policies apply, so be cautious of streaming from multiple locations simultaneously.
-* Jackett's results will appear more slowly in streamio, compared to pre-cached results from other providers
 
 !!! tip
     Consider our [Infinite Streaming Plex](guides/media/stream-from-real-debrid-with-plex/) guide if you'd like to Proxy your Real-Debrid access behind [Zurg][zurg] so that you **can** stream simultaneously from multiple source IPs
@@ -59,6 +58,9 @@ Navigate to **Jackett** from your app dashboard (`https://<your username>.elfhos
 If your indexers require [Flaresolverr][flaresolverr], you can add it to your existing subscription (*But you'll need to do "renew now" to avoid waiting for the 24h renewal cycle*)
 
 Once Flaresolverr is added to your account, configure it in Jackett simply as `http://flaresolverr:8191`
+
+!!! warning
+    Using indexers which require Flaresolverr **will** slow down cold queries, although you'll still benefit from instance responses for any queries already in the DB
 
 ### Setup Annatar
 
