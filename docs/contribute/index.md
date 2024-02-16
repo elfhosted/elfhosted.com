@@ -61,6 +61,20 @@ If you're looking to make a blog post / article about ElfHosted, here are some i
   <figcaption>Spanky in SVG</figcaption>
 </figure>
 
+### High-res, non-transparent JPG
+
+These images are shrunk to display nicely on this page. Save the image for the full-res version!
+
+<figure markdown>
+  ![](/images/logo-white-text.jpg){ width="250" }
+  <figcaption>Spanky with Text, white BG</figcaption>
+</figure>
+
+<figure markdown>
+  ![](/images/logo-green-text.jpg){ width="250" }
+  <figcaption>Spanky with Text, green BG</figcaption>
+</figure>
+
 ### Transparent PNG
     
 #### Spanky Only
@@ -76,6 +90,7 @@ If you're looking to make a blog post / article about ElfHosted, here are some i
   ![](/images/logo-text-150.png)
   <figcaption>Spanky in PNG with Text</figcaption>
 </figure>
+
 
 
 --8<-- "common-links.md"
