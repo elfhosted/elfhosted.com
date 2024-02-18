@@ -1,6 +1,6 @@
 ---
 title: ElfStorage. Elastic local storage.
-description: ElfStorage is ElfHosted's native storage, available you'd prefer not to BYO
+description: ElfStorage is ElfHosted's native storage, available if you'd prefer not to BYO
 ---
 
 # ElfStorage
