@@ -45,12 +45,18 @@ In this event, the only recourse is to "force restart" the app - if the app hasn
 
 To "force restart" an app, run `elfbot restart <app> --force --yesiamsure` - ElfBot will instantly remove the pod (*rather than waiting for it to terminate*), and a replacement pod will be scheduled.
 
+!!! tip "Restarting all at once"
+    You can use `elfbot restart all` to restart **all** your apps at the same time (*although it's hard to imagine a situation where this would be required*)
+
 ### How to reset an app
 
 Need to reset an app to defaults? Run `elfbot reset <app> --yesiamsure` to perform the reset. ElfBot will restart your app, and remove its config from `/config`, resulting in a fresh bootstrap or a clean install.
 
 !!! warning
     This command will result in data loss. There are no further confirmations beyond `--yesiamsure`. If you're uncertain, perform a backup of your app before resetting (*below*).
+
+!!! danger
+    You can also use `all` here, as in `elfbot reset all` - but be aware that it'll do exactly what it says, and wipe **ALL** of your app data! (*not your ElfStorage though!*). There's no going back from this!
 
 ### How to backup an app
 
