@@ -39,6 +39,12 @@ You may need to turn an app off temporaily to adjust its config, or to perform a
 
 ElfBot can restart your app. Run `elfbot restart <app>` (*`<app>` should match the name of a folder under `/config`*), and ElfBot will instantly trigger an app restart.
 
+Occasionally circumstances will prevent a graceful restart of an app (*node failure, kernel bug, etc*). In such cases, a regular `elfbot restart` won't work on the app, its pod will stay in a terminating state.
+
+In this event, the only recourse is to "force restart" the app - if the app hasn't properly saved its data, you may loose data as a result, but in the case of a stuck pod, you have no other recourse.
+
+To "force restart" an app, run `elfbot restart <app> --force --yesiamsure` - ElfBot will instantly remove the pod (*rather than waiting for it to terminate*), and a replacement pod will be scheduled.
+
 ### How to reset an app
 
 Need to reset an app to defaults? Run `elfbot reset <app> --yesiamsure` to perform the reset. ElfBot will restart your app, and remove its config from `/config`, resulting in a fresh bootstrap or a clean install.
