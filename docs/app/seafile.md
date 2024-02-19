@@ -35,10 +35,11 @@ Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), l
 
 Upon first login, you'll be prompted for credentials. Your credentials have been pre-setup as follows:
 
-* User: `<username>@elfhosted.com`
+* User: `<email you used on signup>`
 * Password: `changeme`
 
-You should immediately navigate to settings, and change your password. Ideally, let the `<username>@elfhosted.com` user remain unused as a backup admin user, and add your own independent admin user.
+!!! tip
+    You should immediately navigate to settings, and change your password!
 
 ## Can I access synced data from my other apps?
 
