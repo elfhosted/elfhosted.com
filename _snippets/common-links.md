@@ -25,6 +25,7 @@
 [lazylibrarian]:      /app/lazylibrarian/
 [lidarr]:             /app/lidarr/
 [mattermost]:         /app/mattermost/
+[mediafusion]:        /app/mediafusion/
 [miniflux]:           /app/miniflux/
 [mylar]:              /app/mylar/
 [navidrome]:          /app/navidrome/
@@ -55,6 +56,7 @@
 [sabnzbd]:            /app/sabnzbd/
 [seafile]:            /app/seafile/
 [shoko]:              /app/shoko/
+[shluflix]:           /app/shluflix/
 [sonarr]:             /app/sonarr/
 [stremio-jackett]:    /app/stremio-jackett/
 [syncthing]:          /app/syncthing/
