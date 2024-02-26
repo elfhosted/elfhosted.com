@@ -9,7 +9,7 @@ upstream: https://shluflix.elfhosted.com
 
 Shluflix is a simple Stremio Addon, which attempts to provide an HTTP stream for your chosen content. 
 
-ElfHosted provides a public, community version of MediaFusion at https://shluflix.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
+ElfHosted provides a public, community version of Shluflix at https://shluflix.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
