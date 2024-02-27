@@ -177,6 +177,7 @@ nav:
     - Use rclone: how-to/use-rclone.md
     - Connect Apps: how-to/connect-apps.md
     - Data Retention: how-to/delete-your-data.md
+    - Public IPs: how-to/whitelist-our-public-ips.md
     - FAQ: faq.md
     - Team: team.md
   - Blog: 
