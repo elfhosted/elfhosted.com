@@ -31,7 +31,7 @@ If you are using external services which work on a per-IP whitelist, you may nee
 88.99.249.213
 168.119.65.154
 178.63.241.78
-178.63.241.78
+178.63.241.93
 ```
 
 --8<-- "common-links.md"
