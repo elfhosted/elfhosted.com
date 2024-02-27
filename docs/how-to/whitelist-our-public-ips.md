@@ -1,3 +1,7 @@
+---
+title: Whitelisting ElfHosted's public IPs
+description: Because we run apps in a Kubernetes cluster, each app (pod) may end up on a different node each time it runs, and thus have a different "public" IP from the perspective of egress traffic. Here's a list of possible IPs.
+---
 # How to whitelist ElfHosted's IPs
 
 Because we run apps in a Kubernetes cluster, each app (pod) may end up on a different node each time it runs, and thus have a different "public" IP from the perspective of egress traffic.
