@@ -4,6 +4,7 @@ slug: Jackettio
 description: Jackettio is a Stremio addon which searches that resolve streams using Jackett and Debrid. It seamlessly integrates with private trackers.
 works_with:
 - Jackett
+- Flaresolverr
 upstream: https://github.com/arvida42/jackettio
 # sponsorship: 
 # - name: Ko-fi
