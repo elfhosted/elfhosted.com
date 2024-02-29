@@ -4,10 +4,10 @@ slug: Jackettio
 description: Jackettio is a Stremio addon which searches that resolve streams using Jackett and Debrid. It seamlessly integrates with private trackers.
 works_with:
 - Jackett
-upstream: https://gitlab.com/stremio-add-ons/annatar
-sponsorship: 
-- name: Ko-fi
-  uri: https://ko-fi.com/annatar
+upstream: https://github.com/arvida42/jackettio
+# sponsorship: 
+# - name: Ko-fi
+#   uri: https://ko-fi.com/annatar
 ---
 
 # {{ page.meta.slug }}
@@ -21,7 +21,7 @@ Jackettio is a Stremio addon which searches that resolve streams using Jackett a
 
 ### Setup Jackett
 
-Annatar relies on [Jackett][jackett] for returning results, so start with adding your indexers to Jackett.
+Jackettio relies on [Jackett][jackett] for returning results, so start with adding your indexers to Jackett.
 
 ### Configure your environment
 
