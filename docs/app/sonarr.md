@@ -34,20 +34,20 @@ Sonarr will be pre-configured for the other supported apps. By default, Sonarr H
 
 If you have existing remote media mounted at `/storage/<something>` (*like Real-Debrid*), you can [use ElfBot to create symlinks](/app/elfbot#how-to-import-symlinks) to bring this into your Sonarr library, without consuming any more space.
 
-Here's how the process works. The end result is that Plex only sees `[3]: /storage/elfstorage/series`:
+Here's how the process works. The end result is that Plex only sees `[3]: /storage/symlinks/series`:
 
 ```mermaid
 flowchart TD
     E["DMM/Torrentio"] --> |creates files in..|A
-    A["[1]: /storage/realdebrid-zurg/shows"] -->|elfbot creates symlinks to...| B("[2]: /storage/elfstorage/downloads/symlinks/shows/")
+    A["[1]: /storage/realdebrid-zurg/shows"] -->|elfbot creates symlinks to...| B("[2]: /storage/symlinks/import/shows/")
     D[Plex] --> |Library points to...|C
-    B --> |Sonarr manual imports to..|C["[3]: /storage/elfstorage/series"]
+    B --> |Sonarr manual imports to..|C["[3]: /storage/symlinks/series"]
 
 ```
 
-To perform a symlink import using [ElfBot][elfbot], run `elfbot symlink /storage/realdebrid-zurg/shows`. ElfBot will symlink any **new**  content at `/storage/realdebrid-zurg/shows` to `/storage/elfstorage/download/symlinks/shows`. After this, use Sonarr to perform an automatic / interactive manual import from `/storage/elfstorage/download/symlinks/shows/`.
+To perform a symlink import using [ElfBot][elfbot], run `elfbot symlink /storage/realdebrid-zurg/shows`. ElfBot will symlink any **new**  content at `/storage/realdebrid-zurg/shows` to `/storage/symlinks/import/shows`. After this, use Sonarr to perform an automatic / interactive manual import from `/storage/symlinks/import/shows/`.
 
-In Sonarr, use `Wanted` -> `Manual Import`, and point the import at `/storage/elfstorage/downlods/symlinks/shows/`, as illustrated below:
+In Sonarr, use `Wanted` -> `Manual Import`, and point the import at `/storage/symlinks/import/shows/`, as illustrated below:
 
 ![](/images/sonarr-wanted-manual-import.png)
 
