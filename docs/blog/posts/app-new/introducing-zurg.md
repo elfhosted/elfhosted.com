@@ -18,7 +18,7 @@ It works like this - you give [Zurg][zurg] your [Real-Debrid API token](https://
 
 Zurg then scrapes your Real-Debrid account, applies the regexes, and presents a WebDAV endpoint to "browse" your files.
 
-Next, we perform an rclone WebDAV mount, and attach the zurg-exposed WebDAV URL to your apps. Now, in `/storage/real-debrid-zurg`, you'll find directories matching the regexes you defined (*"movies", "tv", "music", etc*). If you add `/storage/real-debrid-zurg` to your [Plex][plex] / [Jellyfin][jellyfin] / [Emby][emby] libraries, suddenly you can stream from Real Debrid as if the media were locally attached, without any delay for download / transfer, etc! 
+Next, we perform an rclone WebDAV mount, and attach the zurg-exposed WebDAV URL to your apps. Now, in `/storage/realdebrid-zurg`, you'll find directories matching the regexes you defined (*"movies", "tv", "music", etc*). If you add `/storage/realdebrid-zurg` to your [Plex][plex] / [Jellyfin][jellyfin] / [Emby][emby] libraries, suddenly you can stream from Real Debrid as if the media were locally attached, without any delay for download / transfer, etc! 
 
 See the [Zurg][zurg] page for more details, and instructions on how to set it up!
 

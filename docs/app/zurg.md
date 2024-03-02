@@ -28,13 +28,13 @@ Zurg then scrapes your Real-Debrid account, applies the regexes, and presents a 
 
 Use [ElfBot][elfbot] to restart Zurg if you make any changes to the config file.
 
-Next, purchase an pre-prepared zurg WebDAV mount - we'll attach the zurg-exposed WebDAV URL to your apps at `/storage/real-debrid-zurg`.
+Next, purchase an pre-prepared zurg WebDAV mount - we'll attach the zurg-exposed WebDAV URL to your apps at `/storage/realdebrid-zurg`.
 
 [Step #2: Add a Zurg mount to your ElfHosted apps](https://store.elfhosted.com/product/rclone-real-debrid/){ .md-button .md-button--primary }
 
- Now, in `/storage/real-debrid-zurg`, you'll find directories matching the regexes you defined (*"movies", "tv", "music", etc*). 
+ Now, in `/storage/realdebrid-zurg`, you'll find directories matching the regexes you defined (*"movies", "tv", "music", etc*). 
  
- If you add `/storage/real-debrid-zurg` to your Plex / Jellyfin / Emby libraries, suddenly you can stream from Real-Debrid as if the media were locally attached, without any delay for download / transfer, etc! 
+ If you add `/storage/realdebrid-zurg` to your Plex / Jellyfin / Emby libraries, suddenly you can stream from Real-Debrid as if the media were locally attached, without any delay for download / transfer, etc! 
 
 ## Access zurg externally via WebDAV
 

@@ -76,7 +76,7 @@ Confirm Zurg is setup correctly by browsing it from your ElfHosted dashboard.
 
 ### Setup Plex
 
-Claim your Plex instance using [ElfBot][elfbot], and add 2 new media libraries ("movies" and "shows") pointing to `/storage/real-debrid-zurg/[movies/shows]`
+Claim your Plex instance using [ElfBot][elfbot], and add 2 new media libraries ("movies" and "shows") pointing to `/storage/realdebrid-zurg/[movies/shows]`
 
 ### Setup plex_debrid
 

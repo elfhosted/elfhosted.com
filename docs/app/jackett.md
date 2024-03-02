@@ -11,6 +11,8 @@ works_with:
 - SABnzbd
 - Sonarr
 - Lidarr
+- Jackettio
+- Annatar
 ---
 
 # {{ page.meta.slug }}

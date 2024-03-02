@@ -15,6 +15,7 @@
 [homepage]:           /app/homepage/
 [iceberg]:            /app/iceberg/
 [jackett]:            /app/jackett/
+[jackettio]:          /app/jackettio/
 [jellyfin]:           /app/jellyfin/
 [jellyseerr]:         /app/jellyseerr/
 [jellyfin-accounts]:  /app/jellyfin-accounts/
