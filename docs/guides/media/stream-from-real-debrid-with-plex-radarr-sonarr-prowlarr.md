@@ -50,12 +50,12 @@ flowchart TD
 
     R[Zurg] --> |Update libraries|K[Plex] 
 
-    K[Plex] --> |"Read file (symlink)"|L["/storage/elfstorage"]
+    K[Plex] --> |"Read file (symlink)"|L["/storage/symlinks"]
 
     K[Plex] --> |"Resolve symlink (actual file)"|J["/storage/realdebrid-zurg"]
     %% G --> |Confirm download|J
 
-    G[RDTClient] --> |3. Create symlink|P["/storage/elfstorage"]
+    G[RDTClient] --> |3. Create symlink|P["/storage/symlinks"]
 
     H --> Q[Zurg+rclone]
     Q --> J
@@ -88,7 +88,7 @@ On purchase, you'll get the necessary components deployed, but some configuratio
 
 ### Setup Plex
 
-Claim your Plex instance using [ElfBot][elfbot], and add media libraries in `/storage/elfstorage`.
+Claim your Plex instance using [ElfBot][elfbot], and add media libraries in `/storage/symlinks/{movies,series,movies-4k,series-4k, etc}`.
 
 ### Setup zurg
 
@@ -115,7 +115,7 @@ Prowlarr is pre-configured to sync with Radarr / Sonarr, so enable these apps (*
 
 ### Setup Radarr / Sonarr
 
-Configure your **Root Folders** to `/storage/elfstorage/<whatever>`, since this is where the symlinks will appear. You do **not** need `/storage/realdebrid-zurg` (*in fact, its read-only nature will just confuse the Arr!*)
+Configure your **Root Folders** to `/storage/symlinks/<whatever>`, since this is where the symlinks will appear. You do **not** need `/storage/realdebrid-zurg` (*in fact, its read-only nature will just confuse the Arr!*)
 
 Add RDTClient to Radarr / Sonarr as a qBittorrent download client, using the following details:
 

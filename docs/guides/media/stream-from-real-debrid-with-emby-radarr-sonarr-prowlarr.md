@@ -50,12 +50,12 @@ flowchart TD
 
     R[Autoscan] --> K[Emby] 
 
-    K[Emby] --> |"Read file (symlink)"|L["/storage/elfstorage"]
+    K[Emby] --> |"Read file (symlink)"|L["/storage/symlinks"]
 
     K[Emby] --> |"Resolve symlink (actual file)"|J["/storage/realdebrid-zurg"]
     %% G --> |Confirm download|J
 
-    G[RDTClient] --> |3. Create symlink|P["/storage/elfstorage"]
+    G[RDTClient] --> |3. Create symlink|P["/storage/symlinks"]
 
     H --> Q[Zurg+rclone]
     Q --> J
@@ -100,7 +100,7 @@ Confirm Zurg is setup correctly by browsing it from the link on your your ElfHos
 
 ### Setup Emby
 
-Log into [Emby][emby], enable hardware transcoding, and setup the media libraries in `/storage/elfstorage`. Setup an API key for autoscan, and keep it for later.
+Log into [Emby][emby], enable hardware transcoding, and setup the media libraries in `/storage/symlinks/{movies,series,movies-4k,series-4k, etc}`. Setup an API key for autoscan, and keep it for later.
 
 ### Setup RDTClient
 
@@ -114,7 +114,7 @@ Prowlarr is pre-configured to sync with Radarr / Sonarr, so enable these apps (*
 
 ### Setup Radarr / Sonarr
 
-Configure your **Root Folders** to `/storage/elfstorage/<whatever>`, since this is where the symlinks will appear. You do **not** need `/storage/realdebrid-zurg` (*in fact, its read-only nature will just confuse the Arr!*)
+Configure your **Root Folders** to `/storage/symlinks/<whatever>`, since this is where the symlinks will appear. You do **not** need `/storage/realdebrid-zurg` (*in fact, its read-only nature will just confuse the Arr!*)
 
 Add RDTClient to Radarr / Sonarr as a qBittorrent download client, using the following details:
 
