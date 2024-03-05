@@ -46,6 +46,13 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
     Want to use familiar tools for advanced searching / quality? Here's the [Advanced guide to infinite streaming / storage](/guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr/)!
 </div>
 
+## What users say..
+
+> "I would recommend ElfHosted to anyone. It has been great so far and made life a lot easier than running my own setups. If you’re in the fence give them a try and help support this great community." - [Zestyclose_Teacher20](https://old.reddit.com/r/StremioAddons/comments/1b5wqdx/elfhosteds_elfdisclosure_report_for_feb_2024/ktayicr/)
+
+> "thanks for the help and must say this is the best host I every had for my server 🙂 10/10 🙂 All other places I have try have I got a lot buff etc. Your host can even give me full power on a 4K Remux on 200GB big movie file . That's damn awesome 😄" - @tjelite.
+
+
 ## The back-story
 
 > I love self-hosting[^1], and have been publishing [guides on building self-hosting platforms and running apps](https://geek-cookbook.funkypenguin.co.nz) since 2016. Over time, I've updated my own platform from [Docker Swarm](https://geek-cookbook.funkypenguin.co.nz/docker-swarm/) to [Kubernetes](https://geek-cookbook.funkypenguin.co.nz/kubernetes/) (*several iterations*).
