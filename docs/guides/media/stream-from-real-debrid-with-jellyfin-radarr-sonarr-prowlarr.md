@@ -103,7 +103,7 @@ Log into [Jellyfin][jellyfin], enable hardware transcoding, and setup the media 
 
 ### Setup RDTClient
 
-Configure [RDTClient], creating a username and password, and configuring per the [Symlink Setup instructions](/app/rdtclient/#symlink-downloader).
+Configure [RDTClient], by pasting your debrid provider's details into the config section (*the rest is pre-configured*).
 
 ### Setup Prowlarr
 
@@ -114,15 +114,6 @@ Run `Sync App Indexers` to add the indexers (*via Prowlarr*) to Radarr and Sonar
 ### Setup Radarr / Sonarr
 
 Configure your **Root Folders** to `/storage/symlinks/<whatever>`, since this is where the symlinks will appear. You do **not** need `/storage/realdebrid-zurg` (*in fact, its read-only nature will just confuse the Arr!*)
-
-Add RDTClient to Radarr / Sonarr as a qBittorrent download client, using the following details:
-
-* Name: `RDTClient`
-* Host: `rdtclient`
-* Port: `6500`
-* Username: `<your RDTClient username>`
-* Password: `<your RDTClient password>`
-* Remove Completed: :material-checkbox-blank-outline: **(unchecked)**
 
 ### Setup Autoscan
 
