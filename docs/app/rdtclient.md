@@ -32,12 +32,12 @@ A popular configuration for RDTClient is to use the "Symlink Downloader". It wor
 flowchart TD
     G <--> |1. Add torrent|H[real-debrid]
 
-    K[Plex/Jellyfin/Emby] --> |"Read file (symlink)"|L["/storage/elfstorage"]
+    K[Plex/Jellyfin/Emby] --> |"Read file (symlink)"|L["/storage/symlinks"]
 
     K[Plex/Jellyfin/Emby] --> |"Resolve symlink (actual file)"|J["/storage/realdebrid-zurg/__all__"]
     %% G --> |Confirm download|J
 
-    G[RDTClient] --> |3. Create symlink|P["/storage/elfstorage"]
+    G[RDTClient] --> |3. Create symlink|P["/storage/symlinks"]
 
     H --> Q[Zurg+rclone]
     Q --> J
@@ -48,9 +48,9 @@ flowchart TD
 
 1. A torrent is added to RDTClient, which submits it to [Real-Debrid][real-debrid] to be downloaded
 2. Zurg is running, configured with an rclone mounts, so that `/storage/realdebrid-zurg/__all__` shows all files in the user's Real-Debrid account, **for all apps**
-3. RDTClient confirms that the download is "completed" (*expected files exist in `/storage/realdebrid-zurg/__all__`*), and creates a **symlink** from `/storage/realdebrid-zurg/__all__/<filename>` to `/storage/elfstorage/downloads/complete/[radarr/sonarr]/<filename>.`
-4. Now, Radarr / Sonarr can rename the "file" as they prefer, or move it around `/storage/elfstorage`
-5. When the streamers (Plex / Jellyfin / Emby) try to play the file, the symlink will be resolved to the **actual** file in `/storage/realdebrid-zurg`, and the media will play as if it existed locally, at `/storage/elfstorage`.
+3. RDTClient confirms that the download is "completed" (*expected files exist in `/storage/realdebrid-zurg/__all__`*), and creates a **symlink** from `/storage/realdebrid-zurg/__all__/<filename>` to `/storage/symlinks/downloads/complete/[radarr/sonarr]/<filename>.`
+4. Now, Radarr / Sonarr can rename the "file" as they prefer, or move it around `/storage/symlinks`
+5. When the streamers (Plex / Jellyfin / Emby) try to play the file, the symlink will be resolved to the **actual** file in `/storage/realdebrid-zurg`, and the media will play as if it existed locally, at `/storage/symlinks`.
 
 The Symlink Downloader can be a bit fragile to configure, and we're using a forked version of the upstream RDTClient in order to support symlinks properly. Below are details re the configuration for the Symlink Downloader:
 
@@ -66,9 +66,9 @@ The Symlink Downloader can be a bit fragile to configure, and we're using a fork
 ### Download Client
 
 * Download client: `Symlink Downloader`
-* Download path: `/storage/elfstorage/downloads/completed`
-* Mapped path: `/storage/elfstorage/downloads/completed` (*yes, they're the same*)
-* Rclone mount path: `/storage/realdebrid-zurg/__all__`
+* Download path: `/storage/symlinks/downloads`
+* Mapped path: `/storage/symlinks/downloads` (*yes, they're the same*)
+* Rclone mount path: `/storage/realdebrid-zurg/__all__` (*or an alternate path, if you're using another debrid provider*)
 
 ![](/images/rdt-client-symlink-downloader-download-client-1.png)
 
@@ -77,13 +77,13 @@ The Symlink Downloader can be a bit fragile to configure, and we're using a fork
 ### Provider
 
 * Provider: `RealDebrid`
-* APK Key: `<your RD API key>
+* APK Key: `<your RD API key>`
 * Minimum file size to download: `5` (*avoid downloading small samples and misc files*)
 
 ### qBittorrent / *darr
 
 * Post Torrent Download Action: `Download all files to host` (*well, except we're faking it with symlinks, but we'll call it that*)
-* Only download available files on debrid provider: **checked** :white_checkmark:
+* Only download available files on debrid provider: **checked** :white_check_mark:
 * Minimum file size to download: `5` (*avoid downloading small samples and misc files*)
 
 ## Default credentials

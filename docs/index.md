@@ -50,7 +50,7 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
 > "I would recommend ElfHosted to anyone. It has been great so far and made life a lot easier than running my own setups. If you’re in the fence give them a try and help support this great community." - [Zestyclose_Teacher20](https://old.reddit.com/r/StremioAddons/comments/1b5wqdx/elfhosteds_elfdisclosure_report_for_feb_2024/ktayicr/)
 
-> "thanks for the help and must say this is the best host I every had for my server 🙂 10/10 🙂 All other places I have try have I got a lot buff etc. Your host can even give me full power on a 4K Remux on 200GB big movie file . That's damn awesome 😄" - @tjelite.
+> "thanks for the help and must say this is the best host I every had for my server 🙂 10/10 🙂 All other places I have try have I got a lot buff etc. Your host can even give me full power on a 4K Remux on 200GB big movie file . That's damn awesome 😄" - \@tjelite (*Discord*)
 
 
 ## The back-story
