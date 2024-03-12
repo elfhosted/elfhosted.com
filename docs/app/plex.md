@@ -86,6 +86,10 @@ To integrate Zurg or plex-debrid with Plex, you need to retrieve a plex "authent
 
 The easiest way to get the token is to examine the XML of an existing media item in your library - but if you're just getting setup, you don't **have** anything in your library! We've snuck a small movie into `/storage/elfstorage/videos/`, so that you can add this as an "Other Media" library in Plex, scan it, and use it to retrieve your token from the XML!
 
+### Auto-empty trash
 
+By default Plex is configured to **not** automatically empty its trash. This default primarily benefits symlink-based, "[Infinite Streaming](/guides/media/)" users, who would loose their entire library of content if their debrid service was disconnected for a period.
+
+Users may opt back into automatically clearing Plex's trash by overriding an environment variable (*`PLEX_PREFERENCE_7` in our case*), using [ElfBot][elfbot]. To enable automatic clearing of Plex's trash, use [FileBrowser][filebrowser]'s console, and run `elfbot env plex PLEX_PREFERENCE_7=autoEmptyTrash=1`
 
 {% include 'app_footer.md' %}
