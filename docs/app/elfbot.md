@@ -125,7 +125,7 @@ This read-only content can be cumbersome to manage via [Radarr][radarr] / [Sonar
 
 ElfBot can help with this by creating a symlink to the remote content, in `/storage/symlinks/import/`. You can then manipulate this symlink as if it's a regular file (*rename, move into subfolders, etc*), but when accessed, it'll point to the original (*read-only*) content.
 
-#### Importing symlinks
+#### Manually Importing symlinks
 
 To perform a symlink import, run `elfbot symlink <path to read-only storage>`, or navigate using FileBrowser to a specific folder, and run `elfbot symlink here` to import from the current directory specifically. 
 
@@ -137,6 +137,17 @@ For app-specific details, see:
 * [Sonarr](/app/sonarr/#import-existing-remote-media)
 
 ElfBot keeps track of the content it's already symlinked - it won't re-create a symlink which you've already created, and then moved/renamed elsewhere. If you'd like to wipe ElfBot's memory, and recreate **all** symlinks, then delete the `/storage/symlinks/.symlinks_cache` folder!
+
+#### Automatically Importing symlinks (blackhole)
+
+Another way to manage the importing of symlinks is to create a "Usenet Blackhole" downloader in Radarr/Sonarr, and then have ElfBot import your downloads directly into that folder, for the Aars to srape. "Blackholed" imports work a little differently to symlink imports, in that the parent folder is not recreated within the blackhole target, but the contents of the current path in filebrowser are symlinked directly into the target.
+
+For example, navigating to `storage/realdebrid-zurg/shows/My Favorite Show - Season 1`, and running `elfbot blackhole sonarr`, will result in all files **under** `storage/realdebrid-zurg/shows/My Favorite Show - Season 1` being symlinked into `/storage/symlinks/blackhole/sonarr/` (*and subsequently "sucked up" by Sonarr, if it's configured*)
+
+See Aar-specific details here:
+
+* [Radarr](/app/radarr/#import-existing-remote-media)
+* [Sonarr](/app/sonarr/#import-existing-remote-media)
 
 #### Finding broken symlinks
 
