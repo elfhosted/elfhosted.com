@@ -209,7 +209,7 @@ nav:
       - elfhosted.com: open/traffic/elfhosted.com.md
       - store.elfhosted.com: open/traffic/store.elfhosted.com.md
     - Sponsorship: open/sponsorship.md
-    # - Pricing: open/pricing.md
+    - Pricing: open/pricing.md
   - Contribute:
     - contribute/index.md
 
