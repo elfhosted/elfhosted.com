@@ -1,6 +1,6 @@
 ---
 title: ElfHosted Open Pricing - calculation and costs
-description: Here's how our costs and pricing is calculated
+description: Here's how our costs and pricing are calculated
 ---
 # Pricing
 
@@ -9,6 +9,8 @@ This page describes both how our prices are calculated, and what the underlying 
 At the highest level, our goal is to **recover hardware costs equivalent to resources consumed, and to realize 20% profit on costs** (*see how we're going on this goal by examining our [monthly reports](/open)!*)
 
 This page is intended to be referenced when making pricing adjustments in line with the stated goal above, and to provide clarity and transparency on how prices are calculated.
+
+App pricing changes over time because (a) usage patterns change over time, and (b) we don't always have a handle on what resources an app will require until we've measured its usage for a while, with a large enough sample set.
 
 ## How is pricing calculated
 
@@ -23,8 +25,8 @@ The efficiency score indicates how much of the requested CPU/RAM was actually us
 Per-app pricing is calculated roughly as follows (*based on the example above*):
 
 1. Calculate average efficiency of the top 10% of pods over a sampling period (65%), and apply that to the calculated total cost ($0.62), to determine a "fair" rate, rounded up to the nearest 5 to make the math easy (\$0.40)
-2. Where app-specific overheads apply (*10Gbit nodes used for Real-Debrid/Zurg streaming, for example*), add a proportionate cost (*$0.10 in the case of high-bandwith apps*)
-3. Add 20% markup (*$0.50 + 20% = $0.60*)
+2. Add any app-specific overheads[^1]
+3. Add 20% markup and round up to make math easy (*$0.40 + 20% = $0.50*)
 
 So on the basis of the analysis and pricing above, Plex instances are priced at **$0.60/day**.
 
@@ -97,3 +99,5 @@ Web Hosting | This website (https://elfhosted.com) is hosted on a paid Netlify p
 Open Source Sponsorships | We [support the open-source devs](/open/sponsorship/) whose work underpins our platform | $35
 
 --8<-- "common-links.md"
+
+[^1]: Where app-specific overheads apply (*10Gbit nodes used for Real-Debrid/Zurg streaming or heavy-duty downloading, for example*), add a proportionate cost (*not applicable for Plex*)
