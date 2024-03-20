@@ -31,6 +31,8 @@ After reviewing the actual usage data as described [here](/open/pricing/), the f
 
 App | Current Price | New Price
 ---------|----------|----------
+["Exposed" apps](https://store.elfhosted.com/product-category/advanced) | \$0.05 | **FREE**
+[Custom domains](https://store.elfhosted.com/product-category/custom-domains) | \$0.05 | **FREE**
 [ElfStorage][elfstorage] (*per TB*)    | \$0.20 | \$0.10
 Remote debrid mounts ([Zurg][zurg], AllDebrid, PutIO, etc)    | \$0.05 | \$0.20
 [Plex][plex]    | \$0.15 | \$0.50
@@ -43,7 +45,7 @@ Remote debrid mounts ([Zurg][zurg], AllDebrid, PutIO, etc)    | \$0.05 | \$0.20
 [ruTorrent][rutorrent]    | \$0.15 | \$0.30
 [SABnzbd][sabnzbd]    | \$0.15 | \$0.30
 [NZBGet][nzbget]    | \$0.15 | \$0.30
-Other apps    | \$0.05 | \$0.10
+Other $0.05 apps    | \$0.05 | \$0.10
 
 !!! question "Why the massive jump in streamers / Aars?"
     When the current pricing was set in June 2023, we didn't have "[infinite streaming](/guides/media/)" from debrid providers with symlinks, and so it was a "simpler time"..
