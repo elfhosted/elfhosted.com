@@ -70,9 +70,9 @@ On purchase, you'll get the necessary components deployed, but some configuratio
 
 ### Setup Real-Debrid
 
-Currently, Zurg will crash if your Real-Debrid account is empty. This is scheduled for fix in the next release, but in the meantime, ensure that you have at least one file to be detected as "movies", and another as "shows".
+To satisfy plex_debrid, ensure that you have at least one file in your RealDebrid library to be detected by Zurg as "movies", and another as "shows". A helpful tool to achieve this is https://debridmediamanager.com/
 
-Confirm Zurg is setup correctly by browsing it from your ElfHosted dashboard.
+Confirm Zurg and its folders are setup correctly by browsing it from your ElfHosted dashboard.
 
 ### Setup Plex
 
@@ -80,7 +80,17 @@ Claim your Plex instance using [ElfBot][elfbot], and add 2 new media libraries (
 
 ### Setup plex_debrid
 
-Launch [plex-debrid][plex-debrid] from your dashboard, and perform the initial setup, then tell it to run.
+Launch [plex-debrid][plex-debrid] from your dashboard, and perform the [initial setup per our docs](/app/plex-debrid/#how-do-i-use-it), then tell it to run!
+
+### Setup updateplex.sh
+
+To trigger a Plex library update from Zurg when your Real-Debrid content changes, edit `config/zurg/plex_update.sh` via [FileBrowser][filebrowser], find this line:
+
+```
+token="yourplextoken"
+```
+
+And replace `yourplextoken` with the same plex token you used when configuring plex_debrid.
 
 ## Success!
 

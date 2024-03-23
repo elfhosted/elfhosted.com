@@ -35,42 +35,56 @@ In an ideal situation, you'd add a movie / TV show to your Plex watchlist / Trak
 
 ## How do I use it ?
 
-### Initial setup
+### Edit settings.json
 
-Plex_debrid is unusual in that it requires a CLI-based setup. For this reason, we run it within a VNC-based browser session.
+Plex_debrid is unusual in that it requires a CLI-based UI. For this reason, we run it within a xterm.js-based browser session.
 
-The first time you open plex_debrid, you'll be prompted with the "Initial Setup". Go through the wizard and enter the necessary details as prompted.
+Your plex_debrid config is stored in `config/plex-debrid/settings.json` - While you can edit most options using the CLI UI, the easiest way to get started is to manually edit it and make the required changes, as illustrated below:
 
-ElfHosted-specific config steps are illustrated below:
+### Add Plex User Token
 
-### Copy / Paste (CTRL-Shift-V)
+You'll need a plex user token to allow Plex_debrid to scrape your watchlist, and to interact with your libraries.
 
-Using plex_debrid over the VNC browser session can be a PITA. Use `ctrl-shift-v` to paste from your clipboard. Chrome and Edge may be able to copy/paste directly, but Firefox and other browsers require you to use the Kasm "clipboard" to transfer to/from the real_debrid clipboard.
+To get a Plex token, visit https://plex.tv, and then after the page loads, change the URL to https://plex.tv/devices.xml. If you get an authentication error, then repeat (*make sure you're logged into https://plex.tv*), until you get token data in XML. Search the XML for `token` (there will probably be lots of matches), and paste the value into `settings.json` as illustrated below:
 
-For example, to paste in data from your clipboard, you'd expand the menu on the left-hand side, paste the API token into the clipboard window, and **then** use the "paste" function in the terminal to paste it, as illustrated below:
+```` json hl_lines="10" linenums="1"
+    {
+        "Content Services": [
+            "Plex",
+            "Trakt",
+            "Overseerr"
+        ],
+        "Plex users": [
+            [
+                "your-username",
+                "replace-me-with-plex-token"
+            ]
+        ],
+````
 
-![Screenshot of {{ page.meta.slug }} copy / paste process](/images/plex-debrid-copy-paste.png){ loading=lazy }
+!!! tip
+    You can change the username, this is just used for reference within Plex Debrid, in case you have more than one user's watchlist to watch
 
-### Connect Plex
+### Add Debrid API key
 
-When you connect to Plex, use the URL `http://plex:32400`
+Next, you'll need to add your Debrid provider's API key. Again in `settings.json`, add your key to the appropriate provider, as illustrated below:
 
-![Screenshot of {{ page.meta.slug }} connecting to plex](/images/plex-debrid-add-local-plex.png){ loading=lazy }
+```` json hl_lines="1" linenums="284"
+    "Real Debrid API Key": "your-key-here",
+    "All Debrid API Key": "",
+    "Premiumize API Key": "",
+    "Debrid Link API Key": "",
+    "Put.io API Key": "",
+````
 
-### Connecting to Overseerr / Jellyseerr
+### Restart Plex_debrid
 
-To optionally connect to Jellyseerr / Overseerr, enter their details per [Connecting Apps](/how-to/connect-apps/), as illustrated below:
+The above (*Plex token and Debrid API key*) are the **minimal** changes necessary. To apply your changes, restart Plex_debrid by running `elfbot restart plex-debrid` in the [FileBrowser][filebrowser] console.
 
-![Screenshot of {{ page.meta.slug }} connecting to Jellyseerr](/images/plex-debrid-add-overseerr-jellyseerr.png){ loading=lazy }
+## Troubleshooting
 
-### Editing / importing config
+### RGB codes on console
 
-If you don't want to use the CLI UI to make config changes, you can edit the config directly in [FileBrowser][filebrowser], at `config/plex-debrid/settings.json`. Restart plex-debrid either using [ElfBot][elfbot], or close the terminal window in VNC, then right-click on the desktop and re-launch plex-debrid! :grin:
-
-### Re-launch plex-debrid (blank desktop)
-
-If you accidentally closed plex-debrid, and are now faced with a blank desktop, you can re-launch it by right-clicking anywhere on the blank desktop, and choosing to "re-launch plex-debrid"
-
-If the entire KasmVNC session is **really** broken, you can restart the whole app using [ElfBot][elfbot].
+Due to an as-yet-unsolved bug with the Wetty / xterm.js deployment, newly created sessions will sometimes include lots of control characters outputted to the screen. The simplest way to make these go away for the duration of the session is to just hit `ENTER`, which will refresh the screen and prevent further issuses.
 
 {% include 'app_footer.md' %}
