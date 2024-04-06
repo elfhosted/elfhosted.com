@@ -26,7 +26,7 @@ Iceberg is a rewrite of [plex-debrid][plex-debrid], enabling Plex torrent stream
 When prompted, set 
 
 * **Rclone Path**: `/storage/realdebrid-zurg/__all__ `
-* **Library Path**: `/storage/elfstorage`
+* **Library Path**: `/storage/symlinks`
 
 and paste in your [Real-Debrid][real-debrid] API key (*get it [here](https://real-debrid.com/apitoken)*)
 
@@ -64,11 +64,11 @@ You'll see a summary of your setup displayed. Click "Status" to look at your req
 
 ### Where do I find my files?
 
-Iceberg will put symlinks in `/storage/elfstorage/movies` and `/stories/elfstorage/tv`
+Iceberg will put symlinks in `/storage/symlinks/movies` and `/stories/symlinks/tv`
 
 ### Where do I find logs?
 
-To see what Iceberg is up to, use [Filebrowser] to inspect the logs in /storage/config/iceberg/
+To see what Iceberg is up to, use [Filebrowser] to inspect the logs in `config/iceberg/`
 
 
 {% include 'app_footer.md' %}
