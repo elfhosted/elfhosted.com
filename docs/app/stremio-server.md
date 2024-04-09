@@ -8,6 +8,7 @@ links:
   uri: https://www.reddit.com/r/Stremio/
 - name: r/StremioAddons
   uri: https://www.reddit.com/r/StremioAddons
+price: 0.3
 ---
 
 # {{ page.meta.slug }}

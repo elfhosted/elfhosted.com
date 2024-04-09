@@ -27,7 +27,7 @@ The disadvantages are:
 Pre-existing:
 
 * [x] An existing VPN subscription with a[ supported provider](https://github.com/qdm12/gluetun-wiki/tree/main/setup/providers)
-* [x] [Stremio Server](https://store.elfhosted.com/product-category/consume-media/stremio) from the ElfStore
+* [x] [Stremio Server](https://store.elfhosted.com/product-category/consume-media/stremio-server) from the ElfStore
 
 Optionally:
 
