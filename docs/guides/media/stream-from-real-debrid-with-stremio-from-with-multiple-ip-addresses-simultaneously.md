@@ -4,7 +4,9 @@ description: This guide describes how use ElfHosted's Stremio Server subscriptio
 ---
 # How to stream from Real-Debrid with Stremio to multiple source IP addresses
 
-This guide illustrates how to use the [Stremio Server][stremio-server] to stream content from debrid providers using [Stremio](https://stremio.com), to multiple Stremio clients on multiple source IPs, simultaneously. Note that the streaming of Debrid/HTTP streams is only currently supported in https://web.strem.io, and the [ElfHosted instance][stremio-web] of the same.
+This guide illustrates how to use the [Stremio Server][stremio-server] to stream content from debrid providers using [Stremio](https://stremio.com), to multiple Stremio clients on multiple source IPs, simultaneously. 
+
+Note that while streaming/transcoding torrents works across all (tested) Stremio clients, the streaming of Debrid/HTTP streams is only [currently supported](#client-compatibility) in v5 of https://web.strem.io, and the [ElfHosted instance][stremio-web] of the same.
 
 !!! tip
     This is a lightweight alternative to the [Infinite Streaming Plex](guides/media/stream-from-real-debrid-with-plex/) guide. The Infinite Streaming [Plex][plex] solution utilizes [Zurg][zurg] to permit simultaneous streams from multiple source IPs, but doesn't integrate as easily into the existing [Stremio Addons](/stremio-addons/) ecosystem.
@@ -55,7 +57,10 @@ Confirm the setup by navigating to **Settings** --> **Streaming**, and configure
 Now stream your media! You can check your pod logs using [Kubernetes Dashboard][kubernetes-dashboard] to confirm it's being correctly transcoded.
 
 {% include 'stremio_server_faq.md' %}
-{% include 'app_footer.md' %}
+
+## How do I get help?
+
+For specific support re your ElfHosted configuration / account, see the [ElfHosted support options](/get-help/)
 
 [^1]: Other than an entrypoint change to enforce waiting for a VPN to be established before running the server!
 
