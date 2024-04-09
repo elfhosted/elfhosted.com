@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Iceberg 🧝 from $0.05/day
+title: Elf Hosted Iceberg 🧝 from $0.10/day
 slug: Iceberg
 description: Iceberg is a WIP rewrite of plex_debrid, supporting Plex torrent streaming through Real Debrid and 3rd party services like Overseerr, Mdblist, etc.
 upstream: https://github.com/dreulavelle/iceberg

@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted AudioBookshelf 🎧 from $0.05/day
+title: 🧝 Hosted AudioBookshelf 🎧 from $0.10/day
 slug: Audiobookshelf
 upstream: https://www.audiobookshelf.org
 sponsorship: 

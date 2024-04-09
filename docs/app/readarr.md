@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Readarr 🧝 from $0.05/day
+title: Elf Hosted Readarr 🧝 from $0.10/day
 slug: Readarr
 description: Readarr is a ebook collection manager for Usenet and BitTorrent users
 upstream: https://wiki.servarr.com/readarr

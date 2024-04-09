@@ -31,8 +31,6 @@ Files on the server can be encrypted with client-side encryption, so that only a
 
 ## How do I use it?
 
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the app via your dashboard.
-
 Upon first login, you'll be prompted for credentials. Your credentials have been pre-setup as follows:
 
 * User: `<email you used on signup>`

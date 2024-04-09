@@ -60,6 +60,8 @@
 [shluflix]:           /app/shluflix/
 [sonarr]:             /app/sonarr/
 [stremio-jackett]:    /app/stremio-jackett/
+[stremio-server]:     /app/stremio-server/
+[stremio-web]:        /app/stremio-web/
 [syncthing]:          /app/syncthing/
 [tautulli]:           /app/tautulli/
 [tdarr]:              /app/tdarr/

@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Flaresolverr 🧝 from $0.05/day
+title: Elf Hosted Flaresolverr 🧝 from $0.10/day
 description: FlareSolverr is a proxy server to bypass Cloudflare protection commonly applied to indexers / trackers, so that they can be auto-queried by Prowlarr
 slug: Flaresolverr
 upstream: https://github.com/FlareSolverr/FlareSolverr

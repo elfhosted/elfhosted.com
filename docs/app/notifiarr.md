@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Notifiarr 🧝 from $0.05/day
+title: Elf Hosted Notifiarr 🧝 from $0.10/day
 slug: Notifiarr
 description: Notifiarr is a client interface for Notifiarr.com, a fancy thing-doer for integration with the various apps, as well as with a Discord server
 upstream: https://notifiarr.wiki/

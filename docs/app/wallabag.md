@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted Wallabag 🦘 from $0.05/day
+title: 🧝 Hosted Wallabag 🦘 from $0.10/day
 slug: Wallabag
 description: Wallabag is an popular, open-source read-it-later app, like Instapaper or Pocket, but yours to control!
 upstream: https://wallabag.org

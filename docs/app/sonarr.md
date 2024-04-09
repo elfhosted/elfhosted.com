@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Sonarr 🧝 from $0.05/day
+title: Elf Hosted Sonarr 🧝 from $0.10/day
 slug: Sonarr
 description: Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them
 upstream: https://sonarr.tv/
@@ -25,8 +25,6 @@ It can also be configured to automatically upgrade the quality of files already 
 {% include 'app_access.md' %}
 
 ## How do I use it?
-
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the app via your dashboard.
 
 Sonarr will be pre-configured for the other supported apps. By default, Sonarr HD is configured to seek out only 1080P content which can reliably be direct-played / transcoded on a range of equipment and bandwidth constraints. If you have the hardware / bandwidth to direct-play 4K content, you'll need to update the profiles yourself.
 

@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted Bazarr 💬 from $0.05/day
+title: 🧝 Hosted Bazarr 💬 from $0.10/day
 slug: Bazarr
 description: Bazarr automatically / manually searches for missing subtitles and download them as soon as they become available in your desired language
 works_with:

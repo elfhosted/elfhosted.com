@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted qBittorrent 🧝 from $0.05/day
+title: Elf Hosted qBittorrent 🧝 from $0.10/day
 slug: qBittorrent
 description: The qBittorrent project aims to provide an open-source software alternative to µTorrent
 upstream: https://www.qbittorrent.org

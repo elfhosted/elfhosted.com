@@ -78,6 +78,8 @@ nav:
       - Komga: app/komga.md
       - Navidrome: app/navidrome.md
       - Plex: app/plex.md 
+      - Stremio Server: app/stremio-server.md 
+      - Stremio Web: app/stremio-web.md 
 
     - Manage Media:
       - Autobrr: app/autobrr.md
@@ -134,6 +136,7 @@ nav:
       - Privatebin: app/privatebin.md
       - RCloneFM: app/rclonefm.md
       - RCloneUI: app/rcloneui.md
+      - Recyclarr: app/recyclarr.md
       - Resilio Sync: app/resiliosync.md
       - Seafile: app/seafile.md
       - Syncthing: app/syncthing.md
@@ -151,7 +154,7 @@ nav:
       - Shluflix: app/shluflix.md
       - Stremio-Jackett: app/stremio-jackett.md
       - Torrentio: app/torrentio.md  
-      - Xtremio: app/xtremio.md   
+      - Xtremio: app/xtremio.md
 
 
   - Store : https://store.elfhosted.com
@@ -163,6 +166,7 @@ nav:
       - Advanced Infinite Streaming with Plex and Arrs: guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr.md
       - Advanced Infinite Streaming with with Jellyfin and Arrs: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
       - Advanced Infinite Streaming with with Emby and Arrs: guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
+      - Simultaneous Streaming with Stremio Server and Debrid: guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously.md
     - Media Server: guides/build-media-streaming-server.md
     - Plex Cloud: guides/your-own-plex-cloud.md 
     - unRAID: guides/unraid-storagebox-vpn.md

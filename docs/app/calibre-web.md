@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted Calibre-Web 🦸 from $0.05/day
+title: 🧝 Hosted Calibre-Web 🦸 from $0.10/day
 slug: Calibre-Web
 description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using a valid Calibre database.
 works_with:
@@ -20,8 +20,6 @@ Calibre-Web is a web app providing a clean interface for browsing, reading and d
 {% include 'app_access.md' %}
 
 ## How do I use it?
-
-Once you've enabled it in [your account](https://elfhosted.com/tenant/apps/0), launch the app via your dashboard. 
 
 The default credentials are:
 

@@ -1,5 +1,5 @@
 ---
-title: ElfHosted Annatar from $0.05/day with $10 free credit
+title: ElfHosted Annatar from $0.10/day with $10 free credit
 slug: Annatar
 description: Annatar is the fastest just-in-time torrent/debrid search add-on for Stremio, providing results in under 3s
 works_with:

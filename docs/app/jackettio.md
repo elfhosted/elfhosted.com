@@ -1,5 +1,5 @@
 ---
-title: ElfHosted Jackettio from $0.05/day with $10 free credit
+title: ElfHosted Jackettio from $0.10/day with $10 free credit
 slug: Jackettio
 description: Jackettio is a Stremio addon which searches that resolve streams using Jackett and Debrid. It seamlessly integrates with private trackers.
 works_with:

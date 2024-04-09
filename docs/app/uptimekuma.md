@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted UptimeKuma 🧝 from $0.05/day
+title: Elf Hosted UptimeKuma 🧝 from $0.10/day
 slug: UptimeKuma
 description: Uptime Kuma is a self-hosted monitoring tool, like Uptime Robot
 upstream: https://github.com/louislam/uptime-kuma

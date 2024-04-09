@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted plex_debrid 🧝 from $0.05/day
+title: Elf Hosted plex_debrid 🧝 from $0.10/day
 slug: Plex-Debrid
 description: Plex-debrid "glues" Plex, Zurg, and rclone together, to create an "infinite streaming" solution for Real Debrid
 upstream: https://github.com/itsToggle/plex_debrid
@@ -13,7 +13,7 @@ works_with:
 - Zurg
 - Overseerr
 - Jellyseerr
-price: 0.05
+price: 0.10
 ---
 
 # {{ page.meta.slug }}

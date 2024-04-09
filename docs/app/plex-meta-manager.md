@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted PrivateBin 🧝 from $0.05/day
+title: Elf Hosted PrivateBin 🧝 from $0.10/day
 slug: Plex-Meta-Manager
 description: Plex Meta Manager super-charges your Plex library with overlays, collections, and more!
 upstream: https://metamanager.wiki

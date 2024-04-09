@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Unpackerr 🧝 from $0.05/day
+title: Elf Hosted Unpackerr 🧝 from $0.10/day
 slug: Unpackerr
 description: Unpackerr extracts downloads for Torrents, Radarr, Sonarr, Lidarr and Readarr, and deletes extracted files after import . Use it to automatically unpack archives after download.
 upstream: https://github.com/davidnewhall/unpackerr
