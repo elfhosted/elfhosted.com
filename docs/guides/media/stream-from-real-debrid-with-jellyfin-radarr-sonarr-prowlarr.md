@@ -27,7 +27,7 @@ Optional:
 
 * [ ] [Jellyseerr][jellyseerr]
 
-[Get all the required apps, conveniently bundled, for $0.50/day! :gift:](https://store.elfhosted.com/product/advanced-infinite-arr-jellyfin-debrid-streaming-bundle){ .md-button .md-button--primary }
+[Get up to 50% off the required apps, conveniently bundled! :gift:](https://store.elfhosted.com/product/advanced-infinite-arr-jellyfin-debrid-streaming-bundle){ .md-button .md-button--primary }
 
 ## How does it work?
 

@@ -31,7 +31,7 @@ And from the [ElfHosted store][store]:
 
 Add the apps above to your cart, or subscribe to all of the above, as a bundle to make it easier, here:
 
-[Get all the apps, bundled, for $0.30/day! :gift:](https://store.elfhosted.com/product/minimal-real-debrid-plex-streaming-bundle){ .md-button .md-button--primary }
+[Get up to 50% off the required apps, conveniently bundled! :gift:](https://store.elfhosted.com/product/minimal-real-debrid-plex-streaming-bundle){ .md-button .md-button--primary }
 
 ## How does it work?
 
