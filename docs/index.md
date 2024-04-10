@@ -21,17 +21,17 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
 <div class="grid cards" markdown>
 
-- :material-database: **Run your own Torrentio** 
+- :gift_heart: **Get your own private Stremio Addons!** 
 
     ---
 
-    Here's how to [get your own alternate, self-hosted torrentio instance](/guides/media/stream-from-real-debrid-with-self-hosted-torrentio)!
+    Customize your Stremio experience with your own instance of popular [Stremio Addons](/stremio-addons)!
 
-- :hammer_pick: **DIY Stremio addon with Jackett** 
+- :people_with_bunny_ears_partying: **Simultaneously Stream from Stremio** 
 
     ---
 
-    Want to build your own, perfect torrent Stremio Addon? [Use Stremio-Jackett to a custom torrent index to Stremio](/guides/media/stream-from-real-debrid-with-stremio-jackett))!
+    Need to stream torrents or consolidate your Debrid downloads from one source IP? [Use Stremio Server](/guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously/)!
 
 - :tv: **Simply stream from Debrid with Plex**
 

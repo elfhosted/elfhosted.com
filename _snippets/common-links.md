@@ -51,6 +51,7 @@
 [rclonebrowser]:      /app/rclonebrowser/
 [rdtclient]:          /app/rdtclient/
 [readarr]:            /app/readarr/
+[recyclarr]:          /app/recyclarr/
 [resiliosync]:        /app/resiliosync/
 [rpdb]:               /app/rpdb/
 [rutorrent]:          /app/rutorrent/
@@ -59,6 +60,7 @@
 [shoko]:              /app/shoko/
 [shluflix]:           /app/shluflix/
 [sonarr]:             /app/sonarr/
+[stremify]:           /app/stremify/
 [stremio-jackett]:    /app/stremio-jackett/
 [stremio-server]:     /app/stremio-server/
 [stremio-web]:        /app/stremio-web/
