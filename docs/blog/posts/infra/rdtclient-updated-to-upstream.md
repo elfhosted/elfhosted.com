@@ -16,6 +16,9 @@ Today an intrepid team of elves worked on refactoring and testing the latest off
 
 By the time you read this, you'll have been auto-upgrade to the latest version, and subsequent upstream updates will be automatically applied (*no more testing required after each upstream release*).
 
+!!! tip "Show @rogerfar some :heart:"
+    If you'd like to encourage RDTClient's developer, @rogerfar, to continue making bug fixes and feature improvements, weigh in on or just add some reactions to [this issue](https://github.com/rogerfar/rdt-client/issues/463)!
+
 <!-- more -->
 
 ## Bugfixes
