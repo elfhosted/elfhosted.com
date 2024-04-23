@@ -14,12 +14,14 @@ definitions:
       {{ page.meta.get("title", page.title) }}
     {%- endif -%}  
 
-  - &page_background >-
-    {%- if not page.is_homepage -%}
+  - &page_background >- 
+    {%- if not page.meta.get("image") is none -%}
+      {{ page.meta.get("image") }}
+    {%- elif not page.is_homepage -%}
       docs/images/screenshots/{{ page.meta.get("slug", "notifiarr") | lower }}.png
     {%- else -%}
       {{ page.meta.get("title", page.title) }}
-    {%- endif -%}        
+    {%- endif -%}
 
 size: { width: 1200, height: 630 }
 layers:

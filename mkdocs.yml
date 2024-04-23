@@ -49,7 +49,7 @@ plugins:
       utm_medium: "RSS"
       utm_campaign: "feed-syndication"
   social:
-    # debug: false
+    # debug: true
     # debug_color: yellow
     cards_layout: elfhosted
 
@@ -152,6 +152,7 @@ nav:
       - KnightCrawler: app/torrentio.md 
       - MediaFusion: app/mediafusion.md     
       - Shluflix: app/shluflix.md
+      - Stremify: app/stremify.md
       - Stremio-Jackett: app/stremio-jackett.md
       - Torrentio: app/torrentio.md  
       - Xtremio: app/xtremio.md
@@ -167,6 +168,8 @@ nav:
       - Advanced Infinite Streaming with with Jellyfin and Arrs: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
       - Advanced Infinite Streaming with with Emby and Arrs: guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
       - Simultaneous Streaming with Stremio Server and Debrid: guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously.md
+      - Optimizing your movie quality with TRaSH Guides custom formats: /guides/media/optimize-movie-quality-with-trash-custom-formats.md
+      - Optimizing your series quality with TRaSH Guides custom formats: /guides/media/optimize-series-quality-with-trash-custom-formats.md
     - Media Server: guides/build-media-streaming-server.md
     - Plex Cloud: guides/your-own-plex-cloud.md 
     - unRAID: guides/unraid-storagebox-vpn.md
