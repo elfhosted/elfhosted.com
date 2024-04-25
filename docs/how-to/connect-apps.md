@@ -148,4 +148,11 @@ Preconfigured in Radarr/Sonarr/Lidarr/Readarr/Mylarr
 
 In Plex, use `xteve:34400` as your HDHomeRun network address
 
+## [Zurg][zurg]
+
+(Requires "[Zurg Exposed](/zurg/#access-zurg-externally-via-webdav)" addon)
+
+* host: `https://<username>-zurg.elfhosted.com/dav/` (WebDAV)
+* host: `https://<username>-zurg.elfhosted.com/infuse/` (Infuse)
+
 --8<-- "common-links.md"

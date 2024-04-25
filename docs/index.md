@@ -48,6 +48,10 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
 ## What users say..
 
+> "I just have to say, I am an incredibly satisfied customer. I had been collecting my own content for nearly 20 years. Starting off with just a simple external HD before eventually graduating to a seedbox with 100TB of cloud storage attached and fully automated processes with Sonarr and Radarr . However, the time came when the glory days of unlimited Google Drive storage ended. I thought my days of having my full collection at my fingertips via :plex: were behind me, until I found Real-Debrid and ElfHosted. 
+> 
+> Now I essentially have the exact same access to content as I had before, but even better. Superior support and community involvement. Content is available almost immediately after being identified. A plethora of tools at my fingertips that give me more control and automation than ever before. Wonderfully well done and impressive! I am looking forward to being a customer for a very long time! Massive kudos to @funkypenguin 🤟 - \@BSM (*[Discord](https://discord.com/channels/396055506072109067/1118645576884572303/1233057353390231655)*)
+
 > "I would recommend ElfHosted to anyone. It has been great so far and made life a lot easier than running my own setups. If you’re in the fence give them a try and help support this great community." - [Zestyclose_Teacher20](https://old.reddit.com/r/StremioAddons/comments/1b5wqdx/elfhosteds_elfdisclosure_report_for_feb_2024/ktayicr/)
 
 > "thanks for the help and must say this is the best host I every had for my server 🙂 10/10 🙂 All other places I have try have I got a lot buff etc. Your host can even give me full power on a 4K Remux on 200GB big movie file . That's damn awesome 😄" - \@tjelite (*Discord*)
