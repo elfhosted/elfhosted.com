@@ -48,6 +48,8 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
 ## What users say..
 
+> "Just wanted to check in here and let \@Darth-Penguini and anyone/everyone else know...WOW. I have been struggling with storage for years, maintenance of Docker containers, upkeep, all of it. Elfhosted is so freeing. It's an amazing service that I hope to be a member of for a long, long time!"  - \@Fingers91 (*[Discord](https://discord.com/channels/396055506072109067/1118645576884572303/1233758587835383908)*)
+
 > "I just have to say, I am an incredibly satisfied customer. I had been collecting my own content for nearly 20 years. Starting off with just a simple external HD before eventually graduating to a seedbox with 100TB of cloud storage attached and fully automated processes with Sonarr and Radarr . However, the time came when the glory days of unlimited Google Drive storage ended. I thought my days of having my full collection at my fingertips via :plex: were behind me, until I found Real-Debrid and ElfHosted. 
 > 
 > Now I essentially have the exact same access to content as I had before, but even better. Superior support and community involvement. Content is available almost immediately after being identified. A plethora of tools at my fingertips that give me more control and automation than ever before. Wonderfully well done and impressive! I am looking forward to being a customer for a very long time! Massive kudos to @funkypenguin 🤟 - \@BSM (*[Discord](https://discord.com/channels/396055506072109067/1118645576884572303/1233057353390231655)*)
