@@ -46,12 +46,6 @@ Streaming
 
 ### Connecting to Plex
 
-Because we run Plex behind a VPN, it's not possible for Plex to "see" xteve by name. However, we can use its Kubernetes service IP address, which doesn't change for the life of the service (*it'll change if you uninstall and reinstall though!*)
-
-To get the IP of your xteve service, use [Kubernetes Dashboard][kubernetes-dashboard], search for `xteve`, and look for the ClusterIP of the **service**, as illustrated below:
-
-![](/images/xteve-identify-service-ip.png)
-
-Then use the cluster IP to connect Plex to XTeve, in the syntax `http://<IP>:33400`
+Connect Plex to XTeve, in the syntax `http://xteve:33400`
 
 {% include 'app_footer.md' %}
