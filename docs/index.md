@@ -48,19 +48,38 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
 ## What users say..
 
-> "Just wanted to check in here and let \@Darth-Penguini and anyone/everyone else know...WOW. I have been struggling with storage for years, maintenance of Docker containers, upkeep, all of it. Elfhosted is so freeing. It's an amazing service that I hope to be a member of for a long, long time!"  - \@Fingers91 (*[Discord](https://discord.com/channels/396055506072109067/1118645576884572303/1233758587835383908)*)
+Here's what some of our {--users--}{++friends++} say..
+
+> "Just wanted to check in here and let \@Darth-Penguini and anyone/everyone else know...WOW. I have been struggling with storage for years, maintenance of Docker containers, upkeep, all of it. Elfhosted is so freeing. It's an amazing service that I hope to be a member of for a long, long time!"  
+
+:star::star::star::star::star: [\@Fingers91 (*Discord*)](https://discord.com/channels/396055506072109067/1118645576884572303/1233758587835383908)
 
 
 > "I just have to say, I am an incredibly satisfied customer. I had been collecting my own content for nearly 20 years. Starting off with just a simple external HD before eventually graduating to a seedbox with 100TB of cloud storage attached and fully automated processes with Sonarr and Radarr . However, the time came when the glory days of unlimited Google Drive storage ended. I thought my days of having my full collection at my fingertips via :plex: were behind me, until I found Real-Debrid and ElfHosted. 
 > 
-> Now I essentially have the exact same access to content as I had before, but even better. Superior support and community involvement. Content is available almost immediately after being identified. A plethora of tools at my fingertips that give me more control and automation than ever before. Wonderfully well done and impressive! I am looking forward to being a customer for a very long time! Massive kudos to @funkypenguin 🤟 - \@BSM (*[Discord](https://discord.com/channels/396055506072109067/1118645576884572303/1233057353390231655)*)
+> Now I essentially have the exact same access to content as I had before, but even better. Superior support and community involvement. Content is available almost immediately after being identified. A plethora of tools at my fingertips that give me more control and automation than ever before. Wonderfully well done and impressive! I am looking forward to being a customer for a very long time! Massive kudos to @funkypenguin 🤟 
 
+:star::star::star::star::star: [\@BSM (*Discord*)](https://discord.com/channels/396055506072109067/1118645576884572303/1233057353390231655)
 
-> "I would recommend ElfHosted to anyone. It has been great so far and made life a lot easier than running my own setups. If you’re in the fence give them a try and help support this great community." - [Zestyclose_Teacher20](https://old.reddit.com/r/StremioAddons/comments/1b5wqdx/elfhosteds_elfdisclosure_report_for_feb_2024/ktayicr/)
+> "I would recommend ElfHosted to anyone. It has been great so far and made life a lot easier than running my own setups. If you’re in the fence give them a try and help support this great community." 
 
+:star::star::star::star::star: [Zestyclose_Teacher20 (*Reddit*)](https://old.reddit.com/r/StremioAddons/comments/1b5wqdx/elfhosteds_elfdisclosure_report_for_feb_2024/ktayicr/)
 
-> "thanks for the help and must say this is the best host I every had for my server 🙂 10/10 🙂 All other places I have try have I got a lot buff etc. Your host can even give me full power on a 4K Remux on 200GB big movie file . That's damn awesome 😄" - \@tjelite (*Discord*)
+> "thanks for the help and must say this is the best host I every had for my server 🙂 10/10 🙂 All other places I have try have I got a lot buff etc. Your host can even give me full power on a 4K Remux on 200GB big movie file . That's damn awesome 😄"
 
+:star::star::star::star::star: \@tjelite (*Discord*)
+
+> "Very happy customer. Great service"
+
+:star::star::star::star::star: [\@ronney67 (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1234932676822044703)
+
+> "Very good customer service, frequent updates, and excelent uptime!!!!!"
+
+:star::star::star::star::star: [@ed.guim (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1234946556126433304)
+
+> "I had my own plex-arrs setup on hetzner for years. Yesterday I deleted everything as elfhosted has gone above and beyond it. And it has a fantastic, active community as well! Very friendly, helpful and like-minded folks always willing to help and improve the system. Top notch!"
+
+:star::star::star::star::star: [\@alon.hearter (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1235106033144434749)
 
 ## The back-story
 
