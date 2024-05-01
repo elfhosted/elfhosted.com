@@ -68,4 +68,14 @@ Radarr isn't able to keep multiple copies of the same movie in different formats
 
 To this end, a "4K" version of Radarr is available, which can either be manually managed, or configured to sync with the "regular" (HD) Radarr.
 
+## Add TRaSH Guides
+
+The [TRaSH guides](https://trash-guides.info/) utilize custom formats and quality profiles to fine-tune the media that Radarr downloads.
+
+There are 3 ways to configure Radarr for the TRaSH guides:
+
+1. Run `elfbot recyclarr sync` from [FileBrowser][filebrowser]'s console (*manual, super-easy*)
+2. Subscribe to the [Recyclarr][recyclarr] service, and have Recyclarr sync with Radarr on a daily basis (*automatic, fire-and-forget*)
+3. [Manually apply the TRaSH guides settings](/guides/media/optimize-movie-quality-with-trash-custom-formats/) to Radarr (*manual, complex*)
+
 {% include 'app_footer.md' %}

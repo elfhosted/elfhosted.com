@@ -28,7 +28,7 @@ It can also be configured to automatically upgrade the quality of files already 
 
 Sonarr will be pre-configured for the other supported apps. By default, Sonarr HD is configured to seek out only 1080P content which can reliably be direct-played / transcoded on a range of equipment and bandwidth constraints. If you have the hardware / bandwidth to direct-play 4K content, you'll need to update the profiles yourself.
 
-## Import existing remote media
+### Import existing remote media
 
 If you have existing remote media mounted at `/storage/<something>` (*like Real-Debrid*), you can [use ElfBot to create symlinks](/app/elfbot#how-to-import-symlinks) to bring this into your Sonarr library, without consuming any more space.
 
@@ -51,5 +51,15 @@ In Sonarr, use `Wanted` -> `Manual Import`, and point the import at `/storage/sy
 
 !!! warning "Not Library Import"
     We're not importing an organized library here, we're importing a messy bunch of files created by DMM / Stremio. Use `Wanted` -> `Manual Import` instead, since this will rename and upgrade your content, and move it to existing libraries
+
+### Add TRaSH Guides
+
+The [TRaSH guides](https://trash-guides.info/) utilize custom formats and quality profiles to fine-tune the media that Sonarr downloads.
+
+There are 3 ways to configure Radarr for the TRaSH guides:
+
+1. Run `elfbot recyclarr sync` from [FileBrowser][filebrowser]'s console (*manual, super-easy*)
+2. Subscribe to the [Recyclarr][recyclarr] service, and have Recyclarr sync with Sonarr on a daily basis (*automatic, fire-and-forget*)
+3. [Manually apply the TRaSH guides settings](/guides/media/optimize-series-quality-with-trash-custom-formats/) to Sonarr (*manual, complex*)
 
 {% include 'app_footer.md' %}

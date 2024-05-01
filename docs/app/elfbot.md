@@ -159,5 +159,20 @@ To find these "broken symlinks", run `elfbot symlink report-broken` - you'll fin
 
 To bulk-delete all broken symlinks (*so the aars can re-search for them*), run `elfbot symlink delete-broken`. Only valid symlinks will survive!
 
+### Applying TRaSH Guides
+
+[Recyclarr][recyclarr] is now included with ElfBot, and can be manually run using `elfbot recyclarr <arguments>`.
+
+To sync all your configured Aars with the TRaSH guides, run `elfbot recyclarr sync`.
+
+You'll end up with 2 additional quality profiles in each Aar, as follows:
+
+1. `TRaSH <= HD` : Download the best available quality up to HD (1080P)
+2. `TRaSH <= 4K` : Download the best available quality up to 4K (2060P)
+
+See the following for detailed instructions:
+
+* [Radarr](/app/radarr/#add-trash-guides)
+* [Sonarr](/app/sonarr/#add-trash-guides)
 
 --8<-- "common-links.md"
