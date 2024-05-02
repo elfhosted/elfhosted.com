@@ -81,6 +81,10 @@ Here's what some of our {--users--}{++friends++} say..
 
 :star::star::star::star::star: [\@alon.hearter (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1235106033144434749)
 
+> "great fast service, resolved my problem and really friendly"
+
+:star::star::star::star::star: [\@allan.st.minimum (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784)
+
 ## The back-story
 
 > I love self-hosting[^1], and have been publishing [guides on building self-hosting platforms and running apps](https://geek-cookbook.funkypenguin.co.nz) since 2016. Over time, I've updated my own platform from [Docker Swarm](https://geek-cookbook.funkypenguin.co.nz/docker-swarm/) to [Kubernetes](https://geek-cookbook.funkypenguin.co.nz/kubernetes/) (*several iterations*).
