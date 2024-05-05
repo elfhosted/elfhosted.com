@@ -83,7 +83,15 @@ Here's what some of our {--users--}{++friends++} say..
 
 > "great fast service, resolved my problem and really friendly"
 
-:star::star::star::star::star: [\@allan.st.minimum (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784)
+:star::star::star::star::star: [\@allan.st.minimum (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1235401078456193094)
+
+> "Great service and sorted out a billing issue super quick and easy."
+
+:star::star::star::star::star: [\@scottcall707 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1236078421428142185)
+
+> "Very friendly support, resolved a problem with my account! I also appreciate the community that has been built around the service!"
+
+:star::star::star::star::star: [\@ leo1305 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1236631075665612910)
 
 ## The back-story
 
