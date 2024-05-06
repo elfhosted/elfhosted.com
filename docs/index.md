@@ -91,7 +91,11 @@ Here's what some of our {--users--}{++friends++} say..
 
 > "Very friendly support, resolved a problem with my account! I also appreciate the community that has been built around the service!"
 
-:star::star::star::star::star: [\@ leo1305 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1236631075665612910)
+:star::star::star::star::star: [\@leo1305 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1236631075665612910)
+
+> "excellent customer service and very fast replies"
+
+:star::star::star::star::star: [\@yo.hohoho (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1237027356775026802)
 
 ## The back-story
 
