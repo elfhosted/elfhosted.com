@@ -105,6 +105,7 @@ nav:
       - xTeVe: app/xteve.md
 
     - Manage Downloads:
+      - AirDC++: app/airdcpp.md
       - Autobrr: app/autobrr.md
       - Deluge: app/deluge.md
       - Flaresolverr: app/flaresolverr.md
