@@ -50,10 +50,13 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
 Here's what some of our {--users--}{++friends++} say..
 
+> "I don't understand how there aren't tons of elves already. The way this whole thing is setup is great, from getting a free $10 amount of elfbuckz to start, free 7 day trials on most services, the subscription prices of the products are reasonable, to the smoothness of how everything runs. I just dont get it, people choose to pay way more with places that don't provide the same customer service nor have a great community like this one. I recommend elfhosted to everyone.
+
+:star::star::star::star::star: [\@bigcasino1_69181 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1238251003610927184)
+
 > "Just wanted to check in here and let \@Darth-Penguini and anyone/everyone else know...WOW. I have been struggling with storage for years, maintenance of Docker containers, upkeep, all of it. Elfhosted is so freeing. It's an amazing service that I hope to be a member of for a long, long time!"  
 
 :star::star::star::star::star: [\@Fingers91 (*Discord*)](https://discord.com/channels/396055506072109067/1118645576884572303/1233758587835383908)
-
 
 > "I just have to say, I am an incredibly satisfied customer. I had been collecting my own content for nearly 20 years. Starting off with just a simple external HD before eventually graduating to a seedbox with 100TB of cloud storage attached and fully automated processes with Sonarr and Radarr . However, the time came when the glory days of unlimited Google Drive storage ended. I thought my days of having my full collection at my fingertips via :plex: were behind me, until I found Real-Debrid and ElfHosted. 
 > 
@@ -96,6 +99,10 @@ Here's what some of our {--users--}{++friends++} say..
 > "excellent customer service and very fast replies"
 
 :star::star::star::star::star: [\@yo.hohoho (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1237027356775026802)
+
+> "Loved the simplicity, experience and support"
+
+:star::star::star::star::star: [\@y.adhish (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1238152836098031666)
 
 ## The back-story
 
