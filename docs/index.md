@@ -72,6 +72,12 @@ Here's what some of our {--users--}{++friends++} say..
 
 :star::star::star::star::star: \@tjelite (*Discord*)
 
+> "What an amazing support system these guys have Chris and Layzee i think it was! Both are very patient with me even though I am a newbie at all this. Very thorough and explained everything step by step with me 
+> 
+> I couldn’t ask for anything better than the service I have received by these guys! Happy happy client❤️"
+
+:star::star::star::star::star: [\@dead.potahto (Discord)](https://discord.com/channels/396055506072109067/1239991761355669625)
+
 > "Very happy customer. Great service"
 
 :star::star::star::star::star: [\@ronney67 (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1234932676822044703)
