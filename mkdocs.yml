@@ -61,7 +61,7 @@ plugins:
       - img.shields.io/*
       - i.imgflip.com/*
   optimize:
-    enabled: true
+    enabled: false # pngquant issue?
 
 #theme_dir: mkdocs-material
 nav:
