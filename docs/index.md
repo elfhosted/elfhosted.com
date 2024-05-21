@@ -90,6 +90,10 @@ Here's what some of our {--users--}{++friends++} say..
 
 :star::star::star::star::star: [\@alon.hearter (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1235106033144434749)
 
+> "really enjoying the service from elfhosted. The setup is really easy from the guides on the website. And the help on the discord channel is really quick."
+
+:star::star::star::star::star: [\@jrhd13 (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1242251199290277953)
+
 > "great fast service, resolved my problem and really friendly"
 
 :star::star::star::star::star: [\@allan.st.minimum (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1235401078456193094)
