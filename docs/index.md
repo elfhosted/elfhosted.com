@@ -114,6 +114,10 @@ Here's what some of our {--users--}{++friends++} say..
 
 :star::star::star::star::star: [\@y.adhish (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1238152836098031666)
 
+> "Very friendly help as always, problem solved, one happy elf here!"
+
+:star::star::star::star::star: [\@badfurday0 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1242998312827883550
+
 ## The back-story
 
 > I love self-hosting[^1], and have been publishing [guides on building self-hosting platforms and running apps](https://geek-cookbook.funkypenguin.co.nz) since 2016. Over time, I've updated my own platform from [Docker Swarm](https://geek-cookbook.funkypenguin.co.nz/docker-swarm/) to [Kubernetes](https://geek-cookbook.funkypenguin.co.nz/kubernetes/) (*several iterations*).
