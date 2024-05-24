@@ -1,6 +1,7 @@
 Name | What does it do? | Subscribe
 ---------|----------|---------
  [Annatar][annatar] | Streams content from Real-Debrid / Premiumize, based on your tracker / quality preferences. Uses clever redis caching to provide near-instant responses | [Subscribe!](https://store.elfhosted.com/product/annatar/){ .md-button .md-button--primary }
+ [Davio][davio] | Stream your content (*Debrid or otherwise*) using HTTP streams via WebDAV | [Subscribe!](https://store.elfhosted.com/product/davio/){ .md-button .md-button--primary }
  [Jackettio][jackettio] | Get torrents from your private trackers using Jackett and delivered via Real-Debrid, AllDebrid, or Debrid-Link | [Subscribe!](https://store.elfhosted.com/product/jackettio/){ .md-button .md-button--primary }
  [KnightCrawler][torrentio] | Same code, new name - KnightCrawler is the community-driven fork of TorrentIO | [Subscribe!](https://store.elfhosted.com/product/knightcrawler/){ .md-button .md-button--primary } 
  [MediaFusion][mediafusion] | Especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series. A highly-configurable and capable addon | [Subscribe!](https://store.elfhosted.com/product/mediafusion/){ .md-button .md-button--primary }  

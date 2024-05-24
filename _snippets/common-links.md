@@ -6,6 +6,7 @@
 [bazarr]:             /app/bazarr/
 [calibre]:            /app/calibre/
 [calibre-web]:        /app/calibre-web/
+[davio]:              /app/davio/
 [deluge]:             /app/deluge/
 [elfbot]:             /app/elfbot/
 [emby]:               /app/emby/
