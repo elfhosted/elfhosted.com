@@ -116,7 +116,11 @@ Here's what some of our {--users--}{++friends++} say..
 
 > "Very friendly help as always, problem solved, one happy elf here!"
 
-:star::star::star::star::star: [\@badfurday0 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1242998312827883550
+:star::star::star::star::star: [\@badfurday0 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1242998312827883550)
+
+> "Great Helpful and Fast support. Thanks!" 
+
+:star::star::star::star::star: [\@.mxrcy (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1244417224479866892)
 
 ## The back-story
 
