@@ -70,7 +70,7 @@ On purchase, you'll get the necessary components deployed, but some configuratio
 
 ### Setup Real-Debrid
 
-To satisfy plex_debrid, ensure that you have at least one file in your RealDebrid library to be detected by Zurg as "movies", and another as "shows". A helpful tool to achieve this is https://debridmediamanager.com/
+To satisfy plex_debrid, ensure that you have at least one file in your RealDebrid library to be detected by Zurg as "movies", and another as "shows". A helpful tool to achieve this is https://debridmediamanager.com, with which you can add [this collection](https://hashlists.debridmediamanager.com/b992bcaf-dab5-42a1-8e17-117904f4ae6b.html) of public domain series/movies.
 
 Confirm Zurg and its folders are setup correctly by browsing it from your ElfHosted dashboard.
 
@@ -80,7 +80,7 @@ Claim your Plex instance using [ElfBot][elfbot], and add 2 new media libraries (
 
 ### Setup plex_debrid
 
-Launch [plex-debrid][plex-debrid] from your dashboard, and perform the [initial setup per our docs](/app/plex-debrid/#how-do-i-use-it), then tell it to run!
+To avoid unnecessary navigation, and to simplify setup, configure plex_debrid using the `.json` file, as [described in our docs](/app/plex-debrid/#how-do-i-use-it).
 
 ### Setup updateplex.sh
 
