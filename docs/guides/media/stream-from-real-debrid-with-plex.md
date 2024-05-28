@@ -6,7 +6,11 @@ description: This guide describes how to setup your own "stremio", streaming you
 
 This page describes a minimal solution to create your "infinite" Plex library, utilizing [Real-Debrid][real-debrid] for all media, streaming through your ElfHosted [Plex][plex] instance.
 
-!!! tip "New accounts get $10 credit, enough to run this stack for 30 days!"
+Here's a video[^1] (*privacy mode*) demonstrating demonstrating the whole shebang:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JTFoy0jQS4s?si=I7MW1HlzGa1QWgVd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+!!! tip "New accounts get $10 credit, enough to run this stack for > 10 days!"
     Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
 
 The advantages of this solution are:
@@ -108,5 +112,6 @@ That's it, you're done. Adding content to your Plex watchlist should trigger ple
 1. For general use of the [individual tools](/apps/), refer to the each app's upstream site
 2. For specific support re your ElfHosted configuration / account, see the [ElfHosted support options](/get-help)
 
-
 --8<-- "common-links.md"
+
+[^1]: If the YouTube link fails, an alternate copy of the video is available [here](https://video.elfhosted.com/w/5LvkPmHYxBnt8s72mt8Yey) :thumbsup:

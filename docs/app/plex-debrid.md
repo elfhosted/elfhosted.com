@@ -87,6 +87,16 @@ Next, you'll need to add your Debrid provider's API key. Again in `settings.json
 
 The above (*Plex token and Debrid API key*) are the **minimal** changes necessary. To apply your changes, restart Plex_debrid by running `elfbot restart plex-debrid` in the [FileBrowser][filebrowser] console.
 
+### Setup Zurg's updateplex.sh
+
+To trigger a Plex library update from Zurg when your Real-Debrid content changes, edit `config/zurg/plex_update.sh` via [FileBrowser][filebrowser], find this line:
+
+```
+token="yourplextoken"
+```
+
+And replace `yourplextoken` with the same plex token you used when configuring plex_debrid.
+
 ## Troubleshooting
 
 ### RGB codes on console
