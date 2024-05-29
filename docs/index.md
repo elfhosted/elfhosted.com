@@ -90,6 +90,10 @@ Here's what some of our {--users--}{++friends++} say..
 
 :star::star::star::star::star: [\@alon.hearter (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1235106033144434749)
 
+> "The Elfhosted product alone is great. The team is super transparent on the issues and resolutions that happen as it grows. Lots of opportunity to self-solve issues, but the support from both mods and darth-penguini is SO quick and proactive. Props to them."
+
+:star::star::star::star::star: [\@elevenfifteen (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1245143888893575292)
+
 > "really enjoying the service from elfhosted. The setup is really easy from the guides on the website. And the help on the discord channel is really quick."
 
 :star::star::star::star::star: [\@jrhd13 (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1242251199290277953)
