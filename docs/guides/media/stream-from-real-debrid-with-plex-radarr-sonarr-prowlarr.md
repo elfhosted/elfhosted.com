@@ -8,7 +8,7 @@ This page describes a more complex, flexible version of our [plex_debrid-based, 
 
 The solution leverages the popular Arr tools to search, source, and sort your media, stealthily using symlinks to skip storage stresses!
 
-!!! tip "New accounts get $10 credit, enough to run this stack for 20 days!"
+!!! tip "New accounts get $10 credit, enough to run this stack for 7 days!"
     Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
 
 ## Requirements

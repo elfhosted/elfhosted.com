@@ -10,7 +10,7 @@ Here's a video[^1] (*privacy mode*) demonstrating demonstrating the whole sheban
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JTFoy0jQS4s?si=I7MW1HlzGa1QWgVd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-!!! tip "New accounts get $10 credit, enough to run this stack for > 10 days!"
+!!! tip "New accounts get $10 credit, enough to run this stack for 11 days!"
     Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
 
 The advantages of this solution are:
