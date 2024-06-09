@@ -145,3 +145,4 @@ Reasons **not** to self-host your media server may include:
 That's it, you're done. Hope into our [friendly Discord server][discord] if you have questions or suggestions!
 
 --8<-- "common-links.md"
+{% include 'testimonials.md' %}

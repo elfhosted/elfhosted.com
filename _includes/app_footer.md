@@ -28,4 +28,7 @@ You can contribute directly to the development of {{ page.meta.slug }} using the
 * [{{ page.meta.slug }} {{ link.name }}]({{ link.uri }})
 {% endfor %}
 {% endif %}
+
+{% include 'testimonials.md' %}
+
 --8<-- "common-links.md"

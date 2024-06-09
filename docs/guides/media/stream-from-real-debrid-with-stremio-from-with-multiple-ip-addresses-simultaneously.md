@@ -65,3 +65,5 @@ For specific support re your ElfHosted configuration / account, see the [ElfHost
 [^1]: Other than an entrypoint change to enforce waiting for a VPN to be established before running the server!
 
 --8<-- "common-links.md"
+
+{% include 'testimonials.md' %}

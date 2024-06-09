@@ -89,3 +89,5 @@ A search will return results in a few seconds:
 2. For specific support re your ElfHosted configuration / account, see the [ElfHosted support options](/get-help/)
 
 --8<-- "common-links.md"
+
+{% include 'testimonials.md' %}

@@ -137,3 +137,5 @@ That's it! You've got the basic plumbing in place for "unlimited storage" from R
 2. For specific support re your ElfHosted configuration / account, see the [ElfHosted support options](/get-help)
 
 --8<-- "common-links.md"
+
+{% include 'testimonials.md' %}

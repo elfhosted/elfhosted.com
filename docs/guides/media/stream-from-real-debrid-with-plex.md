@@ -115,3 +115,6 @@ That's it, you're done. Adding content to your Plex watchlist should trigger ple
 --8<-- "common-links.md"
 
 [^1]: If the YouTube link fails, an alternate copy of the video is available [here](https://video.elfhosted.com/w/5LvkPmHYxBnt8s72mt8Yey) :thumbsup:
+
+
+{% include 'testimonials.md' %}

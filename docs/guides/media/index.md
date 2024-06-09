@@ -23,3 +23,5 @@ The guides below present specific app configurations for specific purposes, and 
 
 * [Optimizing your movie quality with TRaSH Guides custom formats](/guides/media/optimize-movie-quality-with-trash-custom-formats/)
 * [Optimizing your series quality with TRaSH Guides custom formats](/guides/media/optimize-series-quality-with-trash-custom-formats/)
+
+{% include 'testimonials.md' %}
