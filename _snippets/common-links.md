@@ -54,6 +54,7 @@
 [readarr]:            /app/readarr/
 [recyclarr]:          /app/recyclarr/
 [resiliosync]:        /app/resiliosync/
+[riven]:              /app/riven/
 [rpdb]:               /app/rpdb/
 [rutorrent]:          /app/rutorrent/
 [sabnzbd]:            /app/sabnzbd/

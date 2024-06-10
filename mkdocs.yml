@@ -120,6 +120,7 @@ nav:
       - qBittorrent: app/qbittorrent.md
       - Rapidleech: app/rapidleech.md
       - RDT Client: app/rdtclient.md
+      - Riven: app/riven.md 
       - ruTorrent: app/rutorrent.md
       - SABnzbd: app/sabnzbd.md
       - Unpackerr: app/unpackerr.md
