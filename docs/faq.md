@@ -25,7 +25,7 @@ Apps are priced based on their resource consumption. "Heavier" apps consume more
 
 ### Can I use rclone?
 
-Yes! We use rclone extensively for our "BYOS" design. If you need long-term, permanent rclone mount, then buy a compatible storage mount from the store, and we'll can mount it to `/storage`. 
+Yes! We use rclone extensively for our "BYOS" design. If you need long-term, permanent rclone mount, then buy a compatible storage mount from the store, and we'll mount it to `/storage`. 
 
 If you just need temporary / occasional rclone move data around, then see [how to use rclone][/how-to/use-rclone/].
 
