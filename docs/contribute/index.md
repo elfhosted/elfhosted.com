@@ -19,7 +19,7 @@ Our target-market has so far primarily come from:
 
 Possible approaches for further exposure would be app-specific subreddits (*[r/Plex](https://reddit.com/r/plex), [r/Jellyfin](https://reddit.com/r/jellyfin), etc*), or approaching open-source devs to offer free hosted demos / instances of their app, such as [Annatar](https://annatar.elfhosted.com).
 
-If you post a link using your [referral code](https://store.elfhosted.com/my-account/myreferrals/), any referees would get $5 off their first ElfBuckz top-up, and you'd get a token $1 ElfBuckz in thanks!
+If you post a link using your [referral code](https://store.elfhosted.com/my-account/myreferrals/), you'll get a $5 coupon in thanks, every time a referral turns into an order!
 
 !!! tip
     It's a good idea to disclose any referral / affiliate links as such, for transparency, and to avoid backlash
@@ -38,7 +38,7 @@ All our documentation is text-based, which is difficult for some users to parse 
 
 ## Update / add documentation
 
-Got some documentation improvements to suggest? This site is built with mkdocs and material-mkdocs - you can spin up [a browser-based development enviroment](https://gitpod.io/new/#https://github.com/geek-cookbook/elfhosted.com) using GitPod, prepare a changeset, and submit a PR all from one browser window!
+Got some documentation improvements to suggest? This site is built with mkdocs and material-mkdocs - you can spin up [a browser-based development enviroment](https://gitpod.io/new#https://github.com/geek-cookbook/elfhosted.com) using GitPod, prepare a changeset, and submit a PR all from one browser window!
 
 ## Improve product images
 
