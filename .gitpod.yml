@@ -1,9 +1,13 @@
 tasks:
-  - init: pip install -r requirements.txt && pip install mkdocs-material
+  - init: pip install -r requirements.txt
+    command: pip install mkdocs-material
+    name: install mkdocs-material
   - command: mkdocs serve -f mkdocs-gitpod.yml
+    name: serve site
 ports:
   - port: 8000
-    onOpen: notify
+    onOpen: open-browser
+    name: Your beautiful preview
 vscode:
   extensions:
     - yzhang.markdown-all-in-one
