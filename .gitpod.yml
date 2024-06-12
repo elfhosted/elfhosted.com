@@ -1,4 +1,3 @@
-image: squidfunk/mkdocs-material
 tasks:
   - init: pip install -r requirements.txt
   - command: mkdocs serve -f mkdocs-gitpod.yml
