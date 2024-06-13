@@ -31,10 +31,6 @@ Upon logging in, you will be presented with the main screen. You should familiar
 1. Can also be numbered
 2. Numbers must be sequential
 
-## Links
-
-Links should always have a [DebridMediaManager](https://google.com) and a link in brackets.
-
 !!! warning "I am a warning"
     I am an "admonition"
 
