@@ -38,9 +38,6 @@ Links should always have a [DebridMediaManager](https://google.com) and a link i
 !!! warning "I am a warning"
     I am an "admonition"
 
-
-Always start with `##`
-
 ![Screenshot of Debrid Media Manager login page](/images/dmm-home.png)
 
 ### Common options
@@ -58,55 +55,35 @@ Pick from one of the following:
 Allows you to view and and maintain your Real-Debrid library. This is your own personal RD account, represented in DMM.
 
 #### Hash Lists
-
 Hash lists are public shares of hashes provided by DMM users.
 
 Allows you to view and utilize available hash lists.
 
-
 #### Search
+Search for an item to add to your library
 
+#### Stemio
+This function allows you to cast from any device to Stremio.
+
+#### Settings
 Allows you to search the available content.
 
 #### Anime
-
 An anime-specific search function of available content.
 
-#### Stemio
-
-This function allows you to cast from any device to Stremio.
-* 
-#### Settings
-
-> This is a quote
-
-````c++
-value: key
-test: 2
-# comment
-````
-
-
-
-- Video player
-  - There are a variety of options here for you to explore.
+#### Video player
+There are a variety of options here for you to explore.
 - Biggest movie size to show
-  - Allows you to place a size limit on the movies you find.
 - Biggest episode size to show
-  - Allows you to place a size limit on the episodes you find.
 - Default torrents filter:
-  - More on this below!
 - Only show trusted torrents:
   - In general, “trusted torrents” are simply ones which include IMDb ID tags.
 - Top
   - The top content in terms of activity.
 - Recent
   - Recently updated content.
-
 - Movies
-    - A variety of different rankings of available movies.
 - Shows
-    - A variety of different rankings of available TV shows.
 
 **2.) VIEWING AND MAINTAINING YOUR LIBRARY**
 
