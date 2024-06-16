@@ -130,6 +130,7 @@ nav:
     - Tools:
       - ElfBot: app/elfbot.md
       - Filebrowser: app/filebrowser.md
+      - Gluetun: app/gluetun.md
       - Gotify: app/gotify.md
       - Homepage: app/homepage.md
       - Joplin Server: app/joplin-server.md

@@ -12,6 +12,7 @@
 [emby]:               /app/emby/
 [filebrowser]:        /app/filebrowser/
 [flaresolverr]:       /app/flaresolverr/
+[gluetun]:            /app/gluetun/
 [gotify]:             /app/gotify/
 [homepage]:           /app/homepage/
 [iceberg]:            /app/iceberg/
