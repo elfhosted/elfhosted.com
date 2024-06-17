@@ -22,6 +22,8 @@ ElfHosted provides a "BYO VPN" to provide VPN connectivity to selected applicati
 
 ## How do I use it?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pa_jf9oy_SI?si=1i47MbkP13Jo-eaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Summary 
 
 1. Add a [gluetun subscription](https://store.elfhosted.com/product/gluetun/) to your account
