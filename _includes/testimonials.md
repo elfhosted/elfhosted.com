@@ -46,6 +46,14 @@ Here's what some of our {--users--}{++friends++} say..
 
 :star::star::star::star::star: [\@elevenfifteen (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1245143888893575292)
 
+> "Absolutely Amazed with the patience and professionalism of all Elf-Venger Staff including bossman penguin❤️"
+
+:star::star::star::star::star: [\@dead.potahto (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1252138718790422531)
+
+> "@BSM went above and beyond to make sure I had all the one on one support needed with my sub. Thank you for your patience! Elfhosted continues to be Elftastic !!"
+
+:star::star::star::star::star: [\@bfmc1 (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1251339401410117728)
+
 > "really enjoying the service from elfhosted. The setup is really easy from the guides on the website. And the help on the discord channel is really quick."
 
 :star::star::star::star::star: [\@jrhd13 (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1242251199290277953)
