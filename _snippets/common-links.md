@@ -82,6 +82,7 @@
 [youtubedl]:          /app/youtubedl/
 [zurg]:               /app/zurg/
 [connect-apps]:       /how-to/connect-apps/
+[troubleshoot]:       /how-to/troubleshoot/
 [store/storage]:      https://store.elfhosted.com/product-category/storage/
 [store/storagebox]:   https://store.elfhosted.com/product/hetzner-storagebox-mount/
 [store/elfstorage]:   https://store.elfhosted.com/product/elfstorage/
