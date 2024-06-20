@@ -203,7 +203,7 @@ nav:
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
     # - Refund Policy: legal/refund-policy.md
-  - Open (Source):
+  - Open:
     - open/index.md
     - Design:
       - open-source/design/index.md
