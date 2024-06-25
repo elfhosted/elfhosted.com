@@ -46,6 +46,6 @@ Streaming
 
 ### Connecting to Plex
 
-Connect Plex to XTeve, in the syntax `http://xteve:33400`
+Connect Plex to XTeve, in the syntax `xteve:34400`
 
 {% include 'app_footer.md' %}
