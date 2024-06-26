@@ -6,7 +6,7 @@ description: This guide describes how to use newcomer "Riven" to replace plex_de
 
 This page describes a minimal solution to create the optimal "infinite" Plex library, utilizing [Real-Debrid][real-debrid] for all media, streaming through your ElfHosted [Plex][plex] instance.
 
-Here's a video[^1] (*privacy mode*) demonstrating demonstrating the whole shebang:
+Here's a video (*privacy mode*) demonstrating demonstrating the whole shebang:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHZAEhLuJqk?si=t5HJ5RT8UOfDDuXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
