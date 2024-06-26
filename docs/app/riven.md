@@ -17,72 +17,81 @@ links:
 
 # {{ page.meta.slug }}
 
-Riven (*previously Iceberg*) is a rewrite of [plex-debrid][plex-debrid], enabling Plex-based torrent streaming through Real Debrid and 3rd party services like Overseerr, Mdblist, etc.
+Riven (*previously Iceberg*) is a re-imagining of original functions of [plex-debrid][plex-debrid], enabling Plex-based torrent streaming through Real Debrid and 3rd party services like Overseerr, Mdblist, etc.
 
-{% include 'app.md' %}
-{% include 'app_access.md' %}
+!!! tip "Riven gets revenue sharing! :heart:"
+    Riven is an "Elf-illiated" app - the devs are active in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 30% of your subscriptions are contributed to the Riven devs to further development!
 
 ## How to use it
 
-!!! warning "UI is non-functional pending dev updates"
-    The screenshots below represent the old Iceberg code, whose UI is not yet working with Riven.
-    
-    To use Riven, you'll need to use [FileBrowser][filebrowser] to edit `config/riven/settings.json`, and [Kubernetes Dashboard][kubernetes-dashboard] to watch the pod logs for success.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZHZAEhLuJqk?si=t5HJ5RT8UOfDDuXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## UI details for future (not currently working)
+Unlike most ElfHosted apps, Riven is (currently) split into two - the frontend, and the backend:
 
-### Onboarding
+### Meet the backend
 
-#### General Settings
+The Riven backend is what's functionally complete. On the backend, you'll see the logs displayed as Riven searches for your content, adds it to your RealDebrid library, symlinks it to `/storage/symlinks`, and updates Plex accordingly
 
-When prompted, set 
+![](/images/riven-backend.png)
 
-* **Rclone Path**: `/storage/realdebrid-zurg/__all__ `
-* **Library Path**: `/storage/symlinks`
+To restart the backend, hit `CTRL-C` once in the ttyd/browser UI to terminate the process, and then hit `Enter` to reconnect to the session and watch it restart.
 
-and paste in your [Real-Debrid][real-debrid] API key (*get it [here](https://real-debrid.com/apitoken)*)
+### Meet the frontend
 
-![](/images/iceberg-setup-step-1.png)
+The frontend UI is a work-in-progress, but there are enough pieces in place to enable a basic onboarding. The frontend is also critical for setting up Plex authentication.
 
-#### Step 2 / 4
+### Making configuration changes
 
-Set your Plex URL to `http://plex:32400`, and authenticate
+Until the frontend UI is completed, configuration changes are effected by updating `settings.json` in `config/riven`, via [FileBrowser][filebrowser].
 
-![](/images/iceberg-setup-step-2.png)
+### Minimum requirements
 
-#### Step 3 / 4
+At a minimum, Riven requires:
 
-When prompted for content services, select your Plex watchlist - if you're a [Overseer][overseerr] / [Jellyseer][jellyseerr] user, use either `http://jellyseerr:5055` or `http://overseerr:5055`, depending which app you use. Navigate to Overseerr / Jellyseerr, retrieve your API key from **Settings** -> **General** --> **API Key**, and paste it in.
+* [x] Your RealDebrid API key
+* [x] A [claimed][elfbot] [Plex][plex] server
 
-![](/images/iceberg-setup-step-3.png)
+And optionally, Riven will work with:
 
-#### Step 4 / 4
+* [ ] An [Overseerr][overseerr] instance, for managing media requests
+* [ ] A [Jackett][jackett] instance, to provide additional content scraping targets
+  
+### Basic setup
 
-![](/images/iceberg-setup-step-4.png)
+#### Overseerr
 
-##### Torrentio
+To integrate Overseerr with Riven, setup Overseerr to integrate with Plex, and then..
 
-To use ElfHosted's internal, unrestricted torrentio instance, set **Torrentio URL** to `http://elfhosted.torrentio`[^1]
+* :one: Get your API key:
 
-##### Jackett
+![](/images/riven-overseerr-1.png)
 
-To use your own ElfHosted [Jackett][jackett] instance, set the URL to `http://jackett:9117`, and paste in your API key (*retrieved from the Jackett UI*)
+* :two: Configure a webhook pointing to `http://riven:8080/webhook/overseerr`:
 
-#### Now what?
+![](/images/riven-overseerr-2.png)
 
-You'll see a summary of your setup displayed. Click "Status" to look at your requests / queue / library:
+* :three: Enable your webhook for `Request Automatically Approved` and `Request Approved`:
 
-![](/images/iceberg-setup-step-5.png)
+![](/images/riven-overseerr-3.png)
 
-### Where do I find my files?
+#### Frontend 
 
-Iceberg will put symlinks in `/storage/symlinks/movies` and `/stories/symlinks/tv`
+To perform a basic Riven setup, use the frontend, and navigate to Settings:
 
-### Where do I find logs?
+![](/images/riven-settings-1.png)
 
-To see what Iceberg is up to, use [Filebrowser] to inspect the logs in `config/iceberg/`
+Under **General**, ensure your RealDebrid API token is applied and correct (get it [here](https://real-debrid.com/apitoken)):
 
+![](/images/riven-settings-2.png)
+
+Under **Media Server**, click `Authenticate with Plex` to retrieve the token necessary for Riven to interact with Plex:
+
+![](/images/riven-settings-3.png)
+
+Under **Content**, paste in your Overseerr API key, and enable `Overseerr Use Webhook`:
+
+![](/images/riven-settings-4.png)
+
+That's it, a minimal configuration! :partying_face: Now load the backend, and watch the magic! :magic_wand:
 
 {% include 'app_footer.md' %}
-
-[^1]: No, that's not a typo, it's a [Kubernetes service](https://github.com/funkypenguin/elf-infra/blob/ci/torrentio/service-elfhosted.yaml) called `elfhosted` in the namespace `torrentio`, on port `80`!

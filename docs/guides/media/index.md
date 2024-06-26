@@ -2,6 +2,10 @@
 
 The guides below present specific app configurations for specific purposes, and while much of the information is likely to be duplicated, they've been split up to provide the most succinct details possible for each scenario.
 
+## Magical Infinite Streaming with Plex / Riven :magic_wand:
+
+* ["Magically" stream from Real-Debrid with Plex / Riven, with "infinite storage"](/guides/media/stream-from-real-debrid-with-plex-riven)
+
 ## Infinite Streaming with Stremio and Debrid
 
 * [Stream from Real-Debrid using Self Hosted Torrentio Addon](/guides/media/stream-from-real-debrid-with-self-hosted-torrentio)
