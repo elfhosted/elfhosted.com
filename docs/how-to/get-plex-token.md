@@ -1,3 +1,7 @@
+---
+title: Easily generate a Plex token for plex_debrid, Riven, zurg
+description: This page describes a quick and painless method, using your web browser, to retrieve a Plex token for use with plex_debrid, Zurg, or Riven, in Elfhosted
+---
 # How to get your Plex Token
 
 Several of ElfHosted's apps ([Zurg][zurg], [plex-debrid][plex-debrid], [Riven][riven]..) need to interact with your [Plex][plex] instance, using a token.
