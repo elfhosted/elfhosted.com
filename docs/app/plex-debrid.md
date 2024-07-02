@@ -41,15 +41,11 @@ Plex_debrid is unusual in that it requires a CLI-based UI. For this reason, we r
 
 Your plex_debrid config is stored in `config/plex-debrid/settings.json` - While you can edit most options using the CLI UI, the easiest way to get started is to manually edit it and make the required changes, as illustrated below:
 
-### Add Plex User Token
+### Add Plex Token
 
-You'll need a plex hosted token to allow Plex_debrid to scrape your watchlist, and to interact with your libraries.
+You'll need a plex token to allow Plex_debrid to scrape your watchlist, and to interact with your libraries.
 
-To get a Plex token, visit https://plex.tv, and then after the page loads (*in the **same** browser tab*), change the URL to https://plex.tv/devices.xml. If you get an authentication error, then repeat (*make sure you're logged into https://plex.tv*), until you get token data in XML. Search the XML for `model="hosted"`, and for **that** XML tag, grab the value of `token`
-
-For example:
-
-![](/images/plex-debrid-find-plex-token.png)
+See [this guide][plex-token] to get your Plex token.
 
 Copy the token, and paste the value into `settings.json` as illustrated below:
 

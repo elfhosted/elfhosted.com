@@ -96,9 +96,11 @@
 [storagebox]:         /what-is/storagebox/
 [rclone]:             /how-to/use-rclone/
 [elfbuckz]:           /how-to/spend-elfbuckz/
+[plex-token]:         /how-to/get-plex-token/
 [elf-help]:           https://discord.com/channels/396055506072109067/1119478614287712337
 [elf-friends]:        https://discord.com/channels/396055506072109067/1118645576884572303
 [elf-ai-rtfm]:        https://discord.com/channels/396055506072109067/1194599742487941190
 [pia]:                https://fnky.nz/support-me-when-you-buy-pia
 [real-debrid]:        https://fnky.nz/support-me-when-you-buy-real-debrid
 [elf-help]:           https://discord.com/channels/396055506072109067/1119478614287712337
+[elf-support]:        https://discord.com/channels/396055506072109067/1245513340176961606

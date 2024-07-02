@@ -49,7 +49,7 @@ Here's an example:
 
 #### Plex
 
-Follow [these instructions](https://www.plexopedia.com/plex-media-server/general/plex-token/) to retrieve your Plex token, and paste it into the appropriate place in `config.yml`
+Follow [this guide][plex-token] to get your Plex token, and paste it into the appropriate place in `config.yml`
 
 #### Jellyfin
 
