@@ -1,5 +1,5 @@
 ---
-date: 2024-06-21
+date: 2024-06-25
 draft: true
 categories:
   - infra
@@ -8,6 +8,20 @@ tags:
 title: Elf-sclusive "plus" packages (1/4 of a dedicated host) now available
 description: If you're a happy elf, but you dream of moaar speed/bandwidth, our new "plus" packages might suit you - share a full dedicated host with 3 other elves, w/ hardware transcoding, minimal limits, high trust
 ---
+
+
+## Who's the (storage) boss?
+
+As of the most recent maintenance (`v1.40.0), you'll notice a new pod in your namespaces, named "storageboss". This pod connects to all your storage, and then shares this storage with the **other** pods via samba. You can delete and restart it like any other pod, but doing so will temporarily interrupt storage attached to all your pods, so .. don't :grin:
+
+This is a change from the previous design which attached storage directly to pods using Ceph RBD / CephFS, and was implemented to address the massive I/O bottleneck that our workloads place on CephFS (*which is why we migrated Plex and the Aars off, in Feb*), and to allow single-mount block volumes to be shared among multiple pods (*so now, you can see your Plex data in Filebrowser again!*)
+
+Critically, consolidating storage on a single pod is a key step towards making our design more portable, so that we can establish ElfHosted clusters in other datacenters besides for Hetzner, in Germany (*our US Elfies are particularly excited about this!*).
+
+The change to storage mounts has been tested as far as I can, not being a heavy user of all the apps. If you find an app erroring about missing data / directories, there may be configuration changes required that I've missed, so please drop the details into an [#elf-support][elf-support] ticket!
+
+
+
 
 # Elf-sclusive "plus" packages now available
 
