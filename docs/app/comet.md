@@ -1,7 +1,7 @@
 ---
 title: Proxy your RealDebrid Stremio experience with Comet!
 slug: Comet
-description: Annatar is the fastest just-in-time torrent/debrid search add-on for Stremio, providing results in under 3s
+description: Comet ☄️ is a Stremio addon with super-powers! 🦸 It can search public DMM hashlists, and it can proxy your streams, bypassing RealDebrid's one-ip-per-account limitation!
 works_with:
 - Jackett
 upstream: https://gitlab.com/stremio-add-ons/annatar
