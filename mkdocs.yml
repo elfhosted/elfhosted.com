@@ -153,6 +153,7 @@ nav:
     - Stremio Addons:    
       - stremio-addons/index.md
       - Annatar: app/annatar.md
+      - Comet: app/comet.md
       - KnightCrawler: app/torrentio.md 
       - MediaFusion: app/mediafusion.md     
       - Shluflix: app/shluflix.md

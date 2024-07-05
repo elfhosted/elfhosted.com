@@ -6,6 +6,7 @@
 [bazarr]:             /app/bazarr/
 [calibre]:            /app/calibre/
 [calibre-web]:        /app/calibre-web/
+[comet]:              /app/comet/
 [davio]:              /app/davio/
 [deluge]:             /app/deluge/
 [elfbot]:             /app/elfbot/
@@ -64,6 +65,7 @@
 [shluflix]:           /app/shluflix/
 [sonarr]:             /app/sonarr/
 [stremify]:           /app/stremify/
+[stremio-addons]:     /stremio-addons/
 [stremio-jackett]:    /app/stremio-jackett/
 [stremio-server]:     /app/stremio-server/
 [stremio-web]:        /app/stremio-web/
