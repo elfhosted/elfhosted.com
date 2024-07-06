@@ -7,7 +7,7 @@ works_with:
 upstream: https://gitlab.com/stremio-add-ons/annatar
 sponsorship: 
 - name: Ko-fi
-  uri: https://ko-fi.com/annatar
+  uri: https://ko-fi.com/g0ldyy
 ---
 
 # {{ page.meta.slug }}
@@ -30,7 +30,7 @@ Comet is an innovative new Stremio addon which differentiates itself from the ex
 
 Comet is configured using environment variables. You can use either [ElfBot][elfbot] or [Kubernetes Dashboard][kubernetes-dashboard] to set your environment variables.
 
-### With Prowlarr
+### With Jackett
 
 Set the following environment variables:
 
@@ -41,9 +41,21 @@ elfbot env comet INDEXER_MANAGER_API_KEY=<YOUR JACKETT API KEY>
 elfbot env comet INDEXER_MANAGER_INDEXERS='["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
 ```
 
-(*Or edit the `elfbot-comet` ConfigMap in Kubernetes Dashboard*)
+(*Or copy the following, edit accordingly, and paste into a new ConfigMap in Kubernetes Dashboard*)
 
-### With Jackett
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: elfbot-comet
+data:
+  INDEXER_MANAGER_TYPE: prowlarr
+  INDEXER_MANAGER_URL: http://prowlarr:9696
+  INDEXER_MANAGER_API_KEY: <YOUR JACKETT API KEY>
+  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
+```
+
+### With Prowlarr
 
 ```
 elfbot env comet INDEXER_MANAGER_TYPE=prowlarr
@@ -52,7 +64,19 @@ elfbot env comet INDEXER_MANAGER_API_KEY=<YOUR PROWLARR API KEY>
 elfbot env comet INDEXER_MANAGER_INDEXERS='["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
 ```
 
-(*Or edit the `elfbot-comet` ConfigMap in Kubernetes Dashboard*)
+(*Or copy the following, edit accordingly, and paste into a new ConfigMap in Kubernetes Dashboard*)
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: elfbot-comet
+data:
+  INDEXER_MANAGER_TYPE: jackett
+  INDEXER_MANAGER_URL: http://jackett:9117
+  INDEXER_MANAGER_API_KEY: <YOUR JACKETT API KEY>
+  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
+```
 
 !!! tip
     (You can re-run the commands to overwrite previous values, and you can confirm success by examining the `elfbot-annatar` ConfigMap using [Kubernetes Dashboard][kubernetes-dashboard].
