@@ -1,5 +1,5 @@
 ---
-title: ElfHosted Annatar Addon (torrentio alternative) from $0.15/day, $10 free credit
+title: ElfHosted Annatar Addon (torrentio alternative)
 description: This guide describes how stream from Real-Debrid using your own Elf-Hosted torrentio alternative, Annatar
 ---
 # How to use ElfHosted Annatar Addon (torrentio alternative)
@@ -42,8 +42,8 @@ Add the apps above to your cart, or subscribe to all of the above, as a bundle t
 
 ### Get the apps
 
-1. [Create an ElfHosted account](https://store.elfhosted.com/my-account?), receive $10 free [ElfBuckz][elfbuckz] credit
-2. [Subscribe to the bundle](https://store.elfhosted.com/product/stremio-jackett-bundle), using your ElfBuckz
+1. [Create an ElfHosted account](https://store.elfhosted.com/my-account)
+2. [Subscribe to the bundle](https://store.elfhosted.com/product/stremio-jackett-bundle)
 3. Log into your ElfHosted dashboard, at `https://<your username>.elfhosted.com`
 
 ### Setup Jackett

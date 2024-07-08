@@ -6,15 +6,7 @@ This page lists frequently asked questions about ElfHosted.
 
 ### Can I get a trial?
 
-Sort of. Every new user gets $10 "[ElfBuckz][elfbuckz]" to spend on apps. Provided you have a positive ElfBuckz balance, you can trial apps, or subscribe daily. ElfBuckz can be topped up either manually or on a monthly subscription.
-
-### Why are there two prices for each app?
-
-Each app can be purchased either as a once-off, expiring after 24h, or on an ongoing, daily basis. This allows you to "trial" an app without the hassle of subscribing, and then cancelling.
-
-### Why are some apps priced higher than others?
-
-Apps are priced based on their resource consumption. "Heavier" apps consume more resources, and are priced accordingly.
+Most apps support trial periods - the duration varies based on how long each app may take to fully setup / test.
 
 ## General
 

@@ -19,10 +19,9 @@ ElfHosted provides all the hosting and options to setup your own hosted Plex ins
 
 ## Setup Plex Cloud
 
-### Create account, get $10 free credit
+### Create account
 
-[Sign up for an account](https://store.elfhosted.com/my-account/), and confirm your $10 [ElfBuckz][elfbuckz] (*store credit*) balance.
-
+[Sign up for an account](https://store.elfhosted.com/my-account/)
 ### Add Plex with VPN
 
 [Subscribe][store/plex] to Plex using your chosen VPN provider, and claim your new [Plex][plex] instance using [ElfBot][elfbot].

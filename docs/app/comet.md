@@ -4,7 +4,8 @@ slug: Comet
 description: Comet ☄️ is a Stremio addon with super-powers! 🦸 It can search public DMM hashlists, and it can proxy your streams, bypassing RealDebrid's one-ip-per-account limitation!
 works_with:
 - Jackett
-upstream: https://gitlab.com/stremio-add-ons/annatar
+- Prowlarr
+upstream: https://github.com/g0ldyy/comet
 sponsorship: 
 - name: Ko-fi
   uri: https://ko-fi.com/g0ldyy
@@ -14,7 +15,10 @@ sponsorship:
 
 Comet is an innovative new Stremio addon which differentiates itself from the existing [Stremio Addons][stremio-addons] with the superpowers of:
 
-* :white_check_mark: Scraping all public DMM content
+* :white_check_mark: Works with Real-Debrid, All-Debrid, and Premiumize
+* :white_check_mark: Scraping all public DMM content with [Zilean](https://github.com/iPromKnight/zilean)
+* :white_check_mark: Add your own indexers with [Jackett][jackett] or [Prowlarr][prowlarr]
+* :white_check_mark: Smart Torrent Ranking by [RTN](https://github.com/dreulavelle/rank-torrent-name)
 * :white_check_mark: Proxying Debrid requests, allowing you to use multiple IPs with one RD account!
 
 !!! tip "Comet gets revenue sharing! :heart:"
@@ -38,10 +42,10 @@ Set the following environment variables:
 elfbot env comet INDEXER_MANAGER_TYPE=jackett
 elfbot env comet INDEXER_MANAGER_URL=http://jackett:9117
 elfbot env comet INDEXER_MANAGER_API_KEY=<YOUR JACKETT API KEY>
-elfbot env comet INDEXER_MANAGER_INDEXERS='["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
+elfbot env comet INDEXER_MANAGER_INDEXERS='["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]'
 ```
 
-(*Or copy the following, edit accordingly, and paste into a new ConfigMap in Kubernetes Dashboard*)
+(*Or copy the following, edit accordingly, and paste into a **new** ConfigMap in Kubernetes Dashboard*)
 
 ```
 apiVersion: v1
@@ -52,7 +56,7 @@ data:
   INDEXER_MANAGER_TYPE: prowlarr
   INDEXER_MANAGER_URL: http://prowlarr:9696
   INDEXER_MANAGER_API_KEY: <YOUR JACKETT API KEY>
-  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
+  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]'
 ```
 
 ### With Prowlarr
@@ -64,7 +68,7 @@ elfbot env comet INDEXER_MANAGER_API_KEY=<YOUR PROWLARR API KEY>
 elfbot env comet INDEXER_MANAGER_INDEXERS='["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
 ```
 
-(*Or copy the following, edit accordingly, and paste into a new ConfigMap in Kubernetes Dashboard*)
+(*Or copy the following, edit accordingly, and paste into a **new** ConfigMap in Kubernetes Dashboard*)
 
 ```
 apiVersion: v1
@@ -135,5 +139,9 @@ Here's how Debrid Stream Proxying works
     If you're going to use Comet in Stream Proxy mode, remember that ElfHosted will be the IP that RealDebrid sees when you stream from Stremio. If you use other addons to stream on one device, while using Comet on another, you'll again trigger the multiple-source-IPs problem.
 
     In Stream Proxy mode, use Comet **exclusively, everywhere**!
+
+#### Concurrent stream limit
+
+ElfHosted's Comet instances are rate-limited at 125Mbps, which is enough for one 4K HDR stream, or several 1080P streams. A
 
 {% include 'app_footer.md' %}

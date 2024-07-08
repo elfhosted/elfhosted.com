@@ -1,5 +1,5 @@
 ---
-title: ElfHosted Davio from $0.10/day with $10 free credit
+title: Play media from WebDAV using Stremio
 slug: davio
 description: Davio is a Stremio addon which streams your WebDAV-accessible content
 upstream: https://github.com/arvida42/davio

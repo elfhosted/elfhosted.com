@@ -43,7 +43,7 @@ Add the apps above to your cart, or subscribe to all of the above, as a bundle t
 
 ### Get the apps
 
-1. [Create an ElfHosted account](https://store.elfhosted.com/my-account?), receive $10 free [ElfBuckz][elfbuckz] credit
+1. [Create an ElfHosted account](https://store.elfhosted.com/my-account)
 2. [Subscribe to the bundle](https://store.elfhosted.com/product/stremio-jackett-bundle), using your ElfBuckz
 3. Log into your ElfHosted dashboard, at `https://<your username>.elfhosted.com`
 
