@@ -30,6 +30,8 @@ Comet is an innovative new Stremio addon which differentiates itself from the ex
 
 ## How do I use it
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JAC4UrlFx7Y?si=EHBM8ZU71fAstkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Environment variables
 
 Comet is configured using environment variables. You can use either [ElfBot][elfbot] or [Kubernetes Dashboard][kubernetes-dashboard] to set your environment variables.
