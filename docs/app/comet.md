@@ -34,20 +34,11 @@ Comet is an innovative new Stremio addon which differentiates itself from the ex
 
 ### Environment variables
 
-Comet is configured using environment variables. You can use either [ElfBot][elfbot] or [Kubernetes Dashboard][kubernetes-dashboard] to set your environment variables.
+Comet is configured using environment variables. Use [Kubernetes Dashboard][kubernetes-dashboard] to set your environment variables.
 
-### With Jackett
+### With Prowlarr
 
-Set the following environment variables:
-
-```
-elfbot env comet INDEXER_MANAGER_TYPE=jackett
-elfbot env comet INDEXER_MANAGER_URL=http://jackett:9117
-elfbot env comet INDEXER_MANAGER_API_KEY=<YOUR JACKETT API KEY>
-elfbot env comet INDEXER_MANAGER_INDEXERS='["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]'
-```
-
-(*Or copy the following, edit accordingly, and paste into a **new** ConfigMap in Kubernetes Dashboard*)
+Paste the following into [Kubernetes Dashboard][kubernetes-dashboard] to create a new ConfigMap resource (`elfbot-comet`) is the same ConfigMap that would get created/updated if you used [ElfBot][elfbot] to do this, but because of the advanced syntax of some of the values, editing a ConfigMap is the better approach.
 
 ```
 apiVersion: v1
@@ -61,16 +52,9 @@ data:
   INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]'
 ```
 
-### With Prowlarr
+### With Jackett
 
-```
-elfbot env comet INDEXER_MANAGER_TYPE=prowlarr
-elfbot env comet INDEXER_MANAGER_URL=http://prowlarr:9696
-elfbot env comet INDEXER_MANAGER_API_KEY=<YOUR PROWLARR API KEY>
-elfbot env comet INDEXER_MANAGER_INDEXERS='["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
-```
-
-(*Or copy the following, edit accordingly, and paste into a **new** ConfigMap in Kubernetes Dashboard*)
+Paste the following into [Kubernetes Dashboard][kubernetes-dashboard] to create a new ConfigMap resource (`elfbot-comet`) is the same ConfigMap that would get created/updated if you used [ElfBot][elfbot] to do this, but because of the advanced syntax of some of the values, editing a ConfigMap is the better approach.
 
 ```
 apiVersion: v1
