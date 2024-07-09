@@ -72,9 +72,6 @@ data:
   INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
 ```
 
-!!! tip
-    (You can re-run the commands to overwrite previous values, and you can confirm success by examining the `elfbot-annatar` ConfigMap using [Kubernetes Dashboard][kubernetes-dashboard].
-
 Now visit your Comet URL from your dashboard, enter your debrid provider API key, pick your indexers (*may as well pick 'em all!*), and click `Install`!
 
 ### Debrid Stream Proxying
