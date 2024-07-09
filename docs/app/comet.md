@@ -15,11 +15,11 @@ sponsorship:
 
 Comet is an innovative new Stremio addon which differentiates itself from the existing [Stremio Addons][stremio-addons] with the superpowers of:
 
-* :white_check_mark: Works with Real-Debrid, All-Debrid, and Premiumize
-* :white_check_mark: Scraping all public DMM content with [Zilean](https://github.com/iPromKnight/zilean)
-* :white_check_mark: Add your own indexers with [Jackett][jackett] or [Prowlarr][prowlarr]
-* :white_check_mark: Smart Torrent Ranking by [RTN](https://github.com/dreulavelle/rank-torrent-name)
-* :white_check_mark: Proxying Debrid requests, allowing you to use multiple IPs with one RD account!
+* [x] Works with Real-Debrid, All-Debrid, and Premiumize
+* [x] Scraping all public DMM content with [Zilean](https://github.com/iPromKnight/zilean)
+* [x] Add your own indexers with [Jackett][jackett] or [Prowlarr][prowlarr]
+* [x] Smart Torrent Ranking by [RTN](https://github.com/dreulavelle/rank-torrent-name)
+* [x] Proxying Debrid requests, allowing you to use multiple IPs with one RD account!
 
 [Get Elf Hosted {{ page.meta.slug }}! :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
 
