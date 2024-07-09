@@ -21,16 +21,16 @@ Comet is an innovative new Stremio addon which differentiates itself from the ex
 * :white_check_mark: Smart Torrent Ranking by [RTN](https://github.com/dreulavelle/rank-torrent-name)
 * :white_check_mark: Proxying Debrid requests, allowing you to use multiple IPs with one RD account!
 
+[Get Elf Hosted {{ page.meta.slug }}! :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JAC4UrlFx7Y?si=EHBM8ZU71fAstkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 !!! tip "Comet gets revenue sharing! :heart:"
     Comet is an "Elf-illiated" Premium [Stremio Addon][stremio-addons] - the developer maintains an active support channel ([#elf-comet](https://discord.com/channels/396055506072109067/1256404447723126916)) in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 30% of your subscriptions are contributed to the developer!
-
-{% include 'app.md' %}
 
 {% include 'app_access.md' %}
 
 ## How do I use it
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JAC4UrlFx7Y?si=EHBM8ZU71fAstkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Environment variables
 
