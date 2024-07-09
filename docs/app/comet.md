@@ -36,6 +36,10 @@ Comet is an innovative new Stremio addon which differentiates itself from the ex
 
 Comet is configured using environment variables. Use [Kubernetes Dashboard][kubernetes-dashboard] to set your environment variables.
 
+Here's a helpful video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WEGKI7ppq9E?si=r0u_JfR1VWyj0HoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### With Prowlarr
 
 Paste the following into [Kubernetes Dashboard][kubernetes-dashboard] to create a new ConfigMap resource (`elfbot-comet`) is the same ConfigMap that would get created/updated if you used [ElfBot][elfbot] to do this, but because of the advanced syntax of some of the values, editing a ConfigMap is the better approach.
@@ -48,7 +52,7 @@ metadata:
 data:
   INDEXER_MANAGER_TYPE: prowlarr
   INDEXER_MANAGER_URL: http://prowlarr:9696
-  INDEXER_MANAGER_API_KEY: <YOUR JACKETT API KEY>
+  INDEXER_MANAGER_API_KEY: <YOUR PROWLARR API KEY>
   INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]'
 ```
 
