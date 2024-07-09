@@ -41,8 +41,8 @@ And from the [ElfHosted store][store]:
 
 ### Get the app
 
-1. [Create an ElfHosted account](https://store.elfhosted.com/my-account?), receive $10 free [ElfBuckz][elfbuckz] credit
-2. [Subscribe to the torrentio](https://store.elfhosted.com/product/torrentio), using your ElfBuckz
+1. [Create an ElfHosted account](https://store.elfhosted.com/my-account)
+2. [Subscribe to the torrentio](https://store.elfhosted.com/product/torrentio)
 3. Log into your ElfHosted dashboard, at `https://<your username>.elfhosted.com`
 
 ### Install the Addon!
