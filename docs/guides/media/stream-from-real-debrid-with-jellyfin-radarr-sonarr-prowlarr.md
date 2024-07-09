@@ -8,26 +8,10 @@ This page describes a more complex, flexible version of our [plex_debrid-based, 
 
 The solution leverages the popular Arr tools to search, source, and sort your media, stealthily using symlinks to skip storage stresses!
 
-!!! tip "New accounts get $10 credit, enough to run this stack for 7 days!"
-    Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
-
 ## Requirements
 
 * [x] [Real-Debrid account][real-debrid] and [API token](https://real-debrid.com/apitoken)
-* [x] [Prowlarr][prowlarr]
-* [x] [Radarr][radarr]
-* [x] [Sonarr][sonarr]
-* [x] [Zurg][zurg]
-* [x] [Zurg Rclone Mount](https://store.elfhosted.com/product/rclone-real-debrid/)
-* [x] [Jellyfin][jellyfin]
-* [x] [RDTClient][rdtclient]
-* [x] [Autoscan][autoscan]
-
-Optional:
-
-* [ ] [Jellyseerr][jellyseerr]
-
-[Get up to 50% off the required apps, conveniently bundled! :gift:](https://store.elfhosted.com/product/advanced-infinite-arr-jellyfin-debrid-streaming-bundle){ .md-button .md-button--primary }
+* [x] ElfHosted's ["Hobbit" Infinite Jellyfin Arr Streaming bundle](https://store.elfhosted.com/product/hobbit-jellyfin-arrs-real-debrid-infinite-streaming-bundle)
 
 ## How does it work?
 
@@ -79,23 +63,9 @@ flowchart TD
 
 Here's a little more detail..
 
-1. Get a [Real-Debrid account][real-debrid] subscription for your ElfHosted account (*can't be used elsewhere at the same time, else you risk being banned*), and copy your [API token](https://real-debrid.com/apitoken)
-2. Paste the token into the [Zurg product][store/zurg] on the store, and add to your cart
-3. Add at the [Zurg rclone mount][store/zurgmount] and [Jellyfin][store/jellyfin] to your cart, and buy with [ElfBuckz][elfbuckz]!
-
-On purchase, you'll get the necessary components deployed, but some configuration will be required, see below:
-
-### Setup zurg
-
-Edit your zurg config via [FileBrowser][filebrowser], and confirm that the following is set:
-
-```
-retain_rd_torrent_name: true
-```
-
-If you needed to make a change, restart zurg from FileBrowser console, using `elfbot restart zurg`
-
-Confirm Zurg is setup correctly by browsing it from the link on your your ElfHosted dashboard.
+1. Purchase a subscription to the ["Hobbit" Infinite Arr Jellyfin Streaming bundle](https://store.elfhosted.com/product/hobbit-jellyfin-arrs-real-debrid-infinite-streaming-bundle)
+2. Get a [Real-Debrid account][real-debrid] subscription for your ElfHosted account (*can't be used elsewhere at the same time, else you risk being banned*), and copy your [API token](https://real-debrid.com/apitoken)
+3. Log into your ElfHosted dashboard (`https://<your username>.elfhosted.com`), and navigate to **Tools** -> **Filebrowser**. Within FileBrowser, navigate to `/config/zurg`, and open your `config.yml` file. Paste your token after the `token: ` line.
 
 ### Setup Jellyfin
 

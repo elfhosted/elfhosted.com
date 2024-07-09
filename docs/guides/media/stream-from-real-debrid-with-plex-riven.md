@@ -28,18 +28,8 @@ The disadvantages, of course, are:
     Riven is an "Elf-illiated" app - the devs are active in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 30% of your subscriptions are contributed to the Riven devs to further development!
 
 * [x] [Real-Debrid account][real-debrid] and [API token](https://real-debrid.com/apitoken)
-
-And from the [ElfHosted store][store]:
-
-* [x] [Riven][riven]
-* [x] [Zurg][zurg]
-* [x] [Zurg Rclone Mount](https://store.elfhosted.com/product/rclone-real-debrid/)
-* [x] [Plex][plex]
-* [x] [Overseerr][overseerr]
-
-Add the apps above to your cart, or subscribe to all of the above, as a bundle to make it easier, here:
-
-[Get up to 20% off the required apps, conveniently bundled! :gift:](https://store.elfhosted.com/product/infinite-plex-riven-streaming-bundle){ .md-button .md-button--primary }
+* [x] ElfHosted's [Infinite Plex / Riven Streaming Starter Kit](https://store.elfhosted.com/product/plex-riven-infinite-streaming-starter-kit)
+* [ ] [Overseer](https://store.elfhosted.com/product/overseerr) (*can be substituted with Plex Watchlist/Trakt/MBDLists*)
 
 ## How does it work?
 
