@@ -10,7 +10,7 @@ Nobody understood it, and it was very hard to report on!
 
 Rather than being an AWS-like provider of bare-metal resources, ElfHosted has grown more of a full-service PaaS, with heavy investment in UX, community building and support (*ElfVengers, merch store, AI bot, etc)*.
 
-In July 2024, we rolled out the following, simplified model, based on app tiers.
+In July 2024, we [rolled out](/blog/2024/07/10/pricing-model-updated/) the following, simplified model, based on app tiers.
 
 1. Standalone apps: $9/month
 2. Complex apps: $19/month
@@ -18,6 +18,6 @@ In July 2024, we rolled out the following, simplified model, based on app tiers.
 4. Hobbit bundles: $39/month
 5. Ranger bundles: $59/month
 
-Since the bundles / periods are now standardized, users will be able to upgrade / "cross-grade" and have the store automatically prorate the current subscription. 
+Since the bundles / periods are now standardized, users will be able to upgrade / "cross-grade" and have the store automatically prorate the current subscription.
 
 --8<-- "common-links.md"
