@@ -118,7 +118,7 @@ Here's how Debrid Stream Proxying works
         Comet->>Stremio: Enjoy!
     ```
 
-    Unlike regular mode, in Proxy Stream mode, Comet doesn't return the unrestricted download link to Stremio, rather it returns a **Comet** download link, and when Stremio requests that link, Comet downloads the **real** dowload link from RealDebrid, and serves it to Stremio.
+    Unlike regular mode, in Proxy Stream mode, Comet doesn't return the unrestricted download link to Stremio, rather it returns a **Comet** download link, and when Stremio requests that link, Comet downloads the **real** download link from RealDebrid, and serves it to Stremio.
 
     Thus, **all** interaction with RealDebrid is done from Comet. Stremio talks to Comet exclusively, and streams the content **through** Comet. Therefore, only a single source IP is in use, from the perspective of Stremio!
 

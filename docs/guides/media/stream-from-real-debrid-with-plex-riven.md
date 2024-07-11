@@ -10,9 +10,6 @@ Here's a video (*privacy mode*) demonstrating demonstrating the whole shebang:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHZAEhLuJqk?si=t5HJ5RT8UOfDDuXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-!!! tip "New accounts get $10 credit, enough to run this stack for a week!"
-    Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
-
 The advantages of this solution are:
 
 * No torrent clients, VPNs, ratios or seeding

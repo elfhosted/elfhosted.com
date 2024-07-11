@@ -11,14 +11,12 @@ This page describes how data is automatically deleted when you terminate your ac
 
 * "Account data" means your account (*username, email, password, purchase history*) in the ElfHosted store, to which all of your subscriptions are tied.
 * "Application data" refers to the config for a specific application, usually found in `/config/<app>` in [File Browser][filebrowser]. Examples would be your [Plex][plex] metadata, or your [Prowlarr][prowlarr] DB.
-* "[ElfStorage][elfstorage] data" refers to your data stored in `/storage/elfstorage`. This **includes** the free 100Gb data assigned with your account, and any further ElfStorage data purchased from the store.
 
 ## When do we automatically purge data?
 
 Action | Data affected | Retention
 ---------|----------|---------
  :no_entry_sign: Unsubscribe an app | :material-trash-can-outline: Application data | 7 days
- :sleeping: Have no active subscriptions | :material-trash-can-outline: ElfStorage data | 31 days
  :material-nuke: Delete your account | :material-trash-can-outline: Account data<br/>:material-trash-can-outline: Application data<br/>:material-trash-can-outline: ElfStorage data | Immediately
 
 ## Examples

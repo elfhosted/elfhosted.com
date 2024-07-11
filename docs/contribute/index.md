@@ -26,7 +26,7 @@ If you post a link using your [referral code](https://store.elfhosted.com/my-acc
 
 ## Join the Elf-vengers
 
-Our [Discord server][discord] is a welcoming, friendly community of geeks, and the Elf-Vengers are our elite team of Discord-based volunteers who support current and future elves, as they make their journey from "*$10-free-elfbuckz-whut-now?*" to "*just symlink from debrid and import with the arrr, bro*".
+Our [Discord server][discord] is a welcoming, friendly community of geeks, and the Elf-Vengers are our elite team of Discord-based volunteers who support current and future elves, as they make their journey from "*umm-now-what?*" to "*just symlink from debrid and import with the arrr, bro*".
 
 Check out the details and join the [team here](/team/)!
 

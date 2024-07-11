@@ -1,18 +1,15 @@
 ---
-title: ElfHosted Torrentio Addon (self hosted torrentio instance) from $0.15/day
+title: ElfHosted KnightCrawler Addon (self hosted torrentio instance)
 description: This guide describes how stream from Real-Debrid using your own Elf-Hosted torrentio instance
 ---
-# How to use ElfHosted Torrentio Addon (self hosted torrentio instance)
+# How to use ElfHosted KnightCrawler Addon (self hosted torrentio instance)
 
 This guide illustrates how to use our ElfHosted [Torrentio][torrentio] addon to stream content from debrid providers using [Stremio](https://stremio.com), avoiding torrentio.strem.fun outages and rate-limits.
 
-!!! tip "New accounts get $10 credit, enough to run this stack for >2 months!"
-    Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
-
 ## How does it work?
 
-* ElfHosted maintains a torrentio instance for our users' apps (*[Prowlarr][prowlarr], [Iceberg][iceberg], etc*) to use, without rate-limiting.
-* This instance is publically available at ([rate-limited](https://github.com/funkypenguin/elf-infra/blob/ci/torrentio/middleware-rate-limit-torrentio.yaml)) at https://torrentio.elfhosted.com. 
+* ElfHosted maintains a KnightCrawler instance for our users' apps (*[Prowlarr][prowlarr], [Iceberg][iceberg], etc*) to use, without rate-limiting.
+* This instance is publically available at ([rate-limited](https://github.com/elfhosted/infra/blob/main/traefik-middleware/middleware-rate-limit-public-stremio-addon.yaml)) at https://knightcrawler.elfhosted.com.
 * Users can subscribe to their own instance of the addon (*still using the internal database*), with much more generous rate-limits
 
 The advantages of this solution are:
@@ -35,19 +32,19 @@ The disadvantages, of course, are:
 
 And from the [ElfHosted store][store]:
 
-* [x] [Torrentio](https://store.elfhosted.com/product/torrentio/) subscription
+* [x] [KnightCrawler](https://store.elfhosted.com/product/knightcrawler/) subscription
 
 ## How to set it up
 
 ### Get the app
 
 1. [Create an ElfHosted account](https://store.elfhosted.com/my-account)
-2. [Subscribe to the torrentio](https://store.elfhosted.com/product/torrentio)
+2. [Subscribe to the torrentio](https://store.elfhosted.com/product/knightcrawler)
 3. Log into your ElfHosted dashboard, at `https://<your username>.elfhosted.com`
 
 ### Install the Addon!
 
-Navigate to **Torrentio** from your app dashboard (`https://<your username>.elfhosted.com`), add your debrid provider API key, and click "**Install**" to allow your OS to open the link in Stremio, or right-click the **Install** button, and copy the long `stremio://` URL, and paste it into your Stremio search bar:
+Navigate to **KnightCrawler** from your app dashboard (`https://<your username>.elfhosted.com`), add your debrid provider API key, and click "**Install**" to allow your OS to open the link in Stremio, or right-click the **Install** button, and copy the long `stremio://` URL, and paste it into your Stremio search bar:
 
 ![](/images/torrentio-install-stremio-addon)
 

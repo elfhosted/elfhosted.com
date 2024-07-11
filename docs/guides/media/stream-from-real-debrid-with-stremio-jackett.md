@@ -6,9 +6,6 @@ description: This guide describes how stream from Real-Debrid using your own Elf
 
 This guide illustrates how to use the [Stremio-Jackett][stremio-jackett] addon to stream content from debrid providers using [Stremio](https://stremio.com), sourcing content from your **own** torrent indexer ([Jackett][jackett]), rather than relying on the (*often-overloaded*) torrentio addon!
 
-!!! tip "New accounts get $10 credit, enough to run this stack for >2 months!"
-    Our services are subscribed to in "[ElfBuckz][elfbuckz]", our in-store account credit. All new users get $10 ElfBuckz upon [account creation](https://store.elfhosted.com/my-account/), in order to "kick the tyres" :red_car: before commitment.
-
 The advantages of this solution are:
 
 * Use the highly-polished, multi-platform Stremio app
@@ -35,16 +32,12 @@ And from the [ElfHosted store][store]:
 
 Additionally, if your trackers are behind Cloudflare DDOS protection (*and therefore harder to automatically search*), add [Flaresolverr](https://store.elfhosted.com/product/flaresolverr/).
 
-Add the apps above to your cart, or subscribe to all of the above, as a bundle to make it easier, here:
-
-[Get all the apps, bundled, for $0.15/day! :gift:](https://store.elfhosted.com/product/stremio-jackett-bundle){ .md-button .md-button--primary }
-
 ## How to set it up
 
 ### Get the apps
 
 1. [Create an ElfHosted account](https://store.elfhosted.com/my-account)
-2. [Subscribe to the bundle](https://store.elfhosted.com/product/stremio-jackett-bundle), using your ElfBuckz
+2. Subscribe to the necessary apps (*above*)
 3. Log into your ElfHosted dashboard, at `https://<your username>.elfhosted.com`
 
 ### Setup Jackett
