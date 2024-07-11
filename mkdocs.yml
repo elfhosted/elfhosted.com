@@ -191,6 +191,7 @@ nav:
     - Use rclone: how-to/use-rclone.md
     - Connect Apps: how-to/connect-apps.md
     - Data Retention: how-to/delete-your-data.md
+    - Use ElfTerm: how-to/use-elfterm.md
     # - Public IPs: how-to/whitelist-our-public-ips.md
     # - Bugs: how-to/report-bug.md
     # - Suggestions: how-to/add-suggestion.md
