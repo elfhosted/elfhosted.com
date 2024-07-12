@@ -228,6 +228,7 @@ nav:
     - Pricing: open/pricing.md
   - Contribute:
     - contribute/index.md
+  - Testimonials: testimonials.md 
 
 theme:
   name: 'material'

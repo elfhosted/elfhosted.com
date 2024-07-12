@@ -94,7 +94,7 @@
 [store/elfbuckz]:     https://store.elfhosted.com/product/elfbuckz-topup/
 [store]:              https://store.elfhosted.com
 [discord]:            https://discord.elfhosted.com
-[elfstorage]:         /what-is/elfstorage/
+[elfterm]:            /how-to/use-elfterm/
 [storagebox]:         /what-is/storagebox/
 [rclone]:             /how-to/use-rclone/
 [elfbuckz]:           /how-to/spend-elfbuckz/
