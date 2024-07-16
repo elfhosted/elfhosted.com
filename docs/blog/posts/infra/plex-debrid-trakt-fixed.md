@@ -30,7 +30,7 @@ Oh, and the other issue with trials was that they made the referral process expl
 
 With the transition to monthly billing, and the removal of trials, it's now safe to re-instate the Elf-erral program! 
 
-Here's the deal - every user you refer with [your unique referral code](https://store.elfhosted.com/my-account/myreferrals) gets $5 off their first order, and **you** get a $5-off coupon! (*$10 free ElfBuckz, reborn!*)
+Here's the deal - every user you refer with [your unique referral code](https://store.elfhosted.com/my-account/myreferrals) gets $5 off their first order, and **you** get a $5-off coupon! (*\$10 free ElfBuckz, reborn!*)
 
 ## Storage mounts are free
 
