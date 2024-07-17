@@ -2,9 +2,16 @@
 
 Here's what some of our {--users--}{++friends++} say..
 
+> "The Elfhosted product alone is great. The team is super transparent on the issues and resolutions that happen as it grows. Lots of opportunity to self-solve issues, but the support from both mods and darth-penguini is SO quick and proactive. Props to them."
+
+:star::star::star::star::star: [\@elevenfifteen (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1245143888893575292)
+
 > "I don't understand how there aren't tons of elves already. The way this whole thing is setup is great, from getting a free $10 amount of elfbuckz to start, free 7 day trials on most services, the subscription prices of the products are reasonable, to the smoothness of how everything runs. I just dont get it, people choose to pay way more with places that don't provide the same customer service nor have a great community like this one. I recommend elfhosted to everyone.
 
 :star::star::star::star::star: [\@bigcasino1_69181 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1238251003610927184)
+
+!!! note "Pricing update since this review"
+    Our [pricing model](/open/pricing/) was updated in July 2024, removing the free $10 ElfBuckz and the 7-day trials, and replacing them with standard pricing tiers and a 14-day refund policy.
 
 > "Just wanted to check in here and let \@Darth-Penguini and anyone/everyone else know...WOW. I have been struggling with storage for years, maintenance of Docker containers, upkeep, all of it. Elfhosted is so freeing. It's an amazing service that I hope to be a member of for a long, long time!"  
 
@@ -41,10 +48,6 @@ Here's what some of our {--users--}{++friends++} say..
 > "I had my own plex-arrs setup on hetzner for years. Yesterday I deleted everything as elfhosted has gone above and beyond it. And it has a fantastic, active community as well! Very friendly, helpful and like-minded folks always willing to help and improve the system. Top notch!"
 
 :star::star::star::star::star: [\@alon.hearter (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1235106033144434749)
-
-> "The Elfhosted product alone is great. The team is super transparent on the issues and resolutions that happen as it grows. Lots of opportunity to self-solve issues, but the support from both mods and darth-penguini is SO quick and proactive. Props to them."
-
-:star::star::star::star::star: [\@elevenfifteen (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1245143888893575292)
 
 > "Absolutely Amazed with the patience and professionalism of all Elf-Venger Staff including bossman penguin❤️"
 

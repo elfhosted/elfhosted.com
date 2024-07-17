@@ -128,6 +128,7 @@ nav:
       - Zurg: app/zurg.md
   
     - Tools:
+      - Code Server: app/code-server.md
       - ElfBot: app/elfbot.md
       - Filebrowser: app/filebrowser.md
       - Gluetun: app/gluetun.md
