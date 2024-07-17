@@ -1,7 +1,7 @@
 ---
 title: Get Code-Server, ElfHosted in the cloud!
 slug: Code-Server
-description: VSCode in the cloud!
+description: Code on any device, from anywhere, with a consistent development environment powered by ElfHosted!
 upstream: https://github.com/coder/code-server
 links:
 - name: GitHub
