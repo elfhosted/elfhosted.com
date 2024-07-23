@@ -30,7 +30,7 @@ Recently (2024), a selection of our apps used to integrate media streaming (Plex
 
     ---
 
-    Need to stream torrents or consolidate your Debrid downloads from one source IP? [Use Stremio Server](/guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously/)!
+    Need to stream torrents or consolidate your Debrid downloads from one source IP? [Use Stremio Server](/guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously/) or [Comet][comet]! :comet:
 
 - :tv: **Simply stream from Debrid with Plex**
 
