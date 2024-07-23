@@ -20,7 +20,7 @@ Plex_debrid's [GitHub repository](https://github.com/itsToggle/plex_debrid) has 
 
 We've had our [own fork](https://github.com/elfhosted/plex_debrid) of the plex_debrid repo for a while, to manage a few fixes (*like Trakt auth*), but \@ron has taken it to a whole new level by adding Zilean support, and a parametized watchlist search interval (*original is hard-coded to 30m*).
 
-I [announced](https://www.reddit.com/r/RealDebrid/comments/1e9vjtg/plex_debrid_maintenancefeature_fork_with_trakt/) our repo on Reddit today, with the intention of attracting more users and hopefully more PRs, so that we can continue to improve upon and support plex_debrid for ElfHosted users.
+I [announced](https://www.reddit.com/r/elfhosted/comments/1ea4e7d/plex_debrid_maintenancefeature_fork_with_trakt/) our repo on Reddit today, with the intention of attracting more users and hopefully more PRs, so that we can continue to improve upon and support plex_debrid for ElfHosted users.
 
 To activate Zilean support in plex_debrid, add Zilean as a scraper source at `Options/Settings/Scraper Settings/Sources` - our internal Zilean instance is addressed at `http://zilean.zilean:8181`.
 
