@@ -37,7 +37,7 @@ Also, duplicate folders will no longer cause Riven to crash-and-burn, but just t
 Metric | Numberz | Delta
 ---------|----------|----------
 🧝 Total subscribers | 327 | -2
-👾 Zurg mounts: | 127 | -26
+👾 Zurg mounts: | 127 | -
 ⛰ Riven pods: | 50 | +2
 🐬 Tenant pods | 2651 | -18
 🧑🏻‍🌾 [Hobbits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) | 29 | +2
