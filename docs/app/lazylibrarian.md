@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted LazyLibrarian 🧝 from $0.10/day
+title: Elf Hosted LazyLibrarian 🧝
 slug: LazyLibrarian
 description: LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs
 upstream: https://lazylibrarian.gitlab.io

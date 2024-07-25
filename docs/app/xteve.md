@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted xTeVe 🧝 from $0.10/day
+title: Elf Hosted xTeVe 🧝
 slug: xTeVe
 description: xTeVe M3U Proxy for Plex DVR and Emby Live TV
 upstream: https://github.com/xteve-project/xTeVe

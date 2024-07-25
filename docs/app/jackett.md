@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Jackett 🧝 from $0.10/day
+title: Elf Hosted Jackett 🧝
 slug: Jackett
 description: Jackett proxies queries from apps (including Stremio-Jackett) into queries against torrent trackers, enabling integrations like playing torrents from Real-Debrid using Stremio
 upstream: https://github.com/Jackett/Jackett/

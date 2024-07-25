@@ -1,5 +1,5 @@
 ---
-title: Hosted Xtremio IPTV for Stremio from $0.10/day
+title: Hosted Xtremio IPTV for Stremio
 slug: Stremify
 description: Stremify is a Stremio Addon which provides HTTP (*not debrid*) streams for popular content, in multiple languages.
 upstream: https://stremify.elfhosted.com

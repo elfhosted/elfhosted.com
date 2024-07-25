@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted SABnzbd 🧝 from $0.10/day
+title: Elf Hosted SABnzbd 🧝
 slug: SABnzbd
 description: SABnzbd is a popular usenet client
 upstream: https://sabnzbd.org

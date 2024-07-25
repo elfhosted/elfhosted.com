@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted Calibre-Web 🦸 from $0.10/day
+title: 🧝 Hosted Calibre-Web 🦸
 slug: Calibre-Web
 description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using a valid Calibre database.
 works_with:

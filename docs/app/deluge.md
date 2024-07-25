@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted Deluge from $0.15/day
+title: 🧝 Hosted Deluge
 slug: Deluge
 description: Deluge is a lightweight, Free Software, cross-platform BitTorrent client
 works_with:

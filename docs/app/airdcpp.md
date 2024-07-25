@@ -13,7 +13,7 @@ price: 0.20
 
 AirDC++ (Web Client) uses Advanced Direct Connect protocol, which allows creating file sharing communities with thousands of users.
 
-[Get Elf Hosted {{ page.meta.slug }} from $0.20/day :magic_wand:](https://store.elfhosted.com/product/airdcpp/){ .md-button .md-button--primary }
+[Get ElfHosted {{ page.meta.slug }}" :magic_wand:](https://store.elfhosted.com/product/airdcpp/){ .md-button .md-button--primary }
 
 ![Screenshot of {{ page.meta.slug }}](/images/screenshots/airdc++.png){ loading=lazy }
 

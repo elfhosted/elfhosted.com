@@ -17,7 +17,7 @@ price: 0.10
 
 Recyclarr automatically synchronizes recommended settings from the [TRaSH guides](https://trash-guides.info/) to your Sonarr/Radarr instances.
 
-[Get Elf Hosted {{ page.meta.slug }} from ${{ page.meta.price }}/day :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
+[Get ElfHosted {{ page.meta.slug }}" :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
 
 ## How do I use it?
 

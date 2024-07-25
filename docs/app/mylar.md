@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Mylar 🧝 from $0.10/day
+title: Elf Hosted Mylar 🧝
 slug: Mylar
 description: Mylar is an automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents
 upstream: https://github.com/mylar3/mylar3

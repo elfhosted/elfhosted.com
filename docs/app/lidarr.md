@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Lidarr 🧝 from $0.10/day
+title: Elf Hosted Lidarr 🧝
 slug: Lidarr
 description: Lidarr is a music collection manager for Usenet and BitTorrent users
 upstream: https://lidarr.audio

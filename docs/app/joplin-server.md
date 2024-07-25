@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Joplin Server 🧝 from $0.10/day
+title: Elf Hosted Joplin Server 🧝
 slug: Joplin-server
 description: Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device
 upstream: https://joplinapp.org/

@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Pyload 🧝 from $0.10/day
+title: Elf Hosted Pyload 🧝
 slug: Pyload
 description: Pyload is an extensible and flexible download manager
 upstream: https://pyload.net

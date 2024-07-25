@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted plex_debrid 🧝 from $0.10/day
+title: Elf Hosted plex_debrid 🧝
 slug: Plex-Debrid
 description: Plex-debrid "glues" Plex, Zurg, and rclone together, to create an "infinite streaming" solution for Real Debrid
 upstream: https://github.com/itsToggle/plex_debrid
@@ -22,7 +22,7 @@ When combined with [Plex][plex], an rclone mount, and a Debrid service, plex_deb
 
 In an ideal situation, you'd add a movie / TV show to your Plex watchlist / Trakt lists, [Overseerr] / [Jellyseerr], and then 10-20s later, it's available to stream it through your Plex instance, as per the upstream demo below:
 
-[Get Elf Hosted {{ page.meta.slug }} from ${{ page.meta.price }}/day :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
+[Get ElfHosted {{ page.meta.slug }}" :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
 
 ![Screenshot of {{ page.meta.slug }}](/images/plex-debrid-demo.gif){ loading=lazy }
 

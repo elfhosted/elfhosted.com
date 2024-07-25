@@ -1,5 +1,5 @@
 ---
-title: ElfHosted Stremio Jackett Addon (torrentio alternative) from $0.15/day
+title: ElfHosted Stremio Jackett Addon (torrentio alternative)
 description: This guide describes how stream from Real-Debrid using your own Elf-Hosted torrentio alternative, Stremio-Jackett
 ---
 # How to use ElfHosted Stremio Jackett Addon (torrentio alternative)

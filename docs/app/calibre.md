@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted Calibre 📚 from $0.10/day
+title: 🧝 Hosted Calibre 📚
 slug: Calibre
 description: Calibre is a cross-platform free and open-source suite of e-book software
 works_with:

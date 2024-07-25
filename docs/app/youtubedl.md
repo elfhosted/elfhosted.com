@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted YouTubeDL 🧝 from $0.10/day
+title: Elf Hosted YouTubeDL 🧝
 slug: YouTubeDL
 description: YouTube-DL is a tool for downloading YouTube videos / audio
 upstream: https://github.com/Tzahi12345/YoutubeDL-Material

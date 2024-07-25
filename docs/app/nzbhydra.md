@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted NZBHydra 🧝 from $0.10/day
+title: Elf Hosted NZBHydra 🧝
 slug: NZBHydra
 description: NZBGet is an efficient usenet downloader
 upstream: https://github.com/theotherp/nzbhydra2

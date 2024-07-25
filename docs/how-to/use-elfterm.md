@@ -18,4 +18,10 @@ Here's a quick list of fun things you can do with `kubectl`
 * `kubectl logs -f <pod>` (*watch the pod logs*)
 * `kubectl top pods` (*see pod resource usage*)
 
+## PlexTraktSync
+
+Need to sync your [Plex][plex] library with Trakt? Use PlexTraktSync!
+
+Run `plextraktsync sync`, plug in your Plex library details, and sync away!
+
 --8<-- "common-links.md"

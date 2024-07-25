@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted PrivateBin 🧝 from $0.10/day
+title: Elf Hosted PrivateBin 🧝
 slug: Plex-Meta-Manager
 description: Plex Meta Manager super-charges your Plex library with overlays, collections, and more!
 upstream: https://metamanager.wiki
@@ -22,7 +22,7 @@ With Plex Meta Manager, you can:
 * Integrate with Radarr and Sonarr to expand your media libraries
 * Share your creations with others in a Discord and Configs Repo
 
-[Get Elf Hosted {{ page.meta.slug }} from ${{ page.meta.price }}/day :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
+[Get ElfHosted {{ page.meta.slug }}" :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
 
 ![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.png){ loading=lazy }
 

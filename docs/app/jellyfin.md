@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Jellyfin Accounts 🧝 from $0.15/day
+title: Elf Hosted Jellyfin Accounts 🧝
 slug: Jellyfin
 description: Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 works_with:

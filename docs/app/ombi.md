@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Ombi 🧝 from $0.10/day
+title: Elf Hosted Ombi 🧝
 slug: Ombi
 description: Ombi is a self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves!
 upstream: https://ombi.io

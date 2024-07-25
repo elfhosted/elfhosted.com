@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted Syncthing 🧝 from $0.10/day
+title: Elf Hosted Syncthing 🧝
 slug: Syncthing
 description: Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes
 upstream: https://syncthing.net

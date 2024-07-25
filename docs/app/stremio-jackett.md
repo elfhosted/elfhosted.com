@@ -1,5 +1,5 @@
 ---
-title: Get Elf Hosted Stremio-Jackett 🧝 from $0.10/day
+title: Get Elf Hosted Stremio-Jackett 🧝
 slug: Stremio-Jackett
 description: Stremio-Jackett is a clever Stremio add-on, which will search your Jackett instance for content, and then pass the results to Real-Debrid, allowing for near-instant streaming directly from RealDebrid to Stremio
 upstream: https://github.com/aymene69/stremio-jackett/

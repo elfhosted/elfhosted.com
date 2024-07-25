@@ -1,5 +1,5 @@
 ---
-title: Elf Hosted NextPVR 🧝 from $0.15/day
+title: Elf Hosted NextPVR 🧝
 slug: NextPVR
 description: NextPVR provides IPTV support for Jellyfin/Emby/Plex
 upstream: https://nextpvr.com/
