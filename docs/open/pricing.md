@@ -12,11 +12,11 @@ Rather than being an AWS-like provider of bare-metal resources, ElfHosted has gr
 
 In July 2024, we [rolled out](/blog/2024/07/10/pricing-model-updated/) the following, simplified model, based on app tiers.
 
-1. Standalone apps: $9/month
+1. Simple apps: $9/month
 2. Complex apps: $19/month
-3. Starter pack bundles: $29/month
-4. Hobbit bundles: $39/month
-5. Ranger bundles: $59/month
+3. [Starter kits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-starter-kits): $29/month
+4. [Hobbit bundles](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit): $39/month
+5. [Ranger bundles](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus): $59/month
 
 Since the bundles / periods are now standardized, users will be able to upgrade / "cross-grade" and have the store automatically prorate the current subscription.
 

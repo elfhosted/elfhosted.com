@@ -2,6 +2,16 @@
 
 Here's what some of our {--users--}{++friends++} say..
 
+> I’ve been using this service for a while now, and honestly, it’s a game-changer compared to anything else I’ve tried for managing my media library. The support is fantastic—super quick, and if the staff aren’t around (which rarely happens), the community steps up right away. I can’t imagine going back to any other platform.
+> 
+> Before this, I had my own setup with a NUC, NAS, and tools like Sonarr and Radarr. It worked pretty well for a while, and my internet speed was high enough to stream without any buffering. But in the end, it wasn’t worth the time or headache of managing all the storage and keeping everything running smoothly.
+> 
+> Now, with this service, everything runs smoothly in 1080p+ with no buffering issues. The interface is really easy to use, which makes managing everything a breeze. Plus, having a whole community of smart people available for guidance is a huge bonus.
+> 
+> I was sold from the start, which is why I quickly upgraded from a 1-month to a 3-month subscription, and I’m planning to switch to a 1-year plan soon. This service totally pays for itself, and I’m sure you won’t be disappointed. It’s been really impressive.
+
+:star::star::star::star::star: [\@seapound (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1268597236745637999)
+ 
 > "The Elfhosted product alone is great. The team is super transparent on the issues and resolutions that happen as it grows. Lots of opportunity to self-solve issues, but the support from both mods and darth-penguini is SO quick and proactive. Props to them."
 
 :star::star::star::star::star: [\@elevenfifteen (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1245143888893575292)
