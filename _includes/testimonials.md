@@ -19,16 +19,23 @@ Here's what some of our {--users--}{++friends++} say..
 
 :star::star::star::star::star: [\@seapound (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1268597236745637999)
  
-> "The Elfhosted product alone is great. The team is super transparent on the issues and resolutions that happen as it grows. Lots of opportunity to self-solve issues, but the support from both mods and darth-penguini is SO quick and proactive. Props to them."
+(responding to a [Reddit thread](https://www.reddit.com/r/RealDebrid/comments/1eirutv/plex_hosting_options_elfhosted_other_services/) re the cost of ElfHosted vs mainstream streaming / self-hosting):
 
-:star::star::star::star::star: [\@elevenfifteen (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1245143888893575292)
+> I didn't know that the goal of this project was to compete with large companies running/renting entire DCs. I was under the impression that the goal of this project was to  manage the updating of almost selfhosted applications on a shared platform with other users. Basically, be my sysadmin for me. 
 
-> "I don't understand how there aren't tons of elves already. The way this whole thing is setup is great, from getting a free $10 amount of elfbuckz to start, free 7 day trials on most services, the subscription prices of the products are reasonable, to the smoothness of how everything runs. I just dont get it, people choose to pay way more with places that don't provide the same customer service nor have a great community like this one. I recommend elfhosted to everyone.
+> That being said, paying for services is the 'easy button'. There is a real world cost incurred for the time saved. Time is money. Time is the most valuable currency that exists. Once time is spent, it's forever lost, one cannot retrieve it again (yet). In my mind, there are 3 options for use of time with respect to: mainstream, selfhosting, elfhosted. 
+>
+> * mainstream - my time is valuable and I don't want curated content and I don't care what content that I have the ability to consume. I only like what's popular.
+> 
+> * elfhosted - my time is valuable, I want my own curated content without being forced to browse past the same damn entry 500 times just to find out that I can't watch the movie I want because it's not available in my current location or was removed last week from mainstream providers.
+> 
+> * selfhost - I care about costs and I have nothing but time to waste or I want to learn about the backend of the systems involved. I'll pay for my own VPS/homelab, electricity, manage the OS, manage app updates, figure out how to make the apps talk nice to each other, create my own beautiful frontend.
+>
+> I know how much my time is worth, does that reddit poster know how much their time is worth? Without knowing what you are worth, you can't make effective capital expenditures with respect to the time it will take to recoup the capital. 
+> 
+> I know I don't need elfhosted at all for my use case. I choose to stay with elfhosted because it's my 'easy button'. It's an efficient capital expense for the amount of time it saves me managing my own hardware, apps and saves me electricity costs. I'm also in a situation where I don't have upload bandwidth from my home to serve HD content to myself remotely. If I lived back in a city, I would still be here. My time is worth $$/hr.
 
-:star::star::star::star::star: [\@bigcasino1_69181 (*Discord*)](https://discord.com/channels/396055506072109067/1234856745696886784/1238251003610927184)
-
-!!! note "Pricing update since this review"
-    Our [pricing model](/open/pricing/) was updated in July 2024, removing the free $10 ElfBuckz and the 7-day trials, and replacing them with standard pricing tiers and a 14-day refund policy.
+:star::star::star::star::star: [\@cobra2 (*Discord*)](https://discord.com/channels/396055506072109067/1118645576884572303/1269215171994456145)
 
 > "Just wanted to check in here and let \@Darth-Penguini and anyone/everyone else know...WOW. I have been struggling with storage for years, maintenance of Docker containers, upkeep, all of it. Elfhosted is so freeing. It's an amazing service that I hope to be a member of for a long, long time!"  
 
