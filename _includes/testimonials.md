@@ -1,6 +1,13 @@
 ## What users say..
 
 Here's what some of our {--users--}{++friends++} say..
+> I recently found ElfHosted and decided to start out with the Infinite Starter Kit. Within a week I realized that this was for me and upgraded to the Hobbit plan. Give it another week and I was up to the Ranger plan. 
+>
+> I just love the simplicity and the fact that things just work. For years I've ran a home server and between the constant maintenance and always upgrading harddrives, it became apparent I wanted to make it easier on my self. Enter ElfHosted. 
+> 
+> Setup was super easy with the guided documentation and the discord community. It seems that somebody is available at all hours of the day to help with questions. I started with the Aars, which I knew from my prior hosting... but saw a newer product called Riven. I decided to jump in feet first. I enjoy being on the front end of an up and coming replacement for the Aars and will soon be upgrading to the annual plan!
+
+:star::star::star::star::star: [\@.theycallmebob. (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1268939087939764224)
 
 > I’ve been using this service for a while now, and honestly, it’s a game-changer compared to anything else I’ve tried for managing my media library. The support is fantastic—super quick, and if the staff aren’t around (which rarely happens), the community steps up right away. I can’t imagine going back to any other platform.
 > 
