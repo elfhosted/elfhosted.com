@@ -28,9 +28,9 @@ Now that we've done some housekeeping, we're ready for some new houseguests...
 <!-- more -->
 ## Torrentio refugees
 
-[Torrentio](torrentio.strem.fun) is a free indexer which scrapes public torrent trackers, and then uses your debrid credentials to check whether your provider has those torrents cached. It returns a list of cached torrents.
+[Torrentio](https://torrentio.strem.fun) is a free indexer which scrapes public torrent trackers, and then uses your debrid credentials to check whether your provider has those torrents cached. It returns a list of cached torrents.
 
-This is useful, for example, to have [Radarr](radarr) / [Sonarr](sonarr) find debrid-cached torrents to send to [RDTClient][rdtclient], to download or to "fake download" using symlinks, for easy streaming.
+This is useful, for example, to have [Radarr][radarr] / [Sonarr][sonarr] find debrid-cached torrents to send to [RDTClient][rdtclient], to download or to "fake download" using symlinks, for easy streaming.
 
 The most popular use of torrentio is to facilitate turn-key streaming using [Stremio](https://stremio.com), a free and polished streaming client with a **huge** addon ecosystem. The advantage of Stremio is that it runs in a lot of places Plex doesn't, like crummy little $20 Android TV setups.
 

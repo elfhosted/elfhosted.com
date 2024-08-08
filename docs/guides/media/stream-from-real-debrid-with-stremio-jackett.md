@@ -19,7 +19,7 @@ The disadvantages, of course, are:
 * Jackett's results will appear more slowly in streamio, compared to pre-cached results from other providers
 
 !!! tip
-    Consider our [Infinite Streaming Plex](guides/media/stream-from-real-debrid-with-plex/) guide if you'd like to Proxy your Real-Debrid access behind [Zurg][zurg] so that you **can** stream simultaneously from multiple source IPs
+    Consider our [Infinite Streaming Plex](/guides/media/stream-from-real-debrid-with-plex/) guide if you'd like to Proxy your Real-Debrid access behind [Zurg][zurg] so that you **can** stream simultaneously from multiple source IPs
 
 ## Requirements
 

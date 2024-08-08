@@ -154,7 +154,6 @@ nav:
       - Advanced Infinite Streaming with Plex and Arrs: guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr.md
       - Advanced Infinite Streaming with with Jellyfin and Arrs: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
       - Advanced Infinite Streaming with with Emby and Arrs: guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
-    - Media Server: guides/build-media-streaming-server.md
     - Plex Cloud: guides/your-own-plex-cloud.md 
     - unRAID: guides/unraid-storagebox-vpn.md
   - Support:

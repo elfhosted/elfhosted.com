@@ -12,11 +12,11 @@ hide:
 * [x] We run popular self-hosted apps for you, securely and reliably.
 * [x] Attach your own storage
 
-[See the apps :gift:](/apps/){ .md-button .md-button--primary } [Get started with the guides :books:](/guides/){ .md-button .md-button--primary }
+[See the apps :gift:](/apps/){ .md-button .md-button--primary } [Get started with the guides :books:](/guides/media/){ .md-button .md-button--primary }
 
 ## NEW! Infinite storage / streaming with Plex and Debrid
 
-Recently (2024), a selection of our apps used to integrate media streaming (Plex) and downloaders (Real-Debrid) have been popular. Here's a quick guide..
+Recently (2024), a selection of our apps used to integrate media streaming ([Plex][plex]) and downloaders (Real-Debrid) have been popular. Here's a quick guide..
 
 <div class="grid cards" markdown>
 

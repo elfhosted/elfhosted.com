@@ -21,7 +21,7 @@ Given the minimum ElfBuckz top-up is $10, if you refer 10 users, you'll end up w
 
 ## High-level guide for an ElfHosted media server
 
-Asked by some of our Elfies in Discord for a quick blurb for inviting friends, I drafted[ this high-level guide re using ElfHosted to build a media server/stack](/guides/build-media-streaming-server/). I fear it may still be too technical - the target audience would be tech-savvy friends want to do all the geeky media magic, but don't particularly care for the expenses/time/effort involved in self-hosting the apps at home.
+Asked by some of our Elfies in Discord for a quick blurb for inviting friends, I drafted a guide rere using ElfHosted to build a media server/stack. I fear it may still be too technical - the target audience would be tech-savvy friends want to do all the geeky media magic, but don't particularly care for the expenses/time/effort involved in self-hosting the apps at home.
 
 If you have any suggestions on how to improve the guide, don't be shy!
 

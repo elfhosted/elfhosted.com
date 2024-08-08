@@ -33,7 +33,7 @@ At user requests, I've added the following two new types of storage mounts:
 
 [Plex Meta Manager][plex-meta-manager] (PMM) is a CLI tool which obsessively tidies up, augments, and expands your Plex library. Out-of-the-box, PMM runs daily, but it's sometimes desirable to change the run frequency, or to force it to run immediately.
 
-Thanks to an enthusiastic user, we now have ENV var support for Plex Meta Manager, via [ElfBot][elfbot]. More details can be found on the [Plex Meta Manager's documentation page](plex-meta-manager).
+Thanks to an enthusiastic user, we now have ENV var support for Plex Meta Manager, via [ElfBot][elfbot]. More details can be found on the [Plex Meta Manager's documentation page][plex-meta-manager].
 
 ## Bugfix - unnecessary restarts on rclone mounts
 

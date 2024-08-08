@@ -59,7 +59,7 @@ Answer:
 ### Should I still BYO?
 
 Question:
-> At $6/TB, ElfStorage is nearly priced the same as a Hetzner [Storagebox](storagebox). Should I just skip the storagebox and subscribe to ElfStorage?
+> At $6/TB, ElfStorage is nearly priced the same as a Hetzner [Storagebox][storagebox]. Should I just skip the storagebox and subscribe to ElfStorage?
 
 Answer:
 > No, a storagebox is still an excellent option in terms of both price, data ownership, and flexibility.

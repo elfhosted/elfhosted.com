@@ -24,7 +24,7 @@ The disadvantages, of course, are:
 * Less history - we're working on more seeding, but our internal instance doesn't have the years of content that torrentio.strem.fm has.
 
 !!! tip
-    Consider our [Infinite Streaming Plex](guides/media/stream-from-real-debrid-with-plex/) guide if you'd like to Proxy your Real-Debrid access behind [Zurg][zurg] so that you **can** stream simultaneously from multiple source IPs
+    Consider our [Infinite Streaming Plex](/guides/media/stream-from-real-debrid-with-plex/) guide if you'd like to Proxy your Real-Debrid access behind [Zurg][zurg] so that you **can** stream simultaneously from multiple source IPs
 
 ## Requirements
 
