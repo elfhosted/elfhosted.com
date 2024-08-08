@@ -13,6 +13,8 @@ The solution leverages the popular Arr tools to search, source, and sort your me
 * [x] [Real-Debrid account][real-debrid] and [API token](https://real-debrid.com/apitoken)
 * [x] ElfHosted's ["Hobbit" Infinite Jellyfin Arr Streaming bundle](https://store.elfhosted.com/product/hobbit-jellyfin-arrs-real-debrid-infinite-streaming-bundle)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HFUH05riD-I?si=aqNp2midUEarPsCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## How does it work?
 
 Here's a diagram (*it's not as complicated as it looks!*), followed by some explanations:
