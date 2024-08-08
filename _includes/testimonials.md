@@ -18,6 +18,10 @@ Here's what some of our {--users--}{++friends++} say..
 > I was sold from the start, which is why I quickly upgraded from a 1-month to a 3-month subscription, and I’m planning to switch to a 1-year plan soon. This service totally pays for itself, and I’m sure you won’t be disappointed. It’s been really impressive.
 
 :star::star::star::star::star: [\@seapound (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1268597236745637999)
+
+> Best possible options for anyone looking for the do-it-all option along with the best customer service ive experienced in this space so far. Id rate it a 6 if I could but its limited to 5/5...
+
+:star::star::star::star::star: [\@hashmelters (Discord)](https://discord.com/channels/396055506072109067/1234856745696886784/1270998483863863338)
  
 (responding to a [Reddit thread](https://www.reddit.com/r/RealDebrid/comments/1eirutv/plex_hosting_options_elfhosted_other_services/) re the cost of ElfHosted vs mainstream streaming / self-hosting):
 
