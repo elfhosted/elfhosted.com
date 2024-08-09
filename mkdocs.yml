@@ -299,14 +299,16 @@ extra:
     new: Recently added
     deprecated: Deprecated
   social:
-    - icon: 'fontawesome/brands/mastodon'
-      link: 'https://so.fnky.nz/@funkypenguin'
-    - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/funkypenguin'
     - icon: 'fontawesome/brands/discord'
       link: 'http://discord.elfhosted.com' 
-    - icon: 'simple/matrix'
-      link: 'http://matrix.funkypenguin.co.nz' 
+    - icon: 'fontawesome/brands/reddit'
+      link: 'https://reddit.com/r/elfhosted'
+    - icon: 'fontawesome/brands/youtube'
+      link: 'https://www.youtube.com/@elfhostme'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/elfhosted'
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/elfhosted'
 
 extra_javascript:
   # - extras/javascript/plausible.js
