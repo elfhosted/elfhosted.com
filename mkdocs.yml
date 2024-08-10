@@ -177,7 +177,7 @@ nav:
       - Simultaneous Streaming with Stremio Server and Debrid: guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously.md
       - Optimizing your movie quality with TRaSH Guides custom formats: guides/media/optimize-movie-quality-with-trash-custom-formats.md
       - Optimizing your series quality with TRaSH Guides custom formats: guides/media/optimize-series-quality-with-trash-custom-formats.md
-    - Plex Cloud: guides/your-own-plex-cloud.md 
+    # - Plex Cloud: guides/your-own-plex-cloud.md 
   - Support:
     - get-help.md
     - Discord: https://discord.elfhosted.com
