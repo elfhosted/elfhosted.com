@@ -75,8 +75,6 @@ Claim your Plex instance using [ElfBot][elfbot], and add media libraries in `/st
 
 Confirm Zurg is setup correctly by browsing it from the link on your your ElfHosted dashboard.
 
-To permit Zurg to trigger Library scans in Plex, edit `config/zurg/plex_update.sh`, and add your Plex token as describe [here](/app/zurg/#plex).
-
 ### Setup RDTClient
 
 Configure [RDTClient], by pasting your debrid provider's details into the config section (*the rest is pre-configured*).

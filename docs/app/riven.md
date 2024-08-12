@@ -85,9 +85,6 @@ Under **General**, ensure your RealDebrid API token is applied and correct (get 
 
 ![](/images/riven-settings-2.png)
 
-!!! warning "Plex auth broken in v0.7.5"
-    At present, it's not possible to perform Plex authentication via the UI. Use [this guide][plex-token] to get your Plex token, and paste it into your `config/riven/settings.json` directly.
-    
 Under **Media Server**, click `Authenticate with Plex` to retrieve the token necessary for Riven to interact with Plex:
 
 ![](/images/riven-settings-3.png)
