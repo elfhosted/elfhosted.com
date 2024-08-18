@@ -1,6 +1,21 @@
 ## What users say..
 
 Here's what some of our {--users--}{++friends++} say..
+
+> I self host and share a fully automated ‘arr stack with Plex. Been doing so for around 4 years. Also recently got into real debrid and hosting a Comet and Annatar for Stremio. The amount of time and head banging I’ve put into it is in the hundreds to thousands of hours. From setting it up to keeping it running smoothly. Let’s not forget the cost of my server and how much it cost to keep it running.
+> 
+> Anyway I wanted to see what ElfHosted was about to compare. Yeah I had the whole thing setup in just a few hours. It also passes the headache of maintaining it to ElfHosted. Will I keep it no because nerdy things and maintaining my server are my hobby and quirky passion project. Will I recommend it to my friends who don’t have the money up front to buy a server, the knowledge to maintain it or desire.
+>
+> Just my server alone was $2k. Power cost to keep it on yearly is $250ish, annual memberships to RD, Usenet and indexers are around $100. Then whatever a value my free time at. Which is currently at minimum my hourly pay at work or more. Yeah so take the monthly cost of all that and compare to ElfHosted Ultimate Stream package at $39 monthly, add RD to the cost and get nearly all your time back is incredibly cheap.
+> 
+> Lastly it seems like a lot of people forget how quickly an ultimate cable package used to cost. Or how quick paying for every stream service would add up to. Which when using ElfHosted with RD is essentially and more what you get. Quick hint it’s far above the asking price.
+
+:star::star::star::star::star: [/u/MMag05. (Reddit)](https://www.reddit.com/r/elfhosted/comments/1ethggn/comment/lijrgln/)
+
+> As a happy Elfhosted customer—who also self hosts MANY things across about 10 severs (dedicated, VPSes, and VMs running on Synology), I wouldn’t switch to self hosting the services I get from Elfhosted. They just work with very little effort configuring things, and the support the owner and his team provides is second to none. Plus I love being part of a fledgling—but quickly growing—enterprise. 
+
+:star::star::star::star::star: [/u/jatguy. (Reddit)](https://www.reddit.com/r/elfhosted/comments/1ethggn/comment/ligr07p/)
+
 > I recently found ElfHosted and decided to start out with the Infinite Starter Kit. Within a week I realized that this was for me and upgraded to the Hobbit plan. Give it another week and I was up to the Ranger plan. 
 >
 > I just love the simplicity and the fact that things just work. For years I've ran a home server and between the constant maintenance and always upgrading harddrives, it became apparent I wanted to make it easier on my self. Enter ElfHosted. 
