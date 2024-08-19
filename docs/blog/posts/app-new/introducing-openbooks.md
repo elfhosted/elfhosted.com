@@ -25,7 +25,7 @@ More news...
 
 ## :simple-unraid: unRAID guide for "outsourced" media aquisition
 
-After helpful input from an elf-a-tester, I created a guide describing how to [leverage ElfHosted to augment a local unRAID system](https://elfhosted.com/guides/unraid-storagebox-vpn/), and [posted it in r/unRAID](https://www.reddit.com/r/unRAID/comments/15kfyd0/run_torrent_clientsarrs_remotely_save_to_hetzner/). The takeaway is that ElfHosted would eliminate some of the hassle re running Arrs / torrent apps for an unRAID user, but they could still consume the content locally by mounting a storagebox into unRAID.
+After helpful input from an elf-a-tester, I created a guide describing how to leverage ElfHosted to augment a local unRAID system, and [posted it in r/unRAID](https://www.reddit.com/r/unRAID/comments/15kfyd0/run_torrent_clientsarrs_remotely_save_to_hetzner/). The takeaway is that ElfHosted would eliminate some of the hassle re running Arrs / torrent apps for an unRAID user, but they could still consume the content locally by mounting a storagebox into unRAID.
 
 ## :simple-paypal: Paypal subscriptions coming soon
 

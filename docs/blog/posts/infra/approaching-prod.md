@@ -18,7 +18,7 @@ Although it's fairly arbitrary, July was our month of beta testing (*June being 
 
 To this end, I've been focusing on promotion, or making ElfHosted more discoverable, with mixed results. After their API changes, Reddit is not what it once was for technical communities, Twitter is "icky", and my attempt to engage r/selfhosted was a disaster, eventually deleted by the mods for being "unrelated to selfhosting".
 
-One of our elf-a-testers who's active in the unRAID community suggested I work on detailed "guides" targeting specific use-cases, so I wrote up [this guide](/guides/unraid-storagebox-vpn/) for unRAID users who want to use our VPN'd torrent clients to download to storageboxes, mounted to their unRAIDs. If this lands well, I'll invest more time in community / application-specific guides, which will hopefully engender goodwill, and some positive organic search results too.
+One of our elf-a-testers who's active in the unRAID community suggested I work on detailed "guides" targeting specific use-cases, so I wrote up a guide for unRAID users who want to use our VPN'd torrent clients to download to storageboxes, mounted to their unRAIDs. If this lands well, I'll invest more time in community / application-specific guides, which will hopefully engender goodwill, and some positive organic search results too.
 
 ## What's this GitHub noise?
 

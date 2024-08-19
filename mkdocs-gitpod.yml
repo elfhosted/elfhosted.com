@@ -155,7 +155,6 @@ nav:
       - Advanced Infinite Streaming with with Jellyfin and Arrs: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
       - Advanced Infinite Streaming with with Emby and Arrs: guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
     - Plex Cloud: guides/your-own-plex-cloud.md 
-    - unRAID: guides/unraid-storagebox-vpn.md
   - Support:
     - get-help.md
     - Discord: https://discord.elfhosted.com
