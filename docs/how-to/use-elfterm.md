@@ -14,7 +14,7 @@ Your ElfTerm is integrated into your Kubernetes namespace. Try running `kubectl 
 
 Here's a quick list of fun things you can do with `kubectl`
 
-* `kubectl delete <pod>` (*restart your app*)
+* `kubectl delete pod <pod>` (*restart your app*)
 * `kubectl logs -f <pod>` (*watch the pod logs*)
 * `kubectl top pods` (*see pod resource usage*)
 
