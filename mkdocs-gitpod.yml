@@ -159,7 +159,7 @@ nav:
     - get-help.md
     - Discord: https://discord.elfhosted.com
     - Get Started: how-to/get-started.md
-    - Migrate: how-to/migrate.md
+    - Migrate: how-to/migrate-datacenters.md
     - ElfBuckz: how-to/spend-elfbuckz.md
     - StorageBox: what-is/storagebox.md
     - Use rclone: how-to/use-rclone.md

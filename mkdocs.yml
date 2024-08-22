@@ -182,7 +182,7 @@ nav:
     - get-help.md
     - Discord: https://discord.elfhosted.com
     - Troubleshoot: how-to/troubleshoot.md    
-    - Migrate: how-to/migrate.md
+    - Migrate Datacenters: how-to/migrate-datacenters.md
     - ElfBuckz: how-to/spend-elfbuckz.md
     - Plex Token: how-to/get-plex-token.md  
     - StorageBox: what-is/storagebox.md
