@@ -6,26 +6,30 @@ This page lists frequently asked questions about ElfHosted.
 
 ### Can I get a trial?
 
-Most apps support trial periods - the duration varies based on how long each app may take to fully setup / test.
+No, but within 14 days, if you're legitimately unsatisfied with your purchase, and we haven't been able to resolve it for you, we'll refund you the balance of your subscription.
+
+### How do you justify the cost?
+
+Our pricing is explained in detail [here](/open/pricing/). 
+
+Store purchases start at $9/month, which (*in New Zealand, anyway*) will get you 2 fancy coffees :coffee: or 1 fancy beer :beer:
+
+Any store purchase carries with it the potential overhead of a support request, which costs our staff / volunteers their personal time and attention, and the base price reflects not only the infrastructure cost, but also product development / maintenance, and support overheads.
 
 ## General
 
 ### Can I get SSH access?
 
-* Short answer: No, but you can use [FileBrowser][filebrowser]'s console for limited CLI commands like moves and unpacks
+* Short answer: No, but you can use [ElfTerm][elfterm] for limited CLI commands like moves and unpacks
 * Long answer: Our services run within a Kubernetes microservices-based environment, every app is a separate container, so there's nothing to SSH **into**.
 
 ### Can I use rclone?
 
 Yes! We use rclone extensively for our "BYOS" design. If you need long-term, permanent rclone mount, then buy a compatible storage mount from the store, and we'll mount it to `/storage`. 
 
-If you just need temporary / occasional rclone move data around, then see [how to use rclone][/how-to/use-rclone/].
+If you just need temporary / occasional rclone move data around, then see [how to use rclone](/how-to/use-rclone/).
 
 ## Apps
-
-### Can I download torrents from public trackers?
-
-{% include 'faq_public_trackers.md' %}
 
 ### Can I access my services without SSO?
 
@@ -52,5 +56,13 @@ Some apps create logs in their `config/<app>/` folder, which you can examine usi
 ### My playback is buffering
 
 Check your speed at https://speed.elfhosted.com - you'll want at least 20Mbps for reliable playback at 1080p. Configure your streamer to "DirectPlay", rather than transcoding, for best results.
+
+## Debrid
+
+### Aren't you misusing RealDebrid?
+
+RealDebrid has a "fair use" policy of ~2TB/day for residential users, and ~500GB/day for datacenters. [Zurg][zurg] supports multiple user-provided "backup tokens", allowing users to purchase multiple RD accounts in order to remain within RealDebrid's fair-use limits.
+
+An ElfHosted user therefore gets 25% of the daily bandwidth allocation that a residential user gets, and consequently pays 400% more than a residential user for the same level of service.
 
 --8<-- "common-links.md"
