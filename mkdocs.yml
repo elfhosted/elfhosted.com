@@ -209,6 +209,7 @@ nav:
     - Design:
       - open-source/design/index.md
     - Reports:
+      - Aug 2024: open/aug-2024.md
       - Jul 2024: open/jul-2024.md
       - Jun 2024: open/jun-2024.md
       - May 2024: open/may-2024.md
@@ -231,6 +232,7 @@ nav:
   - Contribute:
     - contribute/index.md
   - Testimonials: testimonials.md 
+  - My Account : https://store.elfhosted.com/my-account
 
 theme:
   name: 'material'

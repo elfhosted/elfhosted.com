@@ -1,0 +1,16 @@
+# No-Piracy Policy
+
+The following is inspired by the Jellyfin Forums' [Piracy Policy](https://forum.jellyfin.org/t-jellyfin-forum-rules)..
+
+ElfHosted aims to be an independent provider of infrastructure
+
+
+1. We do not care where your media comes from. This is our "golden rule". Don't be explicit about it; it's never relevant to the issue at hand, with the caveats below. For example, "Yea I got this movie form GreatTorrentSite.net" is disallowed.
+2. Directly referencing or linking to piracy websites (including torrent sites, forums, etc.) is, of course, prohibited. Do not do it; this is very much on the far side of the line.
+3. Selling, trading, or otherwise providing access to your ElfHosted apps instance(s), in any form, on our forums is prohibited. Instances of Jellyfin that are available to the public, either openly or by invitation, containing media that the owner of the instance does not have legal permission to "distribute" or "perform" (as per local and international laws), are piracy and will not be supported here.
+4. Often, the format of the media can contain info that points towards a pirated source. This is fine as-is, but do not elaborate on it. For example, saying it's "a WEB video" is OK, but not any more than that. Saying it's "a WEB video ripped from Netflix" is not OK.
+
+    Unsorted/direct filenames should generally be scrubbed in any logs, commands, etc. that you post, with exceptions. Further to the first point, we don't really care where it came from, which filenames like "MyMovie_2023_xVid_RipCrew-SCENE.mkv" are all about. Just call it "MyMovie_2023.mkv" or something similar instead to avoid mentioning the source. Note, however, that issues about media scanning, file access, etc. should preserve the actual filenames for troubleshooting, but if you are having these problems, the filenames are likely the cause in the first place and you should rename them sensibly (shameless plug for my mediasorter tool).
+    References/guides to related tools that may or may not facilitate piracy (Sonarr, Radarr, etc. collectively "The *ARRs") are discouraged but are not prohibited as long as they are directly relevant to an issue with your Jellyfin instance. A guide on "the ultimate piracy setup to download every movie you want ever", discussing in-depth how to use those tools, is not suitable for our community, and should be a part of their communities instead (or a 3rd party community).
+    References/guides to ripping physical media you own are discouraged but not prohibited. This is a very grey area. At this point, we believe that this knowledge is public enough and widespread enough that repeating it for the benefit of our userbase is not a negative, but this is a rare occurrence and should be carefully considered. We already have a comprehensive guide, so further discussion in this area should not be needed.
+    References/guides to ripping publicly available media (e.g. YouTube) are discouraged but not prohibited. This is also a very grey area. Tools like "youtube-dl" and the like have their own communities better suited to this discussion, but like above, we will accept a single comprehensive guide should it be written.
