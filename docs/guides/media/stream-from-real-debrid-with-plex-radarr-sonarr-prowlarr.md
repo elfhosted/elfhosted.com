@@ -93,7 +93,7 @@ Configure your **Root Folders** to `/storage/symlinks/<whatever>`, since this is
 
 Radarr / Sonarr are pre-configured for [Autoscan][autoscan], but you'll need to edit Autoscan's config (`config/autoscan/` in [FileBrowser][filebrowser]), and add a token for Plex / Jellyfin / Emby, in order for the autoscanning to work.
 
-(See [here](https://www.plexopedia.com/plex-media-server/general/plex-token/) for instructions on getting your Plex API key)
+(*See [here][plex-token] for instructions on getting your Plex API key*)
 
 ## Success!
 
