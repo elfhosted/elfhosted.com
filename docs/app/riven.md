@@ -166,6 +166,8 @@ Most will pick `overall`, `resolution`, or `remux`.
 - Save your changes.
 - Restart Riven, either by using the Elfbot command `elfbot restart realdebird-zurg` or by deleting the pod for Zurg via [Kubernetes][kubernetes].
 
+![](/images/riven-settings-4.png)
+
 ### Content Request Providers *(you must choose at least one)*
 
 #### Plex Watchlist
