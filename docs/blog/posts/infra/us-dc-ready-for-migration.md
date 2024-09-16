@@ -18,7 +18,7 @@ We're expanding to other regions, and this guide will show you how to migrate yo
 
 After several weeks of alpha-testing, our US-based datacenter is ready for more beta-testers!
 
-To see whether you're a candidate for relocation, check your speed at [here](https://speed.elfhosted.com), and if a migration would be favorable, review the detailed instructions in [this guide](how-to/migrate-datacenters/)
+To see whether you're a candidate for relocation, check your speed at [here](https://speed.elfhosted.com), and if a migration would be favorable, review the detailed instructions in [this guide](/how-to/migrate-datacenters/)
 
 ## Store theme updates
 
