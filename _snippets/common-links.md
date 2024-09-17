@@ -40,6 +40,7 @@
 [ombi]:               /app/ombi/
 [openbooks]:          /app/openbooks/
 [overseerr]:          /app/overseerr/
+[petio]:              /app/petio/
 [plex]:               /app/plex/
 [plex-debrid]:        /app/plex-debrid/
 [plex-meta-manager]:  /app/plex-meta-manager/
