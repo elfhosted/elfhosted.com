@@ -18,6 +18,9 @@ Within ElfHosted, the blackhole scripts provide a lightweight alternative to the
 
 ### Configure Blackhole
 
+!!! note "Only set ENV var once"
+    You'll note both an "Blackhole" and a "Blackhole 4K" link on your dashboard. This is to accommodate our dual-Aarr design, but it's only necessary to configure your RD API key in `blackhole` (*so just run the elfbot commands as illustrated below*).
+
 #### Real-Debrid
 
 Blackhole needs your RealDebrid API token. Use [ElfBot][elfbot] to provide your token as an ENV var, by running: 
