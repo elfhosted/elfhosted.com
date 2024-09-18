@@ -41,6 +41,14 @@ elfbot env blackhole TORBOX_ENABLED=true
 !!! warning "Torbox requires mount"
     To make your Torbox data visible to your apps, you'll need to purchase a [Torbox mount](https://store.elfhosted.com/product/torbox-mount)
 
+#### Uncached content
+
+By default, Blackhole will only "download" content which is already cached on RealDebrid/Torbox. You can request the debrid providers to download uncached content (*will take longer, obviously*) by setting the `BLACKHOLE_FAIL_IF_NOT_CACHED` ENV var to `false`, like this:
+
+```
+elfbot env blackhole BLACKHOLE_FAIL_IF_NOT_CACHED=false
+```
+
 ### Configure Aaars
 
 Under each Aarr, add a new "Torrent Blackhole" download client, as follows:
