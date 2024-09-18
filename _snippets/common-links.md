@@ -4,6 +4,7 @@
 [autobrr]:            /app/autobrr/
 [autoscan]:           /app/autoscan/
 [bazarr]:             /app/bazarr/
+[blackhole]:          /app/blackhole/
 [calibre]:            /app/calibre/
 [calibre-web]:        /app/calibre-web/
 [comet]:              /app/comet/
