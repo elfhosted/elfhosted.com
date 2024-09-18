@@ -107,25 +107,16 @@ nav:
 
     - Manage Downloads:
       - AirDC++: app/airdcpp.md
-      - Autobrr: app/autobrr.md
-      - Deluge: app/deluge.md
+      - Blackhole: app/blackhole.md    
       - Flaresolverr: app/flaresolverr.md
-      - Iceberg: app/iceberg.md    
       - Jackett: app/jackett.md  
       - NZBGet: app/nzbget.md
-      - NZBHydra: app/nzbhydra.md
       - Openbooks: app/openbooks.md
       - Plex-Debrid: app/plex-debrid.md
       - Prowlarr: app/prowlarr.md
-      - Pyload: app/pyload.md
-      - qBittorrent: app/qbittorrent.md
-      - Rapidleech: app/rapidleech.md
       - RDT Client: app/rdtclient.md
       - Riven: app/riven.md 
-      - ruTorrent: app/rutorrent.md
       - SABnzbd: app/sabnzbd.md
-      - Unpackerr: app/unpackerr.md
-      - Youtube DL: app/youtubedl.md
       - Zurg: app/zurg.md
   
     - Tools:
