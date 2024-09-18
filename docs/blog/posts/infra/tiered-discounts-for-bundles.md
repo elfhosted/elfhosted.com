@@ -4,7 +4,7 @@ categories:
   - infra
 tags:
   - CHANGELOG
-title: Tiered 
+title: Bundle subscribers get tiered discounts
 description: Tiered discounts on supplemental apps for bundle subscribers
 ---
 
