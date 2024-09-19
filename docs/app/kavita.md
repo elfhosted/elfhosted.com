@@ -6,7 +6,10 @@ upstream: https://www.kavitareader.com
 links:
 - name: subreddit
   uri: https://www.reddit.com/r/KavitaManga
-price: 0.15
+- name: wiki
+  uri: https://wiki.kavitareader.com/
+works_with:
+- Kapowarr
 sponsorship: 
 - name: Open Collective
   uri: https://opencollective.com/kavita
