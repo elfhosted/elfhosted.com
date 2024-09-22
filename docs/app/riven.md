@@ -137,36 +137,15 @@ To perform a basic Riven setup, use the frontend, and navigate to Settings:
 ![](/images/riven-settings-4.png)
 
 * :five: Ranking
-***Note:*** *These settings are currently being reworked and dramatically improved. They will soon appear in the Riven frontend UI. Currently, these settings are configuired in the `settings.json` file found in `config/riven` via [FileBrowser][filebrowser].*
+  * *These settings will soon appear in the Riven frontend UI. Currently, these settings are configuired in the `settings.json` file found in `config/riven` via [FileBrowser][filebrowser].*
 
-Pick a quality profile. Riven, in it's current form, has some built-in quality profiles and these profiles have their own rankings for specific attributes:
+### Quality Rankings and Settings
 
-- `default` *(DefaultRanking): The default ranking model.*
-- `remux` *(BestRemuxRanking): The ranking model for the best remux.*
-- `web` *(BestWebRanking): The ranking model for the best web release.*
-- `resolution` *(BestResolutionRanking): The ranking model for the best resolution.*
-- `overall` *(BestOverallRanking): The ranking model for the best overall quality.*
-- `anime` *(AnimeRanking): The ranking model for anime releases.*
-- `all` *(AllRanking): The ranking model for all releases.*
+Please refer to these guides:
 
-Most will pick `overall`, `resolution`, or `remux`.
-
-- Replace `"default"` with your chosen profile:
-```
-    "ranking": {
-        "profile": "overall",
-```
-- For `"require"`, `"exclude"`, and `"preferred"` please refer to (#🗻┆elf-riven)[https://discord.com/channels/396055506072109067/1253110932062601276] and/or its pinned posts.
-- The items below are the various attributes Riven will rank. If you are going to follow the rankings set by your chosen profile, ignore the `"enable"` and `"rank"` fields.
-- The `"fetch"` settings are essentially your on/off switch for each of these attributes. Set the ones you want to `true` and set the ones you do not want to `false`.
-- The `"enable"` and `"rank"` fields are **only** used if you wish to override the rankings established in the pre-configured quality profile you have chosen.
-  - The `"enable"` setting, with a `true` or `false` value, enables or disables your custom rank for any individual attribute.
-  - The `"rank"` setting, with a numerical value, establishes your custom rank for any individual attribute.
-  ***Note:*** *Rankings for individual attributes accumulate. If a file matches three attributes with individual rankings of `100`, the overall rank of that file will be `300`. Files are then ranked by their overall score.
-- Save your changes.
-- Restart Riven, either by using the Elfbot command `elfbot restart realdebird-zurg` or by deleting the pod for Zurg via [Kubernetes][kubernetes].
-
-![](/images/riven-settings-4.png)
+* [**Frequently Asked Questions**](https://dreulavelle.github.io/rank-torrent-name/users/faq/)
+* [**Language Support**](https://dreulavelle.github.io/rank-torrent-name/users/languages/)
+* [**Quality Profiles**](https://dreulavelle.github.io/rank-torrent-name/users/profiles/)
 
 ### Content Request Providers *(you must choose at least one)*
 
@@ -196,7 +175,7 @@ Most will pick `overall`, `resolution`, or `remux`.
   
 #### Trakt
 
-* :one: Visit the (Create a Trakt API app)[https://trakt.tv/oauth/applications/new] page.
+* :one: Visit the [**Create a Trakt API app**](https://trakt.tv/oauth/applications/new) page.
 * :two: Name it whatever you like.
 * :three: For `Redirect uri:` use the default value of `urn:ietf:wg:oauth:2.0:oob`.
 * :four: `Description:`, `Javascript (cors) origins:`, and `Permissions:`can be left blank/default.
