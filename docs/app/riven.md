@@ -103,37 +103,37 @@ To perform a basic Riven setup, use the frontend, and navigate to Settings:
 
 ![](/images/riven-settings-1.png)
 
-1. General Settings
-  * Enable your chosen option in the `Downloaders` section.
-  * Input your API key for that downloader.
-  * Save your changes.
+**General Settings**
+1. Enable your chosen option in the `Downloaders` section.
+2. Input your API key for that downloader.
+3. Save your changes.
   
 ![](/images/riven-settings-2.png) 
 
-2. Media Server Settings
-  * Enable `Plex Updater` in the `Updaters` section.
-  * Authenticate your Plex server within the `Plex Token` section.
-  * Save your changes.
+**Media Server Settings**
+1. Enable `Plex Updater` in the `Updaters` section.
+2. Authenticate your Plex server within the `Plex Token` section.
+3. Save your changes.
 
 ![](/images/riven-settings-3.png)
 
-3. Content
-  * Enable your preferred options (you must choose at least one) in the `Content Providers` section.
-    * Please see the `Content Request Providers` sections found below.
-  * Apply the relevant settings.
-  * Save your changes.
+**Content**
+1. Enable your preferred options (you must choose at least one) in the `Content Providers` section.
+   *Please see the `Content Request Providers` sections found below.*
+2. Apply the relevant settings.
+3. Save your changes.
 
 ![](/images/riven-settings-4.png)
 
-4. Scrapers
-  * Enable `Torrentio`, `Knightcrawler`, `Annatar`, `Mediafusion`, and `Zilean`. (up to you if you want use the others)
-  * Enable `Ratelimit` for all of them, except for `Zilean`.
-  * Save your changes.
+**Scrapers**
+1. Enable `Torrentio`, `Knightcrawler`, `Annatar`, `Mediafusion`, and `Zilean`. (up to you if you want use others)
+2. Enable `Ratelimit` for all of them, except for `Zilean`.
+3. Save your changes.
   
 ![](/images/screenshots/riven-scrapers-3.png)
 
-5. Ranking
-  * *These settings will soon appear in the Riven frontend UI. Currently, these settings are configuired in the `settings.json` file found in `config/riven` via [FileBrowser][filebrowser].*
+**Ranking**
+* *These settings will soon appear in the Riven frontend UI. Currently, these settings are configuired in the `settings.json` file found in `config/riven` via [FileBrowser][filebrowser].*
 
 ### Quality Rankings and Settings
 
