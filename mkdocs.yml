@@ -85,6 +85,7 @@ nav:
     - Manage Media:
       - Autobrr: app/autobrr.md
       - Bazarr: app/bazarr.md
+      - Immich: app/immich.md
       - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellyseerr: app/jellyseerr.md
       - Lazy Librarian: app/lazylibrarian.md
