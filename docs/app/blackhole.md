@@ -1,13 +1,13 @@
 ---
 title: Elf Hosted Blackhole Scripts 🧝
 slug: Blackhole
-description: West's Blackhole Script is part of a collection of scripts maintained by westsurname, intended to support Plex users with Debrid services
+description: West's Blackhole Script is part of a collection of scripts maintained by westsurname, intended to support Radarr/Sonarr users with Debrid services
 upstream: https://github.com/westsurname/scripts
 ---
 
 # {{ page.meta.slug }}
 
-"West's Blackhole Script" is part of a collection of scripts maintained by @westsurname, intended to support Plex users with Debrid services.
+"West's Blackhole Script" is part of a collection of scripts maintained by @westsurname, intended to support Radarr/Sonarr users with Debrid services.
 
 Within ElfHosted, the blackhole scripts provide a lightweight alternative to the symlinking functionality that RDTClient provides to [Radarr][radarr] / [Sonarr][sonarr].
 
@@ -36,6 +36,12 @@ Alternatively, Blackhole can be used with Torbox. Once again, ENV vars are requi
 ```
 elfbot env blackhole TORBOX_API_KEY=<paste token here>
 elfbot env blackhole TORBOX_ENABLED=true
+```
+
+To disable Torbox support again, you'd simply run:
+
+```
+elfbot env blackhole TORBOX_ENABLED=false
 ```
 
 !!! warning "Torbox requires mount"
