@@ -104,31 +104,31 @@ To perform a basic Riven setup, use the frontend, and navigate to Settings:
 ![](/images/riven-settings-1.png)
 
 1. General Settings
-  - Enable your chosen option in the `Downloaders` section.
-  - Input your API key for that downloader.
-  - Save your changes.
+  * Enable your chosen option in the `Downloaders` section.
+  * Input your API key for that downloader.
+  * Save your changes.
   
 ![](/images/riven-settings-2.png) 
 
 2. Media Server Settings
-  - Enable `Plex Updater` in the `Updaters` section.
-  - Authenticate your Plex server within the `Plex Token` section.
-  - Save your changes.
+  * Enable `Plex Updater` in the `Updaters` section.
+  * Authenticate your Plex server within the `Plex Token` section.
+  * Save your changes.
 
 ![](/images/riven-settings-3.png)
 
 3. Content
-  - Enable your preferred options (you must choose at least one) in the `Content Providers` section.
-    - Please see the `Content Request Providers` sections found below.
-  - Apply the relevant settings.
-  - Save your changes.
+  * Enable your preferred options (you must choose at least one) in the `Content Providers` section.
+    * Please see the `Content Request Providers` sections found below.
+  * Apply the relevant settings.
+  * Save your changes.
 
 ![](/images/riven-settings-4.png)
 
 4. Scrapers
-  - Enable `Torrentio`, `Knightcrawler`, `Annatar`, `Mediafusion`, and `Zilean`. (up to you if you want use the others)
-  - Enable `Ratelimit` for all of them, except for `Zilean`.
-  - Save your changes.
+  * Enable `Torrentio`, `Knightcrawler`, `Annatar`, `Mediafusion`, and `Zilean`. (up to you if you want use the others)
+  * Enable `Ratelimit` for all of them, except for `Zilean`.
+  * Save your changes.
   
 ![](/images/screenshots/riven-scrapers-3.png)
 
