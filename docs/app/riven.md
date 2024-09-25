@@ -127,13 +127,13 @@ To perform a basic Riven setup, use the frontend, and navigate to Settings:
 
 **Scrapers**
 1.  Enable `Torrentio`, `Knightcrawler`, `Annatar`, `Mediafusion`, and `Zilean`. (up to you if you want use others)
-2.  Enable `Ratelimit` for all of them, except for `Zilean`.
+2.  Enable `Ratelimit` for all scrapers.
 3.  Save your changes.
   
-![](/images/screenshots/riven-scrapers-3.png)
+![](/images/riven-scrapers-3.png)
 
 **Ranking**
-* *These settings will soon appear in the Riven frontend UI. Currently, these settings are configuired in the `settings.json` file found in `config/riven` via [FileBrowser][filebrowser].*
+##### **Note:** *These settings will soon appear in the Riven frontend UI. Currently, these settings are configuired in the `settings.json` file found in `config/riven` via [FileBrowser][filebrowser].*
 
 ### Quality Rankings and Settings
 
