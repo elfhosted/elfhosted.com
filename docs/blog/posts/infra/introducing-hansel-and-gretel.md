@@ -10,7 +10,7 @@ description: We've got new node types for contented / dedicated workloads
 
 # Introducing Hansel and Gretel
 
-The nodes in our first, primary datacenter (*in Germany*), have been classed as elves (*contended*), hobbits, and rangers (*dedicated*). We maintain enough hardware such that we can tolerate the loss of any one node type, and "fit" all the tenant workloads on the others.
+The nodes in our first, primary datacenter (*in Germany*), have been classed as elves (*contended*), hobbits, and rangers (*dedicated*). We maintain enough hardware such that we can tolerate the loss of any one node type, and "fit" all the tenant workloads on the others. 
 
 Until now, this has meant maintaining enough capacity for a spare elf, hobbit, and ranger. Since we're close to introducing halfling (*50% shared*) and nazgul (*100% dedicated*) nodes, and we don't want to have to maintain a whole 5 extra nodes for spare capacity, we're migrating the .com cluster to 2 new node classes...
 

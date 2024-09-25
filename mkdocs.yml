@@ -42,7 +42,7 @@ plugins:
     categories:
       - categories
       - tags
-    abstract_chars_count: 500
+    abstract_chars_count: -1
     image: https://elfhosted.com/images/logo.png
     url_parameters:
       utm_source: "elfhosted-com"
