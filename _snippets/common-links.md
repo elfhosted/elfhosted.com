@@ -17,7 +17,7 @@
 [gluetun]:            /app/gluetun/
 [gotify]:             /app/gotify/
 [homepage]:           /app/homepage/
-[iceberg]:            /app/iceberg/
+[immich]:             /app/immich/
 [jackett]:            /app/jackett/
 [jackettio]:          /app/jackettio/
 [jellyfin]:           /app/jellyfin/

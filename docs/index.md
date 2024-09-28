@@ -11,38 +11,26 @@ hide:
 
 * [x] We run popular self-hosted apps for you, securely and reliably.
 * [x] Attach your own storage
+* [x] Get a fully-functional [24h demo](https://store.elfhosted.com/product-category/streaming-bundles/24h-demo/) for $1
 
 [See the apps :gift:](/apps/){ .md-button .md-button--primary } [Get started with the guides :books:](/guides/media/){ .md-button .md-button--primary }
 
-## NEW! Infinite storage / streaming with Plex and Debrid
-
-Recently (2024), a selection of our apps used to integrate media streaming ([Plex][plex]) and downloaders (Real-Debrid) have been popular. Here's a quick guide..
+## Popular use-cases
 
 <div class="grid cards" markdown>
 
-- :gift_heart: **Get your own private Stremio Addons!** 
+- :tv: **"Infinite" Debrid Streaming Bundles"**
 
     ---
 
-    Customize your Stremio experience with your own instance of popular [Stremio Addons](/stremio-addons)!
+     Here's all you need for [infinite streaming from Real Debrid](/guides/media/), stat!
 
-- :people_with_bunny_ears_partying: **Simultaneously Stream from Stremio** 
-
-    ---
-
-    Need to stream torrents or consolidate your Debrid downloads from one source IP? [Use Stremio Server](/guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously/) or [Comet][comet]! :comet:
-
-- :tv: **Simply stream from Debrid with Plex**
+- :frame_photo: **Backup photos** 
 
     ---
 
-     Here's all you need for [infinite streaming from Real Debrid with Plex](/guides/media/stream-from-real-debrid-with-plex/), stat!
+    Want to offsite-backup your photos in a Google-Photos-like way? Check out [Immich][immich]
 
-- :scientist: **Advanced Debrid streaming with Aars** 
-
-    ---
-
-    Want to use familiar tools for advanced searching / quality? Here's the [Advanced guide to infinite streaming / storage](/guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr/)!
 </div>
 
 {% include 'testimonials.md' %}
