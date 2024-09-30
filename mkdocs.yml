@@ -149,13 +149,12 @@ nav:
       - Annatar: app/annatar.md
       - Comet: app/comet.md
       - KnightCrawler: app/torrentio.md 
-      - MediaFusion: app/mediafusion.md     
+      - MediaFusion: app/mediafusion.md  
+      - MediaFlow-Proxy: app/mediaflow-proxy.md   
       - Shluflix: app/shluflix.md
       - Stremify: app/stremify.md
       - Stremio-Jackett: app/stremio-jackett.md
-      - Torrentio: app/torrentio.md  
       - Xtremio: app/xtremio.md
-
 
   - Store : https://store.elfhosted.com
   - Guides: 

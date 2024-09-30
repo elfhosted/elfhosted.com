@@ -74,7 +74,20 @@ data:
 
 Now visit your Comet URL from your dashboard, enter your debrid provider API key, pick your indexers (*may as well pick 'em all!*), and click `Install`!
 
-### Debrid Stream Proxying
+### Proxy Streaming Password
+
+Usually if you purchase [Comet Proxy Streaming](https://store.elfhosted.com/product/comet-proxy-streaming-addon) from the store directly, you're prompted to choose a `PROXY_DEBRID_STREAM_PASSWORD`, to protect your instance from abuse.
+
+If you purchase Proxy Streaming as part of the [big ol' bundle of Stremio addons](https://store.elfhosted.com/product/stremio-addons-bundle/), you're not prompted for a password (*a limitation of the store*), but you can set it manually using [ElfBot][elfbot], by running:
+
+```
+elfbot env comet PROXY_DEBRID_STREAM_PASSWORD=whatevermypasswordis
+```
+
+!!! tip
+    This method can also be used to **change** your password from the one originally chosen on purchase!
+
+## Debrid Stream Proxying
 
 Here's how Debrid Stream Proxying works
 
