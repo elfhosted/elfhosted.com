@@ -80,7 +80,6 @@
 [webdav]:             /app/webdav/
 [xteve]:              /app/xteve/
 [xtremio]:            /app/xtremio/
-[youtubedl]:          /app/youtubedl/
 [zurg]:               /app/zurg/
 [connect-apps]:       /how-to/connect-apps/
 [troubleshoot]:       /how-to/troubleshoot/

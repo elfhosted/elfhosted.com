@@ -117,7 +117,6 @@ nav:
       - RDT Client: app/rdtclient.md
       - ruTorrent: app/rutorrent.md
       - SABnzbd: app/sabnzbd.md
-      - Youtube DL: app/youtubedl.md
       - Zurg: app/zurg.md
   
     - Tools:
