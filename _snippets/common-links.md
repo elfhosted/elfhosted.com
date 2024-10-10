@@ -74,7 +74,6 @@
 [tdarr]:              /app/tdarr/
 [thelounge]:          /app/thelounge/
 [torrentio]:          /app/torrentio/
-[unpackerr]:          /app/unpackerr/
 [uptimekuma]:         /app/uptimekuma/
 [vaultwarden]:        /app/vaultwarden/
 [wallabag]:           /app/wallabag/
