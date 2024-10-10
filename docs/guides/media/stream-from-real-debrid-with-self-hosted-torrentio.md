@@ -8,7 +8,7 @@ This guide illustrates how to use our ElfHosted [Torrentio][torrentio] addon to 
 
 ## How does it work?
 
-* ElfHosted maintains a KnightCrawler instance for our users' apps (*[Prowlarr][prowlarr], [Iceberg][iceberg], etc*) to use, without rate-limiting.
+* ElfHosted maintains a KnightCrawler instance for our users' apps (*[Prowlarr][prowlarr], Iceberg, etc*) to use, without rate-limiting.
 * This instance is publically available at ([rate-limited](https://github.com/elfhosted/infra/blob/main/traefik-middleware/middleware-rate-limit-public-stremio-addon.yaml)) at https://knightcrawler.elfhosted.com.
 * Users can subscribe to their own instance of the addon (*still using the internal database*), with much more generous rate-limits
 

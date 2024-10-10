@@ -37,7 +37,6 @@
 [nextpvr]:            /app/nextpvr/
 [notifiarr]:          /app/notifiarr/
 [nzbget]:             /app/nzbget/
-[nzbhydra]:           /app/nzbhydra/
 [ombi]:               /app/ombi/
 [openbooks]:          /app/openbooks/
 [overseerr]:          /app/overseerr/
@@ -50,7 +49,6 @@
 [pyload]:             /app/pyload/
 [qbittorrent]:        /app/qbittorrent/
 [radarr]:             /app/radarr/
-[rapidleech]:         /app/rapidleech/
 [rclonefm]:           /app/rclonefm/
 [rcloneui]:           /app/rcloneui/
 [rclonebrowser]:      /app/rclonebrowser/

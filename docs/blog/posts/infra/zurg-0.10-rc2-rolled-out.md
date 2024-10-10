@@ -38,7 +38,7 @@ addl_playable_extensions:
 
 ## Riven is rising..
 
-There's been much excitement in Discord today about [Riven][riven], the new name for [Iceberg][iceberg], and the successor to [plex_debrid][plex-debrid]. Be warned, it's still under active development, but if you're the sort who likes to tinker, and live on the bleeding edge, then Riven is for you!
+There's been much excitement in Discord today about [Riven][riven], the new name for Iceberg, and the successor to [plex_debrid][plex-debrid]. Be warned, it's still under active development, but if you're the sort who likes to tinker, and live on the bleeding edge, then Riven is for you!
 
 The thinking is that Riven will be functionally able to replace Radarr, Sonarr, Prowlarr, Autoscan, and RDTClient, as an "all-in-one" tool to interface Plex/Jellyfin/Emby with your Debrid media.
 

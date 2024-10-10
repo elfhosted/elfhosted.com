@@ -86,6 +86,7 @@ nav:
       - Autobrr: app/autobrr.md
       - Bazarr: app/bazarr.md
       - Immich: app/immich.md
+      - ImageMaid: app/imagemaid.md
       - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellyseerr: app/jellyseerr.md
       - Lazy Librarian: app/lazylibrarian.md
