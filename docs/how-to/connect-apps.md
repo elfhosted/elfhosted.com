@@ -141,12 +141,12 @@ Preconfigured in Radarr/Sonarr/Lidarr/Readarr/Mylarr
 * port: `8989`
 * credentials: `(get api key from UI at Settings -> General)`
 
-## [xTeVe][xteve]
+## [Tunarr][tunarr]
 
-* host: `xteve`
-* port: `34400`
+* host: `tunarr`
+* port: `8000`
 
-In Plex, use `xteve:34400` as your HDHomeRun network address
+In Plex, use `tunarr:8000` as your HDHomeRun network address, and `http://tunarr:8000/api/xmltv.xml` as your XMLTV URL.
 
 ## [Zurg][zurg]
 
