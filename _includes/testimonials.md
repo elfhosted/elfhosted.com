@@ -2,6 +2,12 @@
 
 Here's what some of our {--users--}{++friends++} say..
 
+> I am new here, but today I learned realized that Elfhosted is one of the best free and open source software communities I've seen, and FOSS communities have been at the center of my life since the 90s (Perl, PHP, Symfony, Drupal, Ethereum, etc.). Great open software built by great people who care = great community, and that is something special. 
+> 
+> You've done an amazing job @Funky Penguelf with the platform you provide and this place has an awesome mix of active community caretakers and software creators that I've seen here so far like BSM, Spoked, LayeZee and other elf vengers. Keep up the energy, productivity and community and take time to enjoy it and appreciate each other!
+
+:star::star::star::star::star: [\@skwah (Discord)](https://discord.com/channels/396055506072109067/647643207932313620/1296489163801104496)
+
 > I self host and share a fully automated ‘arr stack with Plex. Been doing so for around 4 years. Also recently got into real debrid and hosting a Comet and Annatar for Stremio. The amount of time and head banging I’ve put into it is in the hundreds to thousands of hours. From setting it up to keeping it running smoothly. Let’s not forget the cost of my server and how much it cost to keep it running.
 > 
 > Anyway I wanted to see what ElfHosted was about to compare. Yeah I had the whole thing setup in just a few hours. It also passes the headache of maintaining it to ElfHosted. Will I keep it no because nerdy things and maintaining my server are my hobby and quirky passion project. Will I recommend it to my friends who don’t have the money up front to buy a server, the knowledge to maintain it or desire.
