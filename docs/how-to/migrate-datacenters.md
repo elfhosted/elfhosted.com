@@ -20,7 +20,7 @@ There are some discrepancies between the datacenters which you should be aware o
 
 ### elfhosted.cc
 
-Due to hardware constraints, in this environment, users get 25% of the (generous) CPU/RAM limits they'd get at elfhosted.com, but 200% of the bandwidth. To date, these limits have not impacted normal function of any of the apps of our power users / beta-testers.
+Due to hardware differences, in this environment, users get 25% of RAM limits, and 50% of the CPU limits they'd get at elfhosted.com, but 200% of the bandwidth. To date, these limits have not impacted normal function of any of the apps of our power users / beta-testers.
 
 ## Process
 
