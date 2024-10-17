@@ -9,13 +9,6 @@ ElfHosted's default datacenter is located in the EU, which may not result in the
 
 We're expanding to other regions, and this guide will show you how to migrate your ElfHosted services between regions.
 
-!!! warning "elfhosted.cc is in BETA"
-
-    The elfhosted.cc datacenter is considered “beta”. It’s been thoroughly tested by a small subset of users, who are currently using it without issue, but it’s possible that further issues will manifest with greater load.
-
-    If you’re tolerant of a little downtime, and wanting to join in the fun on the “cutting edge”, then proceed, but come with a realistic expectation of availability and downtime. If in doubt, see the related [Discord thread](https://discord.com/channels/396055506072109067/1269247618983268382).
-
-
 ## What you need to know
 
 1. Our hosting costs vary per-region. In order to maintain pricing parity across regions, resources may differ per-region (*for example, the US cluster has lower CPU limits but higher bandwith allocations*)
@@ -27,9 +20,7 @@ There are some discrepancies between the datacenters which you should be aware o
 
 ### elfhosted.cc
 
-Due to hardware constraints, in this environment, users get 50% of the CPU/RAM resources they'd get at elfhosted.com, but 200% of the bandwidth.
-
-There is no ceph cluster, so your apps' data is stored on local volumes, with no redundancy. As is the case across all our datacenters though, data is backed up to offsite cloud storage daily (so in the event of a hardware failure, you risk loosing the last 24h changes). It's also possible to trigger a manual backup by running "elfbot backup offsite" from ElfTerm/FileBrowser.
+Due to hardware constraints, in this environment, users get 25% of the (generous) CPU/RAM limits they'd get at elfhosted.com, but 200% of the bandwidth. To date, these limits have not impacted normal function of any of the apps of our power users / beta-testers.
 
 ## Process
 
