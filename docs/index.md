@@ -11,7 +11,7 @@ hide:
 
 * [x] We run popular self-hosted apps for you, securely and reliably.
 * [x] Attach your own storage
-* [x] Get a fully-functional [24h demo](https://store.elfhosted.com/product-category/streaming-bundles/24h-demo/) for $1
+* [x] Get free 7-day trial of our popular bundles (https://store.elfhosted.com/product-category/streaming-bundles/starter/)
 
 [See the apps :gift:](/apps/){ .md-button .md-button--primary } [Get started with the guides :books:](/guides/media/){ .md-button .md-button--primary }
 
