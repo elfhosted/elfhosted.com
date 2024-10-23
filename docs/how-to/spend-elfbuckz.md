@@ -1,5 +1,5 @@
 ---
-title: ElfBuckz - micropayments for microservices
+title: How to use ElfBuckz
 description: How to use ElfBuckz to manage your app subscriptinos
 ---
 
