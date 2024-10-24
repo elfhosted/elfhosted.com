@@ -7,6 +7,10 @@ description: How to use rclone to mount your cloud storage
 
 ElfHosted provides storage for users' application data, but user content provided by attaching users' existing cloud / debrid / network storage (*exceptions are RealDebrid, AllDebrid, and DebridLink, for whom dedicated mount products are built in*).
 
+Here's a video illustrating how to do rclone mounts:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wp6z0zTXkOI?si=sD80tgoA21xihOsb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Meet the tools
 
 ### RcloneUI
