@@ -17,6 +17,7 @@ Here's a quick list of fun things you can do with `kubectl`
 * `kubectl delete pod <pod>` (*restart your app*)
 * `kubectl logs -f <pod>` (*watch the pod logs*)
 * `kubectl top pods` (*see pod resource usage*)
+* `kubectl get pods -o wide` (*what node are my pods on?*)
 
 ## PlexTraktSync
 

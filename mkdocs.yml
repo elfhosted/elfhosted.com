@@ -103,6 +103,7 @@ nav:
       - RPDB: app/rpdb.md
       - Shoko: app/shoko.md
       - Sonarr: app/sonarr.md
+      - Suggestarr: app/suggestarr.md      
       - Tautulli: app/tautulli.md
       - Tdarr: app/tdarr.md
       - xTeVe: app/xteve.md
