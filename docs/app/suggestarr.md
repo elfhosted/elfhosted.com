@@ -1,6 +1,6 @@
 ---
 title: Magically automated new media aquisition based on user activity
-slug: suggestarr
+slug: Suggestarr
 description: SuggestArr is a project designed to automate media content recommendations and download requests based on user activity in media servers like Jellyfin, Plex, and now Emby.
 upstream: https://github.com/giuseppe99barchetta/SuggestArr
 sponsorship: 
