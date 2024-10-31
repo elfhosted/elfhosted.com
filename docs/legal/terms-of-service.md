@@ -23,7 +23,7 @@ The customer understands and agrees that by ordering a service, they are bound b
 
 ### Term
 
-The initial service term of the Agreement shall begin on the date that ElfHosted delivers the service to the customer (the “Service Commencement Date”). The term shall continue for the number of months stated in the Order (the “Initial Term”). Upon expiration of the Initial Term, this Agreement shall automatically renew for the same length as the Initial Term (each a “Renewal Term”) unless ElfHosted or the Customer provides the other with termination notice within 24 hours prior to the expiration of the Initial Term or then-current Renewal Term, as applicable. The Initial Term and any Renewal Term may be referred to collectively in this Agreement as the “Term.”
+The initial service term of the Agreement shall begin on the date that ElfHosted delivers the service to the customer (the “Service Commencement Date”). The term shall continue for the number of months stated in the Order (the “Initial Term”). Upon expiration of the Initial Term, this Agreement shall automatically renew for the same length as the Initial Term (each a “Renewal Term”) unless ElfHosted or the Customer provides the other with termination notice within 72 hours prior to the expiration of the Initial Term or then-current Renewal Term, as applicable. The Initial Term and any Renewal Term may be referred to collectively in this Agreement as the “Term.”
 
 ### Customer Support
 
@@ -31,7 +31,7 @@ The customer understands that support provided by ElfHosted is on an as is, as a
 
 ### Failure to Pay
 
-ElfHosted retains the right remove or retain the content stored on ElfHosted’s servers in the event of non-payment for the services.
+ElfHosted retains the right to remove or retain the content stored on ElfHosted’s servers in the event of non-payment for the services.
 
 ### Billing Disputes
 
@@ -51,9 +51,9 @@ For further information, please read the [Acceptable Use Policy](/legal/acceptab
 
 The customer acknowledges that ElfHosted owns all legal right, title and interest in and to the Services, including any intellectual property rights which subsist in the services (whether those rights happen to be registered or not, and wherever in the world those rights may exist).
 
-### Content License
+## Governing Law and Jurisdiction
 
-The customer retains copyright and all other rights they already hold in content which is stored on, or distributed through Services provided by ElfHosted. By storing or distributing content through Services, you give ElfHosted a perpetual, irrevocable, worldwide and royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publish, and publicly perform, publicly display and distribute said content using services. The customer agrees that this license includes a right for ElfHosted to make such content available to other companies, organizations or individuals with whom ElfHosted has relationships for the provision of syndicated services, and to use such content in connection with the provision of those services. You understand that ElfHosted, in performing the required technical steps to provide the Services to our users, may: a) transmit or distribute your content over various public networks and in various media b) make such changes to your content as are necessary to conform and adapt that content to the technical requirements of connecting networks, devices, services or media You agree that this license shall permit ElfHosted to take these actions. You confirm and warrant to ElfHosted that you have all the rights, power and authority necessary to grant the above license.
+These Terms of Service and any separate agreements whereby we provide you services shall be governed by and construed in accordance with the laws of New Zealand, without regard to its conflict of law provisions. The parties agree that any disputes arising out of or in connection with these Terms, including any question regarding their existence, validity, or termination, shall be subject to the exclusive jurisdiction of the courts of Auckland, New Zealand.
 
 ### Software & Service Updates
 
@@ -61,11 +61,11 @@ Any software provided with the Services may be updated or altered at any time. T
 
 ### Compliance with Law
 
-The customer accepts full responsibility and accountability for all content stored on, downloaded to, or distributed from their Services. The customer certifies that they have legal rights to distribute and store everything stored on their Services, and all content is legal under American law, in addition to the laws of the country or region in which the customer resides, and the laws of the countries or regions in which their Services reside.
+The customer accepts full responsibility and accountability for all content stored on, downloaded to, or distributed from their Services. The customer certifies that they have legal rights to distribute and store everything stored on their Services, and all content is legal under New Zealand law, in addition to the laws of the country or region in which the customer resides, and the laws of the countries or regions in which their Services reside.
 
 ### Common Carrier
 
-ElfHosted and customer agree that ElfHosted is solely acting as a common carrier in its capacity of providing services. The customer agrees that they are the publisher of any material or information and responsible for it adhering to the Terms. The content distributed by customer is in no way reflective of ElfHosted. ElfHosted does not filter or inspect the content distributed by the customer using our, as outlined in our Privacy Policy. All material stored or distributed by the customer is considered publicly accessible. ElfHosted’s distribution of content provided by the customer does not express or implie approval of material by ElfHosted, nor does it confirm that the material is in compliance with the Terms.
+ElfHosted and customer agree that ElfHosted is solely acting as a common carrier in its capacity of providing services. The customer agrees that they are the publisher of any material or information and responsible for it adhering to the Terms. The content distributed by customer is in no way reflective of ElfHosted. ElfHosted does not filter or inspect the content distributed by the customer using our services, as outlined in our Privacy Policy. All material stored or distributed by the customer is considered publicly accessible. ElfHosted’s distribution of content provided by the customer does not express or imply approval of material by ElfHosted, nor does it confirm that the material is in compliance with the Terms.
 
 ### Availability of Services
 
@@ -81,7 +81,7 @@ The customer agrees to defend, indemnify and hold ElfHosted harmless from and ag
 
 ### Force Majeure
 
-ElfHosted shall not be liable to the customer or any other person, firm or entity for any failure of performance under these Terms if such failure is due to any cause or causes including, but not limited to strikes, riots, vandalism, fires, inclement weather, third-party provider outages, cable cuts, power crisis shortages, acts of terrorism, and or uncontrollable acts of God, or other similar occurrences; any law, order, regulation, direction, action or request of the Indian government or of any other government (including provincial and local governmental agency, department, commission, court, bureau, corporation or other instrumentality of any one or more of said governments) or of any civil or military authority; national emergencies, insurrections, riots, wars; or strikes, lockouts, or work stoppages or other labor difficulties; failures, shortages, breaches or delays.
+ElfHosted shall not be liable to the customer or any other person, firm or entity for any failure of performance under these Terms if such failure is due to any cause or causes including, but not limited to strikes, riots, vandalism, fires, inclement weather, third-party provider outages, cable cuts, power crisis shortages, acts of terrorism, and or uncontrollable acts of God, or other similar occurrences; any law, order, regulation, direction, action or request of the United States government or of any other government (including provincial and local governmental agency, department, commission, court, bureau, corporation or other instrumentality of any one or more of said governments) or of any civil or military authority; national emergencies, insurrections, riots, wars; or strikes, lockouts, or work stoppages or other labor difficulties; failures, shortages, breaches or delays.
 
 ### Nondisclosure
 
@@ -109,4 +109,4 @@ The customer is responsible for independent backup of data stored on ElfHosted�
 
 ### DISCLAIMER OF WARRANTIES
 
-SERVICES PROVIDED BY SEEPLICITY ARE PROVIDED ON AN “AS IS, AS AVAILABLE” BASIS. ElfHosted SPECIFICALLY DISCLAIMS ANY OTHER WARRANTY, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL ElfHosted BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, SPECIAL OR INCIDENTAL DAMAGES, EVEN IF ElfHosted HAS BEEN ADVISED BY THE CUSTOMER OF THE POSSIBILITY OF SUCH POTENTIAL LOSS OR DAMAGE. IF ElfHosted’S SERVICE TO THE CUSTOMER IS DISRUPTED OR MALFUNCTIONS FOR ANY REASON, ElfHosted SHALL NOT BE RESPONSIBLE FOR ANY LOSSES OF INCOME DUE TO DISRUPTION OF SERVICE DURING THE PERIOD OF DISRUPTION OF MALFUNCTION.
+SERVICES PROVIDED BY ELFHOSTED ARE PROVIDED ON AN “AS IS, AS AVAILABLE” BASIS. ELFHOSTED SPECIFICALLY DISCLAIMS ANY OTHER WARRANTY, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL ELFHOSTED BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, SPECIAL OR INCIDENTAL DAMAGES, EVEN IF ELFHOSTED HAS BEEN ADVISED BY THE CUSTOMER OF THE POSSIBILITY OF SUCH POTENTIAL LOSS OR DAMAGE. IF ELFHOSTED'S SERVICE TO THE CUSTOMER IS DISRUPTED OR MALFUNCTIONS FOR ANY REASON, ElfHosted SHALL NOT BE RESPONSIBLE FOR ANY LOSSES OF INCOME DUE TO DISRUPTION OF SERVICE DURING THE PERIOD OF DISRUPTION OF MALFUNCTION.

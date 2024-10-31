@@ -199,7 +199,9 @@ nav:
     - Acceptable Use: legal/acceptable-use.md
     - Privacy Policy: legal/privacy-policy.md
     - Terms of Service: legal/terms-of-service.md
-    # - Refund Policy: legal/refund-policy.md
+    - Refund Policy: legal/refund-policy.md
+    - No Reselling Policy: legal/no-reselling-policy.md
+    - No Piracy Policy: legal/no-piracy-policy.md
   - Open:
     - open/index.md
     - Design:

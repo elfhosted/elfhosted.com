@@ -14,6 +14,18 @@ This section lists the not-so-cute but necessary legal notes you need to be awar
 
     Answer: See the [Privacy Policy](/legal/privacy-policy/)
 
+!!! question "Can I get a refund?"
+
+    Answer: See the [Refund Policy](/legal/refund-policy/)    
+
+!!! question "Can I resell my services?"
+
+    Answer: See the [No Reselling Policy](/legal/no-reselling-policy/)       
+
+!!! question "Can I do piracy?"
+
+    Answer: See the [No Piracy Policy](/legal/no-piracy-policy/)            
+
 !!! question "What are the terms of service?"
 
     Answer: See the [Terms of Service](/legal/terms-of-service/)
