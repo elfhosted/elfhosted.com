@@ -21,6 +21,10 @@ MediaFusion is a Stremio Addon, which is especially popular for watching Tamil, 
 
 Since MediaFusion v4, every instance **must** include an `api_password` ENV var, to secure the instance from unwanted public tampering. 
 
-Every ElfHosted instance defaults its API password to `changemeelfie`, but you can (and should) reset this using [ElfBot][elfbot], by running `elfbot env mediafusion api_password=whateveryouwant` in [ElfTerm][elfterm]
+Every ElfHosted instance defaults its API password to `changemeelfie`, but you can (and should) reset this using [ElfBot][elfbot], by running:
+
+```
+elfbot env mediafusion api_password=whateveryouwant
+```
 
 {% include 'app_footer.md' %}

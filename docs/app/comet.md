@@ -82,6 +82,7 @@ If you purchase Proxy Streaming as part of the [big ol' bundle of Stremio addons
 
 ```
 elfbot env comet PROXY_DEBRID_STREAM_PASSWORD=whatevermypasswordis
+elfbot env comet PROXY_DEBRID_STREAM=true
 ```
 
 !!! tip
