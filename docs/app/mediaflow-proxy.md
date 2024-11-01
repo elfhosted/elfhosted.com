@@ -22,16 +22,14 @@ You won't see a link on your ElfHosted dashboard, since MediaFlow Proxy has no U
 
 ### Set the API password
 
-Usually if you purchase [MediaFlow Proxy](https://store.elfhosted.com/product/mediaflow-proxy) from the store directly, you're prompted to choose a `API_PASSWORD`, to protect your instance from abuse.
-
-If you purchase MediaFlow Proxy as part of the [big ol' bundle of Stremio addons](https://store.elfhosted.com/product/stremio-addons-bundle/), you're not prompted for a password (*a limitation of the store*), but you can set it manually using [ElfBot][elfbot], by running:
+Before you can use MediaFlow Proxy, you'll need to set your API password, to protect your proxy (otherwise publically exposed) from abuse. Use [ElfBot][elfbot] to run:
 
 ```
 elfbot env mediaflow-proxy API_PASSWORD=whatevermypasswordis
 ```
 
-!!! tip
-    This method can also be used to **change** your password from the one originally chosen on purchase!
+### Test your speed
 
+To test your streaming speed to your MediaFlow Proxy instance, browse to `https://<your username>-mediaflow-proxy.elfhosted.com/speed/` to perform a speedtest.
 
 {% include 'app_footer.md' %}

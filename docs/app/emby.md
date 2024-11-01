@@ -55,4 +55,8 @@ When accessing the server dashboard, the `Remote (WAN) access` should now be ide
 
 Emby may be trying to transcode the media, based on a detected incompatibilty with your client/app, and running into CPU limitations. For optimal performance and quality, try to direct-play media where possible. You could also try enabling hardware transcoding (*above*), which will improve transcoding performance, provided you have an Emby Premier subscription.
 
+### Test your speed
+
+To test your streaming speed to your Emby instance, browse to `https://<your username>-emby.elfhosted.com/speed/` to perform a speedtest.
+
 {% include 'app_footer.md' %}

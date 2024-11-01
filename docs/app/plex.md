@@ -92,4 +92,8 @@ By default Plex is configured to **not** automatically empty its trash. This def
 
 Users may opt back into automatically clearing Plex's trash by overriding an environment variable (*`PLEX_PREFERENCE_7` in our case*), using [ElfBot][elfbot]. To enable automatic clearing of Plex's trash, use [FileBrowser][filebrowser]'s console, and run `elfbot env plex PLEX_PREFERENCE_7=autoEmptyTrash=1`
 
+### Test your speed
+
+To test your streaming speed to your Plex instance, browse to `https://<your username>-plex.elfhosted.com/speed/` to perform a speedtest.
+
 {% include 'app_footer.md' %}

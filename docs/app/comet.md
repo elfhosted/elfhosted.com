@@ -74,19 +74,14 @@ data:
 
 Now visit your Comet URL from your dashboard, enter your debrid provider API key, pick your indexers (*may as well pick 'em all!*), and click `Install`!
 
-### Proxy Streaming Password
+### Proxy Streaming and Password
 
-Usually if you purchase [Comet Proxy Streaming](https://store.elfhosted.com/product/comet-proxy-streaming-addon) from the store directly, you're prompted to choose a `PROXY_DEBRID_STREAM_PASSWORD`, to protect your instance from abuse.
-
-If you purchase Proxy Streaming as part of the [big ol' bundle of Stremio addons](https://store.elfhosted.com/product/stremio-addons-bundle/), you're not prompted for a password (*a limitation of the store*), but you can set it manually using [ElfBot][elfbot], by running:
+To enable Proxy Streaming, use you can either add the following ENV vars to your ConfigMap, or just use [ElfBot][elfbot], and run:
 
 ```
 elfbot env comet PROXY_DEBRID_STREAM_PASSWORD=whatevermypasswordis
 elfbot env comet PROXY_DEBRID_STREAM=true
 ```
-
-!!! tip
-    This method can also be used to **change** your password from the one originally chosen on purchase!
 
 ## Debrid Stream Proxying
 
@@ -141,8 +136,8 @@ Here's how Debrid Stream Proxying works
 
     In Stream Proxy mode, use Comet **exclusively, everywhere**!
 
-#### Concurrent stream limit
+### Test your speed
 
-ElfHosted's Comet instances are rate-limited at 125Mbps, which is enough for one 4K HDR stream, or several 1080P streams. A
+To test your streaming speed to your Comet instance, browse to `https://<your username>-comet.elfhosted.com/speed/` to perform a speedtest.
 
 {% include 'app_footer.md' %}

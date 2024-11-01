@@ -42,4 +42,8 @@ When you configure the Jellyfin app in your media player, use `https://<username
 
 Jellyfin may be trying to transcode the media, based on a detected incompatibilty with your client/app, and running into CPU limitations. For optimal performance and quality, try to direct-play media where possible. You could also try enabling hardware transcoding (*above*), which will improve transcoding performance.
 
+### Test your speed
+
+To test your streaming speed to your Jellyfin instance, browse to `https://<your username>-jellyfin.elfhosted.com/speed/` to perform a speedtest.
+
 {% include 'app_footer.md' %}
