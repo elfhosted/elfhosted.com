@@ -289,8 +289,8 @@ theme:
         name: Love my eyes!
 
   font:
-    text: 'Ubuntu'
-    code: 'Ubuntu Mono'
+    text: Ubuntu
+    code: Ubuntu Mono
 
 extra_css:
   - extras/css/icons.css
