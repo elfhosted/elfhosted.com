@@ -62,7 +62,6 @@
 [sabnzbd]:            /app/sabnzbd/
 [seafile]:            /app/seafile/
 [shoko]:              /app/shoko/
-[shluflix]:           /app/shluflix/
 [sonarr]:             /app/sonarr/
 [stremify]:           /app/stremify/
 [stremio-addons]:     /stremio-addons/

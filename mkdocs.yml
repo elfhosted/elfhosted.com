@@ -155,7 +155,6 @@ nav:
       - KnightCrawler: app/torrentio.md 
       - MediaFusion: app/mediafusion.md  
       - MediaFlow-Proxy: app/mediaflow-proxy.md   
-      - Shluflix: app/shluflix.md
       - Stremify: app/stremify.md
       - Stremio-Jackett: app/stremio-jackett.md
       - Xtremio: app/xtremio.md
