@@ -19,6 +19,7 @@ Actual Budget is a super fast and privacy-focused app for managing your finances
 
 You own your data and can do whatever you want with it. Featuring multi-device sync, optional end-to-end encryption and so much more.
 
+
 {% include 'app.md' %}
 {% include 'app_access.md' %}
 {% include 'app_footer.md' %}
