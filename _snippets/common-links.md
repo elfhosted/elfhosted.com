@@ -1,3 +1,4 @@
+[actual]:             /app/actual/
 [annatar]:            /app/annatar/
 [airdcpp]:            /app/airdcpp/
 [audiobookshelf]:     /app/audiobookshelf/

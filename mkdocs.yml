@@ -123,6 +123,7 @@ nav:
       - Zurg: app/zurg.md
   
     - Tools:
+      - Actual Budget: app/actual.md
       - Code Server: app/code-server.md
       - ElfBot: app/elfbot.md
       - Filebrowser: app/filebrowser.md
