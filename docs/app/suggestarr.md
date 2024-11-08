@@ -39,7 +39,7 @@ You'll need:
 * [x] Either [Overseerr][overseerr] or [Jellyseerr][jellyseerr]
 * [x] A TMDB API key (*free, get it [here](https://www.themoviedb.org/)*) 
 
-The SuggestAarr setup wizard will walk you through the following steps. At each step which requires configuration (API keys etc), it won't let you progress until its validated the settings. Take extra care when configuring your streamer URL, since the URL to use internally within ElfHosted is not a standard default.
+The SuggestArr setup wizard will walk you through the following steps. At each step which requires configuration (API keys etc), it won't let you progress until its validated the settings. Take extra care when configuring your streamer URL, since the URL to use internally within ElfHosted is not a standard default.
 
 ### Step 1 / Pick Streamer
 
