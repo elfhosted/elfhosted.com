@@ -4,10 +4,12 @@ slug: Calibre-Web
 description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using a valid Calibre database.
 works_with:
 - Readarr
-- Calibre
-upstream: https://github.com/janeczku/calibre-web
+- OpenBooks
+upstream: hhttps://github.com/crocodilestick/Calibre-Web-Automated
 sponsorship: 
-- name: PayPal
+- name: Ko-Fi (Calibre Web Automated)
+  uri: https://ko-fi.com/crocodilestick
+- name: PayPal (Calibre Web)
   uri: https://www.paypal.com/paypalme/calibreweb
 ---
 
@@ -26,19 +28,6 @@ The default credentials are:
 * user: `admin`
 * pass: `admin123`
 
-### Set database location
-
-If you're using Calibre-Web in combination with Calibre (*for Readarr integration, for example*), you can configure Calibre-Web to store the database independently of the book files, as follows:
-
-![](/images/calibre-web-database-configuration.png)
-
-([Calibre][calibre]'s database is stored in `/calibre/Calibre Library`, from the perspective of Calibre-Web)
-
-### Basic settings
-
-For conversion between ebook formats, set the following in your config:
-
-![](/images/calibre-web-basic-configuration.png)
-
+For usage instructions, see the [upstream docs](https://github.com/crocodilestick/Calibre-Web-Automated?tab=readme-ov-file#usage-)
 
 {% include 'app_footer.md' %}
