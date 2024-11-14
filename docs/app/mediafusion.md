@@ -1,7 +1,7 @@
 ---
-title: Install ElfHosted MediaFusion Stremio Addon
+title: Install ElfHosted MediaFusion Stremio Addon (torrentio alternative)
 slug: MediaFusion
-description: MediaFusion is a Stremio Addon, which is especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series
+description: MediaFusion (an alternative to torrentio stremio addon), is the most comprehensive and powerful of the Stremio Addons in 2024, especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series
 upstream: https://mediafusion.elfhosted.com
 links:
 - name: GitHub Repo
@@ -10,7 +10,7 @@ links:
 
 # {{ page.meta.slug }}
 
-MediaFusion is a Stremio Addon, which is especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series. ElfHosted provides a public, community version of MediaFusion at https://mediafusion.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
+MediaFusion (an alternative to torrentio stremio addon), is the most comprehensive and powerful of the Stremio Addons in 2024, especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series. ElfHosted provides a public, community version of MediaFusion at https://mediafusion.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}

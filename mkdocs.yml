@@ -154,7 +154,7 @@ nav:
       - stremio-addons/index.md
       - Annatar: app/annatar.md
       - Comet: app/comet.md
-      - KnightCrawler: app/torrentio.md 
+      - KnightCrawler: app/knightcrawler.md 
       - MediaFusion: app/mediafusion.md  
       - MediaFlow-Proxy: app/mediaflow-proxy.md   
       - Stremify: app/stremify.md

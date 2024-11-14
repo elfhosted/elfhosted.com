@@ -73,7 +73,7 @@
 [tautulli]:           /app/tautulli/
 [tdarr]:              /app/tdarr/
 [thelounge]:          /app/thelounge/
-[torrentio]:          /app/torrentio/
+[knightcrawler]:      /app/knightcrawler/
 [uptimekuma]:         /app/uptimekuma/
 [vaultwarden]:        /app/vaultwarden/
 [wallabag]:           /app/wallabag/
