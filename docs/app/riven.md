@@ -20,7 +20,7 @@ links:
 Riven (*previously Iceberg*) is a re-imagining of original functions of [plex-debrid][plex-debrid], enabling Plex-based torrent streaming through Real Debrid and 3rd party services like Overseerr, Mdblist, etc.
 
 !!! tip "Riven gets revenue! :heart:"
-    Riven is an "Elf-illiated" app - the devs are actively supporting users in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 100% of your subscriptions are contributed to the Riven devs to further development!
+    Riven is an "Elf-illiated" app - the devs are actively supporting users in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 30% of your subscriptions are contributed to the Riven devs to further development!
 
 !!! warning "Riven is also BETA software :scientist:"
     Be aware that Riven is under active, ongoing development. It’s suited to technical users who like to get “under the hood”, and enjoy tinkering on the “bleeding edge”, but it’s not a set-and-forget solution (yet!). Users seeking a simple, no-touch solution are encouraged to opt for the slow-and-steady Aarrs instead!
