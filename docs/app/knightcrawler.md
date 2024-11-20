@@ -9,7 +9,7 @@ links:
 works_with:
 - Prowlarr
 - Riven
-- MediaFusion
+- MediaFusion 
 ---
 
 # {{ page.meta.slug }}

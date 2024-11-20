@@ -69,7 +69,7 @@ data:
   INDEXER_MANAGER_TYPE: jackett
   INDEXER_MANAGER_URL: http://jackett:9117
   INDEXER_MANAGER_API_KEY: <YOUR JACKETT API KEY>
-  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
+  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]'
 ```
 
 Now visit your Comet URL from your dashboard, enter your debrid provider API key, pick your indexers (*may as well pick 'em all!*), and click `Install`!
