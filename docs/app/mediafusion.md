@@ -17,6 +17,14 @@ MediaFusion (an alternative to torrentio stremio addon), is the most comprehensi
 
 ## How do I use it?
 
+### Newbie mode
+
+<iframe title="Install MediaFusion Stremio Addon in Newbie mode" width="560" height="315" src="https://video.elfhosted.com/videos/embed/57d8d0dc-e6da-4bdc-9fa7-13c0ff870000" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+
+### Pro mode
+
+<iframe title="Install MediaFusion Stremio Addon in Pro mode" width="560" height="315" src="https://video.elfhosted.com/videos/embed/7fad6843-9648-45ef-ad4e-94d2e178e5e0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+
 ### Set the API password
 
 Since MediaFusion v4, every instance **must** include an `api_password` ENV var, to secure the instance from unwanted public tampering. 
