@@ -149,6 +149,7 @@ nav:
       - Vaultwarden: app/vaultwarden.md
       - Wallabag: app/wallabag.md
       - WebDAV Access: app/webdav.md
+      - TorBox: app/torbox.md
 
     - Stremio Addons:    
       - stremio-addons/index.md
@@ -165,6 +166,7 @@ nav:
   - Guides: 
     - Media: 
       - guides/media/index.md
+      - TorBox: /guides/media/torbox.md
       - Magical Infinite Streaming with Plex / Riven: guides/media/stream-from-real-debrid-with-plex-riven.md
       - Infinite Streaming with Stremio and Jackett: guides/media/stream-from-real-debrid-with-stremio-jackett.md
       - Infinite Streaming with Plex: guides/media/stream-from-real-debrid-with-plex.md

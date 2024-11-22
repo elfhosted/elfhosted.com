@@ -102,5 +102,8 @@
 [elf-ai-rtfm]:        https://discord.com/channels/396055506072109067/1194599742487941190
 [pia]:                https://fnky.nz/support-me-when-you-buy-pia
 [real-debrid]:        https://fnky.nz/support-me-when-you-buy-real-debrid
+[torbox]:             https://fnky.nz/support-me-when-you-buy-torbox
+[debridlink]:         https://fnky.nz/support-me-when-you-buy-debrid-link
+[alldebrid]:          https://fnky.nz/support-me-when-you-buy-alldebrid
 [elf-help]:           https://discord.com/channels/396055506072109067/1119478614287712337
 [elf-support]:        https://discord.com/channels/396055506072109067/1245513340176961606
