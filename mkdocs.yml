@@ -89,7 +89,6 @@ nav:
       - ImageMaid: app/imagemaid.md
       - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellyseerr: app/jellyseerr.md
-      - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellystat: app/jellystat.md
       - Lidarr: app/lidarr.md
       - Mylar: app/mylar.md
