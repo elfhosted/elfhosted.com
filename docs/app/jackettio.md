@@ -1,5 +1,5 @@
 ---
-title: Jackettio uses Jackett and Debrid to provide public/private torrents to Stremio
+title: Jackettio Stremio addon (alternative to torrentio)
 slug: Jackettio
 description: Jackettio is a Stremio addon which searches that resolve streams using Jackett and Debrid. It seamlessly integrates with private trackers.
 works_with:
@@ -13,7 +13,7 @@ upstream: https://github.com/arvida42/jackettio
 
 # {{ page.meta.slug }}
 
-Jackettio is a Stremio addon which searches that resolve streams using Jackett and Debrid. It seamlessly integrates with private trackers.
+Jackettio is a Stremio addon (a torrentio alternative) which searches that resolve streams using Jackett and Debrid. It seamlessly integrates with private trackers.
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}

@@ -1,7 +1,7 @@
 ---
-title: Install ElfHosted MediaFusion Stremio Addon
+title: Install ElfHosted MediaFusion Stremio Addon (torrentio alternative)
 slug: MediaFusion
-description: MediaFusion is a Stremio Addon, which is especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series
+description: MediaFusion (an alternative to torrentio stremio addon), is the most comprehensive and powerful of the Stremio Addons in 2024, especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series
 upstream: https://mediafusion.elfhosted.com
 links:
 - name: GitHub Repo
@@ -10,12 +10,20 @@ links:
 
 # {{ page.meta.slug }}
 
-MediaFusion is a Stremio Addon, which is especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series. ElfHosted provides a public, community version of MediaFusion at https://mediafusion.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
+MediaFusion (an alternative to torrentio stremio addon), is the most comprehensive and powerful of the Stremio Addons in 2024, especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series. ElfHosted provides a public, community version of MediaFusion at https://mediafusion.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
 
 ## How do I use it?
+
+### Newbie mode
+
+<iframe title="Install MediaFusion Stremio Addon in Newbie mode" width="560" height="315" src="https://video.elfhosted.com/videos/embed/57d8d0dc-e6da-4bdc-9fa7-13c0ff870000" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+
+### Pro mode
+
+<iframe title="Install MediaFusion Stremio Addon in Pro mode" width="560" height="315" src="https://video.elfhosted.com/videos/embed/7fad6843-9648-45ef-ad4e-94d2e178e5e0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
 ### Set the API password
 

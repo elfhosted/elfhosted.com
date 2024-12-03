@@ -11,6 +11,7 @@ This means that our business metrics, as well as our technical resources, are op
 
 Each month's progress reports and metrics are summarized in the left-hand navigation column, and are listed below:
 
+* [Nov 2024](/open/nov-2024/)
 * [Oct 2024](/open/oct-2024/)
 * [Sep 2024](/open/sep-2024/)
 * [Aug 2024](/open/aug-2024/)

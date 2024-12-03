@@ -19,9 +19,25 @@ The guides below present specific app configurations for specific purposes, and 
 
 ## Advanced Infinite Streaming with Plex / Jellyfin / Emby
 
+### Real-Debrid
+
 * [Stream from Real-Debrid with Plex, with "infinite storage", managed with Arrs](/guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr/)
 * [Stream from Real-Debrid with Jellyfin, with "infinite storage", managed with Arrs](/guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr/)
 * [Stream from Real-Debrid with Emby, with "infinite storage", managed with Arrs](/guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr/)
+
+### TorBox
+
+#### Aars 
+
+* [Stream from TorBox with Plex, with "infinite storage", managed with Arrs](/guides/media/stream-from-torbox-with-plex-radarr-sonarr-prowlarr/)
+* [Stream from TorBox with Jellyfin, with "infinite storage", managed with Arrs](/guides/media/stream-from-torbox-with-jellyfin-radarr-sonarr-prowlarr/)
+* [Stream from TorBox with Emby, with "infinite storage", managed with Arrs](/guides/media/stream-from-torbox-with-emby-radarr-sonarr-prowlarr/)
+
+#### Riven
+
+* [Stream from TorBox with Plex, with "infinite storage", managed with Riven](/guides/media/stream-from-torbox-with-plex-radarr-sonarr-riven/)
+* [Stream from TorBox with Jellyfin, with "infinite storage", managed with Riven](/guides/media/stream-from-torbox-with-jellyfin-radarr-sonarr-riven/)
+* [Stream from TorBox with Emby, with "infinite storage", managed with Riven](/guides/media/stream-from-torbox-with-emby-radarr-sonarr-riven/)
 
 ## Media Management
 

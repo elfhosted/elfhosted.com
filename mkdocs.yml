@@ -89,7 +89,6 @@ nav:
       - ImageMaid: app/imagemaid.md
       - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellyseerr: app/jellyseerr.md
-      - Jellyfin Accounts: app/jellyfin-accounts.md
       - Jellystat: app/jellystat.md
       - Lidarr: app/lidarr.md
       - Mylar: app/mylar.md
@@ -154,7 +153,7 @@ nav:
       - stremio-addons/index.md
       - Annatar: app/annatar.md
       - Comet: app/comet.md
-      - KnightCrawler: app/torrentio.md 
+      - KnightCrawler: app/knightcrawler.md 
       - MediaFusion: app/mediafusion.md  
       - MediaFlow-Proxy: app/mediaflow-proxy.md   
       - Stremify: app/stremify.md
@@ -165,6 +164,7 @@ nav:
   - Guides: 
     - Media: 
       - guides/media/index.md
+      - TorBox: guides/media/torbox.md
       - Magical Infinite Streaming with Plex / Riven: guides/media/stream-from-real-debrid-with-plex-riven.md
       - Infinite Streaming with Stremio and Jackett: guides/media/stream-from-real-debrid-with-stremio-jackett.md
       - Infinite Streaming with Plex: guides/media/stream-from-real-debrid-with-plex.md
@@ -208,6 +208,7 @@ nav:
     - Design:
       - open-source/design/index.md
     - Reports:
+      - Nov 2024: open/nov-2024.md
       - Oct 2024: open/oct-2024.md
       - Sep 2024: open/sep-2024.md
       - Aug 2024: open/aug-2024.md

@@ -1,5 +1,5 @@
 ---
-title: Proxy your RealDebrid Stremio experience with Comet!
+title: Boost your Stremio addon experience with Comet! (alternative to torrentio stremio addon)
 slug: Comet
 description: Comet ☄️ is a Stremio addon with super-powers! 🦸 It can search public DMM hashlists, and it can proxy your streams, bypassing RealDebrid's one-ip-per-account limitation!
 works_with:
@@ -13,7 +13,7 @@ sponsorship:
 
 # {{ page.meta.slug }}
 
-Comet is an innovative new Stremio addon which differentiates itself from the existing [Stremio Addons][stremio-addons] with the superpowers of:
+Comet is an innovative new Stremio addon (a torrentio alternative) which differentiates itself from the existing [Stremio Addons][stremio-addons] with the superpowers of:
 
 * [x] Works with Real-Debrid, All-Debrid, and Premiumize
 * [x] Scraping all public DMM content with [Zilean](https://github.com/iPromKnight/zilean)
@@ -69,7 +69,7 @@ data:
   INDEXER_MANAGER_TYPE: jackett
   INDEXER_MANAGER_URL: http://jackett:9117
   INDEXER_MANAGER_API_KEY: <YOUR JACKETT API KEY>
-  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]
+  INDEXER_MANAGER_INDEXERS: '["EXAMPLE1_CHANGETHIS", "EXAMPLE2_CHANGETHIS"]'
 ```
 
 Now visit your Comet URL from your dashboard, enter your debrid provider API key, pick your indexers (*may as well pick 'em all!*), and click `Install`!
