@@ -5,5 +5,8 @@
 # Use a better convention for RSS feed (could add more if necessary)
 /rss/ /feed_rss_created.xml
 
+# Send individual pages to the store
+https://elfhosted.com/app/mediafusion https://store.elfhosted.com/product/mediafusion 301!
+
 # Bottom level - anything not already matched gets redirected to docs
 https://elfhosted.com/* https://docs.elfhosted.com/:splat 301!
