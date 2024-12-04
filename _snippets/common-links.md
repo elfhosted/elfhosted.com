@@ -23,6 +23,7 @@
 [jackettio]:          /app/jackettio/
 [jellyfin]:           /app/jellyfin/
 [jellyseerr]:         /app/jellyseerr/
+[jellystat]:          /app/jellystat/
 [jellyfin-accounts]:  /app/jellyfin-accounts/
 [joplin-server]:      /app/joplin-server/
 [kavita]:             /app/kavita/
@@ -64,6 +65,7 @@
 [seafile]:            /app/seafile/
 [shoko]:              /app/shoko/
 [sonarr]:             /app/sonarr/
+[suggestarr]:         /app/suggestarr/
 [stremify]:           /app/stremify/
 [stremio-addons]:     /stremio-addons/
 [stremio-jackett]:    /app/stremio-jackett/

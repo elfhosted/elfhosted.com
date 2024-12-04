@@ -4,3 +4,6 @@
 
 # Use a better convention for RSS feed (could add more if necessary)
 /rss/ /feed_rss_created.xml
+
+# Bottom level - anything not already matched gets redirected to docs
+https://elfhosted.com/* https://docs.elfhosted.com/:splat 301!
