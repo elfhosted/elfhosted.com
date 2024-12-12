@@ -164,6 +164,7 @@ nav:
   - Guides: 
     - Media: 
       - guides/media/index.md
+      - Plex, AllDebrid, and Riven: guides/media/plex-alldebrid-riven.md
       - TorBox: guides/media/torbox.md
       - Magical Infinite Streaming with Plex / Riven: guides/media/stream-from-real-debrid-with-plex-riven.md
       - Infinite Streaming with Stremio and Jackett: guides/media/stream-from-real-debrid-with-stremio-jackett.md
