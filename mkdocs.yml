@@ -74,13 +74,13 @@ nav:
       - Calibre: app/calibre.md
       - Calibre Web: app/calibre-web.md
       - Emby: app/emby.md
+      - Flixio: app/flixio.md
       - Jellyfin: app/jellyfin.md
       - Kavita: app/kavita.md
       - Komga: app/komga.md
       - Navidrome: app/navidrome.md
       - Plex: app/plex.md 
       - Stremio Server: app/stremio-server.md 
-      - Stremio Web: app/stremio-web.md 
 
     - Manage Media:
       - Autobrr: app/autobrr.md
