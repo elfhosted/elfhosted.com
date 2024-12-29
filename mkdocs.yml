@@ -142,6 +142,7 @@ nav:
       - Recyclarr: app/recyclarr.md
       - Resilio Sync: app/resiliosync.md
       - Seafile: app/seafile.md
+      - StremThru: app/stremthru.md
       - Syncthing: app/syncthing.md
       - The Lounge: app/thelounge.md
       - Uptime Kuma: app/uptimekuma.md
@@ -158,6 +159,7 @@ nav:
       - MediaFlow-Proxy: app/mediaflow-proxy.md   
       - Stremify: app/stremify.md
       - Stremio-Jackett: app/stremio-jackett.md
+      - StremThru: app/stremthru.md
       - Xtremio: app/xtremio.md
 
   - Store : https://store.elfhosted.com
