@@ -71,6 +71,7 @@
 [stremio-addons]:     /stremio-addons/
 [stremio-jackett]:    /app/stremio-jackett/
 [stremio-server]:     /app/stremio-server/
+[stremthru]:          /app/stremthru/
 [syncthing]:          /app/syncthing/
 [tautulli]:           /app/tautulli/
 [tdarr]:              /app/tdarr/
