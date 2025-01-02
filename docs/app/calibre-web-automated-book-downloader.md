@@ -17,14 +17,8 @@ Calibre-Web-Automated Book Downloader is an intuitive web interface for searchin
 
 ## How do I use it?
 
-### Where are my books?
+By default, books are downloaded to `/cwa-book-ingest/`, which resolves to `storage/config/calibre-web/cwa-book-ingest/`, and is used by [Calibre-Web-Automated][calibre-web] to automatically ingest books into your library.
 
-By default, books are downloaded to `/tmp`, which is ephemeral, and will be flushed upon app restart. (*You can, however, download the book locally via your browser*).
-
-To integrate CWA-Book-Downloader with your ElfHosted Calibre-Web (*[rclone-attached](/how-to/use-rclone/) storage requiredh*), you'll need to set the `INGEST_DIR` environment variable to match what CWA expects, using [ElfBot][elfbot], like this:
-
-```
-elfbot env calibre-web-automated-book-downloader INGEST_DIR=/storage/rclone/whateverpath
-```
+The contents of `/cwa-book-ingest/` will be deleted after ingestion (*You can, however, download the book locally via your browser before CWA ingests it*).
 
 {% include 'app_footer.md' %}
