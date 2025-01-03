@@ -17,7 +17,6 @@ TorBox is a popular newcomer to the "debrid" downloader landscape. TorBox's core
 You can use TorBox with ElfHosted to:
 
 * Stream media via Stremio, using our [Stremio addons][stremio-addons]
-* Run a classic "infinite" [Plex](/guides/media/stream-from-torbox-with-plex-radarr-sonarr-prowlarr/) / [Emby](/guides/media/stream-from-torbox-with-emby-radarr-sonarr-prowlarr) / [Jellyfin](/guides/media/stream-from-torbox-with-jellyfin-radarr-sonarr-prowlarr) stack with [Radarr][radarr], [Sonarr][sonarr], and [Prowlarr][prowlarr], using either [RDTClient][rdtclient] or West's [BlackHole][blackhole] scripts to create symlinks
-* Run a next-gen "infinite" [Plex](/guides/media/docs/guides/media/stream-from-torbox-with-plex-riven/) / [Emby]((/guides/media/docs/guides/media/stream-from-torbox-with-emby-riven/)) / [Jellyfin]((/guides/media/docs/guides/media/stream-from-torbox-with-jellyfin-riven/)) with [Riven][riven]
+* (Previous guides re Plex libraries have been removed since their use would conflict with [TorBox's abuse system](https://support.torbox.app/en/articles/10336778-the-torbox-abuse-system), and given cached items are [removed from a user's library after 30 days](https://intercom.help/torbox-support/en/articles/9923071-how-does-the-torbox-cache-work))
 
 --8<-- "common-links.md"
