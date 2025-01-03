@@ -6,7 +6,7 @@ description: This guide describes how use ElfHosted's Stremio Server subscriptio
 
 This guide illustrates how to use the [Stremio Server][stremio-server] to stream content from debrid providers using [Stremio](https://stremio.com), to multiple Stremio clients on multiple source IPs, simultaneously. 
 
-Note that while streaming/transcoding torrents works across all (tested) Stremio clients, the streaming of Debrid/HTTP streams is only [currently supported](#client-compatibility) in v5 of https://web.strem.io, and the [ElfHosted instance][stremio-web] of the same.
+Note that while streaming/transcoding torrents works across all (tested) Stremio clients, the streaming of Debrid/HTTP streams is only [currently supported](#client-compatibility) in v5 of https://web.strem.io, and the [ElfHosted instance][flixio] of the same.
 
 !!! tip
     This is a lightweight alternative to the [Infinite Streaming Plex](guides/media/stream-from-real-debrid-with-plex/) guide. The Infinite Streaming [Plex][plex] solution utilizes [Zurg][zurg] to permit simultaneous streams from multiple source IPs, but doesn't integrate as easily into the existing [Stremio Addons](/stremio-addons/) ecosystem.

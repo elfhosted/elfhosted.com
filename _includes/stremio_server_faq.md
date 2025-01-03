@@ -36,7 +36,7 @@ Testing has shown that not all Stremio clients support transcoding HTTP (Debrid)
 Client | Version | Torrents | Debrid | Tested On
 ---------|---------|----------|---------|--------
 https://web.strem.io | 5.0.0-beta8 | :white_check_mark: | :white_check_mark: | 9 Apr 2024
-ElfHosted [Stremio Web][stremio-web] | 5.0.0-beta8 |:white_check_mark: | :white_check_mark: | 9 Apr 2024
+ElfHosted [Flixio][flixio] | 5.0.0-beta8 |:white_check_mark: | :white_check_mark: | 9 Apr 2024
 https://app.strem.io | 4.4.167 | :white_check_mark: | :x: | 9 Apr 2024
 OSX Desktop | 4.4.168 | :white_check_mark: | :x: | 9 Apr 2024
 nVidia Shield | TBC (latest?) | :white_check_mark: | :x: | 9 Apr 2024 

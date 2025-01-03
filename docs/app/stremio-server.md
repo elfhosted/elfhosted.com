@@ -35,7 +35,7 @@ Possible use-cases for Stremio-Server are:
 
 ### How to access Stremio-Server
 
-Your ElfHosted app dashboard will link you to either the Stremio web player (`https://web.strem.io`), or your own, ElfHosted instance of [Stremio Web][stremio-web], with a URL path to pre-configure the client for your Stremio Server instance.
+Your ElfHosted app dashboard will link you to either the Stremio web player (`https://web.strem.io`), or your own, ElfHosted instance of [Flixio][flixio], with a URL path to pre-configure the client for your Stremio Server instance.
 
 You can also manually add your Stremio Server to an existing Stremio client using the URL  `https://<username>-stremio-server-<secret-string>.elfhosted.com`.
 

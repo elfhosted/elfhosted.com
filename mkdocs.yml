@@ -73,14 +73,15 @@ nav:
       - Audiobookshelf: app/audiobookshelf.md
       - Calibre: app/calibre.md
       - Calibre Web: app/calibre-web.md
+      - CWA Book Downloader: app/calibre-web-automated-book-downloader.md
       - Emby: app/emby.md
+      - Flixio: app/flixio.md
       - Jellyfin: app/jellyfin.md
       - Kavita: app/kavita.md
       - Komga: app/komga.md
       - Navidrome: app/navidrome.md
       - Plex: app/plex.md 
       - Stremio Server: app/stremio-server.md 
-      - Stremio Web: app/stremio-web.md 
 
     - Manage Media:
       - Autobrr: app/autobrr.md
@@ -125,6 +126,7 @@ nav:
     - Tools:
       - Actual Budget: app/actual.md
       - Code Server: app/code-server.md
+      - CineSync: app/cinesync.md
       - ElfBot: app/elfbot.md
       - Filebrowser: app/filebrowser.md
       - Gluetun: app/gluetun.md
@@ -142,6 +144,7 @@ nav:
       - Recyclarr: app/recyclarr.md
       - Resilio Sync: app/resiliosync.md
       - Seafile: app/seafile.md
+      - StremThru: app/stremthru.md
       - Syncthing: app/syncthing.md
       - The Lounge: app/thelounge.md
       - Uptime Kuma: app/uptimekuma.md
@@ -158,6 +161,7 @@ nav:
       - MediaFlow-Proxy: app/mediaflow-proxy.md   
       - Stremify: app/stremify.md
       - Stremio-Jackett: app/stremio-jackett.md
+      - StremThru: app/stremthru.md
       - Xtremio: app/xtremio.md
 
   - Store : https://store.elfhosted.com
@@ -209,6 +213,7 @@ nav:
     - Design:
       - open-source/design/index.md
     - Reports:
+      - Dec 2024: open/dec-2024.md
       - Nov 2024: open/nov-2024.md
       - Oct 2024: open/oct-2024.md
       - Sep 2024: open/sep-2024.md
@@ -227,11 +232,7 @@ nav:
       - Aug 2023: open/august-2023.md
       - Jul 2023: open/july-2023.md    
       - Jun 2023: open/june-2023.md      
-    - Traffic:
-      - elfhosted.com: open/traffic/elfhosted.com.md
-      - store.elfhosted.com: open/traffic/store.elfhosted.com.md
     - Sponsorship: open/sponsorship.md
-    - Pricing: open/pricing.md
   - Contribute:
     - contribute/index.md
   - Testimonials: testimonials.md 
