@@ -130,19 +130,3 @@ data:
 Save your changes to create the ConfigMap. SeerrBridge should restart. If you need to make subsequent changes to the ConfigMap, find it under ConfigMaps and edit it directly. (*or use ElfBot for minor changes*)
 
 {% include 'app_footer.md' %}
-
-
-13df0912f87cf23edd0c587167caa327f8a01db98991f830c33e417db26b6e99
-{value: "VPJH7MJM5627S2Z4YOJJ4HB3IV5OLBGDWTX23V3K3PLOJNS3CVYA", expiry: 1736055192291}
-
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: elfbot-seerrbridge
-data:
-  RD_ACCESS_TOKEN: '{"value": "VPJH7MJM5627S2Z4YOJJ4HB3IV5OLBGDWTX23V3K3PLOJNS3CVYA", "expiry": 1736055192291}'
-  RD_CLIENT_ID: SIK6QDTR5G4AI
-  RD_CLIENT_SECRET: "73f5b0ca301e8b2277342f61e5ad1df8d47dbc00"
-  RD_REFRESH_TOKEN: "MOREKIJMVLYABQYEHDI4KLLXRY6PIHVVPO25B4WFJK5MELNMP23A"
-  TRAKT_API_KEY: 13df0912f87cf23edd0c587167caa327f8a01db98991f830c33e417db26b6e99
-  OVERSEERR_API_KEY: YOUR_OVERSEERR_TOKEN
