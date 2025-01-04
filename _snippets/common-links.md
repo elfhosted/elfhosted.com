@@ -65,6 +65,7 @@
 [rpdb]:                 /app/rpdb/
 [rutorrent]:            /app/rutorrent/
 [sabnzbd]:              /app/sabnzbd/
+[seerrbridge]:          /app/seerrbridge/
 [seafile]:              /app/seafile/
 [shoko]:                /app/shoko/
 [sonarr]:               /app/sonarr/

@@ -102,6 +102,7 @@ nav:
       - Radarr: app/radarr.md
       - Readarr: app/readarr.md
       - RPDB: app/rpdb.md
+      - SeerrBridge: app/seerrbridge.md
       - Shoko: app/shoko.md
       - Sonarr: app/sonarr.md
       - Suggestarr: app/suggestarr.md      
