@@ -9,4 +9,4 @@ Name | What does it do? | Subscribe
  [Stremify][stremify] | Simple AddOn which provides HTTP streams (*no Debrid needed*) for popular content in multiple languages :zap: | [Subscribe!](https://store.elfhosted.com/product/stremify/){ .md-button .md-button--primary } 
  [Stremio-Jackett][stremio-jackett] | Search for content from both a shared community cache and your own Jackett indexers| [Subscribe!](https://store.elfhosted.com/product/stremio-jackett/){ .md-button .md-button--primary } 
  [TorrentIO][torrentio] | The original addon which started it all. Search through >1.75M scraped torrents for media to insta-stream with your debrid provider | [Subscribe!](https://store.elfhosted.com/product/torrentio/){ .md-button .md-button--primary }
- [XTremio][xtremio] | Watch your paid IPTV (*xtream-codes required*) subscriptions in Stremio | [Subscribe!](https://store.elfhosted.com/product/xtremio/){ .md-button .md-button--primary }
+ [YourIPTV][youriptv] | Watch your paid IPTV (user/pass required) subscriptions in Stremio | [Subscribe!](https://store.elfhosted.com/product/youriptv/){ .md-button .md-button--primary }

@@ -1,8 +1,8 @@
 ---
-title: Hosted Xtremio IPTV for Stremio
+title: Private Stremify Stremio Addon
 slug: Stremify
 description: Stremify is a Stremio Addon which provides HTTP (*not debrid*) streams for popular content, in multiple languages.
-upstream: https://stremify.elfhosted.com
+upstream: https://stremify.hayd.uk
 ---
 
 # {{ page.meta.slug }}

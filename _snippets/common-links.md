@@ -85,7 +85,7 @@
 [wallabag]:             /app/wallabag/
 [webdav]:               /app/webdav/
 [xteve]:                /app/xteve/
-[xtremio]:              /app/xtremio/
+[youriptv]:             /app/youriptv/
 [zurg]:                 /app/zurg/
 [connect-apps]:         /how-to/connect-apps/
 [troubleshoot]:         /how-to/troubleshoot/
