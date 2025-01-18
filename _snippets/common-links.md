@@ -36,6 +36,7 @@
 [lidarr]:               /app/lidarr/
 [mattermost]:           /app/mattermost/
 [mediafusion]:          /app/mediafusion/
+[mediaflow-proxy]:      /app/mediaflow-proxy/
 [miniflux]:             /app/miniflux/
 [mylar]:                /app/mylar/
 [navidrome]:            /app/navidrome/

@@ -155,7 +155,7 @@ nav:
 
     - Stremio Addons:    
       - stremio-addons/index.md
-      - Annatar: app/annatar.md
+      - AIOStreams: app/aiostreams.md
       - Comet: app/comet.md
       - KnightCrawler: app/knightcrawler.md 
       - MediaFusion: app/mediafusion.md  

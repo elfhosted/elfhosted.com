@@ -1,5 +1,6 @@
 Name | What does it do? | Subscribe
 ---------|----------|---------
+[AIOStreams][aiostreams] | Combine the results from multiple addons for consistent formatting / display, and add proxystreaming via MediaFlow-Proxy | [Subscribe!](https://store.elfhosted.com/product/aiostreams/){ .md-button .md-button--primary }
  [Annatar][annatar] | Streams content from Real-Debrid / Premiumize, based on your tracker / quality preferences. Uses clever redis caching to provide near-instant responses | [Subscribe!](https://store.elfhosted.com/product/annatar/){ .md-button .md-button--primary }
  [Comet][comet] | Searches for content from Prowlarr / Jackett, streams via RealDebrid. Optionally proxies streams, allowing you to use your RealDebrid account from multiple IPs simultaneously | [Subscribe!](https://store.elfhosted.com/product/comet/){ .md-button .md-button--primary } 
  [Davio][davio] | Stream your content (*Debrid or otherwise*) using HTTP streams via WebDAV | [Subscribe!](https://store.elfhosted.com/product/davio/){ .md-button .md-button--primary }
