@@ -32,4 +32,13 @@ AIOStreams won't work without a `SECRET_KEY`, but we've set a secret default so 
 elfbot env aiostreams SECRET_KEY=whateveryousetmakesureits32chars
 ```
 
+### Integrate with MediaFusion
+
+If you've got an ElfHosted [MediaFusion][mediafusion] instance, you'll have set your own `api_password`. AIOStreams needs that same password for optimal integration into the /configure page, so set it using:
+
+```
+elfbot env aiostreams MEDIAFUSION_API_PASSWORD=sameapipasswordyousetformediafusion
+```
+
+
 {% include 'app_footer.md' %}
