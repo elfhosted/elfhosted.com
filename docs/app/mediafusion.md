@@ -35,4 +35,20 @@ Every ElfHosted instance defaults its API password to `changemeelfie`, but you c
 elfbot env mediafusion api_password=whateveryouwant
 ```
 
+### Integrating with Jackett
+
+Optionally, you can use a bundled [Jackett][jackett] instance to provide additional sources to your MediaFusion instance.
+
+Configure your Jackett, and then copy your API key, and provide it to MediaFusion with:
+
+```
+elfbot env mediafusion jackett_api_key=<api key here>
+```
+
+Finally, enable Jackett scraping with:
+
+```
+elfbot env mediafusion is_scrap_from_jackett=true
+```
+
 {% include 'app_footer.md' %}

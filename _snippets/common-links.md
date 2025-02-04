@@ -67,6 +67,7 @@
 [rpdb]:                 /app/rpdb/
 [rutorrent]:            /app/rutorrent/
 [sabnzbd]:              /app/sabnzbd/
+[seerrbridge]:          /app/seerrbridge/
 [seafile]:              /app/seafile/
 [shoko]:                /app/shoko/
 [sonarr]:               /app/sonarr/
@@ -86,7 +87,7 @@
 [wallabag]:             /app/wallabag/
 [webdav]:               /app/webdav/
 [xteve]:                /app/xteve/
-[xtremio]:              /app/xtremio/
+[youriptv]:             /app/youriptv/
 [zurg]:                 /app/zurg/
 [connect-apps]:         /how-to/connect-apps/
 [troubleshoot]:         /how-to/troubleshoot/

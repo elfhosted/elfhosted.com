@@ -1,33 +1,52 @@
 ---
-title: How to host AIOStreams
+title: Host AIOStreams Stremio Addon (torrentio alternative)
 slug: AIOStreams
-description: AIOStreams is a popular Stremio Addon which combines search results from other addons
-upstream: https://github.com/Viren070/AIOStreams
+description: AIOStreams (an alternative to torrentio stremio addon) is a popular Stremio Addon which combines the results of other addons, to produce a sorted, parsed, and deduplicated list of results, which can optionally be proxy-streamed using MediaFlow Proxy
+upstream: https://aiostreams.elfhosted.com
 links:
-- name: GitHub
+- name: GitHub Repo
   uri: https://github.com/Viren070/AIOStreams
 sponsorship: 
-- name: GitHub Sponsors
-  uri: https://github.com/sponsors/Viren070
 - name: Ko-Fi
   uri: https://ko-fi.com/Viren070
+- name: GitHub Sponsors
+  uri: https://github.com/sponsors/Viren070
 ---
 
 # {{ page.meta.slug }}
 
-AIOStreams combines search results from popular addons, and makes all results able to be "proxy-streamed" using [MediaFlow Proxy][mediaflow-proxy]
+AIOStreams is an "addon of addons", which uses your provider credentials and preferences to combine the results from multiple addons, parse / filter, and present them in a consistent format, according to your preferences.
+
+!!! tip "Proxy streaming support for torrentio"
+    Notably, AIOStreams can serve these combined addons through your [MediaFlow Proxy][mediaflow-proxy] instance, so that you'll be able to use the results with your debrid provider from multiple locations at once, while not risking an account ban, since your provider only sees the IP of your MediaFlow Proxy instance.
+
+ElfHosted provides a public, community version of MediaFusion at https://aiostreams.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
+
+!!! tip "AIOStreams gets revenue sharing! :heart:"
+    AIOStreams is an "Elf-illiated" Premium [Stremio Addon][stremio-addons] - the developer maintains an active support channel ([#elf-aiostreams](https://discord.com/channels/396055506072109067/1329435155407831070)) in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 33% of your subscriptions are contributed to the developer!
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
 
-### How to use AIOStreams
+## How do I use it?
 
-AIOStreams needs to know MediaFusion's API password, in order to properly encrypt your own configuration. When used with the [public MediaFusion](https://mediafusiono.elfhosted.com), this is preconfigured, but if you're using a private MediaFusion instance, you'll need to **tell** AIOStreams about the `api_password` value you set for MediaFusion.
+### Set SECRET_KEY
 
-To do so, use [ElfBot][elfbot], to run:
+AIOStreams uses a secret key to encrypt the data you provide, so that you're not exposing base64-encoded API keys in the manifest URLs held by Stremio. This also protects your keys if you share your addon, since a user would need your ElfHosted SSO credentials in order to use the /configure page to examine them.
 
-```bash
-elfbot env aiostreams MEDIAFUSION_API_PASSWORD=<same api_password as mediafusion>
+AIOStreams won't work without a `SECRET_KEY`, but we've set a secret default so that the app will work without configuration. Users who prefer to, can change their `SECRET_KEY` (and re-install the addon), by generating a 32-character key (*`openssl rand -base64 32` for example*), and then applying it to AIOStreams using [ElfBot][elfbot]:
+
 ```
+elfbot env aiostreams SECRET_KEY=whateveryousetmakesureits32chars
+```
+
+### Integrate with MediaFusion
+
+If you've got an ElfHosted [MediaFusion][mediafusion] instance, you'll have set your own `api_password`. AIOStreams needs that same password for optimal integration into the /configure page, so set it using:
+
+```
+elfbot env aiostreams MEDIAFUSION_API_PASSWORD=sameapipasswordyousetformediafusion
+```
+
 
 {% include 'app_footer.md' %}

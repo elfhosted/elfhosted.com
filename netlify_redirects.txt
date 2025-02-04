@@ -5,6 +5,9 @@
 # Use a better convention for RSS feed (could add more if necessary)
 /rss/ /feed_rss_created.xml
 
+# Product renames
+/app/xtremio /app/youriptv 301!
+
 # Send individual pages to the store
 # https://elfhosted.com/app/comet       https://store.elfhosted.com/product/comet 301!
 # https://elfhosted.com/app/mediafusion https://store.elfhosted.com/product/mediafusion 301!
