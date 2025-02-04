@@ -154,7 +154,7 @@ nav:
 
     - Stremio Addons:    
       - stremio-addons/index.md
-      - Annatar: app/annatar.md
+      - AIOStreams: app/aiostreams.md
       - Comet: app/comet.md
       - KnightCrawler: app/knightcrawler.md 
       - MediaFusion: app/mediafusion.md  
@@ -162,7 +162,7 @@ nav:
       - Stremify: app/stremify.md
       - Stremio-Jackett: app/stremio-jackett.md
       - StremThru: app/stremthru.md
-      - Xtremio: app/xtremio.md
+      - YourIPTV: app/youriptv.md
 
   - Store : https://store.elfhosted.com
   - Guides: 
@@ -213,6 +213,7 @@ nav:
     - Design:
       - open-source/design/index.md
     - Reports:
+      - Jan 2025: open/jan-2025.md
       - Dec 2024: open/dec-2024.md
       - Nov 2024: open/nov-2024.md
       - Oct 2024: open/oct-2024.md

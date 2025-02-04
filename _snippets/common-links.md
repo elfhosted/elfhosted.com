@@ -1,5 +1,5 @@
 [actual]:               /app/actual/
-[annatar]:              /app/annatar/
+[aiostreams]:           /app/aiostreams/
 [airdcpp]:              /app/airdcpp/
 [audiobookshelf]:       /app/audiobookshelf/
 [autobrr]:              /app/autobrr/
@@ -8,6 +8,7 @@
 [blackhole]:            /app/blackhole/
 [calibre]:              /app/calibre/
 [calibre-web]:          /app/calibre-web/
+[cli-debrid]:           /app/cli-debrid/
 [cinesync]:             /app/cinesync/
 [cwa-book-downloader]:  /app/calibre-web-automated-book-downloader/
 [comet]:                /app/comet/
@@ -36,6 +37,7 @@
 [lidarr]:               /app/lidarr/
 [mattermost]:           /app/mattermost/
 [mediafusion]:          /app/mediafusion/
+[mediaflow-proxy]:      /app/mediaflow-proxy/
 [miniflux]:             /app/miniflux/
 [mylar]:                /app/mylar/
 [navidrome]:            /app/navidrome/
