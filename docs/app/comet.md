@@ -25,9 +25,6 @@ Comet is an innovative new Stremio addon (a torrentio alternative) which differe
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JAC4UrlFx7Y?si=EHBM8ZU71fAstkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-!!! tip "Comet gets revenue sharing! :heart:"
-    Comet is an "Elf-illiated" Premium [Stremio Addon][stremio-addons] - the developer maintains an active support channel ([#elf-comet](https://discord.com/channels/396055506072109067/1256404447723126916)) in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 30% of your subscriptions are contributed to the developer!
-
 {% include 'app_access.md' %}
 
 ## How do I use it
