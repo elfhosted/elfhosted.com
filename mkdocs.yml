@@ -113,6 +113,7 @@ nav:
     - Manage Downloads:
       - AirDC++: app/airdcpp.md
       - Blackhole: app/blackhole.md    
+      - cli_debrid: app/cli-debrid.md
       - Flaresolverr: app/flaresolverr.md
       - Jackett: app/jackett.md  
       - NZBGet: app/nzbget.md
