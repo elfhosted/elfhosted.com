@@ -21,4 +21,12 @@ By default, books are downloaded to `/cwa-book-ingest/`, which resolves to `stor
 
 The contents of `/cwa-book-ingest/` will be deleted after ingestion (*You can, however, download the book locally via your browser before CWA ingests it*).
 
+### Fast downloads for donators
+
+If you're an Anna's Archive donator, you can access faster (and more reliable) downloads, by passing your secret key using [ElfBot][elfbot], as follows:
+
+```
+elfbot env cwa-book-downloader AA_DONATOR_KEY=<your secret key>
+```
+
 {% include 'app_footer.md' %}
