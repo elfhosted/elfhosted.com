@@ -28,6 +28,21 @@ Jellyfin is the volunteer-built media solution that puts you in control of your 
 
 When you first connect, you'll be prompted to configure your admin account, setup your libraries, etc.
 
+### Metadata / Artwork
+
+Jellyfin defaults to saving media metadata **alongside** the media. This will quickly exhaust your symlink storage, so ensure that the following are configured:
+
+![](/images/jellyfin-setup-2.png)
+
+![](/images/jellyfin-setup-3.png)
+
+### Trickplay
+
+Disable any form of chapter analysis or trickplay, to avoid unnecessary wastage of your allocated RealDebrid bandwidth (*analysis would require Jellyfin to download each entire file simply to analyze*).
+
+![](/images/jellyfin-setup-1.png)
+
+
 ### Enable Hardware transcoding
 
 Our nodes support Intel QuickSync for Video (QSV). Enable this under the admin dashboard's Playback settings.
