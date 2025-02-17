@@ -133,6 +133,7 @@ nav:
       - Filebrowser: app/filebrowser.md
       - Gluetun: app/gluetun.md
       - Gotify: app/gotify.md
+      - GoToSocial: app/gotosocial.md
       - Homepage: app/homepage.md
       - Joplin Server: app/joplin-server.md
       - Kubernetes Dashboard: app/kubernetes-dashboard.md
@@ -318,6 +319,8 @@ extra:
       link: 'https://twitter.com/elfhosted'
     - icon: 'fontawesome/brands/github'
       link: 'https://github.com/elfhosted'
+    - icon: 'fontawesome/brands/mastodon'
+      link: 'https://mastodon.social/@elfhosted'
 
 extra_javascript:
   # - extras/javascript/plausible.js
