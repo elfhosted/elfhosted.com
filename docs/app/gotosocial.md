@@ -80,7 +80,7 @@ If you don't want to use the ElfHosted domain name, you can BYO domain and point
 
 Assuming your ElfHosted username is `batman`, and you have your own domain, `awesomeburger.com`, and you want `social.awesomburger.com` to point to your ElfHosted GoToSocial instance.
 
-Create an A record on your domain, pointing `social.awesomeburger.com` to `batman-gotosocial.elfhosted.com`.
+Create a CNAME record on your domain, pointing `social.awesomeburger.com` to `batman-gotosocial.elfhosted.com`.
 
 Purchase the [custom domain addon](https://store.elfhosted.com/product/gotosocial-custom-domain-addon/), and set the CNAME to `social.awesomeburger.com`.
 
