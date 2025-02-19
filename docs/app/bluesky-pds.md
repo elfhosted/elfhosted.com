@@ -95,7 +95,7 @@ Password : <redacted>
 Save this password, it will not be displayed again.
 
 elfie@funkypenguin-blueskypds-664564cd86-hmkq6 ~> 
-
+```
 
 ### Change identifier
 
