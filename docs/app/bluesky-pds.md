@@ -128,6 +128,12 @@ PDS_BLOBSTORE_S3_SECRET_ACCESS_KEY=secret
 
 PDS is configured by default with `LOGS_ENABLED=true`, so in order to see what it's doing, simply using Kubernetes Dashboard to watch the logs of your bluesky-pds pod.
 
+### Updates
+
+In ElfHosted's environment, PDS updates are automatically grabbed every time a [new PDS release is published](https://github.com/bluesky-social/atproto/releases?q=pds&expanded=true), and are rolled out during our daily "elf-glowup" maintenance window.
+
+No manual updating is required.
+
 ### Backup / migrate
 
 Your PDS data is stored in `config/bluesky-pds`, and can be backed up either by copying the contents of the folder manually, or running `elfbot backup bluesky-pds` using [ElfBot][elfbot].
