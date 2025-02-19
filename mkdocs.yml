@@ -127,6 +127,7 @@ nav:
   
     - Tools:
       - Actual Budget: app/actual.md
+      - Bluesky PDS: app/bluesky-pds.md
       - Code Server: app/code-server.md
       - CineSync: app/cinesync.md
       - ElfBot: app/elfbot.md
