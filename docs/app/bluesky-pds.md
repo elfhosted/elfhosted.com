@@ -16,10 +16,10 @@ Bluesky is an ambitious federated social network initially supported by Twitter,
 
 The network is federated with the ATProtocol, which allows all participating users to communicate through a series of relays, whether their account is "on" the primary bsky.social server, or on their own, independently-managed data server instance.
 
+A Personal Data Server (PDS) is a small server which is the "home" for one or more accounts, and serves to manage all their data storage, "distributing" the data separately from the other components of the network (*relaying, scraping, etc*), and giving users control of the presentation and storage of their data.
+
 {% include 'app.md' %}
 {% include 'app_access.md' %}
-
-A Personal Data Server (PDS) is a small server which is the "home" for one or more accounts, and serves to manage all their data storage, "distributing" the data separately from the other components of the network (*relaying, scraping, etc*), and giving users control of the presentation and storage of their data.
 
 !!! warning "Here be geeks"
     The Bluesky PDS stack in ElfHosted is experimental - we built it because we like playing with it. Users should be aware that this is a hosted implementation of the reference design, and while ElfHosted provides the **infrastructure** hosting, we can't provide support for your **use** of PDS outside ensuring that it's running, reachable, backed-up, and secure!
