@@ -123,20 +123,21 @@ Once the DNS entry is added, either wait for the bluesky infrastruture to recogn
 
 ### Setup object storage
 
-!!! warning
-    Object storage is untested thus far
+!!! question "Why use object storage?"
+    You may want to migrate your PDS off of ElfHosted in the future. Although you **could** simply store all your media content within your ElfHosted `/config` storage, this can (1) run out of space, and (2) be slow and time-consuming to relocate if you migrate. If you configure PDS for object storage however, then all the media is **already** on object storage under your control, and doesn't need to be migrated alongside your databases / account data.
 
 PDS can use either local storage or S3 storage, but it won't do both, so in order to use object storage, you need to disable local storage, by setting `PDS_BLOBSTORE_DISK_LOCATION` to null, using `elfbot env bluesky-pds PDS_BLOBSTORE_DISK_LOCATION=`
 
 Then apply the following with your own object storage config, to transition to object storage:
 
 ```
-PDS_BLOBSTORE_S3_BUCKET=bucket_name
-PDS_BLOBSTORE_S3_REGION=us-east-1
-PDS_BLOBSTORE_S3_ENDPOINT=https://s3.us-east-1.amazonaws.com
-PDS_BLOBSTORE_S3_FORCE_PATH_STYLE=true
-PDS_BLOBSTORE_S3_ACCESS_KEY_ID=secret
-PDS_BLOBSTORE_S3_SECRET_ACCESS_KEY=secret
+elfbot env bluesky-pds PDS_BLOBSTORE_DISK_LOCATION=''
+elfbot env bluesky-pds PDS_BLOBSTORE_S3_BUCKET=bucket_name
+elfbot env bluesky-pds PDS_BLOBSTORE_S3_REGION=us-east-1
+elfbot env bluesky-pds PDS_BLOBSTORE_S3_ENDPOINT=https://s3.us-east-1.amazonaws.com
+elfbot env bluesky-pds PDS_BLOBSTORE_S3_FORCE_PATH_STYLE=true
+elfbot env bluesky-pds PDS_BLOBSTORE_S3_ACCESS_KEY_ID=secret
+elfbot env bluesky-pds PDS_BLOBSTORE_S3_SECRET_ACCESS_KEY=secret
 ```
 
 ### Logs
