@@ -16,8 +16,7 @@ Bluesky is an ambitious federated social network initially supported by Twitter,
 
 The network is federated with the ATProtocol, which allows all participating users to communicate through a series of relays, whether their account is "on" the primary bsky.social server, or on their own, independently-managed data server instance.
 
-[Get Elf Hosted {{ page.meta.slug }}! :magic_wand:](https://store.elfhosted.com/product/{{ page.meta.slug | lower }}/){ .md-button .md-button--primary }
-
+{% include 'app.md' %}
 {% include 'app_access.md' %}
 
 A Personal Data Server (PDS) is a small server which is the "home" for one or more accounts, and serves to manage all their data storage, "distributing" the data separately from the other components of the network (*relaying, scraping, etc*), and giving users control of the presentation and storage of their data.
@@ -81,6 +80,22 @@ Paste each elfbot command in, one-at-a-time. PDS will restart after each entry.
 The `pdsadmin` tool is included in the PDS CLI, linked to your ElfHosted dashboard. 
 
 From the CLI, run `pdsadmin account create` to create your first account, and note the resulting identity, password, and DID.
+
+``` title="Example account creation"
+> pdsadmin account create
+Enter an email address (e.g. alice@funkypenguin-bluesky-pds.elfhosted.com): test1@funkypenguin-bluesky-pds.elfhosted.com
+Enter a handle (e.g. alice.funkypenguin-bluesky-pds.elfhosted.com): test1.funkypenguin-bluesky-pds.elfhosted.com
+
+Account created successfully!
+-----------------------------
+Handle   : test1.funkypenguin-bluesky-pds.elfhosted.com
+DID      : did:plc:ru2ohvq7uu3l5bhh5yx3mkvy
+Password : <redacted>
+-----------------------------
+Save this password, it will not be displayed again.
+
+elfie@funkypenguin-blueskypds-664564cd86-hmkq6 ~> 
+
 
 ### Change identifier
 
