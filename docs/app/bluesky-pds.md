@@ -63,13 +63,13 @@ The following example sets:
 
 * SMTP username: `bsky@mg.funkypenguin.co.nz` (*URL-encode @ signs if your username includes it*)
 * SMTP password: `password`
-* SMTP protocol: `smtp` (not smtps, since we're using port 587)
+* SMTP protocol: `smtp` (*not smtps, since we're using port 587*)
 * SMTP host: `smtp.mailgun.org`
 * SMTP port: `587`
 * SMTP from address: `bsky@mg.funkypenguin.co.nz` (*same in this case but yours may be different*)
 
 ``` title="example email config"
-elfbot env bluesky-pds PDS_EMAIL_SMTP_URL=smts://bsky%40mg.funkypenguin.co.nz:password@smtp.mailgun.org:587
+elfbot env bluesky-pds PDS_EMAIL_SMTP_URL=smtp://bsky%40mg.funkypenguin.co.nz:password@smtp.mailgun.org:587
 elfbot env bluesky-pds PDS_EMAIL_FROM_ADDRESS=bsky@mg.funkypenguin.co.nz
 ```
 
