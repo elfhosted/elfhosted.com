@@ -1,10 +1,10 @@
 ---
-title: 🧝 Hosted SeerrBridge 📚
-slug: SeerrBridge
+title: 🧝 Hosted ListSync 📚
+slug: ListSync
 description: SeerrBridge uses smart symlinking to organize your debrid libraries for tidy streaming from Plex
-upstream: https://github.com/Woahai321/SeerrBridge
+upstream: https://github.com/Woahai321/listsync
 works_with:
-- ListSync
+- SeerrBridge
 - Overseerr
 - Jellyseerr
 sponsorship:
