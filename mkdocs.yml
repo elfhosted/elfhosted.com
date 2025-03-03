@@ -53,13 +53,13 @@ plugins:
     # debug_color: yellow
     cards_layout: elfhosted
 
-  # privacy:
-  #   external_links_attr_map:
-  #     target: _blank 
-  #     rel: nofollow   
-  #   external_assets_exclude:
-  #     - img.shields.io/*
-  #     - i.imgflip.com/*
+  privacy:
+    external_links_attr_map:
+      target: _blank 
+      rel: nofollow   
+    external_assets_exclude:
+      - img.shields.io/*
+      - i.imgflip.com/*
   optimize:
     enabled: false # pngquant issue?
 
@@ -217,6 +217,7 @@ nav:
     - Design:
       - open-source/design/index.md
     - Reports:
+      - Feb 2025: open/feb-2025.md
       - Jan 2025: open/jan-2025.md
       - Dec 2024: open/dec-2024.md
       - Nov 2024: open/nov-2024.md
