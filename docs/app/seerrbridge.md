@@ -24,14 +24,13 @@ SeerrBridge is a browser automation tool that integrates Jellyseer/Overseerr wit
 
 ## How to use SeerrBridge
 
-You'll need some environment variables before you launch SeerrBridge, and even more environment variables to actually make it work!
-
+You'll need some unique environment variables before you launch SeerrBridge, as indicated below.
 
 ### SeerrBridge
 
 While usually environment variables can be managed via [ElfBot][elfbot], since `RD_ACCESS_TOKEN` contains quotes and spaces, it's simpler and safer to bypass ElfBot, and create a ConfigMap directly in Kubernetes Dashboard.
 
-From Kubernetes Dashboard, click the `+` icon to create a new resource:
+From [Kubernetes Dashboard][kubernetes-dashboard], click the `+` icon to create a new resource:
 
 ![](/images/gluetun-configmap-1.png)
 
@@ -67,7 +66,13 @@ Navigate to https://debridmediamanager.com, and authenticate with RealDebrid.
 
 In your browser, use developer tools to inspect the page, and capture your RealDebrid tokens from local storage, as illustrated below:
 
+Google Chrome:
+
 ![](/images/seerrbridge_dmm_setup.png)
+
+Firefox:
+
+![](/images/seerrbridge_dmm_setup_firefox.png)
 
 Use the values you find to prepare the following:
 
@@ -77,7 +82,6 @@ RD_CLIENT_ID=YOUR_CLIENT_ID
 RD_CLIENT_SECRET=YOUR_CLIENT_SECRET
 RD_REFRESH_TOKEN=YOUR_REFRESH_TOKEN
 ```
-
 
 #### Filtering (optional)
 
