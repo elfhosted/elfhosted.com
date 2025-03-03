@@ -28,47 +28,7 @@ You'll need some environment variables before you launch SeerrBridge, and even m
 
 ### Overseerr
 
-Navigate to your Overrseerr, to `Settings` -> `Notifications` -> `Webhook`, and set it to `http://seerrbridge:8777/jellyseer-webhook/`
-
-Set the JSON payload to:
-
-```json
-{
-    "notification_type": "{{notification_type}}",
-    "event": "{{event}}",
-    "subject": "{{subject}}",
-    "message": "{{message}}",
-    "image": "{{image}}",
-    "{{media}}": {
-        "media_type": "{{media_type}}",
-        "tmdbId": "{{media_tmdbid}}",
-        "tvdbId": "{{media_tvdbid}}",
-        "status": "{{media_status}}",
-        "status4k": "{{media_status4k}}"
-    },
-    "{{request}}": {
-        "request_id": "{{request_id}}",
-        "requestedBy_email": "{{requestedBy_email}}",
-        "requestedBy_username": "{{requestedBy_username}}",
-        "requestedBy_avatar": "{{requestedBy_avatar}}"
-    },
-    "{{issue}}": {
-        "issue_id": "{{issue_id}}",
-        "issue_type": "{{issue_type}}",
-        "issue_status": "{{issue_status}}",
-        "reportedBy_email": "{{reportedBy_email}}",
-        "reportedBy_username": "{{reportedBy_username}}",
-        "reportedBy_avatar": "{{reportedBy_avatar}}"
-    },
-    "{{comment}}": {
-        "comment_message": "{{comment_message}}",
-        "commentedBy_email": "{{commentedBy_email}}",
-        "commentedBy_username": "{{commentedBy_username}}",
-        "commentedBy_avatar": "{{commentedBy_avatar}}"
-    },
-    "{{extra}}": []
-}
-```
+Navigate to your Overrseerr, to `Settings` -> `General` and retrieve your API key
 
 ### Trakt
 
@@ -79,7 +39,7 @@ You can use anything (I.e., `https://google.com`) as the redirect URI
 
 ![](/images/seerrbridge_trakt_setup.png)
 
-Copy the Client ID (not the secret!), which you'll need to provide to SeerrBridge:
+Copy the Client ID (*not the secret!*), which you'll need to provide to SeerrBridge:
 
 ![](/images/seerrbridge_trakt_setup_2.png)
 
@@ -87,7 +47,7 @@ Copy the Client ID (not the secret!), which you'll need to provide to SeerrBridg
 
 Navigate to https://debridmediamanager.com, and authenticate with RealDebrid.
 
-In your browser, use developer tools to inspect the page, and capture your RealDebrid tokens, as illustrated below:
+In your browser, use developer tools to inspect the page, and capture your RealDebrid tokens from local storage, as illustrated below:
 
 ![](/images/seerrbridge_dmm_setup.png)
 
@@ -108,7 +68,7 @@ From Kubernetes Dashboard, click the `+` icon to create a new resource:
 
 ![](/images/gluetun-configmap-1.png)
 
-Copy the example YAML below, edit it to include only the values you need for your config, and paste it in:
+Copy the example YAML below, edit it to include the values you need for your config, and paste it in:
 
 
 ```yaml
