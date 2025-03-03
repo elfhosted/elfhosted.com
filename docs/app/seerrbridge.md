@@ -50,9 +50,7 @@ Set the JSON payload to:
         "request_id": "{{request_id}}",
         "requestedBy_email": "{{requestedBy_email}}",
         "requestedBy_username": "{{requestedBy_username}}",
-        "requestedBy_avatar": "{{requestedBy_avatar}}",
-        "requestedBy_settings_discordId": "{{requestedBy_settings_discordId}}",
-        "requestedBy_settings_telegramChatId": "{{requestedBy_settings_telegramChatId}}"
+        "requestedBy_avatar": "{{requestedBy_avatar}}"
     },
     "{{issue}}": {
         "issue_id": "{{issue_id}}",
@@ -60,17 +58,13 @@ Set the JSON payload to:
         "issue_status": "{{issue_status}}",
         "reportedBy_email": "{{reportedBy_email}}",
         "reportedBy_username": "{{reportedBy_username}}",
-        "reportedBy_avatar": "{{reportedBy_avatar}}",
-        "reportedBy_settings_discordId": "{{reportedBy_settings_discordId}}",
-        "reportedBy_settings_telegramChatId": "{{reportedBy_settings_telegramChatId}}"
+        "reportedBy_avatar": "{{reportedBy_avatar}}"
     },
     "{{comment}}": {
         "comment_message": "{{comment_message}}",
         "commentedBy_email": "{{commentedBy_email}}",
         "commentedBy_username": "{{commentedBy_username}}",
-        "commentedBy_avatar": "{{commentedBy_avatar}}",
-        "commentedBy_settings_discordId": "{{commentedBy_settings_discordId}}",
-        "commentedBy_settings_telegramChatId": "{{commentedBy_settings_telegramChatId}}"
+        "commentedBy_avatar": "{{commentedBy_avatar}}"
     },
     "{{extra}}": []
 }
@@ -100,7 +94,7 @@ In your browser, use developer tools to inspect the page, and capture your RealD
 Use the values you find to prepare the following:
 
 ```
-RD_ACCESS_TOKEN={"value":"your_token","expiry":123}
+RD_ACCESS_TOKEN='{"value":"your_token","expiry":123}'
 RD_CLIENT_ID=YOUR_CLIENT_ID
 RD_CLIENT_SECRET=YOUR_CLIENT_SECRET
 RD_REFRESH_TOKEN=YOUR_REFRESH_TOKEN
@@ -123,7 +117,7 @@ kind: ConfigMap
 metadata:
   name: elfbot-seerrbridge
 data:
-  RD_ACCESS_TOKEN: '{"value":"your_token","expiry":123}'
+  RD_ACCESS_TOKEN: 'YOUR_RD_TOKEN_FROM_DMM'
   RD_CLIENT_ID: YOUR_CLIENT_ID
   RD_CLIENT_SECRET: YOUR_CLIENT_SECRET
   RD_REFRESH_TOKEN: YOUR_REFRESH_TOKEN
@@ -131,6 +125,24 @@ data:
   OVERSEERR_API_KEY: YOUR_OVERSEERR_TOKEN
 ```
 
+!!! tip "Syntax matters"
+    Ensure you enclose the **entire** `RD_ACCESS_TOKEN` value in single quotes, as illustrated above.
+
 Save your changes to create the ConfigMap. SeerrBridge should restart. If you need to make subsequent changes to the ConfigMap, find it under ConfigMaps and edit it directly. (*or use ElfBot for minor changes*)
+
+#### Filtering (optional)
+
+The [upstream docs](https://github.com/Woahai321/SeerrBridge?tab=readme-ov-file#-custom-regex-filtering) provide details about how search results can be filtered by using regexs.
+
+As of v0.4.5, a global maximum for movie and episode size can also be set.
+
+Optionally, edit your ConfigMap to apply the following values:
+
+```
+  MAX_MOVIE_SIZE: "60"
+  MAX_EPISODE_SIZE: "5"
+  TORRENT_FILTER_REGEX=^(?!.*【.*?】)(?!.*[\u0400-\u04FF])(?!.*\[esp\]).*
+```
+
 
 {% include 'app_footer.md' %}
