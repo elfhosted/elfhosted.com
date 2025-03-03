@@ -26,22 +26,40 @@ SeerrBridge is a browser automation tool that integrates Jellyseer/Overseerr wit
 
 You'll need some environment variables before you launch SeerrBridge, and even more environment variables to actually make it work!
 
+
+### SeerrBridge
+
+While usually environment variables can be managed via [ElfBot][elfbot], since `RD_ACCESS_TOKEN` contains quotes and spaces, it's simpler and safer to bypass ElfBot, and create a ConfigMap directly in Kubernetes Dashboard.
+
+From Kubernetes Dashboard, click the `+` icon to create a new resource:
+
+![](/images/gluetun-configmap-1.png)
+
+Copy the example YAML below, edit it to include the values you need for your config (*in the following sections*), and paste them in:
+
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: elfbot-seerrbridge
+data:
+  RD_ACCESS_TOKEN: 'YOUR_RD_TOKEN_FROM_DMM'
+  RD_CLIENT_ID: YOUR_CLIENT_ID
+  RD_CLIENT_SECRET: YOUR_CLIENT_SECRET
+  RD_REFRESH_TOKEN: YOUR_REFRESH_TOKEN
+  OVERSEERR_API_KEY: YOUR_OVERSEERR_TOKEN
+```
+
+!!! tip "Syntax matters"
+    Ensure you enclose the **entire** `RD_ACCESS_TOKEN` value in single quotes, as illustrated above.
+
+Save your changes to create the ConfigMap, and use [ElfTerm][elfterm] to run `elfbot restart seerrbridge` to restart.
+
+If you need to make subsequent changes to the ConfigMap, find it under ConfigMaps and edit it directly. (*or use ElfBot for minor changes*)
+
 ### Overseerr
 
 Navigate to your Overrseerr, to `Settings` -> `General` and retrieve your API key
-
-### Trakt
-
-Create a Trakt.tv account and sign in
-Navigate to <https://trakt.tv/oauth/applications/new> to create a new app
-
-You can use anything (I.e., `https://google.com`) as the redirect URI
-
-![](/images/seerrbridge_trakt_setup.png)
-
-Copy the Client ID (*not the secret!*), which you'll need to provide to SeerrBridge:
-
-![](/images/seerrbridge_trakt_setup_2.png)
 
 ### DebridMediaManager
 
@@ -60,35 +78,6 @@ RD_CLIENT_SECRET=YOUR_CLIENT_SECRET
 RD_REFRESH_TOKEN=YOUR_REFRESH_TOKEN
 ```
 
-### SeerrBridge
-
-While usually environment variables can be managed via [ElfBot][elfbot], since `RD_ACCESS_TOKEN` contains quotes and spaces, it's simpler and safer to bypass ElfBot, and create a ConfigMap directly in Kubernetes Dashboard.
-
-From Kubernetes Dashboard, click the `+` icon to create a new resource:
-
-![](/images/gluetun-configmap-1.png)
-
-Copy the example YAML below, edit it to include the values you need for your config, and paste it in:
-
-
-```yaml
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: elfbot-seerrbridge
-data:
-  RD_ACCESS_TOKEN: 'YOUR_RD_TOKEN_FROM_DMM'
-  RD_CLIENT_ID: YOUR_CLIENT_ID
-  RD_CLIENT_SECRET: YOUR_CLIENT_SECRET
-  RD_REFRESH_TOKEN: YOUR_REFRESH_TOKEN
-  TRAKT_API_KEY: YOUR_TRAKT_TOKEN
-  OVERSEERR_API_KEY: YOUR_OVERSEERR_TOKEN
-```
-
-!!! tip "Syntax matters"
-    Ensure you enclose the **entire** `RD_ACCESS_TOKEN` value in single quotes, as illustrated above.
-
-Save your changes to create the ConfigMap. SeerrBridge should restart. If you need to make subsequent changes to the ConfigMap, find it under ConfigMaps and edit it directly. (*or use ElfBot for minor changes*)
 
 #### Filtering (optional)
 
