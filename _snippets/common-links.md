@@ -6,6 +6,7 @@
 [autoscan]:             /app/autoscan/
 [bazarr]:               /app/bazarr/
 [blackhole]:            /app/blackhole/
+[bluesky-pds]:          /app/bluesky-pds/
 [calibre]:              /app/calibre/
 [calibre-web]:          /app/calibre-web/
 [cli-debrid]:           /app/cli-debrid/
@@ -21,6 +22,7 @@
 [flixio]:               /app/flixio/
 [gluetun]:              /app/gluetun/
 [gotify]:               /app/gotify/
+[gotosocial]:           /app/gotosocial/
 [homepage]:             /app/homepage/
 [immich]:               /app/immich/
 [jackett]:              /app/jackett/
@@ -35,6 +37,7 @@
 [kubernetes-dashboard]: /app/kubernetes-dashboard/
 [lazylibrarian]:        /app/lazylibrarian/
 [lidarr]:               /app/lidarr/
+[listsync]:             /app/listsync/
 [mattermost]:           /app/mattermost/
 [mediafusion]:          /app/mediafusion/
 [mediaflow-proxy]:      /app/mediaflow-proxy/
@@ -69,6 +72,7 @@
 [sabnzbd]:              /app/sabnzbd/
 [seerrbridge]:          /app/seerrbridge/
 [seafile]:              /app/seafile/
+[seerrbridge]:          /app/seerrbridge/
 [shoko]:                /app/shoko/
 [sonarr]:               /app/sonarr/
 [suggestarr]:           /app/suggestarr/

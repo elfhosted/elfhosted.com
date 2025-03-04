@@ -8,6 +8,7 @@ Part of the reason ElfHosted exists is to provide a "reference design" for simil
 
 Each month's progress reports and metrics are summarized in the left-hand navigation column, and are listed below:
 
+* [Feb 2025](/open/feb-2025/)
 * [Jan 2025](/open/jan-2025/)
 * [Dec 2024](/open/dec-2024/)
 * [Nov 2024](/open/nov-2024/)

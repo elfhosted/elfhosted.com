@@ -1,5 +1,5 @@
 ---
-title: 🧝 Hosted SeerrBridge 📚
+title: 🧝 Hosted SeerrBridge 🌉
 slug: SeerrBridge
 description: SeerrBridge uses smart symlinking to organize your debrid libraries for tidy streaming from Plex
 upstream: https://github.com/Woahai321/SeerrBridge
@@ -77,10 +77,10 @@ Firefox:
 Use the values you find to prepare the following:
 
 ```
-RD_ACCESS_TOKEN='{"value":"your_token","expiry":123}'
-RD_CLIENT_ID=YOUR_CLIENT_ID
-RD_CLIENT_SECRET=YOUR_CLIENT_SECRET
-RD_REFRESH_TOKEN=YOUR_REFRESH_TOKEN
+RD_ACCESS_TOKEN: '{"value":"your_token","expiry":123}'
+RD_CLIENT_ID: YOUR_CLIENT_ID
+RD_CLIENT_SECRET: YOUR_CLIENT_SECRET
+RD_REFRESH_TOKEN: YOUR_REFRESH_TOKEN
 ```
 
 #### Filtering (optional)
