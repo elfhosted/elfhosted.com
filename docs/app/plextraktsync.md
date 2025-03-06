@@ -14,4 +14,11 @@ PlexTraktSync adds a two-way-sync between trakt.tv and Plex Media Server. This a
 
 {% include 'app.md' %}
 {% include 'app_access.md' %}
+
+## How to use PlexTraktSync
+
+### Updating server URL
+
+The first time PlexTraktSync runs, it'll create a `servers.yml` file based on the known servers in your Plex account. In our case, your server is **always** addressed on `http://plex:32400`, so you'll need to edit `config/plextraktsync/servers.yml` using ]FileBrowser][filebrowser], and replace the automatic collection of URLs with **just** `http://plex:32400`
+
 {% include 'app_footer.md' %}
