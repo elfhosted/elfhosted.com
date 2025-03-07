@@ -54,6 +54,9 @@ elfbot env plexrequests OVERSEERR_API_KEY=yourkeygoeshere
 
 Visit `https://<your plex url>/auth`, and process the authentication once. You should receive a JSON result indicating the token was successfully processed.
 
+!!! tip "Do this once per-user"
+    If you want to identify **which** of your users requested a particular item, you'll need each user to perform the auth step once. This is also required for the addition of content via user's watchlist.
+
 ## Usage
 
 When you search Plex, you'll find Plex usually returns items you **don't** already have in your library. 
