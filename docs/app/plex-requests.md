@@ -12,6 +12,8 @@ works_with:
 
 Plex Requests in a collection of several clever "microservices" which "abuse" the Plex API to make it possible to add requests to Overseerr, directly from Plex apps.
 
+![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.gif){ loading=lazy }
+
 {% include 'app.md' %}
 
 ## How do I use {{ page.meta.slug }}?
