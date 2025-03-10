@@ -175,7 +175,7 @@ nav:
       - guides/media/index.md
       - Emby:
         - RealDebrid:
-          - Aars: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
+          - Aars: guides/media/emby-realdebrid-aars.md
       - JellyFin:
         - Real-Debrid:
           - Aars:  guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
@@ -189,7 +189,7 @@ nav:
           - AllDebrid: guides/media/plex-alldebrid-riven.md
         - SeerrBridge: 
           - Real-Debrid: guides/media/plex-realdebrid-seerrbridge.md
-          
+
   - Support:
     - get-help.md
     - Discord: https://discord.elfhosted.com

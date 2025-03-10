@@ -4,9 +4,13 @@ description: This guide describes how to setup a torrent-like "arr stack", to ac
 ---
 # "Infinite streaming" from Real Debrid with Emby, Prowlarr, Radarr, and Sonarr
 
-This page describes a more complex, flexible version of our [plex_debrid-based, minimal solution](/guides/media/stream-from-real-debrid-with-plex/) to create your "infinite" Emby library, utilizing [Real-Debrid][real-debrid] for all media, streaming through your ElfHosted Emby instance.
+The following page guides the user through the process of establishing an ElfHosted "Infinite Streaming" stack using [Emby][emby], with media stored on [RealDebrid][real-debrid], and with content acquisition managed by [Radarr][radarr] and [Sonarr][sonarr], to search, source, and sort your media, stealthily using symlinks to skip storage stresses!
 
-The solution leverages the popular Arr tools to search, source, and sort your media, stealthily using symlinks to skip storage stresses!
+An enhanced, "ScribeHow" version of this page can be found [here](https://fnky.nz/elfguide-emby-realdebrid-aars).
+
+The stack described below is available in all of our [regular stack bundles](https://store.elfhosted.com/product-category/streaming-bundles/), and free trials are available on the [hobbit](https://store.elfhosted.com/product/hobbit-emby-realdebrid-aars/) bundles.
+
+[Get your 7 day free trial!](https://store.elfhosted.com/product/hobbit-emby-realdebrid-aars/){ .md-button .md-button--primary }
 
 ## Requirements
 
@@ -64,27 +68,20 @@ flowchart TD
 1. Purchase a subscription to the ["Hobbit" Infinite Arr Emby Streaming bundle](https://store.elfhosted.com/product/hobbit-emby-arrs-real-debrid-infinite-streaming-bundle)
 2. Get a [Real-Debrid account][real-debrid] subscription for your ElfHosted account (*can't be used elsewhere at the same time, else you risk being banned*), and copy your [API token](https://real-debrid.com/apitoken)
 3. Log into your ElfHosted dashboard (`https://<your username>.elfhosted.com`), and navigate to **Tools** -> **Filebrowser**. Within FileBrowser, navigate to `/config/zurg`, and open your `config.yml` file. Paste your token after the `token: ` line.
-### Setup Emby
 
-Log into [Emby][emby], enable hardware transcoding, and setup the media libraries in `/storage/symlinks/{movies,series,movies-4k,series-4k, etc}`. Setup an API key for autoscan, and keep it for later.
+{% include 'scribe_realdebrid_zurg_setup.md' %}
 
-### Setup RDTClient
+{% include 'scribe_emby_libraries_symlinks.md' %}
 
-Configure [RDTClient], by pasting your debrid provider's details into the config section (*the rest is pre-configured*).
+{% include 'scribe_emby_aars_setup.md' %}
 
-### Setup Prowlarr
+### Setup Blackhole (default)
 
-Navigate to Prowlarr, and configure ElfHosted's torrentio internal indexer (*search "torrentio"*). In the properties of the indexer, set your `Real-Debrid API Key`, test, and save.
+Setup [Blackhole][blackhole] with your RD credentials (*enabled by default in the Aars*)
 
-Run `Sync App Indexers` to add the indexers (*via Prowlarr*) to Radarr and Sonarr.
+### Setup RDTClient (optional)
 
-### Setup Radarr / Sonarr
-
-Configure your **Root Folders** to `/storage/symlinks/<whatever>`, since this is where the symlinks will appear. You do **not** need `/storage/realdebrid-zurg` (*in fact, its read-only nature will just confuse the Arr!*)
-
-### Setup Autoscan
-
-Radarr / Sonarr are pre-configured for [Autoscan][autoscan], but you'll need to edit Autoscan's config (`config/autoscan/` in [FileBrowser][filebrowser]), and add a token for Emby, in order for the autoscanning to work.
+Configure [RDTClient], by pasting your debrid provider's details into the config section (*the rest is pre-configured*). Disable blackhole (*enabled by default*), and enabled RDTClient as a downloader instead.
 
 ## Success!
 
