@@ -50,4 +50,12 @@ All the supported apps are pre-configured in Prowlarr, but set to a disabled sta
 
 Then "Sync app indexers" to have Prowlarr sync your indexers to the supported, enabled apps :thumbsup:
 
+### External access (i.e. TorBox)
+
+To enable access to your Prowlarr instance from outside of ElfHosted's infrastructure (*i.e., from a [TorBox](https://torbox.app) account*), you'll need to change your preconfigured API key, and add the [Prowlarr Exposed](https://store.elfhosted.com/product/prowlarr-exposed/) product to your subscription.
+
+The "exposed" product explicitly disables SSO for Prowlarr's API, allowing Prowlarr's API (*but not web UI, so there's no need for extra authentication*) to be accessed externally, as illustrated below:
+
+![](/images/prowlarr-torbox.png)
+
 {% include 'app_footer.md' %}

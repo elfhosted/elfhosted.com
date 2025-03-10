@@ -14,7 +14,6 @@ works_with:
 - Radarr
 - Readarr
 - Sonarr
-price: 0.15
 ---
 
 # {{ page.meta.slug }}
