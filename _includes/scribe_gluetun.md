@@ -1,4 +1,4 @@
-## Adding a VPN to your ElfHosted stack with gluetun
+### Adding a VPN to your ElfHosted stack with gluetun
 
 Gluetun is a flexible container which supports many VPN providers. By attaching a gluetun config to VPN-compatible apps in your ElfHosted stack, you can have these apps take advantage of your existing VPN provider (some apps, like AllDebrid, require this functionality in order to work)
 

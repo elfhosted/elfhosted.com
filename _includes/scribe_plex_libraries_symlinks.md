@@ -1,9 +1,8 @@
-## How To Add Symlink-based Movies and Shows Library in Plex
+### Setup Plex Libraries (symlinks)
 
-#### [Made by Legolas Greenleaf with Scribe](https://scribehow.com/shared/How_To_Add_Movies_and_Shows_Library_in_Plex__gfC9xEeESwupK04j-odg3Q)
 Once claimed, your Plex server needs to know where to find your content. This guide is specific to symlink-based setups, and all media is found under /storage/symlinks
 
-1\. Navigate to [https://harrypottelf-plex.elfhosted.cc/web/index.html#!/setup/24d0d419c3eb19f664d05e933b985b0f98eede97](https://harrypottelf-plex.elfhosted.cc/web/index.html#!/setup/24d0d419c3eb19f664d05e933b985b0f98eede97)
+1\. Navigate to your ElfHosted apps dashboard, and launch Plex.
 
 
 2\. Once you've claimed your Plex server, you'll need to add library folders so that Plex "knows" where to find your media. Since we're using symlinks in this design, all media will be found under `/storage/symlinks`, as illustrated below.

@@ -173,18 +173,23 @@ nav:
   - Guides: 
     - Media: 
       - guides/media/index.md
-      - Plex, AllDebrid, and Riven: guides/media/plex-alldebrid-riven.md
-      - TorBox: guides/media/torbox.md
-      - Magical Infinite Streaming with Plex / Riven: guides/media/stream-from-real-debrid-with-plex-riven.md
-      - Infinite Streaming with Stremio and Jackett: guides/media/stream-from-real-debrid-with-stremio-jackett.md
-      - Infinite Streaming with Plex: guides/media/stream-from-real-debrid-with-plex.md
-      - Advanced Infinite Streaming with Plex and Arrs: guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr.md
-      - Advanced Infinite Streaming with with Jellyfin and Arrs: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
-      - Advanced Infinite Streaming with with Emby and Arrs: guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
-      - Simultaneous Streaming with Stremio Server and Debrid: guides/media/stream-from-real-debrid-with-stremio-from-with-multiple-ip-addresses-simultaneously.md
-      - Optimizing your movie quality with TRaSH Guides custom formats: guides/media/optimize-movie-quality-with-trash-custom-formats.md
-      - Optimizing your series quality with TRaSH Guides custom formats: guides/media/optimize-series-quality-with-trash-custom-formats.md
-    # - Plex Cloud: guides/your-own-plex-cloud.md 
+      - Emby:
+        - RealDebrid:
+          - Aars: guides/media/stream-from-real-debrid-with-jellyfin-radarr-sonarr-prowlarr.md
+      - JellyFin:
+        - Real-Debrid:
+          - Aars:  guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
+      - Plex:
+        - plex_debrid:
+            Real-Debrid: guides/media/stream-from-real-debrid-with-plex.md
+        - Radarr/Sonarr:
+          - Real-Debrid: guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr.md
+        - Riven:
+          - Real-Debrid: guides/media/stream-from-real-debrid-with-plex-riven.md
+          - AllDebrid: guides/media/plex-alldebrid-riven.md
+        - SeerrBridge: 
+          - Real-Debrid: guides/media/plex-realdebrid-seerrbridge.md
+          
   - Support:
     - get-help.md
     - Discord: https://discord.elfhosted.com

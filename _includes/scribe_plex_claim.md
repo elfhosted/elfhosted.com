@@ -1,4 +1,4 @@
-## Claiming Plex Account on ElfHosted Platform
+### Claiming Plex Server
 
 Before you can use your ElfHosted Plex server, you'll need to "claim" it against your plex.tv account. This document describes the claiming process.
 
