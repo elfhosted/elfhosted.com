@@ -23,39 +23,45 @@ Here's a diagram (*it's not as complicated as it looks!*), followed by some expl
 
 ```mermaid
 flowchart TD
-    Z[fa:fa-user User] --> |Stream|K
-    Z[fa:fa-user User] --> A
-    Z[User]--> |Manual addition|D
-    Z[User]--> |Requests|C
-    A[Lists] --> C[Jellyseer]
-    C <--> |Add to Arrs|D[Radarr/Sonarr]
-    D --> R[Autoscan]
-    D <--> |Search for media|E[Prowlarr]
-    D <--> |Add to downloader|G[RDTClient]
-    E --> |Search trackers|F[torrent.io]
-    G <--> |1. Add torrent|H[real-debrid]
 
-    R[Autoscan] --> K[Emby] 
+    %% User requests content
+    User --> |"[1] Add to lists"|Lists
+    User --> |"[2] Add requests"|SEERR[Jellyseerr]
+    User --> |"[2] Manual addition"|DOWNLOADER[Radarr / Sonarr]
+    
+    STREAMER[Emby] --> |"[6] Stream actual file"|User
+    Lists --> |"[2] Import from lists"|DOWNLOADER
+    Lists --> |"[1] Import from lists"|SEERR
+    SEERR <--> |"[2] Add to Arrs"|DOWNLOADER
+    STREAMER --> |"[6] Read file (symlink)"|SymlinkMount["/storage/symlinks/../whatever"]
 
-    K[Emby] --> |"Read file (symlink)"|L["/storage/symlinks"]
+    %% Prowlarr / Zilean
+    DOWNLOADER <--> |"[3] Search for media"|Prowlarr
+    Prowlarr --> |"[3] Search indexers"|Zilean
+    Prowlarr --> |"[3] Search indexers"|Others["Others (optional)"]
 
-    K[Emby] --> |"Resolve symlink (actual file)"|J["/storage/realdebrid-zurg"]
-    %% G --> |Confirm download|J
+    DOWNLOADER <--> |"[4] Add to downloader"|SYMLINKER[Blackhole]
+    DOWNLOADER --> |"[5] Import and organize"|SymlinkMount
+    SYMLINKER <--> |"[4] Add torrent"|RealDebrid
 
-    G[RDTClient] --> |3. Create symlink|P["/storage/symlinks"]
+    DOWNLOADER --> |"[5] Update Library"|STREAMER
+    STREAMER --> |"[6] Resolve symlink (actual file)"|ZurgMount["/storage/realdebrid-zurg/\_\_all\_\_/whatever"]
 
-    H --> Q[Zurg+rclone]
-    Q --> J
+    %% Zurg
+    RealDebrid --> Zurg
+    Zurg --> ZurgMount
 
-    Q --> O
-    G[RDTClient] --> |2. Confirm download|O["/storage/realdebrid-zurg"]
+    SYMLINKER --> |"[4] Confirm download"|ZurgMount["/storage/realdebrid-zurg/\_\_all\_\_/whatever"]
+    SYMLINKER --> |"[4] Create symlink"|SymlinkMount["/storage/symlinks/../whatever"]
+
 ```
 
-1. The user adds content to their [Radarr][radarr] / [Sonarr][sonarr], or [Jellyseerr][jellyseerr]
-2. Radarr / Sonarr notice the the new addition, and search Prowlarr (*torrentio indexer*) for appropriate files (*matching size, quality, language parameters*)
-3. When an appropriate release is found, Radarr / Sonarr schedules a download via [RDTClient][rdtclient], which is presenting a qBittorrent-like API
-4. RDTClient adds the torrent to Real-Debrid, and then monitors the zurg rclone mount to confirm the download has succeeded. Upon success, RDTClient **symlinks** the download to Radarr/Sonarr's `completed` directory, and they process is as if it were a local download (*renaming and moving to the media path*)
-5. Aars trigger autoscan, which in turn triggers Emby to re-scan the media path containing the new content, and the Plex library is updated!
+1. The user adds items to lists (*Plex watchlist, TMDB list, etc*), which is then added to Jellyseerr, or directly to Radarr/Sonarr..
+2. Or, the user adds items directly to their [Radarr][radarr] / [Sonarr][sonarr], or [Jellyseerr][jellyseerr] (*which adds them to the Aars*)
+3. Radarr / Sonarr notice the the new addition, and search Prowlarr for appropriate files (*matching size, quality, language parameters*)
+4. When an appropriate release is found, Radarr / Sonarr schedules a download via [Blackhole][blackhole]. Blackhole adds the content to RealDebrid (*or fails and triggers a retry if it's not cached*), and moves the file into a `completed` folder
+5. Radarr / Sonarr notice the file in the `completed` folder, process it into the intended root folder, and notify Emby of a library update
+6. When the user streams the media, Emby looks in the symlink folder, retrieves the file (transparently, this is fulfilled by the symlink to the "real" files), and streams it to the user
 
 !!! question "Why not just use [plex_debrid][plex-debrid]?"
 

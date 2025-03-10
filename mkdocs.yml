@@ -174,15 +174,15 @@ nav:
     - Media: 
       - guides/media/index.md
       - Emby:
-        - RealDebrid:
-          - Aars: guides/media/emby-realdebrid-aars.md
+        - Radarr & Sonarr:
+          - RealDebrid: guides/media/emby-realdebrid-aars.md
       - JellyFin:
         - Real-Debrid:
           - Aars:  guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
       - Plex:
         - plex_debrid:
             Real-Debrid: guides/media/stream-from-real-debrid-with-plex.md
-        - Radarr/Sonarr:
+        - Radarr & Sonarr:
           - Real-Debrid: guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr.md
         - Riven:
           - Real-Debrid: guides/media/stream-from-real-debrid-with-plex-riven.md

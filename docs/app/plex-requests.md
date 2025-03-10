@@ -14,8 +14,6 @@ Plex Requests in a collection of several clever "microservices" which "abuse" th
 
 ![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.gif){ loading=lazy }
 
-{% include 'app.md' %}
-
 ## How do I use {{ page.meta.slug }}?
 
 There's no UI, but you can watch the logs of the various containers using [Kubernetes Dashboard][kubernetes-dashboard]
