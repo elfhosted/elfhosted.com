@@ -177,6 +177,8 @@ nav:
       - Emby:
         - Radarr & Sonarr:
           - RealDebrid: guides/media/emby-realdebrid-aars.md
+        - Riven:
+          - RealDebrid: guides/media/emby-realdebrid-riven.md          
       - JellyFin:
         - Real-Debrid:
           - Aars:  guides/media/stream-from-real-debrid-with-emby-radarr-sonarr-prowlarr.md
