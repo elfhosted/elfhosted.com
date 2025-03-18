@@ -42,6 +42,7 @@
 [mediafusion]:          /app/mediafusion/
 [mediaflow-proxy]:      /app/mediaflow-proxy/
 [miniflux]:             /app/miniflux/
+[movie-roulette]:       /app/movie-roulette/
 [mylar]:                /app/mylar/
 [navidrome]:            /app/navidrome/
 [nextpvr]:              /app/nextpvr/

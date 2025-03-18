@@ -79,6 +79,7 @@ nav:
       - Jellyfin: app/jellyfin.md
       - Kavita: app/kavita.md
       - Komga: app/komga.md
+      - Movie Roulette: app/movie-roulette.md
       - Navidrome: app/navidrome.md
       - Plex: app/plex.md 
       - Stremio Server: app/stremio-server.md 
