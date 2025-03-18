@@ -58,6 +58,7 @@
 [privatebin]:           /app/privatebin/
 [prowlarr]:             /app/prowlarr/
 [pyload]:               /app/pyload/
+[pulsarr]:              /app/pulsarr/
 [qbittorrent]:          /app/qbittorrent/
 [radarr]:               /app/radarr/
 [rclonefm]:             /app/rclonefm/

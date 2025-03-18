@@ -101,6 +101,7 @@ nav:
       - Petio: app/petio.md
       - Plex Meta Manager: app/plex-meta-manager.md
       - Plex Requests: app/plex-requests.md
+      - Pulsarr: app/pulsarr.md
       - Radarr: app/radarr.md
       - Readarr: app/readarr.md
       - RPDB: app/rpdb.md
