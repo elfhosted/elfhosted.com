@@ -14,6 +14,7 @@
 [cwa-book-downloader]:  /app/calibre-web-automated-book-downloader/
 [comet]:                /app/comet/
 [davio]:                /app/davio/
+[decypharr]:            /app/decypharr/
 [deluge]:               /app/deluge/
 [elfbot]:               /app/elfbot/
 [emby]:                 /app/emby/
