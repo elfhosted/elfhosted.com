@@ -27,22 +27,6 @@ Technically, Storage boxes can be accessed via SMB, making them an efficient and
 
 ## How to attach a Storage Box
 
-You can subscribe to a slot (A, B, or C) [in the store][store/storagebox]. Enter your storagebox credentials (*subaccounts also work*), and purchase. The storage will appear in `/storage/storagebox-<a/b/c>` within your apps.
-
-Use the username provided with your storagebox, and reset the password if you don't already have one:
-
-![](/images/storagebox-reset-password.png)
-
-### Video guide
-
-Here's an instructional video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TJoOR140IJw?si=UK_E91kIozxBCqU9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### Encryption (optional)
-
-And here's how to add optional encryption to the storagebox mount:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/llPjWdHmF_k?si=yuZyMmmUJ8vbrC69" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Use the [self-service rclone setup][rclone] to attach your storagebox using WebDAV, just like any other rclone-compatible storage provider.
 
 --8<-- "common-links.md"
