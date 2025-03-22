@@ -50,16 +50,6 @@ Features include:
 
 Upon launch, you'll be prompted to create a username/password. Once this is completed, you'll be able to access the app, and configure your users, libraries, etc.
 
-By default, `/storage/elfstorage/audiobooks` is the intended location for audiobooks (*note this is separate from `/storage/elfstorage/books` intentionally*)
-
-To connect to other apps, refer to [this documentation][connect-apps]
-  
-## Integrating with Readarr
-
-While [Readarr][readarr] is able to search for and download both ebooks and audio books, having both formats in one target folder (`/storage/elfstorage/books`) causes import errors due to [Calibre][calibre] integration, and results in a messy Audiobookshelf library.
-
-A cleaner solution is to install our `Readarr (Audio)` app, which is simply another instance of Readarr, intended to be dedicated to audio books. `Readarr (Audio)` is pre-configured with the "Spoken" profile, and `/storage/elfstorage/audiobooks` as root media folder.
-
-You can now manually add desired audiobooks to `Readarr (Audio)`, or configure a list import to automatically sync your regular Readarr library, so that you effectively end up with 2 Readarr instances, one searching for ebooks, and the other searching for audio books.
+You may need to mount external storage to store your Audiobooks, using [rclone][rclone], if you're not storing your Audiobooks on an existing cloud storage provider, like [Real-Debrid][real-debrid].
 
 {% include 'app_footer.md' %}
