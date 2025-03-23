@@ -70,7 +70,7 @@ nav:
   - Apps:
     - apps/index.md # yes, the plural is intentional
     - Consume Media:
-      - AudioBookRequests: app/audiobookrequests.md
+      - AudioBookRequest: app/audiobookrequest.md
       - Audiobookshelf: app/audiobookshelf.md
       - Calibre: app/calibre.md
       - Calibre Web: app/calibre-web.md
