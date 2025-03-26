@@ -118,6 +118,7 @@ nav:
       - AirDC++: app/airdcpp.md
       - Blackhole: app/blackhole.md    
       - cli_debrid: app/cli-debrid.md
+      - Debridav: app/debridav.md
       - Decypharr: app/decypharr.md
       - Flaresolverr: app/flaresolverr.md
       - Jackett: app/jackett.md  
