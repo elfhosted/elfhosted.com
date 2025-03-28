@@ -65,7 +65,7 @@ elfbot env debridav EASYNEWS_USERNAME=<your password>
 
 #### Prowlarr
 
-Add a custom Prowlarr indexer, of type `Generic Newznab`. Name it `ElfEasyNews` and set the URL to `http://debridav:5000`. Sync the indexer to your apps.
+Add a custom Prowlarr indexer, of type `Generic Newznab`. Name it `ElfEasyNews` and set the URL to `http://debridav:5001`. Sync the indexer to your apps.
 
 ![](/images/debridav-setup-1.png)
 

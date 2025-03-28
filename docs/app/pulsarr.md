@@ -1,7 +1,7 @@
 ---
 title: Elf Hosted Pulsarr 🧝
 slug: Pulsarr
-description: Self-host Miniflux, lean-and-mean RSS reader
+description: Instantly sync Plex watchlists with Radarr / Sonarr
 upstream: https://github.com/jamcalli/Pulsarr
 links:
 - name: GitHub
