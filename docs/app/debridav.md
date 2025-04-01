@@ -52,8 +52,8 @@ Use [ElfBot][elfbot] to set the following environment variables:
 
 ```
 elfbot env debridav DEBRIDAV_DEBRIDCLIENTS=easynews
-elfbot env debridav EASYNEWS_PASSWORD=<your username>
-elfbot env debridav EASYNEWS_USERNAME=<your password>
+elfbot env debridav EASYNEWS_USERNAME=<your username>
+elfbot env debridav EASYNEWS_PASSWORD=<your password>
 ```
 
 !!! tip "Using Premiumize and EasyNews simultaneously"
