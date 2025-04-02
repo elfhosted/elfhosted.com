@@ -1,6 +1,7 @@
 [actual]:               /app/actual/
 [aiostreams]:           /app/aiostreams/
 [airdcpp]:              /app/airdcpp/
+[audiobookrequest]:     /app/audiobookrequest/
 [audiobookshelf]:       /app/audiobookshelf/
 [autobrr]:              /app/autobrr/
 [autoscan]:             /app/autoscan/
@@ -14,6 +15,7 @@
 [cwa-book-downloader]:  /app/calibre-web-automated-book-downloader/
 [comet]:                /app/comet/
 [davio]:                /app/davio/
+[debridav]:             /app/debridav/
 [decypharr]:            /app/decypharr/
 [deluge]:               /app/deluge/
 [elfbot]:               /app/elfbot/
@@ -56,6 +58,7 @@
 [plex]:                 /app/plex/
 [plex-debrid]:          /app/plex-debrid/
 [plex-meta-manager]:    /app/plex-meta-manager/
+[plex-requests]:        /app/plex-requests/
 [privatebin]:           /app/privatebin/
 [prowlarr]:             /app/prowlarr/
 [pyload]:               /app/pyload/
