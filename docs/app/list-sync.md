@@ -29,4 +29,25 @@ And here's a demo gif:
 ![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.gif){ loading=lazy }
 
 {% include 'app_access.md' %}
+
+## How to use List-Sync
+
+At the least, you'll need to give ListSync your Overseerr / Jellyseerr API key, by running `elfbot env listsync OVERSEERR_API_KEY=<your key here>`
+
+You can, at this point, run List-Sync in interactive mode, or you can drive it declaritively, by setting any of the following ENV vars, using the same [ElfBot][elfbot] syntax:
+
+``` title="Example ENV vars"
+# Sync interval in hours (default: 24)
+SYNC_INTERVAL=24
+
+# Request Quality Profile (true for 4K, false for standard)
+OVERSEERR_4K=false
+
+# Lists Configuration (comma-separated)
+# Examples:
+IMDB_LISTS=ls123456789,ur123456789,top,boxoffice,https://www.imdb.com/list/ls123456789/
+TRAKT_LISTS=12345,67890,https://trakt.tv/users/username/lists/listname
+LETTERBOXD_LISTS=https://letterboxd.com/username/list/listname/ 
+```
+
 {% include 'app_footer.md' %}
