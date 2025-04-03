@@ -19,6 +19,9 @@ links:
 
 SeerrBridge is a browser automation tool that integrates Jellyseer/Overseerr with Debrid Media Manager. It listens to movie requests via Overseerr webhook. It automates the torrent search and download process using Debrid Media Manager via browser automation, which in turn, gets sent to Real-Debrid. This streamlines your media management, making it fast and efficient.
 
+!!! tip "SeerrBridge gets revenue sharing! :heart:"
+    SeerrBridge is an "Elf-illiated" project - the developer maintains an active support channel ([#elf-seerrbridge](https://discord.com/channels/396055506072109067/1345126741118550046)) in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 33% of your subscriptions are contributed to the developer!
+
 {% include 'app.md' %}
 {% include 'app_access.md' %}
 
