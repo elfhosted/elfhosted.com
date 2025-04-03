@@ -23,5 +23,10 @@ ListSync automatically syncs your watchlists from IMDb, Trakt, and Letterboxd wi
     List-Sync is an "Elf-illiated" project - the developer maintains an active support channel ([#elf-list-sync](https://discord.com/channels/396055506072109067/1357211427013791836)) in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 33% of your subscriptions are contributed to the developer!
 
 {% include 'app.md' %}
+
+And here's a demo gif:
+
+![Screenshot of {{ page.meta.slug }}](/images/screenshots/{{ page.meta.slug | lower }}.gif){ loading=lazy }
+
 {% include 'app_access.md' %}
 {% include 'app_footer.md' %}
