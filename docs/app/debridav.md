@@ -38,6 +38,7 @@ elfbot env debridav PREMIUMIZE_API_KEY=<your api key>
 
 In each Aarr, add a new download client, of type qBittorrent. Set the name to `Debridav [PM/RD/EN]`, the URL to `http://debridav:8080`. No credentials are required. Set one of following categories `radarr,sonarr,radarr4k,sonarr4k,lidarr,readarr,readarraudio,prowlarr` (*avoid re-using the same category across multiple aars*).
 
+
 ![](/images/debridav-setup-3.png)
 
 Under `Settings` -> `Media Management` in your aars, show the advanced settings, and enable `Import Using Script`. Set the `Import Script Path` to `/elf-import.sh`
