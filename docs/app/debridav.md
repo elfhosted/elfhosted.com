@@ -47,7 +47,7 @@ Under `Settings` -> `Media Management` in your aars, show the advanced settings,
 
 ### EasyNews
 
-To use EasyNews, you'll need an EasyNews account. You can get one for [as little as $3/month for the first year](https://signup.easynews.com/checkout/deal-for-you-e1/), or potentially [$2/month](https://signup.easynews.com/checkout/winback-deal-ae/) if on a "win-back" deal.
+To use EasyNews, you'll need an EasyNews account. You can get one for [as little as \$3/month for the first year](https://signup.easynews.com/checkout/deal-for-you-e1/), or potentially [$2/month](https://signup.easynews.com/checkout/winback-deal-ae/) if on a "win-back" deal.
 
 Use [ElfBot][elfbot] to set the following environment variables:
 
