@@ -1,6 +1,6 @@
 ---
 title: Elf Hosted Jellyfin Accounts 🧝
-slug: jellyfin-accounts
+slug: jfa
 description: jellyfin-accounts (JFA) is a better way to manage your Jellyfin users
 upstream: https://jfa-go.com/
 links:
@@ -48,7 +48,7 @@ Here's a series of screenshots to illustrate, but TL;DR, use the following setti
 * [x] **Disable** updates (*we roll these out for you anyway*)
 * [x] When setting up connection to Jellyfin, use these settings:
     * [x] Server Address (Internal): `http://jellyfin:8096`
-    * [x] Server Address (External): `https://<your username>.jfa.elfhosted.com`
+    * [x] Server Address (External): `https://<your username>-jfa.elfhosted.com` (*alter if you're on a different DC suffix*)
 * [x] If connecting to Ombi, use `http://ombi:5000` for connection
 
 ### Step-by-step 

@@ -18,14 +18,17 @@ It's therefore left to the user re whether to sponsor / donate to the developers
 
 Project | Why
 ---------|----------
-[gluetun](https://github.com/sponsors/qdm12) | Provides BYO VPN connectivity to our [qBittorrent][qbittorrent], [Deluge][deluge], [ruTorrent][rutorrent] and [Plex][plex] applications
+[gluetun](https://github.com/sponsors/qdm12) | Provides VPN connectivity to various apps
 [onedr0p](https://github.com/sponsors/onedr0p) | Container build process inspired our own, which keeps all our applications automatically up-to-date
 [gatus](https://github.com/sponsors/TwiN) | Provides our health-checking tool
 [rclone](https://github.com/sponsors/rclone) | Used to mount remote storage
 [homer](https://www.buymeacoffee.com/bastien) | Provides our default user dashboard
 [mkdocs-material](https://github.com/sponsors/squidfunk) | Makes our website beautiful
 [zurg](https://github.com/sponsors/debridmediamanager) | Makes streaming from Real Debrid possible
+[sonarr](https://opencollective.com/sonarr) | manages TV episodes
+[radarr](https://opencollective.com/radarr) | manages Movies
+[prowlarr](https://opencollective.com/prowlarr) | manages indexers
 
-(*confirm my sponsorship [here](https://github.com/funkypenguin/)*)
+(*confirm our sponsorship [here](https://github.com/funkypenguin/), [here](https://github.com/orgs/elfhosted/sponsoring), and [here](https://opencollective.com/elfhosted)*)
 
 --8<-- "common-links.md"
