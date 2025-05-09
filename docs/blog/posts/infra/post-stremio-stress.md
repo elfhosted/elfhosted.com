@@ -57,20 +57,6 @@ The dreaded 72h bug (*if you renewed your subscription a few times to switch app
 
 The result should be no more surprise empty dashboards, but also more predictable expiry of unused apps, after your 24h renewal cycle has applied.
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 229 | +37
-:fontawesome-solid-hard-drive: Storageboxes mounted | 18 | -
-:floppy_disk: ElfStorage in TBs | 52 | +1
-:material-sync: Rclone mounts | 129 | +17
-:material-dolphin: Tenant pods | 3034 | +502 [^1]
-:superhero: Elf-vengers | 3 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 2 |
-:fontawesome-solid-gamepad: New toyz | - | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

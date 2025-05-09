@@ -30,15 +30,6 @@ If you notice anything out-of-place in the store, feel free to drop a note into 
 
 In case you missed it, our [Elf-Disclosure report for Aug 2024](https://elfhosted.com/open/aug-2024/) was published 2 weeks ago, full of juicy stats, and notably the calculation that we covered our cash expenses in Aug!
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 254 | +74
-🐬 Tenant pods | 3242 | +877
-🐛 Bugz squished | - | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

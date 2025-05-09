@@ -63,18 +63,6 @@ This means that taking data **out** of ElfHosted is limited to 5MB/s, but puttin
 
     Users who want to use ElfHosted primarily to download content for shipping home, should use a [StorageBox][storagebox], rather than ElfStorage, since that way the data can be downloaded directly via FTP / SMB / SSH, without traversing ElfHosted infrastructure :thumbsup:
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 143 | +13
-:fontawesome-solid-hard-drive: Storageboxes mounted | 19 | 0
-:floppy_disk: ElfStorage in TBs | 48 | +1
-:material-sync: Rclone mounts | 43 | +10 [^1]
-:material-dolphin: Tenant pods | 1518 | +178
-:material-bug: Bugz squished | 1 |
-:fontawesome-solid-gamepad: New toyz | 1 |
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

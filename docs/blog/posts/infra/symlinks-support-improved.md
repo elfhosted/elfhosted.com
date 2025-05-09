@@ -28,20 +28,6 @@ To summarize the changes since the [last update](/blog/2024/02/27/elfbot-reports
 
 In addition to reporting on broken symlinks with `elfbot symlink report-broken`, you can now tell ElfBot to **delete** any broken symlinks, with `elfbot symlink delete-broken`
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 325 | +9
-:fontawesome-solid-hard-drive: Storageboxes mounted | 18 | -
-:alien: Zurg mounts: | 131 | +2
-:floppy_disk: ElfStorage in TBs | 65 | +3
-:material-dolphin: Tenant pods | 4097 | +38
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 1 | -
-:fontawesome-solid-gamepad: New toyz | 1 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

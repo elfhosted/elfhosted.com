@@ -80,20 +80,6 @@ There's a detailed guide [here](/guides/media/stream-from-real-debrid-with-strem
 
 ![](/images/stremio-jacket-example-search.png)
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 170 | -2
-:fontawesome-solid-hard-drive: Storageboxes mounted | 17 | -
-:floppy_disk: ElfStorage in TBs | 49 | +1
-:material-sync: Rclone mounts | 99 | +1
-:material-dolphin: Tenant pods | 2211 | +88
-:superhero: Elf-vengers | 1 | -
-:student: Trainees | 4 | -
-:material-bug: Bugz squished | - | -
-:fontawesome-solid-gamepad: New toyz | 2 | -
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

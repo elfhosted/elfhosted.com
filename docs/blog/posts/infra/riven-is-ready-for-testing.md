@@ -23,19 +23,6 @@ Remember, this is all very cutting-edge and geeky, so some assembly will be requ
 
 <!-- more -->
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 326[^1] | -7
-👾 Zurg mounts: | 141 | -2
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 106 | +1
-🐬 Tenant pods | 3692 | +221
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 9 | -
-🧑‍🎓 Trainees | 22 | -
-🐛 Bugz squished | - | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

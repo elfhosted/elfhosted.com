@@ -92,20 +92,6 @@ Today, to great delight of my children who all tried to claim it, the first of m
 
 Thanks \@BSM for making the merch happen! :thumbsup:
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 329 | +2
-👾 Zurg mounts: | 128 | +1
-⛰ Riven pods: | 54 | +4
-🐬 Tenant pods | 2678 | +27
-🧑🏻‍🌾 [Hobbits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) | 33 | +4
-🤠 [Rangers](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus) | 19 | -
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🐛 Bugz squished | - | -
-🕹️ New toyz | 2 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

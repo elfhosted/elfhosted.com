@@ -53,20 +53,6 @@ Here's an easy guide : [Stream from Real-Debrid using Self Hosted Torrentio Addo
 
 I plan to announce the free instance on [r/realdebrid](https://reddit.com/r/realdebrid) and [r/StremioAddons](https://www.reddit.com/r/StremioAddons) in the next 12h or so, please share do it wherever you hand out (*Discords, Reddit, etc.*)
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 192 | +22
-:fontawesome-solid-hard-drive: Storageboxes mounted | 18 | -
-:floppy_disk: ElfStorage in TBs | 51 | +2
-:material-sync: Rclone mounts | 112 | +13
-:material-dolphin: Tenant pods | 2532 | +321
-:superhero: Elf-vengers | 3 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 4 |
-:fontawesome-solid-gamepad: New toyz | 1 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

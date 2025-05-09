@@ -33,17 +33,6 @@ On another topic, if you've noticed your ElfHosted apps being slow to access you
 
 Out of interest, here's what [Hetzner's datacenters](https://www.hetzner.com/unternehmen/360-tour) look like. You have to appreciate that they picked the cafeteria as one of the highlights for their virtual tour!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:material-dolphin: Healthy tenant pods | 793
-:fontawesome-regular-circle-user: Total subscribers | 42
-:fontawesome-solid-hard-drive: Storageboxes mounted | 23
-:material-sync: Rclone mounts | 11
-:material-bug: Bugz squished | 2
-:fontawesome-solid-gamepad: New toyz | 0
-
 ### Summary
 
 As always, thanks for building with us!

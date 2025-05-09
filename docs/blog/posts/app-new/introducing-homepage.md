@@ -56,17 +56,6 @@ What I **think** was happening is this.. a new user gets 10+ volumes provisioned
 
 I've reduced us to a single replica for the CSI provisioners, and **thus far**, there have been no more pending attachements (*but we'll only know after a few days of new user signups*).
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 87
-:fontawesome-solid-hard-drive: Storageboxes mounted | 23
-:material-sync: Rclone mounts | 10
-:material-dolphin: Tenant pods | 819
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 1
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

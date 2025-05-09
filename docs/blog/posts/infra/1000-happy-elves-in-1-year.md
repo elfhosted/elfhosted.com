@@ -48,20 +48,6 @@ Our [Discord community][discord] is growing, and we're investing in tools and pr
 
 If you'd like to get involved as an [ElfVenger](/team/#elf-vengers), and you have a set of skills (*or just a ready smile*) to contribute, we'd love to meet you! There's an ever-growing list of projects, not all of which require high levels of technical skillz, so if you're keen to get "on the inside", drop into [#elf-venger-plz](https://discord.com/channels/396055506072109067/1198400497632153630), and follow your nose!
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 359 | +6
-👾 Zurg mounts: | 145 | +1
-⛰ Riven pods: | 25 | +1
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 111 | -
-🐬 Tenant pods[^1] | 3321 | +119
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 23 | -
-🐛 Bugz squished | - | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

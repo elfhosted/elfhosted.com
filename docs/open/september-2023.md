@@ -11,38 +11,6 @@ Here are some shiny stats for September 2023, followed by a summary of some of t
 
 <!-- more -->
 
-## Stats
-
-=== ":moneybag: Spent"
-
-    :material-target: Focus | :material-calendar: Jul 2023 | :material-calendar: Aug 2023 | :material-calendar: September 2023 
-    ----------|----------|----------|---------- 
-    :material-cow: Cluster | $428 | $428 | $428 
-    :material-cart: Store | $223 | $100 | $100
-    :material-test-tube: CI | $200 | $600 | $100
-    :material-cloud-cog: Cloud | $20  | $20 | $20
-    :material-clock: Development | 124h / $18,600 | 60h / $12,000 [^2] | 15h / $2,250
-    :material-trending-down: Total Expenses | $19,471 | $13,148 | $2,923
-    :material-trending-up: Income | $43 | $215 | $95
-    :material-calculator: % of expenses | 0.2% | 1.63% | 4.1%
-        
-=== ":nerd: Tech stats"
-
-    :material-target: Focus | :material-calendar: July 2023 | :material-calendar: Aug 2023 | :material-calendar: September 2023 
-    ---------|----------|----------|---------- 
-    :fontawesome-regular-circle-user: Subscribers | 48 | 53 | 43 [^1]
-    :octicons-sign-in-16: Ingress | 19.5TB | 23TB | 34TB
-    :octicons-sign-out-16: Egress | 3.3TB | 7TB | 14TB
-    :material-dolphin: Pods | 619 | 792 | 430 [^2]
-
-=== ":bar_chart: Summary"
-
-    :material-target: Focus | :material-calendar: June 2023 | :material-calendar: June 2023 | :material-calendar: September 2023 
-    ---------|----------|----------|---------- 
-    :material-trending-down: Total invested thus far  [^4] | $42,669 | $53,118 | $56,111
-    :material-trending-up: Total revenue | $43 | $258 | $353
-    :material-calculator: Income % of total invested | 0% | 0.1% | 0.5% | 0.62%
-
 ## Resources
 
 === ":material-cpu-64-bit: CPU"
@@ -146,12 +114,5 @@ More details in [this blog post](/blog/2023/09/06/introducing-miniflux/).
 !!! tip "Want to get involved?"
 
     Want to get involved? Join us in [Discord][discord] and come and test-in-production!
-
-[^1]: Much of this is yearly fees for Wordpress plugins
-[^2]: Yes, that's a **lot**! This is the opportunity cost, over a month, of focusing on ElfHosted rather than billable consulting work!
-[^3]: Total spend includes yearly payments for Wordpress plugins, etc
-[^4]: All moneyz are in US dollarz!
-[^5]: In Sept 2023, I changed the way these are counted, prefering users with active subscriptions rather than simply counting users provisioned (*also, deprovisioning was improved*)
-[^6]: After inactive / abandoned accounts were deprovisioned
 
 --8<-- "common-links.md"

@@ -28,14 +28,6 @@ You may have noticed that the git-hub connected channels in Discord, specificall
 
 Today also marks the final day of Seedplicity, after a long, protracted shutdown period for user migrations. The [big red switch](https://discord.com/channels/907016842873278474/973461820427878410/1134495324887588985) was flipped today :material-grave-stone:
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 45
-:material-bug: Bugz squished | 2
-:fontawesome-solid-gamepad: New toyz | 0
-
 ### Bugz squished
 
 * :bug: SurfShark BYO VPN is now working

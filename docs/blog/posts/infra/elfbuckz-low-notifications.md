@@ -27,17 +27,6 @@ As a reminder, the maintenance window is an **opportunity** to perform app / inf
 
 I noticed [Jellystat](https://github.com/CyferShepard/Jellystat) mentioned in a [post in r/selfhosted](https://www.reddit.com/r/selfhosted/comments/173qtly/jellystat_is_for_jellyfin_what_tautuli_is_for_plex/) - it looks like it may be useful for Jellyfin "power users". If Jellystat would be useful to you, hit me up in [Discord][discord] and we can trial it ;)
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:material-dolphin: Healthy (subscribed) tenant pods | 422
-:fontawesome-regular-circle-user: Total subscribers | 43
-:fontawesome-solid-hard-drive: Storageboxes mounted | 19
-:material-sync: Rclone mounts | 11
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 0
-
 ### Summary
 
 As always, thanks for building with us!

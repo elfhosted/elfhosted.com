@@ -42,19 +42,6 @@ Don't fancy copying/pasting all that JSON, but still want to take advantage of t
 
 We've started to see the occasional Jellyfin pod get OOMKilled due to reaching its 2Gi RAM limit (*during analysis*). The RAM limit for Jellyfin has been bumped up to 3Gi 🎉
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 352 | +4
-👾 Zurg mounts: | 150 | +7
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 91 | +3
-🐬 Tenant pods | 3992 | +135
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 7 | -
-🧑‍🎓 Trainees | 8 | -
-🐛 Bugz squished | 0 | -
-🕹️ New toyz | 1 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

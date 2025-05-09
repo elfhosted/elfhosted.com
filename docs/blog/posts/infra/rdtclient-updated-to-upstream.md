@@ -37,19 +37,6 @@ Watch this space, and shout out if you have experience with the TRaSH setups and
 
 (*This weekend's project!*)
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 364 | -14
-👾 Zurg mounts: | 155 | -3
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 91 | +1
-🐬 Tenant pods | 3949 | -61
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 4 | -
-🧑‍🎓 Trainees | 2 | -
-🐛 Bugz squished | 1 | -
-🕹️ New toyz | 1 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

@@ -27,17 +27,6 @@ Recently on one node, we've started seeing some clients pausing themselves becau
 
 I've just finished reinstalling the worker nodes using a RAID0 for the pod's temp data, rather than a RAID1 (*who cares about redundancy for ephemeral data?*), which should put to bed any issues re low temp space in the NZB clients.
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:material-dolphin: Healthy (subscribed) tenant pods | 451
-:fontawesome-regular-circle-user: Total subscribers | 43
-:fontawesome-solid-hard-drive: Storageboxes mounted | 18
-:material-sync: Rclone mounts | 7
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 0
-
 ### Summary
 
 As always, thanks for building with us!

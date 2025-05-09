@@ -42,17 +42,6 @@ Since I had a new logo, I also tweaked the colors on our website / emails, so yo
 
 Yesterday's toyz is today's bugz - there were some edge cases re the new storagebox / gdrive encrypted mounts which caused some trouble today - I'm not sure that we've caught all the issues, so if you're an encrypted rclone mount user, and something doesn't work the way you think it should, let me know!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 90
-:fontawesome-solid-hard-drive: Storageboxes mounted | 24
-:material-sync: Rclone mounts | 11
-:material-dolphin: Tenant pods | 837
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 1
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

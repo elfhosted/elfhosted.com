@@ -61,19 +61,6 @@ So, no firm details yet, just be advised that (a) change is coming, and (b) exis
 
 Overnight the cluster auto-updated our rclone instances to 1.66.0, and broke WebDAV access for subscribed tenants. I've rolled this back to 1.65.2 (*previously working version*), and prevented further automatic upgrades until we can fix this!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 384 | +30
-:alien: Zurg mounts: | 138 | +7
-:floppy_disk: ElfStorage in TBs | 77 | +12
-:material-dolphin: Tenant pods | 4107[^2] | -261
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 1 | -
-:fontawesome-solid-gamepad: New toyz | - | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

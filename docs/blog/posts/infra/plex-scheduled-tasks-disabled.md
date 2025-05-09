@@ -72,21 +72,6 @@ Watch this space, and shout out if you have experience with the TRaSH setups and
 
 (*This weekend's project!*)
 
-## Today's scoreboard
-
-(*The negative trends look bad, but they're likely a response to the [April 2024 repricing](/blog/2024/03/20/planned-for-1-april-2024/), rather than a disinterest / negative reflection on our platform*)
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 348 | +2
-👾 Zurg mounts: | 143[^1] | -9
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 88 | +1
-🐬 Tenant pods | 3857 | +49
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 4 | -
-🧑‍🎓 Trainees | 2 | -
-🐛 Bugz squished | 3 | -
-🕹️ New toyz | 0 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

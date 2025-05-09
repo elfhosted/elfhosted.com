@@ -72,20 +72,6 @@ Monitoring enp1s0...    (press CTRL-C to stop)
    rx:     1.91 Gbit/s 187121 p/s          tx:     1.89 Gbit/s 184414 p/s^
 ```
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 255 | -
-:fontawesome-solid-hard-drive: Storageboxes mounted | 19 | -
-:alien: Zurg mounts: | 108 | -4
-:floppy_disk: ElfStorage in TBs | 53 | -
-:material-dolphin: Tenant pods | 3492 | -24
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 4 | -
-:fontawesome-solid-gamepad: New toyz | 4 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

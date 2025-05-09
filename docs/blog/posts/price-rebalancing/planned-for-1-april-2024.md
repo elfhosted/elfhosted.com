@@ -68,19 +68,6 @@ Here's what the refreshed plex_debrid looks like:
 
 Currently the updated plex_debrid is available to beta-testers, and will roll out to the stable channel after the pricing changes kick in on 1 April (*don't want to attract a bunch more users just to "bait-and-switch" them with a price rebalance!*)
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 388 | +4
-:alien: Zurg mounts: | 152 | +14
-:floppy_disk: ElfStorage in TBs | 82 | +5
-:material-dolphin: Tenant pods | 4721 | +614
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | - | -
-:fontawesome-solid-gamepad: New toyz | - | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

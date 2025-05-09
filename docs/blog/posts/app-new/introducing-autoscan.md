@@ -33,17 +33,6 @@ The HDD->SSD migration caused a permissions issue for Mattermost file uploads, w
 
 The 404 / expiry bug which I **thought** I'd fully solved popped out of another hole today. I've dealt with this issue as well, but if you do find yourself seeing 404s when you think you shouldn't, click that [#elf-help](https://discord.com/channels/396055506072109067/1119478614287712337) link!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 84
-:fontawesome-solid-hard-drive: Storageboxes mounted | 23
-:material-sync: Rclone mounts | 8
-:material-dolphin: Tenant pods | 802
-:material-bug: Bugz squished | 2
-:fontawesome-solid-gamepad: New toyz | 0
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

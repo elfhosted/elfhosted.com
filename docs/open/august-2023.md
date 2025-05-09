@@ -13,37 +13,6 @@ Here are some shiny stats for Aug 2023, followed by a summary of some of the big
 
 ## Stats
 
-=== ":moneybag: Spent"
-
-    :material-target: Focus | :material-calendar: June 2023 | :material-calendar: July 2023 | :material-calendar: Aug 2023 
-    ---------|----------|----------|---------- 
-    :material-cow: Cluster | $428 | $428 | $428 
-    :material-cart: Store | $632 [^1] | $223 | $100
-    :material-test-tube: CI | $208 | $200 | $600
-    :material-cloud-cog: Cloud | $30 | $20  | $20
-    :material-clock: Development | 146h / $21,900 | 124h / $18,600 | 60h / $12,000 [^2] 
-    :material-trending-down: Total Expenses | $23,198 | $19,471 | $13,148
-    :material-trending-up: Income | $0 | $43 | $215
-    :material-calculator: % of expenses | 0% | 0.2% | 1.63%
-        
-
-=== ":nerd: Tech stats"
-
-    :material-target: Focus | :material-calendar: June 2023 | :material-calendar: July 2023 | :material-calendar: Aug 2023 
-    ---------|----------|----------|---------- 
-    :fontawesome-regular-circle-user: Subscribers | 14 | 48 | 53
-    :octicons-sign-in-16: Ingress | 24TB | 19.5TB | 23TB
-    :octicons-sign-out-16: Egress | 1TB | 3.3TB | 7TB
-    :material-dolphin: Pods | 478 | 619 | 792
-
-=== ":bar_chart: Summary"
-
-    :material-target: Focus | :material-calendar: June 2023 | :material-calendar: June 2023 | :material-calendar: Aug 2023 
-    ---------|----------|----------|---------- 
-    :material-trending-down: Total invested thus far | $23,200 | $42,669 | $53,118 [^4]
-    :material-trending-up: Total revenue | $0 | $43 | $258
-    :material-calculator: Income % of total invested | 0% | 0.1% | 0.5%
-
 ## Resources
 
 === ":material-cpu-64-bit: CPU"

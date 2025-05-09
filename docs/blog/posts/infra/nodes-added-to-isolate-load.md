@@ -57,17 +57,6 @@ Also, Black Friday is around the corner, and I've been trying to increase visibi
 
  I'm anticipating some more subscriptions and "tyre-kickers", and I want the platform to be able to handle this without impacting existing happy users :heart:
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:material-dolphin: Healthy tenant pods | 648
-:fontawesome-regular-circle-user: Total subscribers [^2] | 70
-:fontawesome-solid-hard-drive: Storageboxes mounted | 17
-:material-sync: Rclone mounts | 5
-:material-bug: Bugz squished | 0
-:fontawesome-solid-gamepad: New toyz | 0
-
 ### Summary
 
 As always, thanks for building with us!

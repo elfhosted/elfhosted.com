@@ -31,21 +31,6 @@ The motivation here is to provide core services (*health, dashboard, etc*) on no
 !!! tip "Dedicated nodes are dedicated"
     [Hobbit](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) and [Ranger](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus) users get their heavy hitters running on dedicated nodes anyway!
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 341 | -23
-👾 Zurg mounts: | 153 | -13
-⛰ Riven pods: | 49 | +3
-🐬 Tenant pods | 2718 | -469 [^1]
-🧑🏻‍🌾 [Hobbits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) | 23 | +8
-🤠 [Rangers](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus) | 19 | +4
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 24 | +1
-🐛 Bugz squished | 1 | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

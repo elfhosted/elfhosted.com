@@ -44,21 +44,6 @@ Here's my latest experiment:
 
 If you have feedback on these videos (*what to improve, what to ignore*), I'd love to hear it!
 
-## Today's scoreboard
-
-The dramatic drop in subscribers, zurg mounts, and pods is likely attributable to the removal of 25% of excess workload (*which probably hung around when it shouldn't have, due to the aforementioned flakey webhooks!*)
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 336 | -16
-👾 Zurg mounts: | 114 | -36
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 93 | +2
-🐬 Tenant pods | 2913 | -1079
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | +1
-🧑‍🎓 Trainees | 22 | -
-🐛 Bugz squished | 1 | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

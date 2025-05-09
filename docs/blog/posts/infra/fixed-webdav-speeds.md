@@ -33,17 +33,6 @@ You can find your [personal referral link on your account page](https://store.el
 
 It turns out I'd accidentally restricted our WebDAV endpoints to 1.25MB/s, instead of 10MB/s as intended. This is now fixed, so if you're using [WebDAV][webdav] to access your storage externally, you'll now be able to transfer at up to 80Mbps, or 8% of a single node's 1Gbps link[^2].
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers [^1]| 128
-:fontawesome-solid-hard-drive: Storageboxes mounted | 21
-:material-sync: Rclone mounts | 7
-:material-dolphin: Tenant pods | 1001
-:material-bug: Bugz squished | 2
-:fontawesome-solid-gamepad: New toyz | 0
-
 ### Summary
 
 As always, thanks for building with us!

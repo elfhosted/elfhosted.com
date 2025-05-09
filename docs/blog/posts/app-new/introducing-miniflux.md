@@ -23,16 +23,6 @@ More news...
 
 <!-- more -->
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers[^1] | 37
-:fontawesome-solid-hard-drive: Storageboxes mounted | 16
-:material-sync: Rclone mounts | 11
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 1
-
 ### Bugz squished
 
 #### Dashboards no longer broken

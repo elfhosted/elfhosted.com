@@ -36,20 +36,6 @@ In the end, there are 2 paths forward:
 
 We've all been enjoying geeking out on the [Riven][riven] backend logs, but now we also have a bare-bones frontend, which makes the process of managing your Riven config **soooo** much easier! It even uses Plex OAuth to retrieve your token, so that you don't have to go hunting in XML files anymore!
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 354[^1] | +28
-👾 Zurg mounts: | 141 | -
-⛰ Riven pods: | 24 | -
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 110 | +4
-🐬 Tenant pods[^1] | 3224 | -468
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 23 | +1
-🐛 Bugz squished | - | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

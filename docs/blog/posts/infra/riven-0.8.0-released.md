@@ -50,21 +50,6 @@ I've renewed our "experimental" US node for a second month, since we didn't quit
 
 In the meantime, you can compare your results for https://speed.elfhosted.us (*Washington State*) with https://speed.elfhosted.com (*Germany*) for an indication of the difference!
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 329 | -12
-👾 Zurg mounts: | 127 | -26
-⛰ Riven pods: | 48 | -1
-🐬 Tenant pods | 2669 | -49
-🧑🏻‍🌾 [Hobbits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) | 27 | +4
-🤠 [Rangers](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus) | 19 | -
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 23 | -1
-🐛 Bugz squished | 0 | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

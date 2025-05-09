@@ -37,20 +37,6 @@ Yesterday another self-hosted Stremio addon (*torrentio replacement*) was [annou
 
 Watch this space!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 266 | +11
-:fontawesome-solid-hard-drive: Storageboxes mounted | 19 | -
-:alien: Zurg mounts: | 113 | +5
-:floppy_disk: ElfStorage in TBs | 54 | +1
-:material-dolphin: Tenant pods | 3577 | +85
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 1 | -
-:fontawesome-solid-gamepad: New toyz | 1 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

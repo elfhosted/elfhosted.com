@@ -38,19 +38,6 @@ Since we made much of the storage single-attachable (*ReadWriteOnce*) as well, (
 
 So I've turned off force-killing for now - if you find yourself needing to force-delete a pod, please create an [#elf-help][elf-help] ticket, and we'll try to address the underlying problem instead :)
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 341 | +5
-👾 Zurg mounts: | 116 | +2
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 93 | -
-🐬 Tenant pods | 2990 | +77
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 22 | -
-🐛 Bugz squished | 2 | -
-🕹️ New toyz | 0 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

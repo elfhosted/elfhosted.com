@@ -70,21 +70,6 @@ Plex-debrid's Trakt integration has been broken for a while - it seems as if the
 
 The takeaway here, is [plex-debrid][plex-debrid] is working now! :partying_face:
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 367 | -3
-👾 Zurg mounts: | 165 | +2
-⛰ Riven pods: | 46 | +1
-🐬 Tenant pods | 3187 | +71
-🧑🏻‍🌾 [Hobbits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) | 15 | -
-🤠 [Rangers](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus) | 15 | -
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 24 | +1
-🐛 Bugz squished | 1 | -
-🕹️ New toyz | - | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

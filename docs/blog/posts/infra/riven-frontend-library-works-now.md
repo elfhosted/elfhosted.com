@@ -85,20 +85,6 @@ I include these below for context, and in case you're an active Reddit and you w
 * [The Jul 2024 Elf-Disclosure report](https://www.reddit.com/r/StremioAddons/comments/1ei1jg3/elfhosteds_elfdisclosure_report_for_july_2024_we/)
 * [The 10% off offer on private hosted Stremio addons](https://www.reddit.com/r/StremioAddons/comments/1ei1ubz/get_10_off_all_elfhosted_private_stremio_addons/)
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 180 | -[^1]
-👾 Zurg mounts: | 147 | +1
-⛰ Riven pods: | 54 | +4
-🐬 Tenant pods | 2365 | -313
-🧑🏻‍🌾 [Hobbits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) | 49 | +16
-🤠 [Rangers](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus) | 19 | -
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🐛 Bugz squished | 2 | -
-🕹️ New toyz | - | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

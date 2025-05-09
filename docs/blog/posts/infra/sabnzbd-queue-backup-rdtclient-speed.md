@@ -55,17 +55,6 @@ Remember that rook-ceph provisioning bug I was chasing for days? The root cause,
 
 I've made the [obvious fix](https://github.com/geek-cookbook/elf-infra/blob/main/roles/node/tasks/main.yml#L57), and our provisioning woes are now behind us!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers [^1]| 128
-:fontawesome-solid-hard-drive: Storageboxes mounted | 20
-:material-sync: Rclone mounts | 12
-:material-dolphin: Tenant pods | 1040
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 2
-
 ### Summary
 
 As always, thanks for building with us!

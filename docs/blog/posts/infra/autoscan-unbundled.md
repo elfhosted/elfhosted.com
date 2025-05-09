@@ -32,18 +32,6 @@ I've applied a 40Mbit rate-limit to each Zurg instance while I gather more stats
 
 [Let me know][elf-help] if you're still having issues with Zurg, or if this 40Mbit rate-limit negatively impacts you. It's new territory, and there's bound to be a little trial-and-error!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 148 | +7
-:fontawesome-solid-hard-drive: Storageboxes mounted | 12 | -2
-:floppy_disk: ElfStorage in TBs | 48 | -
-:material-sync: Rclone mounts | 53 | +10 [^1]
-:material-dolphin: Tenant pods | 1518 | +68
-:material-bug: Bugz squished | 2 | -
-:fontawesome-solid-gamepad: New toyz | - | -
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

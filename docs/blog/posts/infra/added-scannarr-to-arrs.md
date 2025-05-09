@@ -55,20 +55,6 @@ So probably this auto-rebooting-on-renewal bug been happening for a while, but r
 
 I'm happy to say that with a bit more logic / sanity-checking, this bug is :gravestone:, and won't be back to bother our stability again!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 255 | +4
-:fontawesome-solid-hard-drive: Storageboxes mounted | 19 | +1
-:alien: Zurg mounts: | 112 | +6
-:floppy_disk: ElfStorage in TBs | 53 | -
-:material-dolphin: Tenant pods | 3516 | +76 [^1]
-:superhero: Elf-vengers | 4 | +1
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 1 | -
-:fontawesome-solid-gamepad: New toyz | 2 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

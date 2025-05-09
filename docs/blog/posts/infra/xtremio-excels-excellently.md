@@ -28,20 +28,6 @@ At the top of your ElfHosted dashboard is a summary of your current disk usage. 
 
 I've refactored the message so that it'll still refresh the disk used/free stats hourly, but the process of calculating **where** your disk space is going, is now a manual process using [ElfBot][elfbot].
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 273 | +8
-:fontawesome-solid-hard-drive: Storageboxes mounted | 17 | +1
-:alien: Zurg mounts: | 108 | +1
-:floppy_disk: ElfStorage in TBs | 57 | -
-:material-dolphin: Tenant pods | 3657 | +81
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 1 | -
-:fontawesome-solid-gamepad: New toyz | 2 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

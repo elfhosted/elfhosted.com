@@ -88,19 +88,6 @@ Stremio addons are generally "Standard apps". [Comet][comet] (*and possibly [Med
 
 As [previously announced](/blog/2024/06/12/riven-is-ready-for-testing/), we share 30% of app subscription revenue with "Elf-iliated" devs. This includes [Riven][riven] and [Comet][comet], and the change to monthly subscriptions will make accounting for this simpler.
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 370 | +6
-👾 Zurg mounts: | 163 | -16
-⛰ Riven pods: | 45 | +7
-🐬 Tenant pods | 3116 [^1] | -
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 23 | -
-🐛 Bugz squished | - | -
-🕹️ New toyz | - | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

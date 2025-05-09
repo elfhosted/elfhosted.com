@@ -26,20 +26,6 @@ To get your report, run `elfbot symlink report-broken`, and find the resulting r
 !!! tip "Deleting broken symlinks"
     It's not implemented yet (*some apps legitimately use symlinks which appear to be broken upon scanning*), but we **could** also allow ElfBot to automatically delete broken symlinks. Watch this space!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 316 | +43
-:fontawesome-solid-hard-drive: Storageboxes mounted | 18 | +1
-:alien: Zurg mounts: | 129 | +21
-:floppy_disk: ElfStorage in TBs | 62 | +5
-:material-dolphin: Tenant pods | 4059 | +402
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 1 | -
-:fontawesome-solid-gamepad: New toyz | 1 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

@@ -32,20 +32,6 @@ Riven 0.8.0 shipped yesterday, but without Comet support due to a bug. This is n
 
 Also, duplicate folders will no longer cause Riven to crash-and-burn, but just to log an error and continue on its way :muscle:
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 327 | -2
-👾 Zurg mounts: | 127 | -
-⛰ Riven pods: | 50 | +2
-🐬 Tenant pods | 2651 | -18
-🧑🏻‍🌾 [Hobbits](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/hobbit) | 29 | +2
-🤠 [Rangers](https://store.elfhosted.com/product-category/consume-media/infinite-streaming/infinite-streaming-plus) | 19 | -
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🐛 Bugz squished | 1 | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

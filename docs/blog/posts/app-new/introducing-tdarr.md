@@ -28,17 +28,6 @@ Get your 24h trial / subscription at the [store](https://store.elfhosted.com/pro
 
 <!-- more -->
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:material-dolphin: Healthy tenant pods | 801
-:fontawesome-regular-circle-user: Total subscribers | 42
-:fontawesome-solid-hard-drive: Storageboxes mounted | 22
-:material-sync: Rclone mounts | 11
-:material-bug: Bugz squished | 0
-:fontawesome-solid-gamepad: New toyz | 1
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions and ideas in [Discord][discord]!

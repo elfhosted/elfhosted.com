@@ -28,20 +28,6 @@ Recently I updated the default config for Radarr/Sonarr to auto-provision a conn
 
 This is now fixed!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 265 | -1
-:fontawesome-solid-hard-drive: Storageboxes mounted | 16 | -3
-:alien: Zurg mounts: | 107 | -6
-:floppy_disk: ElfStorage in TBs | 57 | +3
-:material-dolphin: Tenant pods | 3576 | -1
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 1 | -
-:fontawesome-solid-gamepad: New toyz | 2 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

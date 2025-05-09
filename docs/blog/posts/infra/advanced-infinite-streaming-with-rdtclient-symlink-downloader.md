@@ -77,18 +77,6 @@ In the case of the example above, if order `123` had been an "on hold" order, it
 
 This curly little bug is now to bed :bed:, and subscriptions and renewals should be more stable now!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 131 | +4
-:fontawesome-solid-hard-drive: Storageboxes mounted | 22 | 0
-:floppy_disk: ElfStorage in TBs | 47 | +1
-:material-sync: Rclone mounts | 33 | +10 [^1]
-:material-dolphin: Tenant pods | 1340 | +51
-:material-bug: Bugz squished | 5 | +2
-:fontawesome-solid-gamepad: New toyz | 1 | +1
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

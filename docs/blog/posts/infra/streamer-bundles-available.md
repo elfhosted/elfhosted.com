@@ -24,15 +24,6 @@ The pricing is a bit of an experiment - feel free to send feedback re how you th
 
 <!-- more -->
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 64
-:fontawesome-solid-hard-drive: Storageboxes mounted | 14
-:material-bug: Bugz squished | 3
-:fontawesome-solid-gamepad: New toyz | 1
-
 ### Bugz squished
 
 #### SeaFile (more) Fixed

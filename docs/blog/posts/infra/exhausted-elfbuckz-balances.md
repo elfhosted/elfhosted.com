@@ -28,14 +28,6 @@ A longstanding issue has been that users haven't been immediately aware of **whe
 
 Similarly, I found that the workflow which sends the "welcome to ElfHosted" email (*including a dashboard link*) wasn't triggering because of an incompatiblity with DigitalOcean's managed MySQL product (*which requires primary keys on all tables, even temporary ones!*). I've applied potential workaround, and updated [MailPoet](https://wordpress.org/plugins/mailpoet/) (*the plugin author*) about the issue. Hopefully we'll see a fix soon, they seem to have a rapid dev pace.
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 47
-:material-bug: Bugz squished | 2
-:fontawesome-solid-gamepad: New toyz | 3
-
 ### Bugz squished
 
 * :bug: You [no longer](https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=2945391%40ownid-passwordless-login%2Ftrunk&old=2922905%40ownid-passwordless-login%2Ftrunk&sfp_email=&sfph_mail=) get redirected to an unparsable URL when you first login

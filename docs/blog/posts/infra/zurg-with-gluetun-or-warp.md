@@ -36,20 +36,6 @@ When you create a support topic (*or one is created for you, based on a question
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gdZaPHvpJCo?si=FPScroHIHfUMuOMe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 353 | -1
-👾 Zurg mounts: | 144 | +3
-⛰ Riven pods: | 24 | -
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 111 | +1
-🐬 Tenant pods[^1] | 3202 | -18
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 23 | +1
-🐛 Bugz squished | - | -
-🕹️ New toyz | 1 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

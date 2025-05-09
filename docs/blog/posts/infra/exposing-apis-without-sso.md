@@ -60,16 +60,6 @@ There are no apps supporting custom domains yet, but if you've got a use case, h
 
 We now have the option to [rclone-mount your Microsoft OneDrive](https://store.elfhosted.com/product/rclone-onedrive-mount-a/) into your apps! It turns out if you have a Microsoft account, you get a small amount of OneDrive storage bundled in already. If you have weird requirements that don't work with the default product (*like Sharepoint integration*), then let me know and we can test!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers[^1] | 36
-:fontawesome-solid-hard-drive: Storageboxes mounted | 16
-:material-sync: Rclone mounts | 12
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 3
-
 ### Bugz squished
 
 #### Blog works again!

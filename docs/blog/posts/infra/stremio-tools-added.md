@@ -75,19 +75,6 @@ I've rolled us back **properly** now, and when the ingestion is finally finished
 
 Watch this space, and shout out if you have experience with the TRaSH setups and how best to implement / maintain them.
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 378 | -10
-:alien: Zurg mounts: | 158 | +6
-:floppy_disk: ElfStorage in TBs | 90 | +8
-:material-dolphin: Tenant pods | 4010 | - [^1]
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | 2 | -
-:fontawesome-solid-gamepad: New toyz | 3 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

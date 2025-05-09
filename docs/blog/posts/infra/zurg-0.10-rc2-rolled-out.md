@@ -44,19 +44,6 @@ The thinking is that Riven will be functionally able to replace Radarr, Sonarr, 
 
 ![](/images/riven-teaser.png)
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 333[^1] | -8
-👾 Zurg mounts: | 143 | +27
-💾 [ElfStorage](https://elfhosted.com/what-is/elfstorage/) in TBs | 105 | +12
-🐬 Tenant pods | 3471 | +481
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 9 | -
-🧑‍🎓 Trainees | 22 | -
-🐛 Bugz squished | 2 | -
-🕹️ New toyz | 2 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

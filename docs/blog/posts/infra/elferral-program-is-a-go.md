@@ -29,14 +29,6 @@ If you have any suggestions on how to improve the guide, don't be shy!
 
 qBittorrent will now automatically set itself to use the appropriate VPN interface on startup, which should deal with any "restart stalls" you may have noticed!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 52
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 2
-
 Thanks for building with us - stay tuned!
 
 --8<-- "common-links.md"

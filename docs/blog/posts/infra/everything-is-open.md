@@ -26,14 +26,6 @@ I immediately got feedback, but it wasn't as positive as I'd hoped! (*leopards a
 
 (*Ideas about more ways to gain exposure are welcome!*)
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 43
-:material-bug: Bugz squished | 0
-:fontawesome-solid-gamepad: New toyz | 0
-
 Thanks for building with us - stay tuned!
 
 --8<-- "common-links.md"

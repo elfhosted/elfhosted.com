@@ -51,18 +51,6 @@ Yesterday's change to better spread the debrid-dealing pods out over our nodes w
 
 I've added a [podAffinity](https://github.com/geek-cookbook/elf-charts/blob/98918e0f05fb35e59ccbb608661097795a0d0000/charts/other/myprecious/values.yaml#L8058) to ensure that if you **do** have Zurg **and** RDTClient, they'll snuggle together on the same node, so they'll have the same source IP address!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 127 | 0
-:fontawesome-solid-hard-drive: Storageboxes mounted | 22 | -1
-:floppy_disk: ElfStorage in TBs | 46 | +5
-:material-sync: Rclone mounts | 23 | +11 [^1]
-:material-dolphin: Tenant pods | 1281 | +67
-:material-bug: Bugz squished | 5 | +5
-:fontawesome-solid-gamepad: New toyz | 0 | -2
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

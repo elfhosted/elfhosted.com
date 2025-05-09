@@ -46,15 +46,6 @@ We have rudimentary [jDownloader support](https://store.elfhosted.com/product/jd
 
 The config still needs some testing / tuning, so if you're a power-user who would actually **use** jDownloader, hit me up with your ideas / suggestions!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 59
-:fontawesome-solid-hard-drive: Storageboxes mounted | 15
-:material-bug: Bugz squished | 2
-:fontawesome-solid-gamepad: New toyz | 3
-
 ### Bugz squished
 
 * :bug: If you've recently mounted some storage with rate-limits, like gDrive, and noticed that your storage stats on your dashboard disappeared, it may be because the script which generates the stats is taking too long to complete (due to rate-limits). The script will now time-out after 5 minute,s so troublesome storage targets won't appear in stats, but the rest of your storage targets will :thumbsup:

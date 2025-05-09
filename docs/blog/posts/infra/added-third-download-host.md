@@ -63,17 +63,6 @@ You can also interact without Discord, by using the "**Ask AI**" button at the b
 
 Some users recently found their perfectly valid subscriptions prematurely expired. This was due to a bug re the way "24-hour" vs "recurring" subscriptions are processed, a distinction which I'm no longer sure we need. I've fixed up the bug, but I'll be polling #elf-friends to see whether the "24h app" feature is appealing, or confusing.
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers [^1]| 82
-:fontawesome-solid-hard-drive: Storageboxes mounted | 23
-:material-sync: Rclone mounts | 9
-:material-dolphin: Tenant pods | 764
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 2
-
 ### Summary
 
 As always, thanks for building with us!

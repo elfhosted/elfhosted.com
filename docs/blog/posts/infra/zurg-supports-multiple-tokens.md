@@ -36,19 +36,6 @@ If you'd like to contribute some ideas, or just join in the fun, jump in to the 
 
 Look forward to updates in the near future re Comet (*a new Stremio addon*), a trial of our US cluster (*I registered `elfhosted.us` today*), and an improvement in the store layout / structure! :)
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 362 | -8
-👾 Zurg mounts: | 157 | +13
-⛰ Riven pods: | 24 | -
-🐬 Tenant pods | 3670 | +349
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 23 | -
-🐛 Bugz squished | 1 | -
-🕹️ New toyz | - | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

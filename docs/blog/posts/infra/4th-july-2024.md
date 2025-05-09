@@ -34,19 +34,6 @@ There's some complicated math in the [Elf-Disclosure report](/open/jun-2024/#riv
 
 Look forward to updates in the near future re Comet (*a new Stremio addon*), a trial of our US cluster (*I registered `elfhosted.us` today*), and an improvement in the store layout / structure! :)
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 364 | +2
-👾 Zurg mounts: | 179 | +22
-⛰ Riven pods: | 38 | +14
-🐬 Tenant pods | 4513 [^1] | +843
-🦸 [Elf-vengers](https://elfhosted.com/team/#elf-vengers) | 8 | -
-🧑‍🎓 Trainees | 23 | -
-🐛 Bugz squished | - | -
-🕹️ New toyz | - | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

@@ -65,15 +65,6 @@ Provisioning is not "*within the hour*" like it is with Hetzner, but we should h
 
 Enough time to squash those remaining bugs! :bug:
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 246 | -8
-🐬 Tenant pods | 3186 | -56
-🐛 Bugz squished | 1 | -
-🕹️ New toyz | 3 | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

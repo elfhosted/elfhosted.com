@@ -29,17 +29,6 @@ Of course, the other solution would be (*like half of r/selfhosted currently*), 
 
 [Mattermost][mattermost] users, rejoice! Tonight's maintenance window will bump you to the [new version 9.0](https://mattermost.com/blog/mattermost-v9-0-is-now-available/), just released!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:material-dolphin: Healthy tenant pods | 702
-:fontawesome-regular-circle-user: Total subscribers | 37
-:fontawesome-solid-hard-drive: Storageboxes mounted | 17
-:material-sync: Rclone mounts | 11
-:material-bug: Bugz squished | 0
-:fontawesome-solid-gamepad: New toyz | 1
-
 ### Summary
 
 As always, thanks for building with us!

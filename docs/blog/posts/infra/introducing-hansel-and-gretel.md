@@ -31,15 +31,6 @@ Also, the US cluster has been running on Ubuntu 24.04 LTS, and I'm taking this o
 
 The first few nodes went in during the most recent maintenance period, so if you look at your pods and discover they're running on a hansel / gretel node, this'll be why! There were a few hiccups (*maintenance took 37m longer than usual*), but all seems to be working as expected. If you encounter any issues post-maintenance, please create an [#elf-help][elf-help] ticket!
 
-## Today's scoreboard
-
-Metric | Numberz | Delta
----------|----------|----------
-🧝 Total subscribers | 239 | -7
-🐬 Tenant pods | 3481 | +295 [^1]
-🐛 Bugz squished | - | -
-🕹️ New toyz | - | -
-
 ## Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks! Type `/review` into any Discord channel to share your experience - this helps us to attract mooar elves!

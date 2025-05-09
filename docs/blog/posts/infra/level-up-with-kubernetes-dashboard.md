@@ -55,17 +55,6 @@ Consequently, NZBGet's `/config` volume is now expanded to 2GB!
 
 (*There's a related, as-yet-unfixed bug preventing the dashboard from highlighting this full-uppage to you in a big, red banner!*)
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers [^1]| 131
-:fontawesome-solid-hard-drive: Storageboxes mounted | 22
-:material-sync: Rclone mounts | 14
-:material-dolphin: Tenant pods | 1202
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 2
-
 ### Summary
 
 As always, thanks for building with us!

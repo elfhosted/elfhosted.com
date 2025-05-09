@@ -140,18 +140,6 @@ goblin03   161m         1%     30721Mi         23%
 !!! question "Why are the dwarves and giants so idle?"
     They're our Ceph HDD (*dwarves*) and SSD (*goblins*) storage nodes. What you don't see in these metrics are their disk I/O or network usage, which are likely high.
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 172 | +24
-:fontawesome-solid-hard-drive: Storageboxes mounted | 17 | +5
-:floppy_disk: ElfStorage in TBs | 48 | -
-:material-sync: Rclone mounts | 98 | +45 [^1]
-:material-dolphin: Tenant pods | 2123 | +605
-:material-bug: Bugz squished | 2 | -
-:fontawesome-solid-gamepad: New toyz | - | -
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

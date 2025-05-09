@@ -37,17 +37,6 @@ If this was you - my apologies, the solution is simply to perform an early renew
 
 The next obvious task is to ensure that users are aware when their ElfBuckz balances are getting low, which is the next Wordpressy/dev task on my list!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:material-dolphin: Healthy (subscribed) tenant pods | 430 [^1]
-:fontawesome-regular-circle-user: Total subscribers | 43
-:fontawesome-solid-hard-drive: Storageboxes mounted | 19
-:material-sync: Rclone mounts | 11
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 1
-
 ### Summary
 
 As always, thanks for building with us!

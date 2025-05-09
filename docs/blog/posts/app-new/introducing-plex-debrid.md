@@ -68,18 +68,6 @@ After:
 
 So now SSO is much more reliable, the store is faster, hopefully resulting in better SEO and new user retention!
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 127
-:fontawesome-solid-hard-drive: Storageboxes mounted | 23
-:floppy_disk: ElfStorage in TBs | 41
-:material-sync: Rclone mounts | 12
-:material-dolphin: Tenant pods | 1214
-:material-bug: Bugz squished | 0
-:fontawesome-solid-gamepad: New toyz | 2
-
 ### Summary
 
 As always, thanks for building with us - feel free to share suggestions, and your own ideas for new apps to add!

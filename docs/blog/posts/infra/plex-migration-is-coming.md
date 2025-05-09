@@ -21,19 +21,6 @@ If you've got a big(ish) Plex library, or you care quite a lot about when it goe
 
 Thanks to a suggestion from @pomnz, we're now explicitly setting Plex's setting **not** to delete trash automatically after a scan. (*This can cause confusion and re-downloads as deleted files disappear, and then Radarr/Sonarr attempt to re-download the content!*)
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz | Delta
----------|----------|----------
-:fontawesome-regular-circle-user: Total subscribers | 354 | +29
-:alien: Zurg mounts: | 131 | +2
-:floppy_disk: ElfStorage in TBs | 65 | -
-:material-dolphin: Tenant pods | 4368 | +271
-:superhero: Elf-vengers | 4 | -
-:student: Trainees | 2 | -
-:material-bug: Bugz squished | - | -
-:fontawesome-solid-gamepad: New toyz | 2 | -
-
 ### Summary
 
 Thanks for geeking out with us, and please share these posts with related geeks!

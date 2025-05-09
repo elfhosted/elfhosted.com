@@ -80,15 +80,6 @@ Today also saw the final fixes for [Seafile][seafile] 10 applied, so users who w
 
 Another reason to refactor ElfStorage was to support the option of product bundles, another recent suggestion. The idea would be to reduce friction for new users by offering a simple bundle, for example [Radarr][radarr]+[Sonarr][sonarr]+[Prowlarr][prowlarr]+[SABnbd][sabnzbd]+[Plex][plex]+[ElfStorage1TB][elfstorage] for ~$15/month. This would afford new users the option to get started with a single purchase, and then spend their $10 ElfBuckz on ancillary apps.
 
-## Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 62
-:fontawesome-solid-hard-drive: Storageboxes mounted | 14
-:material-bug: Bugz squished | 1
-:fontawesome-solid-gamepad: New toyz | 2
-
 ### Bugz squished
 
 * :bug: ruTorrent with gluetun-based VPN providers was failing due to a port conflict. (*Both rutorrent and gluetun want to use port `8000`*). Gluetun has now been set to use a different port.

@@ -38,15 +38,5 @@ Some users have reported issues topping up their ElfBuckz balances with PayPal. 
 
 While monkeying with PayPal, I also added a Bitcoin payment processor, so that you can now top up your ElfBuckz with Bitcoin, if that's your thing! (*cue laser-eyes*)
 
-## :material-target: Today's scoreboard
-
-:material-target: Metric | Numberz
----------|----------
-:fontawesome-regular-circle-user: Total users | 51
-:material-bug: Bugz squished | 0
-:fontawesome-solid-gamepad: New toyz | 3 (Openbooks, unRAID guide, Bitcoin!)
-
-Thanks for building with us - stay tuned!
-
 --8<-- "common-links.md"
 
