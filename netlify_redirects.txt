@@ -8,6 +8,9 @@
 # Product renames
 /app/xtremio /app/youriptv 301!
 
+# Guide refactors
+/guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr /guides/media/plex-realdebrid-aars 301!
+
 # Send individual pages to the store
 https://elfhosted.com/app/comet       https://store.elfhosted.com/product/comet 301!
 https://elfhosted.com/app/mediafusion https://store.elfhosted.com/product/mediafusion 301!
