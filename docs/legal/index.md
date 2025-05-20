@@ -29,3 +29,7 @@ This section lists the not-so-cute but necessary legal notes you need to be awar
 !!! question "What are the terms of service?"
 
     Answer: See the [Terms of Service](/legal/terms-of-service/)
+
+!!! question "How do I report abuse?"
+
+    Answer: See the [Abuse](/legal/abuse/) policy

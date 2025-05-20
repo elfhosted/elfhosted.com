@@ -16,16 +16,16 @@ This page describes how data is automatically deleted when you terminate your ac
 
 Action | Data affected | Retention
 ---------|----------|---------
- :no_entry_sign: Unsubscribe an app | :material-trash-can-outline: Application data | 7 days
- :material-nuke: Delete your account | :material-trash-can-outline: Account data<br/>:material-trash-can-outline: Application data<br/>:material-trash-can-outline: ElfStorage data | Immediately
+ :no_entry_sign: Unsubscribe all subscriptions | :material-trash-can-outline: Application data<br/>:material-trash-can-outline: Account data<br/>:material-trash-can-outline: Offsite backups | 7 days<br/>1 month<br/>1 month
+ :material-nuke: Delete your account | :material-trash-can-outline: Account data<br/>:material-trash-can-outline: Application data<br/>:material-trash-can-outline: Offsite backups | Immediately<br/>Immediately<br/>Immediately
 
 ## Examples
 
 If you...
 
-* ... decide to switch from [Plex][plex] to [Jellyfin][jellyfin], after ==7 days== your previous Plex data will be ^^deleted^^.
-* ... run out of [ElfBuckz][elfbuckz] and all your subscriptions stop, after ==7 days==, ^^all^^ your application data will be ^^deleted^^, and after ==31 days== ^^all^^ your ElfStorage data will be ^^deleted^^ (*you'll get a fresh 100GB if you start a new subscription*)
-* ... [delete your account from the store](https://store.elfhosted.com/delete-my-account/), ^^all^^ your data (*including your store account, ElfStorage, app data*) will be ==^^immediately deleted^^==.
+* ... decide to switch from [Plex][plex] to [Jellyfin][jellyfin], nothing changes. Your Plex data persists at `/config/plex/`, consuming space, until you manually remove it.
+* ... cancel / lapse all your subscriptions, after ==7 days==, ^^all^^ your application data will be ^^deleted^^. (*if you create a new subscription ==within 1 month==, your data will be automatically restored from backup*), and after ==1 month== your account itself, and ^^all^^ your offsite backups will be ^^deleted^^ (*you'll get a fresh 100GB if you start a new subscription*)
+* ... [delete your account from the store](https://store.elfhosted.com/delete-my-account/), ^^all^^ your data (*including your store account, app data, and offsite backups*) will be ==^^immediately deleted^^==.
 
 ## Questions
 
@@ -33,13 +33,13 @@ If you...
     No :cry:
 
 !!! question "Do you backup my data?"
-    We use ceph snaphots to make daily snapshots of user data to give us **some** protection in the event of an internal failure. However, once we delete the volume, the related snapshots are also deleted, so you should treat the data as if we don't back it up.
+    Yes, we take daily backups of your `/config`, your `/storage/symlinks`, and your `/backups` volumes, and we store these offsite for a month. These backups are intended for datacenter migrations and disaster recovery, and can't be **selectively** restored. In other words, you can request us to restore the **entire** `/config` folder, but not just the `/config/plex` folder.
 
 !!! question "How can I backup my data?"
-    Use [ElfBot][elfbot] to perform backups of your app data to ElfStorage, and then copy the data from ElfStorage offsite.
+    Use [ElfBot][elfbot] to perform backups of your app data to `/backups`, and then copy the data offsite using filebrowser.
 
 !!! question "I'm no longer subscribed to my app, how can I get my app data?"
-    Re-subscribe to the app, backup the data using [ElfBot][elfbot], then copy your backup using [FileBrowser][filebrowser], and then unsubscribe again.
+    The data will persist in `/config/<app>` for as long as you have an active subscription.
 
 !!! question "How can I immediately delete my account and data?"
     Go to the [Delete My Account](https://store.elfhosted.com/delete-my-account/) page on the store, enter your account password, and confirm deletion.
