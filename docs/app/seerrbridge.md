@@ -63,6 +63,9 @@ If you need to make subsequent changes to the ConfigMap, find it under ConfigMap
 
 Navigate to your Overrseerr, to `Settings` -> `General` and retrieve your API key
 
+!!! tip "Using an external Overseerr"
+    The solution is designed to work seamlessly with your ElfHosted [Overseerr][overseerr] / [Jellyseerr][jellyseerr] instance, but if you want to interact with an existing, external 'seerr, you'll also want to set the `OVERSEERR_BASE` value in the `elfbot-seerrbridge` configmap, to point to your external 'seerr URL.
+
 ### DebridMediaManager
 
 Navigate to https://debridmediamanager.com, and authenticate with RealDebrid.
