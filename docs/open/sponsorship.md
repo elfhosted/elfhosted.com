@@ -6,29 +6,60 @@ description: This page tracks our commitment to sponsor open-source projects as 
 
 ElfHosted's model is basically to be paid for providing the infrastructure, configuration, automation and maintenance necessary to successfully run popular open-source tools.
 
-We acknowledge that our success in selling hosting for these apps doesn't correspond to any material support for the developers who continue to improve them, adding features and fixing bugs.
-
-I'd like to sponsor **all** of the projects we support, but this is impractical given the current negative-profit, bootstrapping stage we're in. I don't want to put off sponsorship until some future, profitable state though, because that feels like too much like an "indefinite" excuse.
-
-My current solution is this - I sponsor projects which support the entire ElfHosted infrastructure (*rclone, gluetun, etc*), and have included sponsorship links, whenever available, on every app's page (*e.g. [Prowlarr][prowlarr]*).
-
-It's therefore left to the user re whether to sponsor / donate to the developers of the tools they use, just as it would be if they ran the tools from home, or another provider.
-
-## Projects we sponsor
-
-Project | Why
----------|----------
-[gluetun](https://github.com/sponsors/qdm12) | Provides VPN connectivity to various apps
-[onedr0p](https://github.com/sponsors/onedr0p) | Container build process inspired our own, which keeps all our applications automatically up-to-date
-[gatus](https://github.com/sponsors/TwiN) | Provides our health-checking tool
-[rclone](https://github.com/sponsors/rclone) | Used to mount remote storage
-[homer](https://www.buymeacoffee.com/bastien) | Provides our default user dashboard
-[mkdocs-material](https://github.com/sponsors/squidfunk) | Makes our website beautiful
-[zurg](https://github.com/sponsors/debridmediamanager) | Makes streaming from Real Debrid possible
-[sonarr](https://opencollective.com/sonarr) | manages TV episodes
-[radarr](https://opencollective.com/radarr) | manages Movies
-[prowlarr](https://opencollective.com/prowlarr) | manages indexers
+We believe in supporting the open-source devs whose work supports our ecosystem, and proudly support the following.
 
 (*confirm our sponsorship [here](https://github.com/funkypenguin/), [here](https://github.com/orgs/elfhosted/sponsoring), and [here](https://opencollective.com/elfhosted)*)
+
+We also have "Elf-illiated" arrangements with friendly devs, who received a contribution for every subscription to their apps.
+
+## Gluetun
+
+[gluetun](https://github.com/sponsors/qdm12) provides VPN connectivity to various apps
+
+## onedr0p 
+
+[onedr0p](https://github.com/sponsors/onedr0p)'s container build process inspired our own, which keeps all our applications automatically up-to-date
+
+## Gatus
+
+[gatus](https://github.com/sponsors/TwiN) provides our health-checking tool
+
+## Rclone
+
+[rclone](https://github.com/sponsors/rclone) is used to mount remote storage
+
+## Homer
+
+[homer](https://www.buymeacoffee.com/bastien) provides our default user dashboard
+
+## MKDocs Material
+
+[mkdocs-material](https://github.com/sponsors/squidfunk) makes our documentation beautiful
+
+## Zurg / Debrid Media Manager
+
+[zurg](https://github.com/sponsors/debridmediamanager) makes streaming from Real Debrid possible
+
+## Aars 
+
+* [sonarr](https://opencollective.com/sonarr) manages TV episodes
+* [radarr](https://opencollective.com/radarr) manages Movies
+* [prowlarr](https://opencollective.com/prowlarr) manages indexers
+
+## Decypharr 
+
+[decypharr](https://github.com/sirrobot01/decypharr) is an implementation of QbitTorrent with Multiple Debrid service support, written in Go.
+
+## Huntarr 
+
+[huntarr](https://github.com/plexguide/Huntarr.io) searches Aaars for missing / upgradable content
+
+## Wizarr 
+
+[wizarr](https://github.com/wizarrrr/wizarr) automates invites to Plex / Jellyfin / Emby
+
+## Savvy Servers
+
+[Savvy Servers](https://ko-fi.com/savvyservers/), run by our friend Puks the Pirate, helps self-hosters with the ultimate debrid-based Plex setup!
 
 --8<-- "common-links.md"
