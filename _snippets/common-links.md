@@ -95,6 +95,7 @@
 [uptimekuma]:           /app/uptimekuma/
 [vaultwarden]:          /app/vaultwarden/
 [wallabag]:             /app/wallabag/
+[wizarr]:               /app/wizarr/
 [webdav]:               /app/webdav/
 [youriptv]:             /app/youriptv/
 [zurg]:                 /app/zurg/

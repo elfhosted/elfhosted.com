@@ -112,6 +112,7 @@ nav:
       - Sonarr: app/sonarr.md
       - Suggestarr: app/suggestarr.md      
       - Tautulli: app/tautulli.md
+      - Wizarr: app/wizarr.md
 
     - Manage Downloads:
       - AirDC++: app/airdcpp.md
