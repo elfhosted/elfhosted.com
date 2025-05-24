@@ -4,7 +4,7 @@ slug: SeerrBridge
 description: SeerrBridge uses smart symlinking to organize your debrid libraries for tidy streaming from Plex
 upstream: https://github.com/Woahai321/SeerrBridge
 works_with:
-- ListSync
+- List-Sync
 - Overseerr
 - Jellyseerr
 sponsorship:

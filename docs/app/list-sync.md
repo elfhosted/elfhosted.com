@@ -1,7 +1,7 @@
 ---
-title: 🧝 Hosted ListSync 📚
+title: 🧝 Hosted List-Sync 📚
 slug: List-Sync
-description: SeerrBridge uses smart symlinking to organize your debrid libraries for tidy streaming from Plex
+description: List-Sync automatically syncs your watchlists from IMDb, Trakt, and Letterboxd with Overseerr/Jellyseerr
 upstream: https://github.com/Woahai321/list-sync
 works_with:
 - SeerrBridge
@@ -17,7 +17,7 @@ links:
 
 # {{ page.meta.slug }}
 
-ListSync automatically syncs your watchlists from IMDb, Trakt, and Letterboxd with Overseerr/Jellyseerr. No more manual adding - just add movies and shows to your favorite watchlist, and they'll appear in your media server automatically.
+List-Sync automatically syncs your watchlists from IMDb, Trakt, and Letterboxd with Overseerr/Jellyseerr. No more manual adding - just add movies and shows to your favorite watchlist, and they'll appear in your media server automatically.
 
 !!! tip "list-sync gets revenue sharing! :heart:"
     List-Sync is an "Elf-illiated" project - the developer maintains an active support channel ([#elf-list-sync](https://discord.com/channels/396055506072109067/1357211427013791836)) in our [Discord][discord] community, the app itself is tuned to work perfectly with ElfHosted "out-of-the-box", and 33% of your subscriptions are contributed to the developer!
@@ -32,7 +32,7 @@ And here's a demo gif:
 
 ## How to use List-Sync
 
-At the least, you'll need to give ListSync your Overseerr / Jellyseerr API key, by running `elfbot env listsync OVERSEERR_API_KEY=<your key here>`
+At the least, you'll need to give List-Sync your Overseerr / Jellyseerr API key, by running `elfbot env listsync OVERSEERR_API_KEY=<your key here>`
 
 You can, at this point, run List-Sync in interactive mode, or you can drive it declaritively, by setting any of the following ENV vars, using the same [ElfBot][elfbot] syntax:
 

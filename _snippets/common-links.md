@@ -40,7 +40,7 @@
 [kubernetes-dashboard]: /app/kubernetes-dashboard/
 [lazylibrarian]:        /app/lazylibrarian/
 [lidarr]:               /app/lidarr/
-[listsync]:             /app/listsync/
+[list-sync]:            /app/list-sync/
 [mattermost]:           /app/mattermost/
 [mediafusion]:          /app/mediafusion/
 [mediaflow-proxy]:      /app/mediaflow-proxy/
@@ -96,7 +96,6 @@
 [vaultwarden]:          /app/vaultwarden/
 [wallabag]:             /app/wallabag/
 [webdav]:               /app/webdav/
-[xteve]:                /app/xteve/
 [youriptv]:             /app/youriptv/
 [zurg]:                 /app/zurg/
 [connect-apps]:         /how-to/connect-apps/

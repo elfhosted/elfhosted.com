@@ -6,7 +6,6 @@ works_with:
 - Jellyseerr
 - Jellyfin-Accounts
 - NextPVR
-- xTeVe
 upstream: https://jellyfin.org
 links:
 - name: subreddit

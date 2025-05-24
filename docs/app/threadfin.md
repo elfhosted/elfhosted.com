@@ -2,12 +2,12 @@
 title: Elf Hosted ThreadFin 🧝
 slug: ThreadFin
 description: Threadfin M3U Proxy for Plex DVR and Emby Live TV
-upstream: https://github.com/xteve-project/xTeVe
+upstream: https://github.com/Threadfin/Threadfin
 ---
 
 # {{ page.meta.slug }}
 
-xTeVe M3U Proxy for Plex DVR and Emby Live TV
+M3U Proxy for Plex DVR and Emby/Jellyfin Live TV. Based on xTeVe.
 
 {% include 'app.md' %}
 
@@ -45,6 +45,6 @@ Streaming
 
 ### Connecting to Plex
 
-Connect Plex to XTeve, in the syntax `xteve:34400`
+Connect Plex to ThreadFin, in the syntax `threadfin:34400`
 
 {% include 'app_footer.md' %}

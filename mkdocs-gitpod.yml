@@ -100,8 +100,6 @@ nav:
       - Shoko: app/shoko.md
       - Sonarr: app/sonarr.md
       - Tautulli: app/tautulli.md
-      - Tdarr: app/tdarr.md
-      - xTeVe: app/xteve.md
 
     - Manage Downloads:
       - Autobrr: app/autobrr.md

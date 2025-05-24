@@ -6,7 +6,6 @@ works_with:
 - Overseerr
 - Jellyseerr
 - NextPVR
-- xTeVe
 upstream: https://emby.media
 links:
 - name: subreddit

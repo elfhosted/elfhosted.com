@@ -112,8 +112,6 @@ nav:
       - Sonarr: app/sonarr.md
       - Suggestarr: app/suggestarr.md      
       - Tautulli: app/tautulli.md
-      - Tdarr: app/tdarr.md
-      - xTeVe: app/xteve.md
 
     - Manage Downloads:
       - AirDC++: app/airdcpp.md
