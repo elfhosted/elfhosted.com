@@ -5,7 +5,7 @@ description: Calibre-Web is a web app providing a clean interface for browsing, 
 works_with:
 - Readarr
 - OpenBooks
-upstream: hhttps://github.com/crocodilestick/Calibre-Web-Automated
+upstream: https://github.com/crocodilestick/Calibre-Web-Automated
 sponsorship: 
 - name: Ko-Fi (Calibre Web Automated)
   uri: https://ko-fi.com/crocodilestick
