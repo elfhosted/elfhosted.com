@@ -84,6 +84,7 @@ nav:
       - Movie Roulette: app/movie-roulette.md
       - Navidrome: app/navidrome.md
       - Plex: app/plex.md 
+      - Storyteller: app/storyteller.md
       - Stremio Server: app/stremio-server.md 
 
     - Manage Media:

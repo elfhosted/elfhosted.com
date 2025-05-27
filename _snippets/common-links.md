@@ -81,6 +81,7 @@
 [seerrbridge]:          /app/seerrbridge/
 [shoko]:                /app/shoko/
 [sonarr]:               /app/sonarr/
+[storyteller]:          /app/storyteller/
 [suggestarr]:           /app/suggestarr/
 [stremify]:             /app/stremify/
 [stremio-addons]:       /stremio-addons/
