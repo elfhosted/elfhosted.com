@@ -6,7 +6,7 @@ This page lists frequently asked questions about ElfHosted.
 
 ### Can I get a trial?
 
-No, but within 14 days, if you're legitimately unsatisfied with your purchase, and we haven't been able to resolve it for you, we'll refund you the balance of your subscription.
+Yes, almost all of our packages come with a $1, 7-day trial. Larger streaming bundles (Rangers+) do not, but users are able to trial a normal-sized bundle (Hobbits, etc), and upgrade to a larger bundle as required.
 
 ### How do you justify the cost?
 
@@ -25,15 +25,13 @@ Any store purchase carries with it the potential overhead of a support request, 
 
 ### Can I use rclone?
 
-Yes! We use rclone extensively for our "BYOS" design. If you need long-term, permanent rclone mount, then buy a compatible storage mount from the store, and we'll mount it to `/storage`. 
-
-If you just need temporary / occasional rclone move data around, then see [how to use rclone](/how-to/use-rclone/).
+Yes! See [how to use rclone](/how-to/use-rclone/).
 
 ## Apps
 
 ### Can I access my services without SSO?
 
-Services with strong authentication or whose functionality requires access without SSO (*[Plex][plex], [Ombi][ombi], etc*) don't need to be protected by SSO. 
+Services with strong authentication or whose functionality requires access without SSO (*[Plex][plex], [Ombi][ombi], etc*) don't need to be protected by SSO.
 
 Services which can't be categorically secured are protected by SSO to prevent abuse / accidental misconfiguration.
 
@@ -49,7 +47,7 @@ Use [ElfBot][elfbot]!
 
 ### How do I see app logs?
 
-Some apps create logs in their `config/<app>/` folder, which you can examine using [FileBrowser][filebrowser]. Alternately, you can watch each app's logs in realtime using [Kubernetes Dashboard][kubernetes-dashboard].
+Some apps create logs in their `config/<app>/` folder, or `logs/<app>/`, which you can examine using [FileBrowser][filebrowser]. Alternately, you can watch each app's logs in realtime using [Kubernetes Dashboard][kubernetes-dashboard].
 
 ## Streaming
 
