@@ -41,7 +41,7 @@ When I posted recently in the [TRaSH-Guides Discord](https://trash-guides.info/d
 
 I did clear up the misunderstanding (*we're not "selling" free software, we're selling the resources and management to let you **run** that free software*), but since then I've wanted to do more to support the devs behind the projects we rely on.
 
-I don't have an easy or prescriptive solution, but what I've decided to do currently is to [sponsor the tools which make the whole platform work](/open/sponsorship/), and to make it easy for individual users to choose how / whether to sponsor / support the developers of the software they use. I'll be adding sponsorship as an ongoing expense to our monthly "Elf-Disclosure" [progress reports](/open/), since these components are critical to the operation of our platform.
+I don't have an easy or prescriptive solution, but what I've decided to do currently is to [sponsor the tools which make the whole platform work](/open/sponsorship/), and to make it easy for individual users to choose how / whether to sponsor / support the developers of the software they use. I'll be adding sponsorship as an ongoing expense to our monthly "ElfReport" [progress reports](/open/), since these components are critical to the operation of our platform.
 
 I created the ["sponsorship" page](/open/sponsorship/), to detail the projects I sponsor, and my rationale behind this decision.
 

@@ -1,13 +1,10 @@
 Name | What does it do? | Subscribe
 ---------|----------|---------
 [AIOStreams][aiostreams] | Combine the results from multiple addons for consistent formatting / display, and add proxystreaming via MediaFlow-Proxy | [Subscribe!](https://store.elfhosted.com/product/aiostreams/){ .md-button .md-button--primary }
- [Annatar][annatar] | Streams content from Real-Debrid / Premiumize, based on your tracker / quality preferences. Uses clever redis caching to provide near-instant responses | [Subscribe!](https://store.elfhosted.com/product/annatar/){ .md-button .md-button--primary }
  [Comet][comet] | Searches for content from Prowlarr / Jackett, streams via RealDebrid. Optionally proxies streams, allowing you to use your RealDebrid account from multiple IPs simultaneously | [Subscribe!](https://store.elfhosted.com/product/comet/){ .md-button .md-button--primary } 
  [Davio][davio] | Stream your content (*Debrid or otherwise*) using HTTP streams via WebDAV | [Subscribe!](https://store.elfhosted.com/product/davio/){ .md-button .md-button--primary }
  [Jackettio][jackettio] | Get torrents from your private trackers using Jackett and delivered via Real-Debrid, AllDebrid, or Debrid-Link | [Subscribe!](https://store.elfhosted.com/product/jackettio/){ .md-button .md-button--primary }
- [KnightCrawler][knightcrawler] | Same code, new name - KnightCrawler is the community-driven fork of TorrentIO | [Subscribe!](https://store.elfhosted.com/product/knightcrawler/){ .md-button .md-button--primary } 
  [MediaFusion][mediafusion] | Especially popular for watching Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series. A highly-configurable and capable addon | [Subscribe!](https://store.elfhosted.com/product/mediafusion/){ .md-button .md-button--primary }  
  [Stremify][stremify] | Simple AddOn which provides HTTP streams (*no Debrid needed*) for popular content in multiple languages :zap: | [Subscribe!](https://store.elfhosted.com/product/stremify/){ .md-button .md-button--primary } 
  [Stremio-Jackett][stremio-jackett] | Search for content from both a shared community cache and your own Jackett indexers| [Subscribe!](https://store.elfhosted.com/product/stremio-jackett/){ .md-button .md-button--primary } 
- [TorrentIO][torrentio] | The original addon which started it all. Search through >1.75M scraped torrents for media to insta-stream with your debrid provider | [Subscribe!](https://store.elfhosted.com/product/torrentio/){ .md-button .md-button--primary }
  [YourIPTV][youriptv] | Watch your paid IPTV (user/pass required) subscriptions in Stremio | [Subscribe!](https://store.elfhosted.com/product/youriptv/){ .md-button .md-button--primary }

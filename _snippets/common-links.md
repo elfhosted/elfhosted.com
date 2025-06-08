@@ -8,9 +8,11 @@
 [bazarr]:               /app/bazarr/
 [blackhole]:            /app/blackhole/
 [bluesky-pds]:          /app/bluesky-pds/
+[booklore]:             /app/booklore/
 [calibre]:              /app/calibre/
 [calibre-web]:          /app/calibre-web/
 [cli-debrid]:           /app/cli-debrid/
+[channelsdvr]:          /app/channelsdvr/
 [cinesync]:             /app/cinesync/
 [cwa-book-downloader]:  /app/calibre-web-automated-book-downloader/
 [comet]:                /app/comet/
@@ -54,6 +56,7 @@
 [ombi]:                 /app/ombi/
 [openbooks]:            /app/openbooks/
 [overseerr]:            /app/overseerr/
+[peertube]:             /app/peertube/
 [petio]:                /app/petio/
 [plex]:                 /app/plex/
 [plex-debrid]:          /app/plex-debrid/
@@ -126,3 +129,4 @@
 [alldebrid]:            https://fnky.nz/support-me-when-you-buy-alldebrid
 [elf-help]:             https://discord.com/channels/396055506072109067/1119478614287712337
 [elf-support]:          https://discord.com/channels/396055506072109067/1245513340176961606
+[plexguide]:            https://plexguide.com

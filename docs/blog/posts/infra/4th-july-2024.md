@@ -16,9 +16,9 @@ As a non-American, I have been advised that 4th July requires fireworks and scre
 
 Inspired by the weird scary-shark-movie tradition :shark:, I've added coupon code `SHARKBAIT24` to the store, giving 4.7% discount to celebrate (*expires 6th July*).
 
-## Jun 2024's Elf-Disclosure report published
+## Jun 2024's ElfReport report published
 
-Our [Elf-Disclosure report for June 2024](/open/jun-2024/) is now published. It's a long read, so buckle up! Also, this is the first month we've had a previous **year's** report to reflect back on. To see how far we've come, compare with the [June 2023 Elf-Disclosure](/open/jun-2023/) report!
+Our [ElfReport report for June 2024](/open/jun-2024/) is now published. It's a long read, so buckle up! Also, this is the first month we've had a previous **year's** report to reflect back on. To see how far we've come, compare with the [June 2023 ElfReport](/open/jun-2023/) report!
 
 !!! warning "Grandfathered subscription pricing deprecated from 1 Aug"
     
@@ -26,7 +26,7 @@ Our [Elf-Disclosure report for June 2024](/open/jun-2024/) is now published. It'
 
 ## ElfHosted supports Riven
 
-There's some complicated math in the [Elf-Disclosure report](/open/jun-2024/#riven-rises), but the TL;DR is that ElfHosted subscriptions resulted in a revenue-sharing  sponsorship of $52 to the devs in June! :heart:
+There's some complicated math in the [ElfReport report](/open/jun-2024/#riven-rises), but the TL;DR is that ElfHosted subscriptions resulted in a revenue-sharing  sponsorship of $52 to the devs in June! :heart:
 
 (*If you'd like to support Riven in addition to the 30% of your subscription, join me in sponsoring [here](https://github.com/sponsors/dreulavelle)*)
 

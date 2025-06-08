@@ -24,7 +24,7 @@ On 1 Aug, we will have been "in prod" for a year (*and [not profitable yet](/ope
 
 We'll be doing another price adjustment from 1 Aug (*resource requirements change over time, and we want to contribute more to support the developers of our core open-source tools*), and those grandfathered subscriptions will be repriced on renewal to match the current rate, which will be our ongoing policy (*dynamic subscription pricing with reasonable and transparent advance notice*).
 
-I'll finalize the new pricing in the June's Elf-Disclosure report in a few days, giving monthly subscriptions a full subscription cycle at the old rates before the new ones kick in.
+I'll finalize the new pricing in the June's ElfReport report in a few days, giving monthly subscriptions a full subscription cycle at the old rates before the new ones kick in.
 
 ## AI product logos
 

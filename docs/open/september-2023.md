@@ -1,9 +1,9 @@
 ---
-title: Elf-Disclosure / September 2023
+title: ElfReport / September 2023
 description: Recent changes, stats, and plans for ElfHosted from September 2023
 ---
 
-# "Elf-Disclosure" for September 2023
+# "ElfReport" for September 2023
 
 We've been in prod for 2 months now, and September was mostly spent on bugfixes and strategic improvements,  which I'll detail below, although we did bring [Miniflux][miniflux], [Joplin][joplin-server] :simple-joplin:, and [Tdarr][tdarr] into the fold!
 

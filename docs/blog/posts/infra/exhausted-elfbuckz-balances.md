@@ -35,7 +35,7 @@ Similarly, I found that the workflow which sends the "welcome to ElfHosted" emai
 
 ### Upcoming
 
-* [ ] July 2023 "Elf-Disclosure" report, and official "production" status!
+* [ ] July 2023 "ElfReport" report, and official "production" status!
 * [ ] Revisit the "refer-a-friend" workflow
 
 Thanks for building with us - stay tuned!

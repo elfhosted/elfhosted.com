@@ -34,7 +34,7 @@ ElfHosted provides a public, community version of MediaFusion at https://aiostre
 
 AIOStreams uses a secret key to encrypt the data you provide, so that you're not exposing base64-encoded API keys in the manifest URLs held by Stremio. This also protects your keys if you share your addon, since a user would need your ElfHosted SSO credentials in order to use the /configure page to examine them.
 
-AIOStreams won't work without a `SECRET_KEY`, but we've set a secret default so that the app will work without configuration. Users who prefer to, can change their `SECRET_KEY` (and re-install the addon), by generating a 64-character hexidecimal string (*`openssl rand -hex 64` for example*), and then applying it to AIOStreams using [ElfBot][elfbot]:
+AIOStreams won't work without a `SECRET_KEY`, but we've set a secret default so that the app will work without configuration. Users who prefer to, can change their `SECRET_KEY` (and re-install the addon), by generating a 64-character hexidecimal string (*`openssl rand -hex 32` for example*), and then applying it to AIOStreams using [ElfBot][elfbot]:
 
 ```
 elfbot env aiostreams SECRET_KEY=whateveryousetmakesureits64charshexidecimalonly

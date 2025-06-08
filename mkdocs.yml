@@ -102,6 +102,7 @@ nav:
       - Notifiarr: app/notifiarr.md
       - Ombi: app/ombi.md
       - Overseerr: app/overseerr.md
+      - PeerTube: app/peertube.md
       - Petio: app/petio.md
       - Plex Meta Manager: app/plex-meta-manager.md
       - Plex Requests: app/plex-requests.md
@@ -234,6 +235,7 @@ nav:
     - Design:
       - open-source/design/index.md
     - Reports:
+      - May 2025: open/may-2025.md
       - Apr 2025: open/apr-2025.md
       - Mar 2025: open/mar-2025.md
       - Feb 2025: open/feb-2025.md

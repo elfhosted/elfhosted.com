@@ -70,19 +70,19 @@ Although not a hugely popular combination, [Calibre][calibre] / [Calibre-Web][ca
 
 Similar to Calibre above, [OpenBooks][openbooks] (*a tool for sourcing ebooks / audiobooks from IRC*) will now save downloads to an ephemeral `/tmp` folder by default (*you can then download them from the browser UI*), but this can be adjusted with use of an environment variable to save downloaded content to a storage mount.
 
-## Elf-Disclosure for Jul 2024 released
+## ElfReport for Jul 2024 released
 
-Our [Elf-Disclosure report for Jul 2024](https://elfhosted.com/open/jul-2024/) was published, full of juicy stats, retrospectives, and ideas about upcoming plans.
+Our [ElfReport report for Jul 2024](https://elfhosted.com/open/jul-2024/) was published, full of juicy stats, retrospectives, and ideas about upcoming plans.
 
 ## Reddit Rampages
 
-I posted our Elf-Disclosure report to r/StremioAddons, as well as a 10% birthday coupon for our hosted Stremio addons. This caused a bit of a flurry of topics / posts, which the ElfVengers and I have tried to respond to as quickly and clearly as possible.
+I posted our ElfReport report to r/StremioAddons, as well as a 10% birthday coupon for our hosted Stremio addons. This caused a bit of a flurry of topics / posts, which the ElfVengers and I have tried to respond to as quickly and clearly as possible.
 
 I include these below for context, and in case you're an active Reddit and you want to have your say :)
 
 * [Plex Hosting Options // ElfHosted & Other Services ](https://www.reddit.com/r/RealDebrid/comments/1eirutv/plex_hosting_options_elfhosted_other_services/)
 * [What's all the hype around elfhosted? ](https://www.reddit.com/r/StremioAddons/comments/1ei7dgq/whats_all_the_hype_around_elfhosted/)
-* [The Jul 2024 Elf-Disclosure report](https://www.reddit.com/r/StremioAddons/comments/1ei1jg3/elfhosteds_elfdisclosure_report_for_july_2024_we/)
+* [The Jul 2024 ElfReport report](https://www.reddit.com/r/StremioAddons/comments/1ei1jg3/elfhosteds_elfdisclosure_report_for_july_2024_we/)
 * [The 10% off offer on private hosted Stremio addons](https://www.reddit.com/r/StremioAddons/comments/1ei1ubz/get_10_off_all_elfhosted_private_stremio_addons/)
 
 ## Summary

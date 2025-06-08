@@ -26,9 +26,9 @@ One of the feedback items from our recent survey was that the store was relative
 
 If you notice anything out-of-place in the store, feel free to drop a note into the [Discord thread established specifically for this purpose](https://discord.com/channels/396055506072109067/1285001018328748063)!
 
-## Elf-Disclosure for Aug 2024 released
+## ElfReport for Aug 2024 released
 
-In case you missed it, our [Elf-Disclosure report for Aug 2024](https://elfhosted.com/open/aug-2024/) was published 2 weeks ago, full of juicy stats, and notably the calculation that we covered our cash expenses in Aug!
+In case you missed it, our [ElfReport report for Aug 2024](https://elfhosted.com/open/aug-2024/) was published 2 weeks ago, full of juicy stats, and notably the calculation that we covered our cash expenses in Aug!
 
 ## Summary
 

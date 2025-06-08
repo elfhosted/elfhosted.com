@@ -1,9 +1,9 @@
 ---
-title: Elf-Disclosure / Aug 2023
+title: ElfReport / Aug 2023
 description: Recent changes, stats, and plans for ElfHosted from Aug 2023
 ---
 
-# "Elf-Disclosure" for Aug 2023
+# "ElfReport" for Aug 2023
 
 We've been in "prod" for a month now, August was spent focusing on stability and efficiency, as well as slow maturation of some of our features.
 

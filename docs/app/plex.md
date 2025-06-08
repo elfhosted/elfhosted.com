@@ -58,7 +58,15 @@ Here are the transcodes we'll automatically terminate:
 
 ### Database is corrupt
 
-Certain unplanned events (power outages, etc) can result in Plex's database becoming corrupted. Fortunately, Plex makes its own, internal backup of its database at regular intervals, so it's possible to restore from a backed-up version of the database.
+You trigger a database repair in Plex by setting the `REPAIR_DB_ON_START` environment variable to `true` with ElfBot, like this:
+
+```bash
+elfbot env plex REPAIR_DB_ON_START=true
+```
+
+Plex will restart, and thereafter on every restart (*until you set it to `false`*), it will run through a DBRepair process which has been known to fix database issues / inconsistencies.
+
+Plex makes its own, internal backup of its database at regular intervals, so it's possible to restore from a backed-up version of the database.
 
 Here's the process to restore Plex to a database backup:
 

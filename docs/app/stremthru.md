@@ -130,4 +130,17 @@ To use Sidekick, it's currently required that you pass your Stremio username/pas
 
 To launch Sidekick, visit <https://stremthru.elfhosted.com/stremio/sidekick/>, or the equivalent URL on your [private instance](https://store.elfhosted.com/product/stremthru/).
 
+### List
+
+StremThru List now supports both MDBList and Trakt.tv, and you can access any MDBLIst or Trakt.tv Lists right inside Stremio as Catalogs. 
+
+For Trakt support, you'll need your own Trakt OAuth credentials (*free but you have to sign up*).
+
+Create your OAuth credentials here, and set your redirec URI to <https://<YOUR STREMTHRU URL>/auth/trakt.tv/callback>. Use ElfBot to set `STREMTHRU_INTEGRATION_TRAKT_CLIENT_ID` and `STREMTHRU_INTEGRATION_TRAKT_CLIENT_SECRET` like this:
+
+```bash
+elfbot env stremthru STREMTHRU_INTEGRATION_TRAKT_CLIENT_ID=your-oauth-client-id
+elfbot env stremthru STREMTHRU_INTEGRATION_TRAKT_CLIENT_SECRET=your-oauth-client-secret
+```
+
 {% include 'app_footer.md' %}
