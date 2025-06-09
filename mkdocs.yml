@@ -330,7 +330,7 @@ extra_css:
 extra:
   analytics:
     provider: google
-    property: G-469036891
+    property: G-7XSVP9TQGH
   status:
     new: Recently added
     deprecated: Deprecated
