@@ -331,6 +331,27 @@ extra:
   analytics:
     provider: google
     property: G-7XSVP9TQGH
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            <a href="https://github.com/elfhosted/docs.elfhosted.com/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">creating an issue</a>.
   status:
     new: Recently added
     deprecated: Deprecated
@@ -382,8 +403,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: geek-cookbook
-      repo: elfhosted.com
+      user: elfhosted
+      repo: docs.elfhosted.com
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
