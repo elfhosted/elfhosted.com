@@ -6,15 +6,7 @@ This page lists frequently asked questions about ElfHosted.
 
 ### Can I get a trial?
 
-Yes, almost all of our packages come with a $1, 7-day trial. Larger streaming bundles (Rangers+) do not, but users are able to trial a normal-sized bundle (Hobbits, etc), and upgrade to a larger bundle as required.
-
-### How do you justify the cost?
-
-Our pricing is explained in detail [here](/open/pricing/). 
-
-Store purchases start at $9/month, which (*in New Zealand, anyway*) will get you 2 fancy coffees :coffee: or 1 fancy beer :beer:
-
-Any store purchase carries with it the potential overhead of a support request, which costs our staff / volunteers their personal time and attention, and the base price reflects not only the infrastructure cost, but also product development / maintenance, and support overheads.
+Yes, almost all of our packages come with a $1, 7-day trial. Larger streaming bundles (Rangers+) do not, but users are able to trial a normal-sized bundle (*Hobbits, etc*), and upgrade to a larger bundle as required.
 
 ## General
 
@@ -54,6 +46,8 @@ Some apps create logs in their `config/<app>/` folder, or `logs/<app>/`, which y
 ### My playback is buffering
 
 Check your speed at https://speed.elfhosted.com - you'll want at least 20Mbps for reliable playback at 1080p. Configure your streamer to "DirectPlay", rather than transcoding, for best results.
+
+Depending on the results of the speed test, you may want to [migrate your stack to a closer datacenter](/how-to/migrate-datacenters).
 
 ## Debrid
 

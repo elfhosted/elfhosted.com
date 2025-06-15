@@ -118,6 +118,7 @@
 [storagebox]:           /what-is/storagebox/
 [rclone]:               /how-to/use-rclone/
 [elfbuckz]:             /how-to/spend-elfbuckz/
+[elfpoints]:            /how-to/earn-elfpoints/
 [plex-token]:           /how-to/get-plex-token/
 [elf-help]:             https://discord.com/channels/396055506072109067/1119478614287712337
 [elf-friends]:          https://discord.com/channels/396055506072109067/1118645576884572303
