@@ -5,25 +5,25 @@ description: How to earn ElfPoints, and use them to fund additional subscription
 
 # What are ElfPoints?
 
-"ElfPoints" are our loyalty / reward currency, intended to thank our subscribers for long-term subscriptions, and to provide credit for extra apps to [streaming bundle](https://store.elfhosted.com/product-category/streaming-bundles/) subscribers.
+"ElfPoints" are our loyalty / reward currency, intended to reward our subscribers for long-term subscriptions, and to provide credit for extra apps to [streaming bundle](https://store.elfhosted.com/product-category/streaming-bundles/) subscribers.
 
 You "[earn](https://store.elfhosted.com/my-account/lws_woorewards/)" ElfPoints every time you spend money, or completing other promotional activities.
 
 ## Earn ElfPoints
 
-### Spending
+### Earn 20% back on every renewal
 
-The primary method for earning ElfPoints is simply **having** an active subscription. We'll credit you 20% of the value of each subscription renewal in ElfPoints, and you can then use those ElfPoints to purchase additional subscriptions using your [ElfPoints Wallet](https://store.elfhosted.com/my-account/lws_wallet/).
+With each subscription renewal, you’ll receive ElfPoints worth 20% of its value, automatically added to your [ElfPoints Wallet](https://store.elfhosted.com/my-account/lws_wallet/). You can then use those points to purchase a new subscription or renew an existing one.
 
-### Reviewing
+### Earn $5 for every review
 
 For every [review](/how-to/leave-a-review/) you post of a product you've purchased, we'll credit you with 500 ElfPoints (*$5 spendable credit*), up to twice per month.
 
-### Referring
+### Earn for every referral
 
 Every time you use our [pay-it-forward referral system](https://store.elfhosted.com/pay-it-forward/), you [earn ElfPoints](https://store.elfhosted.com/my-account/lws_woorewards/), when your referrees click, register, or spend.
 
-### Stick around
+### Earn for being awesome!
 
 We'll award you 1000 ElfPoints (*$10 credit*) on the anniversary of your registration. Happy ElfBirthday! :cake:
 
