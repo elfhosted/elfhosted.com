@@ -67,10 +67,7 @@ flowchart TD
 
 1. Subscribe to an Plex/Aars/RealDebrid configured [Streaming bundle](https://store.elfhosted.com/product-category/streaming-bundles/)
 2. Get a [Real-Debrid account][real-debrid] subscription for your ElfHosted account (*shouldn't be used elsewhere at the same time, else you risk being banned*), and copy your [API token](https://real-debrid.com/apitoken)
-3. Log into your ElfHosted dashboard (`https://<your username>.elfhosted.com`), and navigate to **Tools** -> **Filebrowser**. Within FileBrowser, navigate to `/config/zurg`, and open your `config.yml` file. Paste your token after the `token: ` line.
-4. Optionally (*recommended*), navigate to **Decypharr** from your ElfHosted dashboard, and enter your API key under `Settings` -> `Debrid`. Grab [this subscription](https://store.elfhosted.com/product/decypharr-replaces-zurg/) to force your stack to prefer Decypharr's WebDAV feature over Zurg (*beta but much faster!*).
-
-{% include 'scribe_realdebrid_zurg_setup.md' %}
+3. Navigate to **Decypharr** from your ElfHosted dashboard, and enter your API key under `Settings` -> `Debrid`.
 
 {% include 'scribe_plex_claim.md' %}
 
