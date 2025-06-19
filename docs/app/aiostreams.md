@@ -50,7 +50,7 @@ Unlike `SECRET_KEY`, `ADDON_PASSWORD` can be anything you like - you'll need to 
 elfbot env aiostreams ADDON_PASSWORD=whateveryoulike
 ```
 
-!!! note "Backwards-compatible to `API_KEY`
+!!! note "Backwards-compatible to `API_KEY`"
     Version 1 of AIOStreams used an environment variable `API_KEY`, which has now been deprecated and replaced with `ADDON_PASSWORD`. If `ADDON_PASSWORD` is not set, but `API_KEY` is set, then AIOStreams will "fall back" to `API_KEY`.
 
 ### Integrate with MediaFusion
