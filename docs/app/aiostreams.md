@@ -18,7 +18,7 @@ sponsorship:
 AIOStreams is an "addon of addons", which uses your provider credentials and preferences to combine the results from multiple addons, parse / filter, and present them in a consistent format, according to your preferences.
 
 !!! tip "Proxy streaming support for torrentio"
-    Notably, AIOStreams can serve these combined addons through your [MediaFlow Proxy][mediaflow-proxy] instance, so that you'll be able to use the results with your debrid provider from multiple locations at once, while not risking an account ban, since your provider only sees the IP of your MediaFlow Proxy instance.
+    Notably, AIOStreams can serve these combined addons through your [MediaFlow Proxy][mediaflow-proxy] or [StremThru][stremthru] instance, so that you'll be able to use the results with your debrid provider from multiple locations at once, while not risking an account ban, since your provider only sees the IP of your proxy instance.
 
 ElfHosted provides a public, community version of MediaFusion at https://aiostreams.elfhosted.com (*with individual and global rate-limits*), and per-user, private, un-rate-limited instances.
 
@@ -40,15 +40,18 @@ AIOStreams won't work without a `SECRET_KEY`, but we've set a secret default so 
 elfbot env aiostreams SECRET_KEY=whateveryousetmakesureits64charshexidecimalonly
 ```
 
-### Set API_KEY
+### Set ADDON_PASSWORD
 
-AIOStreams supports using regex-based sorting and filtering, to further refine your results. In order for the options (`excludePattern` and `includePattern`) to appear, users need to set an `API_KEY` environment variable.
+AIOStreams supports using regex-based sorting and filtering, to further refine your results. In order for the options (`excludePattern` and `includePattern`) to appear, users need to set an `ADDON_PASSWORD` environment variable.
 
-Unlike `SECRET_KEY`, `API_KEY` can be anything you like - you'll need to enter it on the `/configure` page, and reconfigure the addon, in order to use it. Set the `API_KEY` in AIOStreams using [ElfBot][elfbot]:
+Unlike `SECRET_KEY`, `ADDON_PASSWORD` can be anything you like - you'll need to enter it on the `/configure` page, and reconfigure the addon, in order to use it. Set the `ADDON_PASSWORD` in AIOStreams using [ElfBot][elfbot]:
 
 ```
-elfbot env aiostreams API_KEY=whateveryoulike
+elfbot env aiostreams ADDON_PASSWORD=whateveryoulike
 ```
+
+!!! note "Backwards-compatible to `API_KEY`
+    Version 1 of AIOStreams used an environment variable `API_KEY`, which has now been deprecated and replaced with `ADDON_PASSWORD`. If `ADDON_PASSWORD` is not set, but `API_KEY` is set, then AIOStreams will "fall back" to `API_KEY`.
 
 ### Integrate with MediaFusion
 
