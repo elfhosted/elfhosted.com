@@ -61,5 +61,16 @@ If you've got an ElfHosted [MediaFusion][mediafusion] instance, you'll have set 
 elfbot env aiostreams MEDIAFUSION_API_PASSWORD=sameapipasswordyousetformediafusion
 ```
 
+### Proxying
+
+We preconfigure AIOStreams with your bundled MediaFlowProxy or StremThru, so usually you'd just set the `credentials` field to match either your StremThru store, or your MediaFlowProxy api_password.
+
+If you have both StremThru **and** MediaFlowProxy, we'll default your AIOStreams to work with StremThru, but you can override these defaults by setting the following ENV vars using [ElfBot][elfbot]:
+
+```
+elfbot env aiostreams FORCE_PROXY_ID=mediaflow
+elfbot env aiostreams DEFAULT_PROXY_URL=http://mediaflow-proxy:8888
+elfbot env aiostreams FORCE_PUBLIC_PROXY_HOST="<your mediaflow proxy hostname without https:// infront>"
+```
 
 {% include 'app_footer.md' %}
